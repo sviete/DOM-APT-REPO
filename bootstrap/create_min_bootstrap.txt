@@ -1,0 +1,16 @@
+1. cd dist/dom/stable/binary-arm
+2. sudo dpkg -x
+sudo dpkg -x apt_* .
+sudo dpkg -x bash_* .
+sudo dpkg -x busybox_* .
+sudo dpkg -x dash_* .
+sudo dpkg -x dpkg_* .
+sudo dpkg -x gpgv_* .
+sudo dpkg -x libandroid-support_* .
+sudo dpkg -x libcrypt-dev_* .
+sudo dpkg -x libc++_* .
+sudo dpkg -x command-not-found_* .
+sudo dpkg -x libcurl_* .
+sudo dpkg -x curl_* .
+3. copy to bootstrap
+4. zip bootstrap

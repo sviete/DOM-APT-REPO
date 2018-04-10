@@ -45,6 +45,30 @@ Filename: dists/dom/stable/binary-all/automake_1.16.1_all.deb
 Size: 318032
 SHA256: 615a6cc65ae0e07ef15929f14e6cc54eb9a137f0ae2afe132df175a1bd43ec5b
 
+Package: bash-completion
+Architecture: all
+Installed-Size: 2076
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7
+Description: Programmable completion for the bash shell
+Homepage: https://github.com/scop/bash-completion
+Depends: bash
+Filename: dists/dom/stable/binary-all/bash-completion_2.7_all.deb
+Size: 143360
+SHA256: eddff8cc22e6b647dc176c4c9f2ecf837af129815bd0e99db266cd923a12de3f
+
+Package: byobu
+Architecture: all
+Installed-Size: 848
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.125
+Description: Byobu is a GPLv3 open source text-based window manager and terminal multiplexer
+Homepage: http://byobu.co/
+Depends: gawk, tmux
+Filename: dists/dom/stable/binary-all/byobu_5.125_all.deb
+Size: 72240
+SHA256: 3ac7939cb9591406264d3ee5d51ab5fd8eb7c442777d0934e82997ce15b78264
+
 Package: ca-certificates-java
 Architecture: all
 Installed-Size: 204
@@ -147,6 +171,30 @@ Filename: dists/dom/stable/binary-all/hunspell-ru_2017.03.03_all.deb
 Size: 421536
 SHA256: 1926f5da77d0a0eed0d3fb4b0bc57dce459d786a50eef9a288c41880128ed861
 
+Package: linux-man-pages
+Architecture: all
+Installed-Size: 24016
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.14
+Description: Man pages for linux kernel and C library interfaces
+Homepage: https://www.kernel.org/doc/man-pages/
+Depends: man
+Filename: dists/dom/stable/binary-all/linux-man-pages_4.14_all.deb
+Size: 2234972
+SHA256: a8514206ab04d55c276c59c1f32d93a8620b483a7f1b2b08e2add9a659da89cb
+
+Package: luarocks
+Architecture: all
+Installed-Size: 696
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4.3
+Description: Deployment and management system for Lua modules
+Homepage: https://luarocks.org/
+Depends: curl, lua
+Filename: dists/dom/stable/binary-all/luarocks_2.4.3_all.deb
+Size: 90936
+SHA256: 7ec0e4faa2ad22feaac59953f2859c243ebdc3d78e139a0e43bc8fe5b582b89f
+
 Package: mime-support
 Architecture: all
 Installed-Size: 52
@@ -169,6 +217,18 @@ Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Filename: dists/dom/stable/binary-all/ndk-multilib_16-3_all.deb
 Size: 3292004
 SHA256: b04420ae2d7b14f5b222d8f9e3c709037c220c876ad5ed54d1fefe375949e927
+
+Package: neofetch
+Architecture: all
+Installed-Size: 844
+Maintainer: Muhammad Herdiansyah @konimex
+Version: 3.4.0
+Description: Simple system information script
+Homepage: https://github.com/dylanaraps/neofetch
+Depends: bash
+Filename: dists/dom/stable/binary-all/neofetch_3.4.0_all.deb
+Size: 67196
+SHA256: 2710792bfa1e3304b462fa6830b5809f60e924c97241642d696461819be278de
 
 Package: parallel
 Architecture: all
@@ -193,6 +253,18 @@ Depends: ruby
 Filename: dists/dom/stable/binary-all/ruby-ri_2.4.3_all.deb
 Size: 3082420
 SHA256: 7b11ae05c1c78f541ff9e54856d95de090380b7a321aeb68c9012a1ba9b1022a
+
+Package: screenfetch
+Architecture: all
+Installed-Size: 260
+Maintainer: Pierre Rudloff @Rudloff
+Version: 3.8.0
+Description: Bash Screenshot Information Tool
+Homepage: https://github.com/KittyKatt/screenFetch
+Depends: bash
+Filename: dists/dom/stable/binary-all/screenfetch_3.8.0_all.deb
+Size: 43940
+SHA256: 56b1e483f5888ff30ea95cc24f17cac55346eeb7f3e2167ab38146b7f026f2c7
 
 Package: stow
 Architecture: all
