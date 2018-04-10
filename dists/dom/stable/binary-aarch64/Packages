@@ -1,0 +1,23 @@
+Package: libandroid-support-dev
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: Fredrik Fornwall @fornwall
+Version: 22
+Description: Development files for libandroid-support
+Homepage: https://github.com/termux/libandroid-support
+Depends: libandroid-support
+Filename: dists/dom/stable/binary-aarch64/libandroid-support-dev_22_aarch64.deb
+Size: 2260
+SHA256: ba489dd89b1b01e8a80218a46f4c4dc6a9f15fda3813bff8060ec30a9631adc4
+
+Package: libandroid-support
+Architecture: aarch64
+Installed-Size: 184
+Maintainer: Fredrik Fornwall @fornwall
+Version: 22
+Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
+Homepage: https://github.com/termux/libandroid-support
+Essential: yes
+Filename: dists/dom/stable/binary-aarch64/libandroid-support_22_aarch64.deb
+Size: 106720
+SHA256: cdbdce759ddbf97b8ca29962d902d76dd0af70d32820397aaae8ab2ba53ee262
