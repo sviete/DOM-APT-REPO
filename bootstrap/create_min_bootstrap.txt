@@ -12,5 +12,6 @@ sudo dpkg -x libc++_* .
 sudo dpkg -x command-not-found_* .
 sudo dpkg -x libcurl_* .
 sudo dpkg -x curl_* .
+sudo dpkg -x termux-am* .
 3. copy to bootstrap
 4. zip bootstrap

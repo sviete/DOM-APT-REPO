@@ -1,0 +1,12 @@
+#!/data/data/pl.sviete.dom/files/usr/bin/sh
+
+if [ "$#" != "0" ]; then
+	echo 'usage: termux-setup-storage'
+	echo 'Use without arguments to ensure storage permission granted'
+	echo 'and symlinks to storage available in $HOME/storage'
+	exit
+fi
+
+am broadcast --user 0 \
+		 --es pl.sviete.termux.app.reload_style storage \
+		 -a pl.sviete.termux.app.reload_style pl.sviete.termux > /dev/null

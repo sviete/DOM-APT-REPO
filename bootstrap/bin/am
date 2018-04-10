@@ -1,0 +1,4 @@
+#!/data/data/pl.sviete.dom/files/usr/bin/sh
+export CLASSPATH=/data/data/pl.sviete.dom/files/usr/libexec/termux-am/am.apk
+unset LD_LIBRARY_PATH LD_PRELOAD
+exec /system/bin/app_process / com.example.termuxam.Am "$@"

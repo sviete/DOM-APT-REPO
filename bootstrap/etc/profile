@@ -1,0 +1,18 @@
+for i in /data/data/pl.sviete.dom/files/usr/etc/profile.d/*.sh; do
+	if [ -r $i ]; then
+		. $i
+	fi
+done
+unset i
+
+# Source etc/bash.bashrc and ~/.bashrc also for interactive bash login shells:
+if [ "$BASH" ]; then
+        if [[ "$-" == *"i"* ]]; then
+                if [ -r /data/data/pl.sviete.dom/files/usr/etc/bash.bashrc ]; then
+                        . /data/data/pl.sviete.dom/files/usr/etc/bash.bashrc
+                fi
+                if [ -r /data/data/pl.sviete.dom/files/home/.bashrc ]; then
+                        . /data/data/pl.sviete.dom/files/home/.bashrc
+                fi
+        fi
+fi

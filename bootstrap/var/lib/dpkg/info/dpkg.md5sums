@@ -1,0 +1,15 @@
+0f55ba49013f773f5688e74268f984ef  data/data/pl.sviete.dom/files/usr/bin/dpkg
+58583596a280f9dc81f6b06bfd4e82a6  data/data/pl.sviete.dom/files/usr/bin/dpkg-deb
+319d0ee25609f179b3e3d2b86e03ccd1  data/data/pl.sviete.dom/files/usr/bin/dpkg-divert
+3f342a8aef6bd8c81c29eead626adcef  data/data/pl.sviete.dom/files/usr/bin/dpkg-genbuildinfo
+156bb025bbbff23eb261179381ad12b3  data/data/pl.sviete.dom/files/usr/bin/dpkg-query
+2c24dbfc413be17268984a8e11faf271  data/data/pl.sviete.dom/files/usr/bin/dpkg-split
+5faf036d1374847e54669cafc1ba99bb  data/data/pl.sviete.dom/files/usr/bin/dpkg-trigger
+97a053e9f5a6dd72a8b391bcb94fa403  data/data/pl.sviete.dom/files/usr/share/man/man1/dpkg-deb.1
+55abeecfd38d51cdca4318e13980816a  data/data/pl.sviete.dom/files/usr/share/man/man1/dpkg-divert.1
+a43414ce6a8a978d0d37c95def3a4d7c  data/data/pl.sviete.dom/files/usr/share/man/man1/dpkg-genbuildinfo.1
+fa89fe258da006c519849cfb8a0db63c  data/data/pl.sviete.dom/files/usr/share/man/man1/dpkg-query.1
+54b74c088e1275fa20b3fd49990c4b8c  data/data/pl.sviete.dom/files/usr/share/man/man1/dpkg-split.1
+1507638a2e81f2ee250bc21326a7e3c5  data/data/pl.sviete.dom/files/usr/share/man/man1/dpkg-trigger.1
+38aba86a169f011522fd0710f763ace7  data/data/pl.sviete.dom/files/usr/share/man/man1/dpkg.1
+c1cf877431db00eb0d3d0695ba5671c9  data/data/pl.sviete.dom/files/usr/share/man/man7/deb-version.7
