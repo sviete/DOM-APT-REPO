@@ -1,13 +1,13 @@
 Codename: dom
 Version: 1
-Architectures: arm aarch64 all
+Architectures: aarch64 all arm
 Description: Stable repository
 Suite: dom
-Date: Tue, 10 Apr 2018 13:59:01 UTC
+Date: Tue, 10 Apr 2018 15:29:05 UTC
 SHA256:
- 66ebf024eb56112bb871bb61b8e188dde4c751fbc34fb6b0e3423e6911408ff0 270512 stable/binary-arm/Packages
- f71f57a03a375372f6519e7fd18dd79098e9449e2bc4bfefc3a2a4ad2dab7a2d 60704 stable/binary-arm/Packages.xz
  5a79d8d44dba40f7f5fab0d410b312cc35cca136dc7cf7a2671d44908bad9d7f 891 stable/binary-aarch64/Packages
  5a81c94aeb01afc65c4f10702713897c496761a967a9c51b2c37c68b5f2d67ed 512 stable/binary-aarch64/Packages.xz
  48bf4d22e9728e0817cf56345b9d957cd11b2d12f1d2ca7206fdebc82615bae3 14345 stable/binary-all/Packages
  326654926559c5fd609df40298a1386bdc34451268973891c51f3c77f8651c2e 4444 stable/binary-all/Packages.xz
+ 0ab771c7e273830dcf08595b7d5bacae559e89726dfa0ffa280a2bdf71787608 270512 stable/binary-arm/Packages
+ 80ca9df79f762b4b1eea74fe3c17ad799ee739580eb6f473225f00f4a73c1d78 60696 stable/binary-arm/Packages.xz

@@ -2340,8 +2340,8 @@ Version: 1.15
 Description: Utility converting between different character encodings
 Homepage: https://www.gnu.org/software/libiconv/
 Filename: dists/dom/stable/binary-arm/iconv_1.15_arm.deb
-Size: 492032
-SHA256: 9e0dc4d88ee154a476a2402ef4c0c2a5ea77e545f72ab25dc36d69f9ce845c89
+Size: 493752
+SHA256: c9f7601dbafe0e2a03cb34848235bb462e3dbd9e97770a279193e0fe86a757eb
 
 Package: icu-devtools
 Architecture: arm

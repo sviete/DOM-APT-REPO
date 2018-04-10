@@ -13,5 +13,6 @@ sudo dpkg -x command-not-found_* .
 sudo dpkg -x libcurl_* .
 sudo dpkg -x curl_* .
 sudo dpkg -x termux-am* .
+sudo dpkg -x  iconv .
 3. copy to bootstrap
 4. zip bootstrap
