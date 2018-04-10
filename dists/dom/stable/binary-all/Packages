@@ -21,6 +21,18 @@ Filename: dists/dom/stable/binary-all/apksigner_0.4_all.deb
 Size: 1146748
 SHA256: 3ad9f9c939c7a34473a3db0f16e83a0e036a63966612af15a8183be03a97e982
 
+Package: asciinema
+Architecture: all
+Installed-Size: 100
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.1
+Description: Record and share your terminal sessions, the right way
+Homepage: https://asciinema.org/
+Depends: python, ncurses-utils
+Filename: dists/dom/stable/binary-all/asciinema_2.0.1_all.deb
+Size: 45100
+SHA256: 210cd9afc5b43860f4f6183a685dfea74a5de03399b0f54af232b47cc732cf8e
+
 Package: autoconf
 Architecture: all
 Installed-Size: 1960
@@ -149,6 +161,18 @@ Filename: dists/dom/stable/binary-all/ecj_4.6.2-3_all.deb
 Size: 6496760
 SHA256: 63763620f3957d51c3b0ca4698cafdb85cd72596fa87652df091548d2ae97d52
 
+Package: getmail
+Architecture: all
+Installed-Size: 384
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.6
+Description: fetchmail replacement relatively easy to configure
+Homepage: http://pyropus.ca/software/getmail/
+Depends: python2
+Filename: dists/dom/stable/binary-all/getmail_5.6_all.deb
+Size: 51552
+SHA256: 29083d0d86f377e452c0c95686e39f070f3f07ba31ad18bbcccbadcf574e992f
+
 Package: hunspell-en-us
 Architecture: all
 Installed-Size: 572
@@ -242,6 +266,54 @@ Filename: dists/dom/stable/binary-all/parallel_20180222_all.deb
 Size: 198528
 SHA256: 9616da6586920d7a687489a3eb3397a8a69108412df4c0714c3df0dfbc27f4e7
 
+Package: pass
+Architecture: all
+Installed-Size: 128
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.7.1-3
+Description: Lightweight directory-based password manager
+Homepage: https://www.passwordstore.org/
+Depends: bash, gnupg2, tree, coreutils
+Filename: dists/dom/stable/binary-all/pass_1.7.1-3_all.deb
+Size: 15764
+SHA256: be662a5ac4c8bcaf05be5b18b0be5fc905473d878668f70094c7f27e2fc9a6a0
+
+Package: pastebinit
+Architecture: all
+Installed-Size: 128
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.5
+Description: Command-line pastebin client
+Homepage: https://launchpad.net/pastebinit
+Depends: python
+Filename: dists/dom/stable/binary-all/pastebinit_1.5_all.deb
+Size: 7608
+SHA256: 31ed361995787ffedc4e7d88902be7e43d271e0f7561ae1b8a39742780215efb
+
+Package: pathpicker
+Architecture: all
+Installed-Size: 528
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.2
+Description: Facebook PathPicker - a terminal-based file picker
+Homepage: https://facebook.github.io/PathPicker/
+Depends: bash,python
+Filename: dists/dom/stable/binary-all/pathpicker_0.7.2_all.deb
+Size: 37492
+SHA256: eeb0a20db08ea114b44ee42ffc06f519649e4f45a2e9068b0743528ad33f90bf
+
+Package: ranger
+Architecture: all
+Installed-Size: 976
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.1
+Description: File manager with VI key bindings
+Homepage: https://ranger.github.io/
+Depends: python, file
+Filename: dists/dom/stable/binary-all/ranger_1.9.1_all.deb
+Size: 132980
+SHA256: d6b9ea58093108a9328c71521931ec4f29f67401a17022b52c850e7c35df275e
+
 Package: ruby-ri
 Architecture: all
 Installed-Size: 68336
@@ -290,6 +362,30 @@ Filename: dists/dom/stable/binary-all/termux-am_0.2_all.deb
 Size: 17988
 SHA256: 9f5a470095e14ce985e9cedf725fae86cbad3a123adb75dae688e0fda09fabaa
 
+Package: termux-apt-repo
+Architecture: all
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Description: Script to create Termux apt repositories
+Homepage: https://github.com/termux/termux-apt-repo
+Depends: binutils, python, tar
+Filename: dists/dom/stable/binary-all/termux-apt-repo_0.2_all.deb
+Size: 2760
+SHA256: c43b3864f1010fabc3ee2d19ff870476954b8bfebd78b4397ce99642ac8d02db
+
+Package: termux-create-package
+Architecture: all
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4
+Description: Utility to create Termux packages
+Homepage: https://github.com/termux/termux-create-package
+Depends: python
+Filename: dists/dom/stable/binary-all/termux-create-package_0.4_all.deb
+Size: 2724
+SHA256: b03d6ceae0f5e04edb8b77f391e2c033bf532867b22b6e51c390683f11df65c8
+
 Package: termux-tools
 Architecture: all
 Installed-Size: 120
@@ -313,6 +409,18 @@ Homepage: https://github.com/cswl/tsu
 Filename: dists/dom/stable/binary-all/tsu_2.0_all.deb
 Size: 2260
 SHA256: 58fec87d97c77f066332bc79bde17b92d47d2fc391ae6a988ee10509461c8b40
+
+Package: vcsh
+Architecture: all
+Installed-Size: 88
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.20151229
+Description: Config manager based on Git
+Homepage: https://github.com/RichiH/vcsh
+Depends: git
+Filename: dists/dom/stable/binary-all/vcsh_1.20151229_all.deb
+Size: 11232
+SHA256: 4332fca9cae2472474229dd0519c6efa33e05e48ae0002c44dcf96e9c0002801
 
 Package: vim-runtime
 Architecture: all

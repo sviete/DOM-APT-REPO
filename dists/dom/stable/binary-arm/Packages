@@ -130,6 +130,21 @@ Filename: dists/dom/stable/binary-arm/apr_1.6.3_arm.deb
 Size: 56880
 SHA256: c55100efa4be8535e13494d4b55fff5860f1964fb8439f54186ac60ef9a8bc4f
 
+Package: apt
+Architecture: arm
+Installed-Size: 2080
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.8-2
+Description: Front-end for the dpkg package manager
+Homepage: https://packages.debian.org/apt
+Depends: libcurl, liblzma, dpkg, gpgv, libc++, termux-exec
+Essential: yes
+Conflicts: apt-transport-https
+Replaces: apt-transport-https
+Filename: dists/dom/stable/binary-arm/apt_1.4.8-2_arm.deb
+Size: 688756
+SHA256: 5cf27df487dcb937ae9970c37c4bd4cd94e4e77640e27df0d1f833def7ab0c97
+
 Package: argp
 Architecture: arm
 Installed-Size: 176
@@ -174,6 +189,30 @@ Homepage: http://savannah.nongnu.org/projects/attr/
 Filename: dists/dom/stable/binary-arm/attr_2.4.47_arm.deb
 Size: 19408
 SHA256: 451394e8875f6e33d4e3eb6e2a2f8db6b68fc0f501bb0e8e28e647fe8829cc94
+
+Package: autossh
+Architecture: arm
+Installed-Size: 88
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4e
+Description: Automatically restart SSH sessions and tunnels
+Homepage: http://www.harding.motd.ca/autossh/
+Depends: openssh
+Filename: dists/dom/stable/binary-arm/autossh_1.4e_arm.deb
+Size: 12780
+SHA256: 0fdecdf62c281ee1b51d74253a8fba1ee22bf1a0ba40f342cecd8a94b289e17b
+
+Package: axel
+Architecture: arm
+Installed-Size: 92
+Maintainer: lokesh @hax4us
+Version: 2.16.1
+Description: light command line download accelerator
+Homepage: https://github.com/axel-download-accelerator/axel
+Depends: openssl
+Filename: dists/dom/stable/binary-arm/axel_2.16.1_arm.deb
+Size: 26000
+SHA256: eeb3c67d82f641f4cf99b4d662d6a09de0a28a5df1dd95d5771d32a7971236cf
 
 Package: babl-dev
 Architecture: arm
@@ -293,6 +332,30 @@ Filename: dists/dom/stable/binary-arm/bmon_4.0-2_arm.deb
 Size: 39260
 SHA256: 9df5d21bf42c5f1d5d217ffff24892ff58102d909213e37d286feaed54bb68ba
 
+Package: boost-dev
+Architecture: arm
+Installed-Size: 141896
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.65.1-2
+Description: Development files for boost
+Homepage: https://boost.org
+Depends: boost
+Filename: dists/dom/stable/binary-arm/boost-dev_1.65.1-2_arm.deb
+Size: 6918912
+SHA256: d8af82e98606c68d1a3be75b8d11186a716fae43c9c46b1563f68c0e6212cfcb
+
+Package: boost
+Architecture: arm
+Installed-Size: 5460
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.65.1-2
+Description: Free peer-reviewed portable C++ source libraries
+Homepage: https://boost.org
+Depends: libbz2, liblzma
+Filename: dists/dom/stable/binary-arm/boost_1.65.1-2_arm.deb
+Size: 914256
+SHA256: 8499f3e67ad3162b3e1616bc1d8150e2ba2cf587788fe56a022fd232a4f9c3d0
+
 Package: brogue
 Architecture: arm
 Installed-Size: 820
@@ -400,6 +463,18 @@ Depends: libandroid-support, ncurses
 Filename: dists/dom/stable/binary-arm/calcurse_4.3.0_arm.deb
 Size: 90556
 SHA256: edb1accd8aeaf317f239b00421e2dcdb3a3547533b51928e217b87d1df4351b9
+
+Package: cava
+Architecture: arm
+Installed-Size: 92
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 0.6.0
+Description: Console-based Audio Visualizer. Works with MPD.
+Homepage: https://github.com/karlstav/cava
+Depends: ncurses,fftw
+Filename: dists/dom/stable/binary-arm/cava_0.6.0_arm.deb
+Size: 21004
+SHA256: 6a3f5ac70b0139a9ac597d285461c292313080fe3c33c93388c9b98b5cabcab2
 
 Package: cboard
 Architecture: arm
@@ -519,6 +594,18 @@ Filename: dists/dom/stable/binary-arm/cmatrix_1.2b_arm.deb
 Size: 9216
 SHA256: 85abc5acf5143371b1c3dfeada9780ebdb8231add94c2389a28f514129a2110b
 
+Package: cmus
+Architecture: arm
+Installed-Size: 536
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7.1-3
+Description: Small, fast and powerful console music player
+Homepage: https://cmus.github.io/
+Depends: libandroid-support, ncurses, libflac, libmad, libvorbis, opusfile, libcue, libpulseaudio
+Filename: dists/dom/stable/binary-arm/cmus_2.7.1-3_arm.deb
+Size: 147196
+SHA256: c72fd0891f465c71c9985894e2668a4bceecbafcdd80d4f7f62bdedf61f169f1
+
 Package: command-not-found
 Architecture: arm
 Installed-Size: 100
@@ -540,6 +627,18 @@ Homepage: https://www.gnu.org/software/coreutils/
 Filename: dists/dom/stable/binary-arm/coreutils_8.29_arm.deb
 Size: 445120
 SHA256: 8f13dc0e3cbb2ae11df66e59d365ef6cf53ce3f144afc8c79d8b0f9a12d9c9d3
+
+Package: corkscrew
+Architecture: arm
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0-1
+Description: A tool for tunneling SSH through HTTP proxies
+Homepage: http://wiki.linuxquestions.org/wiki/Corkscrew
+Depends: openssh
+Filename: dists/dom/stable/binary-arm/corkscrew_2.0-1_arm.deb
+Size: 5292
+SHA256: 67e6188c6f97cf707da13f625e06ad4d8e7d0f2473977a1c0d22d9c228806208
 
 Package: cpio
 Architecture: arm
@@ -939,6 +1038,30 @@ Filename: dists/dom/stable/binary-arm/espeak_1.49.2-1_arm.deb
 Size: 2175696
 SHA256: 226a3bd7a989066075a6600a0a19a3ce6d1afc5604bb589266516d49ae8580dc
 
+Package: expect-dev
+Architecture: arm
+Installed-Size: 88
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.45.3
+Description: Development files for expect
+Homepage: http://expect.sourceforge.net/
+Depends: expect
+Filename: dists/dom/stable/binary-arm/expect-dev_5.45.3_arm.deb
+Size: 13944
+SHA256: fbe402a83b70a2a0e10dcac439934cc01cb520794a37992aa5a7754cce78c192
+
+Package: expect
+Architecture: arm
+Installed-Size: 296
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.45.3
+Description: Tool for automating interactive terminal applications
+Homepage: http://expect.sourceforge.net/
+Depends: libutil, tcl
+Filename: dists/dom/stable/binary-arm/expect_5.45.3_arm.deb
+Size: 91600
+SHA256: 187ae60d5b7ad2d6169b8e6c2850ccdb37587d9c8d4d9c7fcb338e4c73a2c0ca
+
 Package: fdupes
 Architecture: arm
 Installed-Size: 72
@@ -1248,6 +1371,30 @@ Filename: dists/dom/stable/binary-arm/fsmon_1.4_arm.deb
 Size: 7264
 SHA256: a196f3c07c6ff37d3b979c39d5f4e4d9b83889623afb4e3df15e6614190b8498
 
+Package: fwknop-dev
+Architecture: arm
+Installed-Size: 88
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.6.9-2
+Description: Development files for fwknop
+Homepage: http://www.cipherdyne.org/fwknop/
+Depends: fwknop
+Filename: dists/dom/stable/binary-arm/fwknop-dev_2.6.9-2_arm.deb
+Size: 10872
+SHA256: a8b1359fe66966f44bace27ee22dd4db4cb5857194c21d12fd1587ce303c3b10
+
+Package: fwknop
+Architecture: arm
+Installed-Size: 240
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.6.9-2
+Description: fwknop: Single Packet Authorization > Port Knocking
+Homepage: http://www.cipherdyne.org/fwknop/
+Depends: gpgme
+Filename: dists/dom/stable/binary-arm/fwknop_2.6.9-2_arm.deb
+Size: 68400
+SHA256: 278ce354d093f6acbae116168a3793536bdbfbb817d4efa5f402f88d55f8d79b
+
 Package: fzf
 Architecture: arm
 Installed-Size: 2376
@@ -1413,6 +1560,18 @@ Filename: dists/dom/stable/binary-arm/gettext_0.19.8-2_arm.deb
 Size: 1094292
 SHA256: ca81defd8ef9d048f6c4cbf4e82a6e5e2f946be879f3f4d4a5555fde0ed45777
 
+Package: ghostscript
+Architecture: arm
+Installed-Size: 19516
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.23
+Description: Interpreter for the PostScript language and for PDF
+Homepage: https://www.ghostscript.com/
+Depends: libandroid-support, libtiff, libjpeg-turbo, libpng, libexpat, freetype, fontconfig, libidn, littlecms, openjpeg
+Filename: dists/dom/stable/binary-arm/ghostscript_9.23_arm.deb
+Size: 10592816
+SHA256: dc75c69815218d54fe27d89c1d97a0b1189ae6eac5f28bd1b359d2315655c384
+
 Package: gifsicle
 Architecture: arm
 Installed-Size: 244
@@ -1472,6 +1631,18 @@ Filename: dists/dom/stable/binary-arm/glib_2.56.0_arm.deb
 Size: 1764052
 SHA256: 613736f9f2c2b8d65b5d6b5b0169ad6868bd18d0787c5c05b0cdb3b9a5986f41
 
+Package: global
+Architecture: arm
+Installed-Size: 1784
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.6.2
+Description: Source code search and browse tools
+Homepage: https://www.gnu.org/software/global/
+Depends: coreutils, ncurses, libltdl
+Filename: dists/dom/stable/binary-arm/global_6.6.2_arm.deb
+Size: 377556
+SHA256: 1466af8f57828632dbc4523031e0b808accff753e56d953f7b455e32538c8b02
+
 Package: glulxe
 Architecture: arm
 Installed-Size: 256
@@ -1483,6 +1654,18 @@ Depends: ncurses
 Filename: dists/dom/stable/binary-arm/glulxe_0.5.4_arm.deb
 Size: 77296
 SHA256: e691fd0b7a2065df7203df42ea117863da7fec43204c384746a6ac2d03ce13a2
+
+Package: gmic
+Architecture: arm
+Installed-Size: 10096
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.1.1
+Description: Full-featured framework for image processing
+Homepage: https://gmic.eu
+Depends: graphicsmagick++, libcurl, fftw, libpng, libjpeg-turbo, libtiff
+Filename: dists/dom/stable/binary-arm/gmic_2.1.1_arm.deb
+Size: 2636948
+SHA256: 668047d6fb8fb945c325d1a23772597932b7068ca9ccabee680a07b0d319f5bc
 
 Package: gnuchess
 Architecture: arm
@@ -1625,6 +1808,30 @@ Filename: dists/dom/stable/binary-arm/gperf_3.1_arm.deb
 Size: 40040
 SHA256: dccc7e07a3e75342ac79187f4911f8befce8ede364830c79ef2a8205db757d27
 
+Package: gpgme-dev
+Architecture: arm
+Installed-Size: 152
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.0
+Description: Development files for gpgme
+Homepage: https://www.gnupg.org/related_software/gpgme/
+Depends: gpgme,libgpg-error-dev
+Filename: dists/dom/stable/binary-arm/gpgme-dev_1.10.0_arm.deb
+Size: 21448
+SHA256: 68b42c025e940d192bfda456bcb5af0e7e04ea8f3613b4442dc4e183884a75a2
+
+Package: gpgme
+Architecture: arm
+Installed-Size: 248
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.0
+Description: Library designed to make access to GnuPG easier
+Homepage: https://www.gnupg.org/related_software/gpgme/
+Depends: gnupg2, libassuan, libgpg-error
+Filename: dists/dom/stable/binary-arm/gpgme_1.10.0_arm.deb
+Size: 96508
+SHA256: 9492034d818e33e8a0c2a598d186b197eaae3ea4abec9b365ba8ae19fd4f42ee
+
 Package: gpgv
 Architecture: arm
 Installed-Size: 244
@@ -1744,6 +1951,18 @@ Filename: dists/dom/stable/binary-arm/gsl_2.4_arm.deb
 Size: 623448
 SHA256: 3e8eacca39de7e231d0dbf4e7f799c6fb4a1fa944295ed572aad6f14d8029b99
 
+Package: gst-libav
+Architecture: arm
+Installed-Size: 444
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.12.3-1
+Description: GStreamer libav/ffmpeg wrapper
+Homepage: https://gstreamer.freedesktop.org/
+Depends: gst-plugins-base,ffmpeg
+Filename: dists/dom/stable/binary-arm/gst-libav_1.12.3-1_arm.deb
+Size: 93420
+SHA256: 62bdd17ba13a8cfe715a26c21394bf18cce6c9b5fcce21788562ff224ea867d7
+
 Package: gst-plugins-base-dev
 Architecture: arm
 Installed-Size: 1068
@@ -1767,6 +1986,18 @@ Depends: gstreamer, libopus, libvorbis
 Filename: dists/dom/stable/binary-arm/gst-plugins-base_1.12.4_arm.deb
 Size: 978336
 SHA256: f9c37aeb523280e6ba468d2348f67627743f8db68a51f57b1066dc1f0c57d830
+
+Package: gst-plugins-ugly
+Architecture: arm
+Installed-Size: 412
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.12.4
+Description: GStreamer Ugly Plug-ins
+Homepage: https://gstreamer.freedesktop.org/
+Depends: gst-plugins-base, libmp3lame, libx264
+Filename: dists/dom/stable/binary-arm/gst-plugins-ugly_1.12.4_arm.deb
+Size: 135664
+SHA256: bf1dd2452b956a40c7b971bed67c31817afeb33876dbc75b784c71083fd97bf5
 
 Package: gstreamer-dev
 Architecture: arm
@@ -1814,6 +2045,54 @@ Homepage: https://www.gnu.org/software/gzip/
 Filename: dists/dom/stable/binary-arm/gzip_1.9-2_arm.deb
 Size: 63416
 SHA256: d0dcee38150726271647f98ec6bc11432ea5b8013ebc38567ad6641280acff21
+
+Package: harfbuzz-dev
+Architecture: arm
+Installed-Size: 244
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.7.6-1
+Description: Development files for harfbuzz
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Depends: harfbuzz,libgraphite-dev
+Filename: dists/dom/stable/binary-arm/harfbuzz-dev_1.7.6-1_arm.deb
+Size: 21068
+SHA256: ada0803a1f77ce9a24107a77b12d2792697cb61c128be436e4e8e34bd481767f
+
+Package: harfbuzz-icu
+Architecture: arm
+Installed-Size: 40
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.7.6-1
+Description: OpenType text shaping engine ICU backend
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Depends: harfbuzz, libicu
+Filename: dists/dom/stable/binary-arm/harfbuzz-icu_1.7.6-1_arm.deb
+Size: 3072
+SHA256: 366a3a3f9a35c30f81dd35472645f68be20658c8488c95a83e4a1fdeaa4a409b
+
+Package: harfbuzz-utils
+Architecture: arm
+Installed-Size: 200
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.7.6-1
+Description: Tools using the harfbuzz library
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Depends: harfbuzz, libcairo, fontconfig, liblzma, libpixman, libxml2
+Filename: dists/dom/stable/binary-arm/harfbuzz-utils_1.7.6-1_arm.deb
+Size: 34316
+SHA256: b09a59ebedb156d6ae91180c732bad888e7a0bc2d3ec2b033f8ed8ff0a864c9f
+
+Package: harfbuzz
+Architecture: arm
+Installed-Size: 480
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.7.6-1
+Description: OpenType text shaping engine
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Depends: freetype,glib,libbz2,libpng,libgraphite
+Filename: dists/dom/stable/binary-arm/harfbuzz_1.7.6-1_arm.deb
+Size: 177512
+SHA256: 93857da7fef8a2fe906a81759a13af4d1dcfb72ea82334f0c4f6d298d08a6098
 
 Package: hashdeep
 Architecture: arm
@@ -1884,6 +2163,18 @@ Depends: fftw, libandroid-support, ncurses, openssl
 Filename: dists/dom/stable/binary-arm/httping_2.5-1_arm.deb
 Size: 38640
 SHA256: 86d794f2fc843f18a5daa2a63357a63bbbb87b66623b2ed6a148733d20ff5965
+
+Package: hub
+Architecture: arm
+Installed-Size: 6532
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.8
+Description: Command-line wrapper for git that makes you better at GitHub
+Homepage: https://hub.github.com/
+Depends: git
+Filename: dists/dom/stable/binary-arm/hub_2.2.8_arm.deb
+Size: 1774400
+SHA256: 5e939887a3e009427d9a240684901120aabeb8aac8289c985b5924a37056dba1
 
 Package: hunspell-dev
 Architecture: arm
@@ -2263,6 +2554,30 @@ Filename: dists/dom/stable/binary-arm/ldns_1.7.0-4_arm.deb
 Size: 93528
 SHA256: 2d246c2c743ce155b369ba03e5ddcdae92593cd475b039b5cd9057e7575ca0a3
 
+Package: ledger-dev
+Architecture: arm
+Installed-Size: 588
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.1-2
+Description: Development files for ledger
+Homepage: http://ledger-cli.org/
+Depends: ledger
+Filename: dists/dom/stable/binary-arm/ledger-dev_3.1.1-2_arm.deb
+Size: 66268
+SHA256: b89dd164406b12aba606a7cfcc171af588fa6b346c427ab61486226df9c00b19
+
+Package: ledger
+Architecture: arm
+Installed-Size: 2636
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.1-2
+Description: Powerful, double-entry accounting system
+Homepage: http://ledger-cli.org/
+Depends: boost, libedit, libmpfr, utf8cpp, libgmp
+Filename: dists/dom/stable/binary-arm/ledger_3.1.1-2_arm.deb
+Size: 707676
+SHA256: 231d8f296f692155e87b00a468ce5cde8d860f4de3f2544445bd0c6a124d5bf5
+
 Package: leptonica-dev
 Architecture: arm
 Installed-Size: 616
@@ -2451,6 +2766,18 @@ Depends: libgpg-error
 Filename: dists/dom/stable/binary-arm/libassuan_2.5.1_arm.deb
 Size: 23688
 SHA256: 609d9de1a0c4aaf0f335e9cb19e515adb065a1dde7c07d507784219793d3b1f1
+
+Package: libboost-python
+Architecture: arm
+Installed-Size: 252
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.65.1-2
+Description: Boost.Python Library
+Homepage: https://boost.org
+Depends: python, boost
+Filename: dists/dom/stable/binary-arm/libboost-python_1.65.1-2_arm.deb
+Size: 63540
+SHA256: 803637b0c78a160fbea701543c10bd0913651a955a04536a299347e5eeb572e5
 
 Package: libbz2-dev
 Architecture: arm
@@ -3620,6 +3947,30 @@ Filename: dists/dom/stable/binary-arm/libmp3lame_3.100_arm.deb
 Size: 107572
 SHA256: d0ffe259ab0d0233bec6cc9497614ec51dbeb7e06ad34fd19cf46e9656416c5c
 
+Package: libmp3splt-dev
+Architecture: arm
+Installed-Size: 120
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.2-3
+Description: Development files for libmp3splt
+Homepage: http://mp3splt.sourceforge.net
+Depends: libmp3splt
+Filename: dists/dom/stable/binary-arm/libmp3splt-dev_0.9.2-3_arm.deb
+Size: 15044
+SHA256: a578b7b1ef05de5b59673ecb3dcf7cb8d6cdf1510f49f92164b90188d100c841
+
+Package: libmp3splt
+Architecture: arm
+Installed-Size: 264
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.2-3
+Description: Utility to split MP3, Ogg Vorbis and native FLAC files without decoding
+Homepage: http://mp3splt.sourceforge.net
+Depends: libmad, libid3tag, libvorbis, libflac, pcre, libtool
+Filename: dists/dom/stable/binary-arm/libmp3splt_0.9.2-3_arm.deb
+Size: 91488
+SHA256: 350b7c94ad3cf810bc91e32199ed799d1449a90eb0a57a9fcdbb411e5b204724
+
 Package: libmpc-dev
 Architecture: arm
 Installed-Size: 44
@@ -4040,6 +4391,30 @@ Conflicts: protobuf (<= 3.0.0)
 Filename: dists/dom/stable/binary-arm/libprotobuf_3.5.1_arm.deb
 Size: 519696
 SHA256: a598ccd75826382805211532d7a0eb0adfd47a59c87c23dcede20209cfe05a5b
+
+Package: libpulseaudio-dev
+Architecture: arm
+Installed-Size: 428
+Maintainer: Fredrik Fornwall @fornwall
+Version: 11.1-4
+Description: Development files for libpulseaudio
+Homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
+Depends: libpulseaudio
+Filename: dists/dom/stable/binary-arm/libpulseaudio-dev_11.1-4_arm.deb
+Size: 57688
+SHA256: 2e676a4dbfe2be9f36b959aaae96dd329869729414036c9476cbfa36ea94940e
+
+Package: libpulseaudio
+Architecture: arm
+Installed-Size: 1248
+Maintainer: Fredrik Fornwall @fornwall
+Version: 11.1-4
+Description: A featureful, general-purpose sound server - shared libraries
+Homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
+Depends: libltdl, libsndfile, libandroid-glob, libsoxr
+Filename: dists/dom/stable/binary-arm/libpulseaudio_11.1-4_arm.deb
+Size: 394704
+SHA256: 7427cee8226474715cbbd30d272bb23ab28d73a241da1389002423a8164545a7
 
 Package: librhash-dev
 Architecture: arm
@@ -5076,6 +5451,42 @@ Filename: dists/dom/stable/binary-arm/moria_5.6_arm.deb
 Size: 164508
 SHA256: 41e21e966d20e1b0ea88361ab08f185020ac6272298e23d4b9e1df54531087cf
 
+Package: mos-dev
+Architecture: arm
+Installed-Size: 36
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 0.5.1-1
+Description: Development files for mos
+Homepage: http://profanity.im
+Depends: mos
+Filename: dists/dom/stable/binary-arm/mos-dev_0.5.1-1_arm.deb
+Size: 2596
+SHA256: 75ee7acd9c123f4e5f7e111be72588cb3672611b23ee2eee441f07c627de78b2
+
+Package: mos
+Architecture: arm
+Installed-Size: 820
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 0.5.1-1
+Description: Profanity is a console based XMPP client written in C using ncurses and libstrophe, inspired by Irssi
+Homepage: http://profanity.im
+Depends: libandroid-support,ncurses,glib,libmesode,libcurl,readline,libuuid,libotr,gpgme,python
+Filename: dists/dom/stable/binary-arm/mos_0.5.1-1_arm.deb
+Size: 205376
+SHA256: 7ef56eea9d75dd5a9b7f13cba5a3e20691b260ff89eb90ff4b9ea18c2dcfd8e9
+
+Package: mosh
+Architecture: arm
+Installed-Size: 632
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.2-3
+Description: Mobile shell that supports roaming and intelligent local echo
+Homepage: https://mosh.org
+Depends: libandroid-support, libprotobuf, ncurses, openssl, openssh, libutil
+Filename: dists/dom/stable/binary-arm/mosh_1.3.2-3_arm.deb
+Size: 164168
+SHA256: df211eaacc07286b8c6d1c27c4480c5d764df029c9a8019cedf15dd2d1882781
+
 Package: mosquitto
 Architecture: arm
 Installed-Size: 408
@@ -5088,6 +5499,18 @@ Filename: dists/dom/stable/binary-arm/mosquitto_1.4.15_arm.deb
 Size: 87640
 SHA256: 61af6a0624280ee560fc71df82ec78228a2c76e314bf816b818e2d703adf3b9f
 
+Package: mp3splt
+Architecture: arm
+Installed-Size: 112
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.6.2-1
+Description: Utility to split mp3, ogg vorbis and FLAC files without decoding
+Homepage: http://mp3splt.sourceforge.net
+Depends: libmp3splt
+Filename: dists/dom/stable/binary-arm/mp3splt_2.6.2-1_arm.deb
+Size: 25568
+SHA256: f78270346cf8b144eb94b6d60da7fced9a592c9266016436c4d1aa83f83b91cc
+
 Package: mpc
 Architecture: arm
 Installed-Size: 712
@@ -5099,6 +5522,18 @@ Depends: libmpdclient
 Filename: dists/dom/stable/binary-arm/mpc_0.29_arm.deb
 Size: 144772
 SHA256: f5be12587493f7fd614a8f2edd9eb297e4a88513e92fdf5f9b53ac0ee5ef4cbf
+
+Package: mpv
+Architecture: arm
+Installed-Size: 1348
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.27.2
+Description: Command-line media player
+Homepage: https://mpv.io/
+Depends: ffmpeg, openal-soft, libandroid-glob
+Filename: dists/dom/stable/binary-arm/mpv_0.27.2_arm.deb
+Size: 486444
+SHA256: caf1307ea0c2fe3ab67535cd80d0e0ef094531c3c37f254b72842c111e35c8ea
 
 Package: msmtp
 Architecture: arm
@@ -5183,6 +5618,18 @@ Depends: ncurses, libandroid-support
 Filename: dists/dom/stable/binary-arm/ncdu_1.13_arm.deb
 Size: 36484
 SHA256: 2da1c7421e78203d0be70ba2e8207c921df4d8d11093cc9d972cd2e1b02991d1
+
+Package: ncmpcpp
+Architecture: arm
+Installed-Size: 1608
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.8.1
+Description: NCurses Music Player Client (Plus Plus)
+Homepage: https://rybczak.net/ncmpcpp/
+Depends: fftw, boost, readline, libcurl, libmpdclient, ncurses
+Filename: dists/dom/stable/binary-arm/ncmpcpp_0.8.1_arm.deb
+Size: 418884
+SHA256: 9ac8d9bf0639ea4d39f015a754ca9f349205f752ca99a578816599b746d89f83
 
 Package: ncurses-dev
 Architecture: arm
@@ -5485,6 +5932,30 @@ Filename: dists/dom/stable/binary-arm/nzbget_19.1_arm.deb
 Size: 747620
 SHA256: f24c4b6645c6e4c49efaeb5a47238145099a9814b279bf7d638ef5eecd4f3ed7
 
+Package: oathtool-dev
+Architecture: arm
+Installed-Size: 652
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.6.2
+Description: Development files for oathtool
+Homepage: http://www.nongnu.org/oath-toolkit/
+Depends: oathtool
+Filename: dists/dom/stable/binary-arm/oathtool-dev_2.6.2_arm.deb
+Size: 21948
+SHA256: 3ce3362427cb7aca88f6f1210d668480a673cec89234b38dc5c1fed5ae8b30b5
+
+Package: oathtool
+Architecture: arm
+Installed-Size: 292
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.6.2
+Description: One-time password components
+Homepage: http://www.nongnu.org/oath-toolkit/
+Depends: xmlsec
+Filename: dists/dom/stable/binary-arm/oathtool_2.6.2_arm.deb
+Size: 80164
+SHA256: d6af1e2457b38f466e1038e7d218db51411ed1c663de937f4f705c56cd3f3c08
+
 Package: ocrad-dev
 Architecture: arm
 Installed-Size: 32
@@ -5673,6 +6144,30 @@ Filename: dists/dom/stable/binary-arm/p7zip_16.02-1_arm.deb
 Size: 924464
 SHA256: 6bd622701b55bc0698bc30495ec833bf8943ceb599b44197ea1953ab84260250
 
+Package: pango-dev
+Architecture: arm
+Installed-Size: 364
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.42.1
+Description: Development files for pango
+Homepage: http://www.pango.org/
+Depends: pango,libcairo-dev, libpixman-dev, fontconfig-dev, harfbuzz-dev
+Filename: dists/dom/stable/binary-arm/pango-dev_1.42.1_arm.deb
+Size: 41760
+SHA256: 03ff2b4f7d3e501978e7e6a646f4d99247a1ed685b74d9329f3dea464686272f
+
+Package: pango
+Architecture: arm
+Installed-Size: 360
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.42.1
+Description: Library for laying out and rendering text
+Homepage: http://www.pango.org/
+Depends: fontconfig,fribidi,glib,harfbuzz,libcairo
+Filename: dists/dom/stable/binary-arm/pango_1.42.1_arm.deb
+Size: 121492
+SHA256: 47163acd626de6d9d8c8f75f6ea90f4179672e2bf76a8e6df2a8d0206694be63
+
 Package: par2
 Architecture: arm
 Installed-Size: 536
@@ -5774,6 +6269,68 @@ Filename: dists/dom/stable/binary-arm/pforth_20170116-1_arm.deb
 Size: 38608
 SHA256: 83ed23f5d452fd95a4f64741cb81490966f70ab2ec3a746598d38e3e221c6b22
 
+Package: php-apache
+Architecture: arm
+Installed-Size: 10976
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.2.4
+Description: Apache 2.0 Handler module for PHP
+Homepage: https://php.net
+Depends: php, apache2
+Filename: dists/dom/stable/binary-arm/php-apache_7.2.4_arm.deb
+Size: 2395336
+SHA256: 55c216aefec142c424329a3a156a72e484fde8c8bb71b928af67b537529c806b
+
+Package: php-dev
+Architecture: arm
+Installed-Size: 5728
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.2.4
+Description: Development files for php
+Homepage: https://php.net
+Depends: php
+Filename: dists/dom/stable/binary-arm/php-dev_7.2.4_arm.deb
+Size: 469824
+SHA256: e324222b29867fbb963c3952e2877c5c91a6ac2625d9de5869689b645e19c88a
+
+Package: php-fpm
+Architecture: arm
+Installed-Size: 11060
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.2.4
+Description: FastCGI Process Manager for PHP
+Homepage: https://php.net
+Depends: php
+Filename: dists/dom/stable/binary-arm/php-fpm_7.2.4_arm.deb
+Size: 2450132
+SHA256: c8a2dbc25e5cedd907e801511285ef36e8ee5d2eedda3afe3a299d1e0720e0dc
+
+Package: php-pgsql
+Architecture: arm
+Installed-Size: 144
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.2.4
+Description: PostgreSQL modules for PHP
+Homepage: https://php.net
+Depends: php, postgresql
+Filename: dists/dom/stable/binary-arm/php-pgsql_7.2.4_arm.deb
+Size: 42840
+SHA256: f5abd979d3865fc0c0291207206eb4b2a58ea495741335b44329f77b978cb4ac
+
+Package: php
+Architecture: arm
+Installed-Size: 34252
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.2.4
+Description: Server-side, HTML-embedded scripting language
+Homepage: https://php.net
+Depends: libandroid-glob, libxml2, liblzma, openssl, pcre, libbz2, libcrypt, libcurl, libgd, readline, freetype
+Conflicts: php-mysql
+Replaces: php-mysql
+Filename: dists/dom/stable/binary-arm/php_7.2.4_arm.deb
+Size: 7609948
+SHA256: 1bfacec0d9b2f73c707c5e5f6f56de337e0560247e3cf306d60cc074930bcbcb
+
 Package: pick
 Architecture: arm
 Installed-Size: 64
@@ -5844,6 +6401,30 @@ Depends: libpng
 Filename: dists/dom/stable/binary-arm/pngquant_2.11.7_arm.deb
 Size: 30744
 SHA256: 08e6077770715604ce208910f7e930a6928706870a143674c08c026a19ab3546
+
+Package: poppler-dev
+Architecture: arm
+Installed-Size: 1520
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.62.0-1
+Description: Development files for poppler
+Homepage: https://poppler.freedesktop.org/
+Depends: poppler
+Filename: dists/dom/stable/binary-arm/poppler-dev_0.62.0-1_arm.deb
+Size: 165504
+SHA256: 58fb1ae67a47ca7afc6c153bcd503e9d019d300b8875f7d5e6f3b90f8fe9da60
+
+Package: poppler
+Architecture: arm
+Installed-Size: 2344
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.62.0-1
+Description: PDF rendering library
+Homepage: https://poppler.freedesktop.org/
+Depends: fontconfig, libcairo, libpng, libjpeg-turbo, libtiff, littlecms, openjpeg, freetype, libcurl
+Filename: dists/dom/stable/binary-arm/poppler_0.62.0-1_arm.deb
+Size: 699024
+SHA256: 8829b2cbee561e2da025a0c2a3fbb0c8ae0cb55518e837e149306822e198bc16
 
 Package: postgresql-contrib
 Architecture: arm
@@ -5962,6 +6543,18 @@ Depends: ncurses
 Filename: dists/dom/stable/binary-arm/psmisc_22.21-1_arm.deb
 Size: 36236
 SHA256: e049cc7f14d19c504445a8557ae94abdb5d45094f257e3df9e926d871ad0978a
+
+Package: pulseaudio
+Architecture: arm
+Installed-Size: 1640
+Maintainer: Fredrik Fornwall @fornwall
+Version: 11.1-4
+Description: A featureful, general-purpose sound server
+Homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
+Depends: libpulseaudio
+Filename: dists/dom/stable/binary-arm/pulseaudio_11.1-4_arm.deb
+Size: 285384
+SHA256: 1401ed7b00dfb0b27054044bfa15a0d09170ea35efe46af6bf9de5d556b25841
 
 Package: pure-ftpd
 Architecture: arm
@@ -6260,6 +6853,18 @@ Filename: dists/dom/stable/binary-arm/rlwrap_0.43-1_arm.deb
 Size: 73936
 SHA256: 0e34fd3a86ad63b6ef0b93582b51c5dd8a1b6af9b59068a68ab1b39009bea739
 
+Package: rsync
+Architecture: arm
+Installed-Size: 576
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.3
+Description: Utility that provides fast incremental file transfer
+Homepage: https://rsync.samba.org/
+Depends: libpopt, openssh
+Filename: dists/dom/stable/binary-arm/rsync_3.1.3_arm.deb
+Size: 219164
+SHA256: 5270ed24c587422e91e1887829ad6a731e2ffbb8c9e5454acaa199269ab475e9
+
 Package: rtmpdump-dev
 Architecture: arm
 Installed-Size: 92
@@ -6438,6 +7043,18 @@ Filename: dists/dom/stable/binary-arm/sqlite_3.23.0_arm.deb
 Size: 380256
 SHA256: 7e46759f6ea7c5bdfa817a939a9dc234068ab5e0d5c6e9058a19b058552ff8a0
 
+Package: squid
+Architecture: arm
+Installed-Size: 13120
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 3.5.27
+Description: Full-featured Web proxy cache server
+Homepage: http://www.squid-cache.org
+Depends: libcrypt, openssl, libnettle, libltdl
+Filename: dists/dom/stable/binary-arm/squid_3.5.27_arm.deb
+Size: 1677560
+SHA256: 94b59cb7c44479066489759d5a7033b7c071eb859ee42221b1b98112e41132e8
+
 Package: sshpass
 Architecture: arm
 Installed-Size: 60
@@ -6520,6 +7137,30 @@ Filename: dists/dom/stable/binary-arm/stunnel_5.44_arm.deb
 Size: 70524
 SHA256: a7eefbbb943fae5cdcaaa39ec894d280839cf9cefba1110a0b707c3c116fef8d
 
+Package: subversion-dev
+Architecture: arm
+Installed-Size: 1764
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.7
+Description: Development files for subversion
+Homepage: https://subversion.apache.org
+Depends: subversion
+Filename: dists/dom/stable/binary-arm/subversion-dev_1.9.7_arm.deb
+Size: 257952
+SHA256: fb623c297adf8cfd828dc6a5b9b370cfe71c196692f0434b18d35259ea322fcc
+
+Package: subversion
+Architecture: arm
+Installed-Size: 3096
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.7
+Description: Centralized version control system characterized by its simplicity
+Homepage: https://subversion.apache.org
+Depends: apr, apr-util, serf, libexpat, libsqlite
+Filename: dists/dom/stable/binary-arm/subversion_1.9.7_arm.deb
+Size: 943896
+SHA256: 3c7be71d9cfb51f2dc00e4ed5d0582be972da17cd71e7c09cd7ad6ad8a70025e
+
 Package: syncthing
 Architecture: arm
 Installed-Size: 15472
@@ -6542,6 +7183,18 @@ Depends: xz-utils
 Filename: dists/dom/stable/binary-arm/tar_1.30-1_arm.deb
 Size: 185328
 SHA256: 07774d4b71153b9bdb58fbb7af593610a4d98af86f0f9eb83223742aa3a90ba5
+
+Package: tasksh
+Architecture: arm
+Installed-Size: 232
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.0-1
+Description: Shell command wrapping Taskwarrior commands
+Homepage: https://taskwarrior.org
+Depends: readline, taskwarrior, libandroid-glob
+Filename: dists/dom/stable/binary-arm/tasksh_1.2.0-1_arm.deb
+Size: 77612
+SHA256: 133c3c4060d2b95c53d80c4611a6350be41194e9342bcbbf7ceaedfcafdde547
 
 Package: taskwarrior
 Architecture: arm
@@ -6658,6 +7311,30 @@ Filename: dists/dom/stable/binary-arm/teseq_1.1.1-1_arm.deb
 Size: 22052
 SHA256: 7a66402c9af7f38cfb962779f39b9a79cb31373c07c38a50d33e30b194bb6a96
 
+Package: tesseract-dev
+Architecture: arm
+Installed-Size: 700
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.05.01-1
+Description: Development files for tesseract
+Homepage: https://github.com/tesseract-ocr/tesseract
+Depends: tesseract
+Filename: dists/dom/stable/binary-arm/tesseract-dev_3.05.01-1_arm.deb
+Size: 67880
+SHA256: 5defaf2312177fe10d57d8a8fb5c126e982086b632e784dfdf9a26c89d847da5
+
+Package: tesseract
+Architecture: arm
+Installed-Size: 39840
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.05.01-1
+Description: Tesseract is probably the most accurate open source OCR engine available
+Homepage: https://github.com/tesseract-ocr/tesseract
+Depends: libtool, libuuid, leptonica
+Filename: dists/dom/stable/binary-arm/tesseract_3.05.01-1_arm.deb
+Size: 9662008
+SHA256: c94aa4ed22a7de683207f26445380e8f671797f5663677f562bf25d712df74b6
+
 Package: texinfo
 Architecture: arm
 Installed-Size: 6660
@@ -6669,6 +7346,47 @@ Depends: ncurses, perl
 Filename: dists/dom/stable/binary-arm/texinfo_6.5_arm.deb
 Size: 569048
 SHA256: da8634453e52fe73ffdb8ea3f9ba40261e142c54fe53e330e96870d0b4dbffad
+
+Package: texlive-bin-dev
+Architecture: arm
+Installed-Size: 376
+Maintainer: Henrik Grimler @Grimler91
+Version: 20170524-9
+Description: Development files for texlive
+Homepage: https://www.tug.org/texlive/
+Depends: texlive-bin
+Conflicts: texlive-dev
+Replaces: texlive-dev
+Filename: dists/dom/stable/binary-arm/texlive-bin-dev_20170524-9_arm.deb
+Size: 44856
+SHA256: 5e76e73e33b4644175773ac252251900593b4fdb5e9428640e1dea532832cd27
+
+Package: texlive-bin
+Architecture: arm
+Installed-Size: 25004
+Maintainer: Henrik Grimler @Grimler91
+Version: 20170524-9
+Description: TeX Live is a distribution of the TeX typesetting system. This package contains architecture dependent binaries.
+Homepage: https://www.tug.org/texlive/
+Breaks: texlive (<< 20170524-3)
+Depends: freetype, libpng, libgd, libgmp, libmpfr, libicu, liblua, poppler, libgraphite, harfbuzz-icu, teckit
+Recommends: texlive
+Replaces: texlive (<< 20170524-3)
+Filename: dists/dom/stable/binary-arm/texlive-bin_20170524-9_arm.deb
+Size: 6168136
+SHA256: 5a8b3e498c7fa819570d1328dd3b6185ea917ebeb0b9243da8e147a996f49ced
+
+Package: tig
+Architecture: arm
+Installed-Size: 380
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.3.3
+Description: Ncurses-based text-mode interface for git
+Homepage: https://jonas.github.io/tig/
+Depends: ncurses, git, libandroid-support
+Filename: dists/dom/stable/binary-arm/tig_2.3.3_arm.deb
+Size: 109392
+SHA256: 6f1d7efd7e512baaab5bda1dcd16f14070bf2fe9968ad0894e8ad36912618e86
 
 Package: timewarrior
 Architecture: arm
@@ -6964,6 +7682,19 @@ Filename: dists/dom/stable/binary-arm/vifm_0.9.1_arm.deb
 Size: 353360
 SHA256: 3f79411f1583445841abbbe392083731b4fd5bc90965fe55db3b3b34806dc742
 
+Package: vim-python
+Architecture: arm
+Installed-Size: 1744
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.1650
+Description: Vi IMproved - enhanced vi editor - with python support
+Homepage: http://www.vim.org/
+Depends: ncurses, vim-runtime, python
+Conflicts: vim
+Filename: dists/dom/stable/binary-arm/vim-python_8.0.1650_arm.deb
+Size: 912604
+SHA256: c9699ea0dc66bda3579e75faf777767087a8f9a2a23c621d98be422cb12fedb2
+
 Package: vim
 Architecture: arm
 Installed-Size: 1700
@@ -7034,6 +7765,78 @@ Depends: flex,libmpfr,libgmp,readline
 Filename: dists/dom/stable/binary-arm/wcalc_2.5-3_arm.deb
 Size: 93824
 SHA256: feed8eccf557e2e485d17a6dd23f9e8577e3f2a89edd1e81784b61f1ad6becb4
+
+Package: weechat-dev
+Architecture: arm
+Installed-Size: 172
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.1
+Description: Development files for weechat
+Homepage: https://weechat.org/
+Depends: weechat
+Filename: dists/dom/stable/binary-arm/weechat-dev_2.1_arm.deb
+Size: 14132
+SHA256: ce8602c69acc6ce63493ee4943c6110314ec796688aaea89914864227459a195
+
+Package: weechat-lua-plugin
+Architecture: arm
+Installed-Size: 164
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.1
+Description: WeeChat Lua Plugin
+Homepage: https://weechat.org/
+Depends: weechat, liblua
+Filename: dists/dom/stable/binary-arm/weechat-lua-plugin_2.1_arm.deb
+Size: 37268
+SHA256: f8d1377fe2b4f1084ec689e812f20deb8c4d264b081cb35b6461d2e4b875641e
+
+Package: weechat-perl-plugin
+Architecture: arm
+Installed-Size: 204
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.1
+Description: WeeChat Perl Plugin
+Homepage: https://weechat.org/
+Depends: weechat, perl
+Filename: dists/dom/stable/binary-arm/weechat-perl-plugin_2.1_arm.deb
+Size: 47588
+SHA256: 3a30b6678b920e8532ad687cbf78b6ab034db45db1cef23e9c7a6548ee665b1f
+
+Package: weechat-python-plugin
+Architecture: arm
+Installed-Size: 168
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.1
+Description: WeeChat Python3 Plugin
+Homepage: https://weechat.org/
+Depends: weechat, python
+Filename: dists/dom/stable/binary-arm/weechat-python-plugin_2.1_arm.deb
+Size: 36936
+SHA256: 11d7de22c05abf209f4b074103fe7bc999bc64b5dce9b448c00449344ff34185
+
+Package: weechat-ruby-plugin
+Architecture: arm
+Installed-Size: 164
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.1
+Description: WeeChat Ruby Plugin
+Homepage: https://weechat.org/
+Depends: weechat, ruby
+Filename: dists/dom/stable/binary-arm/weechat-ruby-plugin_2.1_arm.deb
+Size: 38532
+SHA256: 1633baef4b976b9b4246a09387cbf0a8885f4173e997bb2c882d98e0de8b411c
+
+Package: weechat
+Architecture: arm
+Installed-Size: 2032
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.1
+Description: Fast, light and extensible IRC chat client
+Homepage: https://weechat.org/
+Depends: ncurses, libgcrypt, libcurl, libgnutls, libandroid-support
+Filename: dists/dom/stable/binary-arm/weechat_2.1_arm.deb
+Size: 588076
+SHA256: 39c0e954dad61f6b6a86847a8d9f55469fd06e6e85162d1c0e446edae13071ba
 
 Package: wget
 Architecture: arm
