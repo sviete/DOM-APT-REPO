@@ -354,18 +354,6 @@ Package: termux-am
 Architecture: all
 Installed-Size: 60
 Maintainer: Michal Bednarski @michalbednarski
-Version: 0.2
-Description: Android Oreo-compatible am command reimplementation
-Homepage: https://github.com/michalbednarski/TermuxAm
-Conflicts: termux-tools (<< 0.51)
-Filename: dists/dom/stable/binary-all/termux-am_0.2_all.deb
-Size: 17988
-SHA256: 9f5a470095e14ce985e9cedf725fae86cbad3a123adb75dae688e0fda09fabaa
-
-Package: termux-am
-Architecture: all
-Installed-Size: 60
-Maintainer: Michal Bednarski @michalbednarski
 Version: 0.3
 Description: Android Oreo-compatible am command reimplementation
 Homepage: https://github.com/michalbednarski/TermuxAm
