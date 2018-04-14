@@ -13,18 +13,16 @@ sudo dpkg -x command-not-found_* .
 sudo dpkg -x libcurl_* .
 sudo dpkg -x curl_* .
 sudo dpkg -x termux-am* .
-sudo dpkg -x  iconv* .
-sudo dpkg -x  p7zip* .
-sudo dpkg -x  libcrypt-dev_* .
-sudo dpkg -x  libcrypt_* .
-sudo dpkg -x  openssl_1.0.2o_arm.deb .
-sudo dpkg -x  openssl-dev_1.0.2o_arm.deb .
-sudo dpkg -x  openssl-tool_1.0.2o_arm.deb .
-sudo dpkg -x  termux-exec_* .
-sudo dpkg -x  ncurses_6.1.20180331_arm.deb .
+sudo dpkg -x iconv* .
+sudo dpkg -x p7zip* .
+sudo dpkg -x libcrypt-dev_* .
+sudo dpkg -x libcrypt_* .
+sudo dpkg -x openssl_1.0.2o_arm.deb .
+sudo dpkg -x openssl-dev_1.0.2o_arm.deb .
+sudo dpkg -x openssl-tool_1.0.2o_arm.deb .
+sudo dpkg -x termux-exec_* .
+sudo dpkg -x ncurses_6.1.20180331_arm.deb .
 
-ncurses-ui-libs_6.1.20180331_arm.deb
-ncurses-dev_6.1.20180331_arm.deb
 ncurses-utils_6.1.20180331_arm.deb
 
 
