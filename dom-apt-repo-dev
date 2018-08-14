@@ -70,7 +70,7 @@ if added_debs_count == 0:
 # See https://wiki.debian.org/RepositoryFormat#A.22Release.22_files for format:
 release_file_path = distribution_path + '/Release'
 release_file = open(release_file_path, 'w')
-print("Codename: dom", file=release_file)
+print("Codename: dom-dev", file=release_file)
 print("Version: 1", file=release_file)
 print("Architectures: " + ' '.join(encountered_arches), file=release_file)
 print("Description: Dev repository", file=release_file)
