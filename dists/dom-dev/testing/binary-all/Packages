@@ -1,3 +1,15 @@
+Package: ack-grep
+Architecture: all
+Installed-Size: 168
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.24
+Description: Tool like grep optimized for programmers
+Homepage: https://beyondgrep.com/
+Depends: perl, coreutils
+Filename: dists/dom-dev/testing/binary-all/ack-grep_2.24_all.deb
+Size: 36888
+SHA256: 3fb0cff7419c0975e1c26cfe819564dcdf685c439e329164256c027d68a3f5ea
+
 Package: apksigner
 Architecture: all
 Installed-Size: 1504
@@ -8,6 +20,18 @@ Homepage: https://github.com/fornwall/apksigner
 Filename: dists/dom-dev/testing/binary-all/apksigner_0.7-1_all.deb
 Size: 1474336
 SHA256: 8d1e614e3b74c1eea1daac8415c859af0bfe5d5478c43a1e249f4ce619d09fcb
+
+Package: autoconf
+Architecture: all
+Installed-Size: 1960
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.69
+Description: Creator of shell scripts to configure source code packages
+Homepage: https://www.gnu.org/software/autoconf/autoconf.html
+Depends: m4, make, perl
+Filename: dists/dom-dev/testing/binary-all/autoconf_2.69_all.deb
+Size: 271128
+SHA256: 9e75ead6ca51d8fb475607f555997d22b465b7572336a7411a4af387d5fc64c0
 
 Package: ca-certificates-java
 Architecture: all
@@ -30,6 +54,30 @@ Homepage: https://curl.haxx.se/docs/caextract.html
 Filename: dists/dom-dev/testing/binary-all/ca-certificates_20180620_all.deb
 Size: 116560
 SHA256: f5de982fdcdeb813c2bca9a9d35080bf0827b68832522f1feb14b5c7145ece22
+
+Package: colordiff
+Architecture: all
+Installed-Size: 84
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 1.0.18
+Description: Tool to colorize 'diff' output
+Homepage: http://www.colordiff.org
+Depends: perl
+Filename: dists/dom-dev/testing/binary-all/colordiff_1.0.18_all.deb
+Size: 8832
+SHA256: 2952372bcb7866c680170692fc9e836b833ec2ce76b62f1dc5c6a415b764c023
+
+Package: cowsay
+Architecture: all
+Installed-Size: 220
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.03
+Description: Program which generates ASCII pictures of a cow with a message
+Homepage: https://en.wikipedia.org/wiki/Cowsay
+Depends: perl
+Filename: dists/dom-dev/testing/binary-all/cowsay_3.03_all.deb
+Size: 10256
+SHA256: b18849df07aca3f6b0451fc86143f0e62f6bc485f61cf62609e9e8138f0e3574
 
 Package: dx
 Architecture: all
@@ -98,6 +146,30 @@ Filename: dists/dom-dev/testing/binary-all/ndk-multilib_17-3_all.deb
 Size: 3287160
 SHA256: 93519fc81df0dd6a79135842736a19ef4fcdf34e6d19c08da609847582fe8532
 
+Package: parallel
+Architecture: all
+Installed-Size: 1092
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180222-1
+Description: GNU Parallel is a shell tool for executing jobs in parallel using one or more machines
+Homepage: https://www.gnu.org/software/parallel/
+Depends: perl
+Filename: dists/dom-dev/testing/binary-all/parallel_20180222-1_all.deb
+Size: 198540
+SHA256: b8f43b00151c2391eae96a3ff4c81158f1394768ff44b851cb7a0e1ef229340a
+
+Package: stow
+Architecture: all
+Installed-Size: 184
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.2
+Description: Tool for managing the installation of multiple software packages into a single directory
+Homepage: https://www.gnu.org/software/stow/
+Depends: perl
+Filename: dists/dom-dev/testing/binary-all/stow_2.2.2_all.deb
+Size: 24744
+SHA256: 6a5692f0906ecf67d48ee47959881eed37013df9feb8f9e1e9453600ee3f1d2d
+
 Package: termux-am
 Architecture: all
 Installed-Size: 60
@@ -109,6 +181,19 @@ Conflicts: termux-tools (<< 0.51)
 Filename: dists/dom-dev/testing/binary-all/termux-am_0.3_all.deb
 Size: 17016
 SHA256: a9318820222b657849a2cfadd7d29cf8c9b8e8763b2b0cf12bd6631b7706f402
+
+Package: termux-tools
+Architecture: all
+Installed-Size: 120
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.56
+Description: Basic system tools for Termux
+Homepage: https://termux.com/
+Depends: termux-am
+Essential: yes
+Filename: dists/dom-dev/testing/binary-all/termux-tools_0.56_all.deb
+Size: 4280
+SHA256: a8a3b29a72121459f2aa9578866a1e6365d3385f087f6546c514e4c2ed5b0329
 
 Package: tsu
 Architecture: all
