@@ -1,0 +1,133 @@
+Package: apksigner
+Architecture: all
+Installed-Size: 1504
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7-1
+Description: APK signing tool
+Homepage: https://github.com/fornwall/apksigner
+Filename: dists/dom-dev/testing/binary-all/apksigner_0.7-1_all.deb
+Size: 1474336
+SHA256: 8d1e614e3b74c1eea1daac8415c859af0bfe5d5478c43a1e249f4ce619d09fcb
+
+Package: ca-certificates-java
+Architecture: all
+Installed-Size: 204
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180620
+Description: Common CA certificates (java keystore format)
+Homepage: https://curl.haxx.se/docs/caextract.html
+Filename: dists/dom-dev/testing/binary-all/ca-certificates-java_20180620_all.deb
+Size: 105660
+SHA256: e32bd72b1e0fd5330114f3b266eccb4bda5c8a8e0b1b12a908aecd3d0aa70eac
+
+Package: ca-certificates
+Architecture: all
+Installed-Size: 244
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180620
+Description: Common CA certificates
+Homepage: https://curl.haxx.se/docs/caextract.html
+Filename: dists/dom-dev/testing/binary-all/ca-certificates_20180620_all.deb
+Size: 116560
+SHA256: f5de982fdcdeb813c2bca9a9d35080bf0827b68832522f1feb14b5c7145ece22
+
+Package: dx
+Architecture: all
+Installed-Size: 364
+Maintainer: Fredrik Fornwall @fornwall
+Version: 28.0.1
+Description: Command which takes in class files and reformulates them for usage on Android
+Homepage: http://developer.android.com/tools/help/index.html
+Filename: dists/dom-dev/testing/binary-all/dx_28.0.1_all.deb
+Size: 327820
+SHA256: 2fd586a5459b9cb66c8097e36c20f770477cce300f0f9cdaad9e29485433a80f
+
+Package: ecj
+Architecture: all
+Installed-Size: 7664
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.7.2
+Description: Eclipse Compiler for Java
+Homepage: http://www.eclipse.org/jdt/core/
+Filename: dists/dom-dev/testing/binary-all/ecj_4.7.2_all.deb
+Size: 6390660
+SHA256: a28e699d8dd05135de45b1eac41d07141f8f4c36d21f61a0de8d2ae6ff508f29
+
+Package: hunspell-en-us
+Architecture: all
+Installed-Size: 572
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2017.10.27
+Description: American english dictionary for hunspell
+Homepage: https://hunspell.github.io
+Filename: dists/dom-dev/testing/binary-all/hunspell-en-us_2017.10.27_all.deb
+Size: 160532
+SHA256: f6f103817464124b73c55bfa382015bd924c359756b905cf03019e017773cb20
+
+Package: hunspell-ru
+Architecture: all
+Installed-Size: 2008
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2017.03.03
+Description: Russian dictionary for hunspell
+Homepage: https://hunspell.github.io
+Filename: dists/dom-dev/testing/binary-all/hunspell-ru_2017.03.03_all.deb
+Size: 421384
+SHA256: 7ae0d07a03eb2b0a34a889ff301191e89cc7ce5a2f69ed2a618cada7d3628137
+
+Package: mime-support
+Architecture: all
+Installed-Size: 52
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.61
+Description: MIME type associations for file types
+Homepage: https://packages.debian.org/en/stretch/mime-support
+Conflicts: mutt (<< 1.8.3-1)
+Filename: dists/dom-dev/testing/binary-all/mime-support_3.61_all.deb
+Size: 7496
+SHA256: 43e2b16debebf23491aad4ddca9fc0b3ab3f43ef2e2607597889dc6beb9f7a8d
+
+Package: ndk-multilib
+Architecture: all
+Installed-Size: 16472
+Maintainer: Fredrik Fornwall @fornwall
+Version: 17-3
+Description: Multilib binaries for cross-compilation
+Homepage: https://developer.android.com/tools/sdk/ndk/index.html
+Filename: dists/dom-dev/testing/binary-all/ndk-multilib_17-3_all.deb
+Size: 3287160
+SHA256: 93519fc81df0dd6a79135842736a19ef4fcdf34e6d19c08da609847582fe8532
+
+Package: termux-am
+Architecture: all
+Installed-Size: 60
+Maintainer: Michal Bednarski @michalbednarski
+Version: 0.3
+Description: Android Oreo-compatible am command reimplementation
+Homepage: https://github.com/michalbednarski/TermuxAm
+Conflicts: termux-tools (<< 0.51)
+Filename: dists/dom-dev/testing/binary-all/termux-am_0.3_all.deb
+Size: 17016
+SHA256: a9318820222b657849a2cfadd7d29cf8c9b8e8763b2b0cf12bd6631b7706f402
+
+Package: tsu
+Architecture: all
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0
+Description: A su wrapper for Termux
+Homepage: https://github.com/cswl/tsu
+Filename: dists/dom-dev/testing/binary-all/tsu_2.0_all.deb
+Size: 2320
+SHA256: 93c99190d7ccd116694e8623844e57236e78890854c9523868ed8c4ec700709b
+
+Package: vim-runtime
+Architecture: all
+Installed-Size: 21288
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.1.0250
+Description: Vi IMproved - Runtime files
+Homepage: http://www.vim.org/
+Filename: dists/dom-dev/testing/binary-all/vim-runtime_8.1.0250_all.deb
+Size: 3895184
+SHA256: 7f564b0d4a4c9e7403fbb5784026cb93a9af6d6b2711a581011a5eff382586f6

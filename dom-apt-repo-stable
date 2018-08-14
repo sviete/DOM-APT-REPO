@@ -53,8 +53,8 @@ else:
 if not os.path.isdir(input_path):
     sys.exit("'" + input_path + '" does not exist')
 
-if os.path.exists(output_path):
-    shutil.rmtree(output_path + '/dists/')
+if os.path.exists(output_path + '/dists/' + DISTRIBUTION):
+    shutil.rmtree(output_path + '/dists/' + DISTRIBUTION)
 os.makedirs(component_path)
 
 added_debs_count = 0
