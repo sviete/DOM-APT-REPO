@@ -74,7 +74,7 @@ print("Codename: dom-dev", file=release_file)
 print("Version: 1", file=release_file)
 print("Architectures: " + ' '.join(encountered_arches), file=release_file)
 print("Description: Dev repository", file=release_file)
-print("Suite: dom", file=release_file)
+print("Suite: dom-dev", file=release_file)
 print("Date: " + datetime.datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S UTC'), file=release_file)
 print("SHA256:", file=release_file)
 
