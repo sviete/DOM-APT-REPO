@@ -291,6 +291,18 @@ Filename: dists/dom-dev/testing/binary-arm/ccache_3.4.2_arm.deb
 Size: 62732
 SHA256: 32156dfdcbbcd25b4a15487a0c6a3025fc23002bd6e7142cf1ad24c07ced551b
 
+Package: clang
+Architecture: arm
+Installed-Size: 43556
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Description: C language frontend for LLVM
+Homepage: https://clang.llvm.org/
+Depends: libllvm
+Filename: dists/dom-dev/testing/binary-arm/clang_6.0.1_arm.deb
+Size: 10727800
+SHA256: fb423cf26943c1af897c80bd68139ff83151358e6a05ac422d69dfab39349006
+
 Package: cmark-dev
 Architecture: arm
 Installed-Size: 112
@@ -846,6 +858,42 @@ Filename: dists/dom-dev/testing/binary-arm/gifsicle_1.91_arm.deb
 Size: 89340
 SHA256: 0321b8e8f4316c8e50b161060b5b68a47445fffc4e82d6de0328601c1b04a70b
 
+Package: glib-bin
+Architecture: arm
+Installed-Size: 520
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.56.1-1
+Description: Programs for the GLib library
+Homepage: https://developer.gnome.org/glib/
+Depends: glib
+Filename: dists/dom-dev/testing/binary-arm/glib-bin_2.56.1-1_arm.deb
+Size: 103400
+SHA256: 066e42f4da15a621185677391cf1ba76de38ac52fd95461d1094960b070becf4
+
+Package: glib-dev
+Architecture: arm
+Installed-Size: 2580
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.56.1-1
+Description: Development files for glib
+Homepage: https://developer.gnome.org/glib/
+Depends: glib,pcre-dev
+Filename: dists/dom-dev/testing/binary-arm/glib-dev_2.56.1-1_arm.deb
+Size: 235452
+SHA256: 4176f2efa5ab31e0afdd33c0bfacaadfb6524d6d2b22a27efd3e9483035760a6
+
+Package: glib
+Architecture: arm
+Installed-Size: 11128
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.56.1-1
+Description: Library providing core building blocks for libraries and applications written in C
+Homepage: https://developer.gnome.org/glib/
+Depends: libffi, pcre, libandroid-support
+Filename: dists/dom-dev/testing/binary-arm/glib_2.56.1-1_arm.deb
+Size: 1761484
+SHA256: b1966af3aff57199a1ca13cb2bd27337661684bdc7ff6b6a13c074d917ca96b4
+
 Package: glulxe
 Architecture: arm
 Installed-Size: 256
@@ -927,6 +975,18 @@ Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/greed_4.2_arm.deb
 Size: 8524
 SHA256: ac627b9fa1f448d69a6b2f1278e0036464bfa6e523696737c089fcf034310ed7
+
+Package: grep
+Architecture: arm
+Installed-Size: 216
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1
+Description: Command which searches one or more input files for lines containing a match to a specified pattern
+Homepage: https://www.gnu.org/software/grep/
+Depends: pcre
+Filename: dists/dom-dev/testing/binary-arm/grep_3.1_arm.deb
+Size: 87028
+SHA256: 79504b4a0fa36604cffdcc03f39ba721d1c38fd7621e1ed74e96a213bdd62152
 
 Package: gsl-dev
 Architecture: arm
@@ -1229,6 +1289,18 @@ Filename: dists/dom-dev/testing/binary-arm/kona_3.39-69-0_arm.deb
 Size: 110980
 SHA256: 3c0c50947683ac0d81cae196676d9d0a6cf1dfdf67fe9a6d44d92616db061935
 
+Package: less
+Architecture: arm
+Installed-Size: 256
+Maintainer: Fredrik Fornwall @fornwall
+Version: 530-1
+Description: Terminal pager program used to view the contents of a text file one screen at a time
+Homepage: http://www.greenwoodsoftware.com/less/
+Depends: ncurses, pcre
+Filename: dists/dom-dev/testing/binary-arm/less_530-1_arm.deb
+Size: 81272
+SHA256: debbe0c7190b5a7f368d49fe94d37a27a8f66fe2bc8a4819498a0ddf82904201
+
 Package: leveldb-dev
 Architecture: arm
 Installed-Size: 116
@@ -1404,6 +1476,30 @@ Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/libcaca_0.99.beta19-2_arm.deb
 Size: 225576
 SHA256: 1cc52631b3bd364f7812e15afc39218cdc8e03cb5c46a29e6367c65340877bac
+
+Package: libclang-dev
+Architecture: arm
+Installed-Size: 229436
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Description: C language frontend library for LLVM
+Homepage: https://clang.llvm.org/
+Depends: libllvm
+Filename: dists/dom-dev/testing/binary-arm/libclang-dev_6.0.1_arm.deb
+Size: 27920076
+SHA256: e0c4b53ce7c8011e8ded7f39e2ac9a42129de35d1cdd35151618e34c303d00cd
+
+Package: libclang
+Architecture: arm
+Installed-Size: 7504
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Description: C language frontend library for LLVM
+Homepage: https://clang.llvm.org/
+Depends: libllvm
+Filename: dists/dom-dev/testing/binary-arm/libclang_6.0.1_arm.deb
+Size: 2922440
+SHA256: b0688b68e76c4270a70e23e15193b27f5e83c08e10480afbcdabc199424876dd
 
 Package: libcln-dev
 Architecture: arm
@@ -2059,6 +2155,32 @@ Depends: libgpg-error
 Filename: dists/dom-dev/testing/binary-arm/libksba_1.3.5-1_arm.deb
 Size: 66640
 SHA256: 5f5ddeee08f692a204ceb5ebce318132202e6e891d6460d8a94a2e13171b28a5
+
+Package: libllvm-dev
+Architecture: arm
+Installed-Size: 16872
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Description: Development files for libllvm
+Homepage: https://clang.llvm.org/
+Depends: libllvm
+Filename: dists/dom-dev/testing/binary-arm/libllvm-dev_6.0.1_arm.deb
+Size: 2036156
+SHA256: 15655df22ec7c0a06a71754872be632525bac5fd09c0fbd4dca2b90fa6766fc4
+
+Package: libllvm
+Architecture: arm
+Installed-Size: 36252
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Description: Modular compiler and toolchain technologies library
+Homepage: https://clang.llvm.org/
+Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libffi
+Conflicts: gcc, clang (<< 3.9.1-3)
+Replaces: gcc
+Filename: dists/dom-dev/testing/binary-arm/libllvm_6.0.1_arm.deb
+Size: 8904900
+SHA256: a9e438687671e3dd76bb77981845b16b2712531b0a9b9d29b6070c5dd86b98c6
 
 Package: liblz4-dev
 Architecture: arm
@@ -3118,6 +3240,30 @@ Homepage: https://github.com/google/zopfli
 Filename: dists/dom-dev/testing/binary-arm/libzopfli_1.0.2-1_arm.deb
 Size: 20876
 SHA256: 43fca05c7ec4f319cafda3946efbe2ae07bdb96b7a66564a21c0e48891c24971
+
+Package: lld
+Architecture: arm
+Installed-Size: 11972
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Description: LD replace based on LLVM
+Homepage: https://clang.llvm.org/
+Depends: libllvm
+Filename: dists/dom-dev/testing/binary-arm/lld_6.0.1_arm.deb
+Size: 1373632
+SHA256: ef9166c8f30a664f27f12f3efde6272d0f629094998e79dfcd6f4c64a37566b8
+
+Package: llvm
+Architecture: arm
+Installed-Size: 5708
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Description: C language frontend for LLVM
+Homepage: https://clang.llvm.org/
+Depends: libllvm
+Filename: dists/dom-dev/testing/binary-arm/llvm_6.0.1_arm.deb
+Size: 1692744
+SHA256: 052f3e284e115e3f6ec8438f27c14fd500118e7ae469f0c9a44ae9456c9ba86e
 
 Package: lz4
 Architecture: arm
