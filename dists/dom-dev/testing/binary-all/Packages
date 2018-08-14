@@ -21,6 +21,30 @@ Filename: dists/dom-dev/testing/binary-all/apksigner_0.7-1_all.deb
 Size: 1474336
 SHA256: 8d1e614e3b74c1eea1daac8415c859af0bfe5d5478c43a1e249f4ce619d09fcb
 
+Package: apt-transport-tor
+Architecture: all
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.8-6
+Description: APT transport for anonymous package downloads via Tor
+Homepage: https://packages.debian.org/apt
+Depends: apt, tor
+Filename: dists/dom-dev/testing/binary-all/apt-transport-tor_1.4.8-6_all.deb
+Size: 892
+SHA256: fdf0e18d9a01471a6d06272d33a16653425a70cfa6020cff1bb8bc0658ab3123
+
+Package: asciinema
+Architecture: all
+Installed-Size: 100
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.1
+Description: Record and share your terminal sessions, the right way
+Homepage: https://asciinema.org/
+Depends: python, ncurses-utils
+Filename: dists/dom-dev/testing/binary-all/asciinema_2.0.1_all.deb
+Size: 45092
+SHA256: afb63f132e077b0e5c3bfe9ba137ccdbcb5fe9205aea040c64054cfbef0051da
+
 Package: autoconf
 Architecture: all
 Installed-Size: 1960
@@ -242,6 +266,56 @@ Filename: dists/dom-dev/testing/binary-all/parallel_20180222-1_all.deb
 Size: 198540
 SHA256: b8f43b00151c2391eae96a3ff4c81158f1394768ff44b851cb7a0e1ef229340a
 
+Package: pass
+Architecture: all
+Installed-Size: 132
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.7.3
+Description: Lightweight directory-based password manager
+Homepage: https://www.passwordstore.org
+Depends: bash, gnupg (>= 2.2.9-1), tree, coreutils
+Recommends: git
+Suggests: pass-otp
+Filename: dists/dom-dev/testing/binary-all/pass_1.7.3_all.deb
+Size: 15920
+SHA256: 551617b82d5e0c8f15e0a97654bd152fa36faaf9e1726b76e04119e445fe5982
+
+Package: pastebinit
+Architecture: all
+Installed-Size: 128
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.5
+Description: Command-line pastebin client
+Homepage: https://launchpad.net/pastebinit
+Depends: python
+Filename: dists/dom-dev/testing/binary-all/pastebinit_1.5_all.deb
+Size: 7600
+SHA256: 617dd9c73945b525e289022a3f60ebbd7681502622ac4dd45761194e2025529f
+
+Package: pathpicker
+Architecture: all
+Installed-Size: 528
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.2
+Description: Facebook PathPicker - a terminal-based file picker
+Homepage: https://facebook.github.io/PathPicker/
+Depends: bash,python
+Filename: dists/dom-dev/testing/binary-all/pathpicker_0.7.2_all.deb
+Size: 37488
+SHA256: a6299c1155f531150d4c9f8a8a27fe243e5c01274c87d4cc0f3ac2d92fc90047
+
+Package: ranger
+Architecture: all
+Installed-Size: 976
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.1
+Description: File manager with VI key bindings
+Homepage: https://ranger.github.io/
+Depends: python, file
+Filename: dists/dom-dev/testing/binary-all/ranger_1.9.1_all.deb
+Size: 132972
+SHA256: 8937a24e8de5e7dea3a285725e4762c0ea497076aeac0fd6e27bcefeb26e7ceb
+
 Package: ruby-ri
 Architecture: all
 Installed-Size: 60336
@@ -289,6 +363,30 @@ Conflicts: termux-tools (<< 0.51)
 Filename: dists/dom-dev/testing/binary-all/termux-am_0.3_all.deb
 Size: 17016
 SHA256: a9318820222b657849a2cfadd7d29cf8c9b8e8763b2b0cf12bd6631b7706f402
+
+Package: termux-apt-repo
+Architecture: all
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Description: Script to create Termux apt repositories
+Homepage: https://github.com/termux/termux-apt-repo
+Depends: binutils, python, tar
+Filename: dists/dom-dev/testing/binary-all/termux-apt-repo_0.2_all.deb
+Size: 2752
+SHA256: 1767eb40dac3f2d84d903e616ccee4f1d4f16f69cdfbeb502705be0d1f0b7347
+
+Package: termux-create-package
+Architecture: all
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4
+Description: Utility to create Termux packages
+Homepage: https://github.com/termux/termux-create-package
+Depends: python
+Filename: dists/dom-dev/testing/binary-all/termux-create-package_0.4_all.deb
+Size: 2724
+SHA256: bc9104217751c7273f9c729cb0fd153bdd2dd616bdc57bd692d3df354738f819
 
 Package: termux-tools
 Architecture: all

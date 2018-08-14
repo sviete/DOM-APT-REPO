@@ -130,6 +130,21 @@ Filename: dists/dom-dev/testing/binary-arm/apr_1.6.3_arm.deb
 Size: 57232
 SHA256: cb843d10d7032027b4a2be2582a01fd185f70ac8443ea6a961572465cb8c3735
 
+Package: apt
+Architecture: arm
+Installed-Size: 2096
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.8-6
+Description: Front-end for the dpkg package manager
+Homepage: https://packages.debian.org/apt
+Depends: libcurl, liblzma, dpkg, gpgv, libc++, termux-exec
+Essential: yes
+Conflicts: apt-transport-https
+Replaces: apt-transport-https
+Filename: dists/dom-dev/testing/binary-arm/apt_1.4.8-6_arm.deb
+Size: 686892
+SHA256: 16040f27b01500da5187c8def79b9bbcc8aee305981e95e65aa245c8fcd55d06
+
 Package: argp
 Architecture: arm
 Installed-Size: 172
@@ -1687,6 +1702,30 @@ Homepage: https://www.gnu.org/software/gperf
 Filename: dists/dom-dev/testing/binary-arm/gperf_3.1-2_arm.deb
 Size: 39876
 SHA256: 4955a1130a6a0346db10cf940ac49f7822eb07ca1444e72e7ad1f077a60e33fb
+
+Package: gpgme-dev
+Architecture: arm
+Installed-Size: 152
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.11.1-1
+Description: Development files for gpgme
+Homepage: https://www.gnupg.org/related_software/gpgme/
+Depends: gpgme,libgpg-error-dev
+Filename: dists/dom-dev/testing/binary-arm/gpgme-dev_1.11.1-1_arm.deb
+Size: 21724
+SHA256: aff80f28c61d09ca2f6dbff06a97f2f43645b0a649796edd2e2d1508bf59ed7c
+
+Package: gpgme
+Architecture: arm
+Installed-Size: 284
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.11.1-1
+Description: Library designed to make access to GnuPG easier
+Homepage: https://www.gnupg.org/related_software/gpgme/
+Depends: gnupg (>= 2.2.9-1), libassuan, libgpg-error
+Filename: dists/dom-dev/testing/binary-arm/gpgme_1.11.1-1_arm.deb
+Size: 110292
+SHA256: a5af83554313e1f1187a7ed3d1ee9c0ef5a715c73b9e3f787b63faa2b37330e5
 
 Package: gpgv
 Architecture: arm
@@ -7488,6 +7527,19 @@ Depends: ncurses, file
 Filename: dists/dom-dev/testing/binary-arm/vifm_0.9.1_arm.deb
 Size: 352344
 SHA256: 9dc8d81ea47e69c5ea4a95eb4e17a2c56fdb86dc960fd8852cb9c1766ff9bd72
+
+Package: vim-python
+Architecture: arm
+Installed-Size: 1764
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.1.0250
+Description: Vi IMproved - enhanced vi editor - with python support
+Homepage: http://www.vim.org/
+Depends: ncurses, vim-runtime, python
+Conflicts: vim
+Filename: dists/dom-dev/testing/binary-arm/vim-python_8.1.0250_arm.deb
+Size: 921520
+SHA256: 60dbe734cc696fa042f318d68260c077f584037425fd5a1c1c4e58b65353354f
 
 Package: vim
 Architecture: arm
