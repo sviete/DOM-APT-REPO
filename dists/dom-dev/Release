@@ -3,9 +3,9 @@ Version: 1
 Architectures: arm all
 Description: Dev repository
 Suite: dom-dev
-Date: Tue, 14 Aug 2018 12:37:57 UTC
+Date: Tue, 14 Aug 2018 17:29:21 UTC
 SHA256:
- be0a0ae9e037e0e9aa259f0c4a642cbd25e8d2c38fc85310c576e64752c09f6c 180014 testing/binary-arm/Packages
- 9ce5dc2e9fc39b87eae1a5d905dc5182d3f4d13220651399fd66a96ee4abd4f4 40812 testing/binary-arm/Packages.xz
- ef7d826361aed831cef732a0d1ecfd260ecc8ddb1cdeec4b30db39d4f242c266 7255 testing/binary-all/Packages
- a3f175d8d67e0f980a5fd3489ee53e5d1636e7de86cabccf8616c7a8508f7876 2444 testing/binary-all/Packages.xz
+ f7f23865b36a022817ff4b94be8a287e5ac23d724f2605292e96f33e2723d109 228813 testing/binary-arm/Packages
+ 4ef66ba32621b07687d7dd0d2c52951a974cc6789ed5011c0d4efc91f90a2680 51112 testing/binary-arm/Packages.xz
+ 6dbe15349000e01f264847c61eb597deabb91ed07c2c39904c2e71b8d887e202 8776 testing/binary-all/Packages
+ 1b92fb02034a9d5b288c73817fb3f4f4ae2991a29aa031427cd2bf1a9b1370e4 2880 testing/binary-all/Packages.xz

@@ -33,6 +33,18 @@ Filename: dists/dom-dev/testing/binary-all/autoconf_2.69_all.deb
 Size: 271128
 SHA256: 9e75ead6ca51d8fb475607f555997d22b465b7572336a7411a4af387d5fc64c0
 
+Package: automake
+Architecture: all
+Installed-Size: 1924
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.16.1
+Description: Tool for automatically generating Makefile.in files
+Homepage: https://www.gnu.org/software/automake/
+Depends: autoconf
+Filename: dists/dom-dev/testing/binary-all/automake_1.16.1_all.deb
+Size: 317956
+SHA256: 22a391101c9772116475300a9842c27bc28965312270b02ef44a187aa81d1d41
+
 Package: ca-certificates-java
 Architecture: all
 Installed-Size: 204
@@ -78,6 +90,18 @@ Depends: perl
 Filename: dists/dom-dev/testing/binary-all/cowsay_3.03_all.deb
 Size: 10256
 SHA256: b18849df07aca3f6b0451fc86143f0e62f6bc485f61cf62609e9e8138f0e3574
+
+Package: debootstrap
+Architecture: all
+Installed-Size: 272
+Maintainer: Pierre Rudloff @Rudloff
+Version: 1.0.106
+Description: Bootstrap a basic Debian system
+Homepage: https://wiki.debian.org/Debootstrap
+Depends: wget, proot, perl
+Filename: dists/dom-dev/testing/binary-all/debootstrap_1.0.106_all.deb
+Size: 28148
+SHA256: 9b2da0ef5342eb8a950ea37938ad60e74084e3bd088e0827ad1b10565f229bc0
 
 Package: dx
 Architecture: all
@@ -158,6 +182,18 @@ Filename: dists/dom-dev/testing/binary-all/parallel_20180222-1_all.deb
 Size: 198540
 SHA256: b8f43b00151c2391eae96a3ff4c81158f1394768ff44b851cb7a0e1ef229340a
 
+Package: ruby-ri
+Architecture: all
+Installed-Size: 60336
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.5.1-1
+Description: Ruby documentation index
+Homepage: https://www.ruby-lang.org/
+Depends: ruby
+Filename: dists/dom-dev/testing/binary-all/ruby-ri_2.5.1-1_all.deb
+Size: 1545820
+SHA256: 7e984e928a99dffdd2341664cce3d7b02975de14de9c2c4799d263a51566e71d
+
 Package: stow
 Architecture: all
 Installed-Size: 184
@@ -216,3 +252,15 @@ Homepage: http://www.vim.org/
 Filename: dists/dom-dev/testing/binary-all/vim-runtime_8.1.0250_all.deb
 Size: 3895184
 SHA256: 7f564b0d4a4c9e7403fbb5784026cb93a9af6d6b2711a581011a5eff382586f6
+
+Package: yarn
+Architecture: all
+Installed-Size: 4332
+Maintainer: Pierre Rudloff @Rudloff
+Version: 1.9.4
+Description: Fast, reliable, and secure dependency management
+Homepage: https://yarnpkg.com/
+Depends: nodejs | nodejs-current
+Filename: dists/dom-dev/testing/binary-all/yarn_1.9.4_all.deb
+Size: 683124
+SHA256: db0e13206ad2fa7a359a02d84006de41bbfc04e8561bd9daaabbaa75548175ef
