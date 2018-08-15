@@ -6890,14 +6890,14 @@ SHA256: 005e32b1f0e8dec9318d9d27719970345aaca6ca9838dd4d306702500587752a
 
 Package: rclone
 Architecture: arm
-Installed-Size: 19028
+Installed-Size: 20712
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.40
+Version: 1.42
 Description: rsync for cloud storage
 Homepage: https://rclone.org/
-Filename: dists/dom/stable/binary-arm/rclone_1.40_arm.deb
-Size: 4376060
-SHA256: a045cb78b37c9e8c751a060830d4b717849b864e4a15f7e16b7fa6f36e13473a
+Filename: dists/dom/stable/binary-arm/rclone_1.42_arm.deb
+Size: 4715932
+SHA256: e0b87a07cb4ee1ce2d60dfe49de1b83481b94fd9abf3826d832e6f10effc34fb
 
 Package: rcs
 Architecture: arm
