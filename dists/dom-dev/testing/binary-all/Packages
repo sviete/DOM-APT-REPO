@@ -173,6 +173,18 @@ Filename: dists/dom-dev/testing/binary-all/ecj_4.7.2_all.deb
 Size: 6390660
 SHA256: a28e699d8dd05135de45b1eac41d07141f8f4c36d21f61a0de8d2ae6ff508f29
 
+Package: getmail
+Architecture: all
+Installed-Size: 384
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.6
+Description: fetchmail replacement relatively easy to configure
+Homepage: http://pyropus.ca/software/getmail/
+Depends: python2
+Filename: dists/dom-dev/testing/binary-all/getmail_5.6_all.deb
+Size: 51540
+SHA256: db3a9186cf386b8f777a98dc52e0500490319ae499bdfed5a21d75c2c4bbf33e
+
 Package: hunspell-en-us
 Architecture: all
 Installed-Size: 572
@@ -265,6 +277,19 @@ Depends: perl
 Filename: dists/dom-dev/testing/binary-all/parallel_20180222-1_all.deb
 Size: 198540
 SHA256: b8f43b00151c2391eae96a3ff4c81158f1394768ff44b851cb7a0e1ef229340a
+
+Package: pass-otp
+Architecture: all
+Installed-Size: 72
+Maintainer: Henrik Grimler @Grimler91
+Version: 1.1.1
+Description: A pass extension for managing one-time-password (OTP) tokens
+Homepage: htts://github.com/tadfisher/pass-otp
+Depends: pass, oathtool
+Suggests: libqrencode
+Filename: dists/dom-dev/testing/binary-all/pass-otp_1.1.1_all.deb
+Size: 5620
+SHA256: f10c97331898511a8516a48811d7defc8f6baeb969b593edba7a63d2b6a222c8
 
 Package: pass
 Architecture: all
