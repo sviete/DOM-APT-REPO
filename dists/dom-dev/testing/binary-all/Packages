@@ -426,6 +426,33 @@ Filename: dists/dom-dev/testing/binary-all/termux-tools_0.56_all.deb
 Size: 4280
 SHA256: a8a3b29a72121459f2aa9578866a1e6365d3385f087f6546c514e4c2ed5b0329
 
+Package: texlive-tlmgr
+Architecture: all
+Installed-Size: 2556
+Maintainer: Henrik Grimler @Grimler91
+Version: 20180414-2
+Description: TeX Lives package manager
+Homepage: https://www.tug.org/texlive/tlmgr.html
+Depends: perl, wget, gnupg (>= 2.2.9-1), xz-utils, texlive
+Conflicts: texlive (<< 20180414-1)
+Filename: dists/dom-dev/testing/binary-all/texlive-tlmgr_20180414-2_all.deb
+Size: 367340
+SHA256: 1fa84360d6849ee9f77b176bfc9cca7ddbb6737dfe135872d2c8849aca918eb9
+
+Package: texlive
+Architecture: all
+Installed-Size: 58508
+Maintainer: Henrik Grimler @Grimler91
+Version: 20180414-1
+Description: TeX Live is a distribution of the TeX typesetting system.
+Homepage: https://www.tug.org/texlive/
+Depends: perl, texlive-bin (>= 20180414)
+Conflicts: texlive (<< 20170524-5), texlive-bin (<< 20180414)
+Recommends: texlive-tlmgr
+Filename: dists/dom-dev/testing/binary-all/texlive_20180414-1_all.deb
+Size: 6473472
+SHA256: bd5ff35cca72e914592be7c4462745c63aa0f9b1d2cb38e0d0c323cb1e84e56f
+
 Package: tsu
 Architecture: all
 Installed-Size: 36

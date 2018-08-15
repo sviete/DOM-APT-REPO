@@ -405,6 +405,18 @@ Filename: dists/dom-dev/testing/binary-arm/brotli_1.0.5_arm.deb
 Size: 253404
 SHA256: f36a014015cf1c1a06153dcd3248739188591305f2785fe99cc07e4dde2dda72
 
+Package: bs1770gain
+Architecture: arm
+Installed-Size: 108
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 0.4.12-3
+Description: Tool to normalize the loudness of different audio files to the same level
+Homepage: http://bs1770gain.sourceforge.net/
+Depends: ffmpeg, sox
+Filename: dists/dom-dev/testing/binary-arm/bs1770gain_0.4.12-3_arm.deb
+Size: 35836
+SHA256: c2555328991ee1ed6473e54a1bdd80b4401f3f9b9cc4d8d1d427d95abb36e98d
+
 Package: bsdtar
 Architecture: arm
 Installed-Size: 184
@@ -427,8 +439,8 @@ Homepage: https://busybox.net/
 Essential: yes
 Conflicts: coreutils (<< 8.25-4)
 Filename: dists/dom-dev/testing/binary-arm/busybox_1.29.2_arm.deb
-Size: 277744
-SHA256: ad9c6d942b5d4cca701df3261af8d4955c668f818ee1b07a387199b3584efdfb
+Size: 277920
+SHA256: b34698bb0c02e6ad3709af79426e2a3367c7ca8fa0d5f38f1faa2e15b5fcbd60
 
 Package: bvi
 Architecture: arm
@@ -1563,6 +1575,30 @@ Filename: dists/dom-dev/testing/binary-arm/gdk-pixbuf_2.36.12_arm.deb
 Size: 102120
 SHA256: 15e3273897e33b535d049a1d31bbf43bb8fa064d55153b25d83c15782967c4d7
 
+Package: gegl-dev
+Architecture: arm
+Installed-Size: 664
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.6
+Description: Development files for gegl
+Homepage: http://gegl.org/
+Depends: gegl
+Filename: dists/dom-dev/testing/binary-arm/gegl-dev_0.4.6_arm.deb
+Size: 65508
+SHA256: c5698d296d02e97f6fd7afcfb3259119c2b6cc413acaaeddde67b523a3ad51f5
+
+Package: gegl
+Architecture: arm
+Installed-Size: 2312
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.6
+Description: Data flow based image processing framework
+Homepage: http://gegl.org/
+Depends: libandroid-support, ffmpeg, babl, json-glib, libjpeg-turbo, libpng, libjasper, littlecms, libtiff, librsvg
+Filename: dists/dom-dev/testing/binary-arm/gegl_0.4.6_arm.deb
+Size: 644388
+SHA256: bcf20b0d84c3b901362891e4f90e5e1592299ca2f156168fe0a304bed1b0d2ec
+
 Package: getconf
 Architecture: arm
 Installed-Size: 56
@@ -1755,6 +1791,18 @@ Filename: dists/dom-dev/testing/binary-arm/gnupg_2.2.9-2_arm.deb
 Size: 813996
 SHA256: e8c4f4f4ddb6955aeba1dc51b7d27de0fb8d334cc8b51326a2b3e9ff0d9f65bb
 
+Package: gnuplot
+Architecture: arm
+Installed-Size: 1540
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.2.4
+Description: Command-line driven graphing utility
+Homepage: http://gnuplot.info/
+Depends: libandroid-support, readline, pango, libgd
+Filename: dists/dom-dev/testing/binary-arm/gnuplot_5.2.4_arm.deb
+Size: 592408
+SHA256: 7ff49dbebd89b09ed9bdeba64826beff3d92abf13dbaa8bbc794c3c64ece02a8
+
 Package: gnushogi
 Architecture: arm
 Installed-Size: 168
@@ -1922,6 +1970,30 @@ Filename: dists/dom-dev/testing/binary-arm/graphicsmagick_1.3.30-1_arm.deb
 Size: 964792
 SHA256: 96b279519cd55b115bc290c18d85f270a056b0a6b45093e119d80bd75dad8b5f
 
+Package: graphviz-dev
+Architecture: arm
+Installed-Size: 380
+Maintainer: Dustin DeWeese @HackerFoo
+Version: 2.40.1-4
+Description: Development files for graphviz
+Homepage: https://www.graphviz.org/
+Depends: graphviz
+Filename: dists/dom-dev/testing/binary-arm/graphviz-dev_2.40.1-4_arm.deb
+Size: 50916
+SHA256: 73e5ca1e2ae192c7122fccefec63eac2c613da04dd34d494179a86dfd46ac4eb
+
+Package: graphviz
+Architecture: arm
+Installed-Size: 11640
+Maintainer: Dustin DeWeese @HackerFoo
+Version: 2.40.1-4
+Description: Rich set of graph drawing tools
+Homepage: https://www.graphviz.org/
+Depends: libandroid-glob,libcairo,pango,libexpat,libltdl,librsvg,libgd
+Filename: dists/dom-dev/testing/binary-arm/graphviz_2.40.1-4_arm.deb
+Size: 4456352
+SHA256: 64e31c10669190f013cd90bf27eb4f477bb1ff01c6b309be8ebb5d0c25a21c0c
+
 Package: greed
 Architecture: arm
 Installed-Size: 60
@@ -1968,6 +2040,30 @@ Homepage: https://www.gnu.org/software/gsl/
 Filename: dists/dom-dev/testing/binary-arm/gsl_2.5_arm.deb
 Size: 634520
 SHA256: 89a82bcdda50d544f7485a51bd4974eaf9d923b0164cc71fa2971f83c2c97893
+
+Package: gst-plugins-bad-dev
+Architecture: arm
+Installed-Size: 680
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.14.2
+Description: Development files for gst-plugins-bad
+Homepage: https://gstreamer.freedesktop.org/
+Depends: gst-plugins-bad
+Filename: dists/dom-dev/testing/binary-arm/gst-plugins-bad-dev_1.14.2_arm.deb
+Size: 69424
+SHA256: e421b6d810020b2894c76db4908d413014caf92cb9edd006b57ca18f09d30460
+
+Package: gst-plugins-bad
+Architecture: arm
+Installed-Size: 4040
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.14.2
+Description: GStreamer Bad Plug-ins
+Homepage: https://gstreamer.freedesktop.org/
+Depends: gst-plugins-base, libx264, libbz2, libpng, librsvg, libcurl, libx265, libsndfile, openjpeg, openal-soft, littlecms
+Filename: dists/dom-dev/testing/binary-arm/gst-plugins-bad_1.14.2_arm.deb
+Size: 1171372
+SHA256: bd81112961d930beb7ab0837c45d60f8291231d053014ac6b5bb45ca1515e4e1
 
 Package: gst-plugins-base-dev
 Architecture: arm
@@ -2264,6 +2360,42 @@ Depends: libicu
 Filename: dists/dom-dev/testing/binary-arm/icu-devtools_62.1-1_arm.deb
 Size: 146784
 SHA256: 81d0bdb4c6691eae2c27da12e502e91a66f649a73365c87a5c33fc7163452ffc
+
+Package: imagemagick-dev
+Architecture: arm
+Installed-Size: 820
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.8.9
+Description: Development files for imagemagick
+Homepage: https://www.imagemagick.org/
+Depends: imagemagick
+Filename: dists/dom-dev/testing/binary-arm/imagemagick-dev_7.0.8.9_arm.deb
+Size: 59408
+SHA256: 5db260e8a50687b0dd1c1d022048c5c3ab6b835b1475613661389001a5adad05
+
+Package: imagemagick
+Architecture: arm
+Installed-Size: 4460
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.8.9
+Description: Suite to create, edit, compose, or convert images in a variety of formats
+Homepage: https://www.imagemagick.org/
+Depends: fftw, pango, glib, libbz2, libjpeg-turbo, liblzma, libpng, libtiff, libxml2, openjpeg, littlecms
+Filename: dists/dom-dev/testing/binary-arm/imagemagick_7.0.8.9_arm.deb
+Size: 1402340
+SHA256: 1f58a5b3861487d022716ea2cad5c66dd3b7065cdba6548d1dba1021ba396eb9
+
+Package: imgflo
+Architecture: arm
+Installed-Size: 224
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.2-1
+Description: HTTP image processing server & Flowhub.io compatible runtime
+Homepage: https://www.imgflo.org/
+Depends: gegl, libsoup
+Filename: dists/dom-dev/testing/binary-arm/imgflo_0.4.2-1_arm.deb
+Size: 34620
+SHA256: 78c945f75afaf2ff33d86e4809eff44a044440f13329f46f7051e3072f36e4b9
 
 Package: indent
 Architecture: arm
@@ -4552,6 +4684,30 @@ Filename: dists/dom-dev/testing/binary-arm/libqrencode_4.0.2_arm.deb
 Size: 24480
 SHA256: bfd51a432707e18ac4795ecf213a994ab1abf62ae3da05f092aa8156efc3e29c
 
+Package: librsvg-dev
+Architecture: arm
+Installed-Size: 72
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.40.20
+Description: Development files for librsvg
+Homepage: https://wiki.gnome.org/action/show/Projects/LibRsvg
+Depends: librsvg
+Filename: dists/dom-dev/testing/binary-arm/librsvg-dev_2.40.20_arm.deb
+Size: 4536
+SHA256: b50bf59e1530b2d38102c655b4e7dd0891f35fa6750d240bc89a6c263c488bd9
+
+Package: librsvg
+Architecture: arm
+Installed-Size: 204
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.40.20
+Description: Library to render SVG files using cairo
+Homepage: https://wiki.gnome.org/action/show/Projects/LibRsvg
+Depends: libcroco,pango,gdk-pixbuf
+Filename: dists/dom-dev/testing/binary-arm/librsvg_2.40.20_arm.deb
+Size: 68784
+SHA256: 3014af72a657357885baf2503c84f0b6b0d8268b01a133e9bf567c161eb2345c
+
 Package: librsync-dev
 Architecture: arm
 Installed-Size: 64
@@ -5706,6 +5862,30 @@ Depends: libmpdclient
 Filename: dists/dom-dev/testing/binary-arm/mpc_0.30_arm.deb
 Size: 145460
 SHA256: 6ee46ce2da5ea7d5935f5ecff4b6a994aadee87e5212e57b22cdd2b894a34aba
+
+Package: mpd
+Architecture: arm
+Installed-Size: 588
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.20.20-3
+Description: Music player daemon
+Homepage: https://www.musicpd.org
+Depends: libcurl, libid3tag, libopus, libevent, fftw, libpulseaudio, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg, libmp3lame, libbz2
+Filename: dists/dom-dev/testing/binary-arm/mpd_0.20.20-3_arm.deb
+Size: 219492
+SHA256: 7e978c9fb59b1d421807426edb8b7a10463652be9ba8b140c0a0a57959039c75
+
+Package: mpv
+Architecture: arm
+Installed-Size: 1492
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.29.0-1
+Description: Command-line media player
+Homepage: https://mpv.io/
+Depends: ffmpeg, openal-soft, libandroid-glob, libpulseaudio
+Filename: dists/dom-dev/testing/binary-arm/mpv_0.29.0-1_arm.deb
+Size: 549776
+SHA256: 84dcbce29b43c67941f49a5136d7e5bb5ebc21b2d453125a155f908d67973822
 
 Package: msmtp
 Architecture: arm
@@ -7221,6 +7401,30 @@ Filename: dists/dom-dev/testing/binary-arm/socat_1.7.3.2_arm.deb
 Size: 133432
 SHA256: c224a0ca2945a0794384bf4f392989d2b3960ca255a5d103741fe4eed2cd01e1
 
+Package: sox-dev
+Architecture: arm
+Installed-Size: 160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 14.4.2-10
+Description: Development files for sox
+Homepage: http://sox.sourceforge.net/
+Depends: sox
+Filename: dists/dom-dev/testing/binary-arm/sox-dev_14.4.2-10_arm.deb
+Size: 23464
+SHA256: 031f907fbcb4d0a3f2af9c5d11ae38b9455ffa6e6b894d836f61b291675a5e6f
+
+Package: sox
+Architecture: arm
+Installed-Size: 976
+Maintainer: Fredrik Fornwall @fornwall
+Version: 14.4.2-10
+Description: Command line utility for converting between and applying effects to various audio files formats
+Homepage: http://sox.sourceforge.net/
+Depends: libltdl, file, libpng, libmp3lame, libogg, libvorbis, libandroid-glob, libflac, libid3tag, libmad, libpulseaudio
+Filename: dists/dom-dev/testing/binary-arm/sox_14.4.2-10_arm.deb
+Size: 390488
+SHA256: 9272ba7b79b09aeb462b46e95ee9eccc477f71a86a174ec775b1a29a6ab100f2
+
 Package: sqlite
 Architecture: arm
 Installed-Size: 768
@@ -7860,6 +8064,42 @@ Filename: dists/dom-dev/testing/binary-arm/util-linux_2.32.1_arm.deb
 Size: 480556
 SHA256: 707ab117505810651944e6cbb93c365034965e4e59dabaf1071cc5e21bedf2f5
 
+Package: valac-dev
+Architecture: arm
+Installed-Size: 1016
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 0.40.8
+Description: Development files for valac
+Homepage: https://wiki.gnome.org/Projects/Vala
+Depends: valac
+Filename: dists/dom-dev/testing/binary-arm/valac-dev_0.40.8_arm.deb
+Size: 82812
+SHA256: be484831911cf7331e45d41f44e7db76bb95c2b0deab0cf8ae2b7b6521d8d3c2
+
+Package: valac
+Architecture: arm
+Installed-Size: 11064
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 0.40.8
+Description: C# like language for the GObject system
+Homepage: https://wiki.gnome.org/Projects/Vala
+Depends: clang, glib-dev, pkg-config
+Filename: dists/dom-dev/testing/binary-arm/valac_0.40.8_arm.deb
+Size: 1502712
+SHA256: a482a1ff0fbab4acd0301cfdfc5cba7ae432846bf3a140c7cf2ad4c3e5dd0ed9
+
+Package: valadoc
+Architecture: arm
+Installed-Size: 1040
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 0.40.8
+Description: API documentation generator for vala
+Homepage: https://wiki.gnome.org/Projects/Vala
+Depends: valac, graphviz
+Filename: dists/dom-dev/testing/binary-arm/valadoc_0.40.8_arm.deb
+Size: 283720
+SHA256: d04c1d97748352f53bb47df7b44dccd161f8cd5d931e694540af15fdafc8972e
+
 Package: valgrind-dev
 Architecture: arm
 Installed-Size: 2128
@@ -8238,6 +8478,30 @@ Homepage: https://yasm.tortall.net/
 Filename: dists/dom-dev/testing/binary-arm/yasm_1.3.0-1_arm.deb
 Size: 276036
 SHA256: ee6100eef0d6de14e34791f3bbd83b8779e44549391f4d0b40b2a00037a402df
+
+Package: zbar-dev
+Architecture: arm
+Installed-Size: 160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.10-6
+Description: Development files for zbar
+Homepage: http://zbar.sourceforge.net
+Depends: zbar
+Filename: dists/dom-dev/testing/binary-arm/zbar-dev_0.10-6_arm.deb
+Size: 17288
+SHA256: ac55bc157e38f32ede7e80789a89a8a8bc61f21ec98cf888dab60cc6af17cf24
+
+Package: zbar
+Architecture: arm
+Installed-Size: 176
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.10-6
+Description: Software suite for reading bar codes from various sources
+Homepage: http://zbar.sourceforge.net
+Depends: imagemagick, libjpeg-turbo
+Filename: dists/dom-dev/testing/binary-arm/zbar_0.10-6_arm.deb
+Size: 66392
+SHA256: af1ccd5fe55e9a24b12b1bb5b56e5c94613d06c281b35342a240b574f4eb8ff7
 
 Package: zile
 Architecture: arm
