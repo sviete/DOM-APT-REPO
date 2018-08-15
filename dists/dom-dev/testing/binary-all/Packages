@@ -93,6 +93,18 @@ Filename: dists/dom-dev/testing/binary-all/byobu_5.125_all.deb
 Size: 72276
 SHA256: 3972f4ca1c474ccfb9bf20c257ffb6dc164a93932a494102869c6166ff04e0be
 
+Package: byobu
+Architecture: all
+Installed-Size: 816
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.127
+Description: Byobu is a GPLv3 open source text-based window manager and terminal multiplexer
+Homepage: http://byobu.co/
+Depends: gawk, tmux
+Filename: dists/dom-dev/testing/binary-all/byobu_5.127_all.deb
+Size: 66780
+SHA256: a2181cc97eab524f894e46eec63e28975a8329ab946849913896348a29baf9a3
+
 Package: ca-certificates-java
 Architecture: all
 Installed-Size: 204

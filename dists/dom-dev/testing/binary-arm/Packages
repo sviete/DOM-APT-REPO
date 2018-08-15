@@ -356,6 +356,18 @@ Filename: dists/dom-dev/testing/binary-arm/boost-dev_1.67.0-2_arm.deb
 Size: 7848448
 SHA256: c38e895c5dad27e6d536d000965ac3dc9be3697dd4a93cb6ec485e385e4bad60
 
+Package: boost-dev
+Architecture: arm
+Installed-Size: 155512
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.68.0
+Description: Development files for boost
+Homepage: https://boost.org
+Depends: boost
+Filename: dists/dom-dev/testing/binary-arm/boost-dev_1.68.0_arm.deb
+Size: 8170600
+SHA256: b996cb51f54e0819b16d12392e5dc3d02dccc90913328957be46afdde0d7eb44
+
 Package: boost
 Architecture: arm
 Installed-Size: 6372
@@ -369,6 +381,20 @@ Replaces: libboost-python (<= 1.65.1-2)
 Filename: dists/dom-dev/testing/binary-arm/boost_1.67.0-2_arm.deb
 Size: 1045408
 SHA256: fb3dee2f4112858eaff6e0601f8e81e80ed8caf039c5a0236a772cba28deacd7
+
+Package: boost
+Architecture: arm
+Installed-Size: 6404
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.68.0
+Description: Free peer-reviewed portable C++ source libraries
+Homepage: https://boost.org
+Breaks: libboost-python (<= 1.65.1-2)
+Depends: libbz2, liblzma
+Replaces: libboost-python (<= 1.65.1-2)
+Filename: dists/dom-dev/testing/binary-arm/boost_1.68.0_arm.deb
+Size: 1059580
+SHA256: acdd76bb035190586ee595b6bbbbb93a32d99f26fea2bc8edef38ca0285c61e3
 
 Package: brogue
 Architecture: arm
@@ -439,8 +465,8 @@ Homepage: https://busybox.net/
 Essential: yes
 Conflicts: coreutils (<< 8.25-4)
 Filename: dists/dom-dev/testing/binary-arm/busybox_1.29.2_arm.deb
-Size: 277920
-SHA256: b34698bb0c02e6ad3709af79426e2a3367c7ca8fa0d5f38f1faa2e15b5fcbd60
+Size: 277608
+SHA256: ebc89e064a46eae5ea362dbf4062682b632542fd10ff9b2377845a3cfb002b80
 
 Package: bvi
 Architecture: arm
@@ -920,6 +946,18 @@ Filename: dists/dom-dev/testing/binary-arm/dnsutils-dev_9.11.1-P3-1_arm.deb
 Size: 282772
 SHA256: 95897f2eea19b48b9a22c538ff3763e6e6bda8a824aa20cfc2ac4aaace751084
 
+Package: dnsutils-dev
+Architecture: arm
+Installed-Size: 2160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.12.2-P1-0
+Description: Development files for dnsutils
+Homepage: https://www.isc.org/downloads/bind/
+Depends: dnsutils
+Filename: dists/dom-dev/testing/binary-arm/dnsutils-dev_9.12.2-P1-0_arm.deb
+Size: 270660
+SHA256: 6827fac548e00495b05cf7169e934dfe7005b6ec5a1d573be1a6274815fb875c
+
 Package: dnsutils
 Architecture: arm
 Installed-Size: 2192
@@ -931,6 +969,18 @@ Depends: openssl, readline, resolv-conf
 Filename: dists/dom-dev/testing/binary-arm/dnsutils_9.11.1-P3-1_arm.deb
 Size: 841564
 SHA256: eb710991fb9b66fa24b0bc3c0c1db2264bf12a399a1926f7bf93d6dac0be01c0
+
+Package: dnsutils
+Architecture: arm
+Installed-Size: 2240
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.12.2-P1-0
+Description: Clients provided with BIND
+Homepage: https://www.isc.org/downloads/bind/
+Depends: openssl, readline, resolv-conf
+Filename: dists/dom-dev/testing/binary-arm/dnsutils_9.12.2-P1-0_arm.deb
+Size: 855712
+SHA256: f8c23e5bea44ce42784abe87dbbe05947f312a8fd428153df68e3e3c39392897
 
 Package: dos2unix
 Architecture: arm
@@ -1064,6 +1114,18 @@ Depends: openssl, ncurses, libutil
 Filename: dists/dom-dev/testing/binary-arm/erlang_21.0.4_arm.deb
 Size: 33226388
 SHA256: 5413c3d35591c673afbe7bdc22f9163cb7ee8f06d27c120a9e9358a4f199bccb
+
+Package: erlang
+Architecture: arm
+Installed-Size: 96956
+Maintainer: Fredrik Fornwall @fornwall
+Version: 21.0.5
+Description: General-purpose concurrent functional programming language developed by Ericsson
+Homepage: https://www.erlang.org/
+Depends: openssl, ncurses, libutil
+Filename: dists/dom-dev/testing/binary-arm/erlang_21.0.5_arm.deb
+Size: 33230952
+SHA256: 2f884d8fd3d452b7fc3b98e06f65d6a14fabd034fb0bdfa7b51b82a04b89730b
 
 Package: espeak-dev
 Architecture: arm
@@ -2751,6 +2813,18 @@ Filename: dists/dom-dev/testing/binary-arm/ledger-dev_3.1.1-4_arm.deb
 Size: 66268
 SHA256: 17fe1cb9267ab2bab7e3d3ba6498760411de44e544e31db18f85b44ca2514187
 
+Package: ledger-dev
+Architecture: arm
+Installed-Size: 588
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.1-5
+Description: Development files for ledger
+Homepage: http://ledger-cli.org/
+Depends: ledger
+Filename: dists/dom-dev/testing/binary-arm/ledger-dev_3.1.1-5_arm.deb
+Size: 66284
+SHA256: 5c225d8dddf7369b84f291e0cd3415f69bb7e8776ecd4ca1eae511cbe490e0e7
+
 Package: ledger
 Architecture: arm
 Installed-Size: 2692
@@ -2762,6 +2836,18 @@ Depends: boost, libedit, libmpfr, utf8cpp, libgmp
 Filename: dists/dom-dev/testing/binary-arm/ledger_3.1.1-4_arm.deb
 Size: 715248
 SHA256: 34f4c7dfe14c359845d2dcbf82a3f1f8758f19e5ef1930db4428f1033ca32e64
+
+Package: ledger
+Architecture: arm
+Installed-Size: 2692
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.1-5
+Description: Powerful, double-entry accounting system
+Homepage: http://ledger-cli.org/
+Depends: boost, libedit, libmpfr, utf8cpp, libgmp
+Filename: dists/dom-dev/testing/binary-arm/ledger_3.1.1-5_arm.deb
+Size: 715124
+SHA256: 82c4b88a81e18dfcf2e8cab9aae340a31f3554df893db81b03f7c4bc63a51ec3
 
 Package: leptonica-dev
 Architecture: arm
@@ -3411,6 +3497,18 @@ Filename: dists/dom-dev/testing/binary-arm/libgc-dev_7.6.6_arm.deb
 Size: 49688
 SHA256: 9328272caeca0a2094025fd38985389326344b9eb7039c42a0585bd23801961e
 
+Package: libgc-dev
+Architecture: arm
+Installed-Size: 332
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.6.8
+Description: Development files for libgc
+Homepage: http://www.hboehm.info/gc/
+Depends: libgc
+Filename: dists/dom-dev/testing/binary-arm/libgc-dev_7.6.8_arm.deb
+Size: 51732
+SHA256: 432df11813a4f3582edef6427257be3cb6b8998060d0185c32ea6031fd0d144f
+
 Package: libgc
 Architecture: arm
 Installed-Size: 160
@@ -3421,6 +3519,17 @@ Homepage: http://www.hboehm.info/gc/
 Filename: dists/dom-dev/testing/binary-arm/libgc_7.6.6_arm.deb
 Size: 59016
 SHA256: cd5a8a437c33b25778a5d545b550b57defeaacea4f7c9e72fe5c299bc94a4d3b
+
+Package: libgc
+Architecture: arm
+Installed-Size: 160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.6.8
+Description: Library providing the Boehm-Demers-Weiser conservative garbage collector
+Homepage: http://www.hboehm.info/gc/
+Filename: dists/dom-dev/testing/binary-arm/libgc_7.6.8_arm.deb
+Size: 59112
+SHA256: 53ecd363167b3aaea3d03c1503951a2224dd6ad79ab0e4b69d731c8d6ce3d11b
 
 Package: libgcrypt-dev
 Architecture: arm
@@ -5401,6 +5510,18 @@ Filename: dists/dom-dev/testing/binary-arm/lighttpd_1.4.49_arm.deb
 Size: 198048
 SHA256: 705dc6e5ae3931fe00e89c89df300945ce5349b88acbb307946c6db2842ad7aa
 
+Package: lighttpd
+Architecture: arm
+Installed-Size: 752
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.50
+Description: Fast webserver with minimal memory footprint
+Homepage: http://www.lighttpd.net
+Depends: libbz2, openssl, pcre, libcrypt, libandroid-glob
+Filename: dists/dom-dev/testing/binary-arm/lighttpd_1.4.50_arm.deb
+Size: 202788
+SHA256: 72d5aa4da5714cf0d6bfa463e488f9f211e9d8a9b4d3dadcfecdd76d5ae59760
+
 Package: littlecms-dev
 Architecture: arm
 Installed-Size: 172
@@ -5982,6 +6103,18 @@ Depends: fftw, boost, readline, libcurl, libmpdclient, ncurses
 Filename: dists/dom-dev/testing/binary-arm/ncmpcpp_0.8.2-2_arm.deb
 Size: 420656
 SHA256: 84b9f08ab4da0169801e20549b4e09b5933f0893d293a8bb96caddfa0d251f6f
+
+Package: ncmpcpp
+Architecture: arm
+Installed-Size: 1624
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.8.2-3
+Description: NCurses Music Player Client (Plus Plus)
+Homepage: https://rybczak.net/ncmpcpp/
+Depends: fftw, boost, readline, libcurl, libmpdclient, ncurses
+Filename: dists/dom-dev/testing/binary-arm/ncmpcpp_0.8.2-3_arm.deb
+Size: 421616
+SHA256: 6ade7750a88c8e6a11341089eace0a5b1757bb8d52734c4a55d94551304dbb3e
 
 Package: ncurses-dev
 Architecture: arm
@@ -6851,6 +6984,30 @@ Filename: dists/dom-dev/testing/binary-arm/procps_3.3.15_arm.deb
 Size: 190488
 SHA256: b5804ddfd1892b52add6ecde5203437d2d5aa8e0998f87b9a158ee4f55c837cc
 
+Package: profanity-dev
+Architecture: arm
+Installed-Size: 36
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 0.5.1-1
+Description: Development files for profanity
+Homepage: http://profanity.im
+Depends: profanity
+Filename: dists/dom-dev/testing/binary-arm/profanity-dev_0.5.1-1_arm.deb
+Size: 2596
+SHA256: ff92f32a5ca9a0f66be2a504148a4acb66fdf88f7c80331594d1e416298c3d5b
+
+Package: profanity
+Architecture: arm
+Installed-Size: 828
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 0.5.1-1
+Description: Profanity is a console based XMPP client written in C using ncurses and libstrophe, inspired by Irssi
+Homepage: http://profanity.im
+Depends: libandroid-support,ncurses,glib,libmesode,libcurl,readline,libuuid,libotr,gpgme,python
+Filename: dists/dom-dev/testing/binary-arm/profanity_0.5.1-1_arm.deb
+Size: 205232
+SHA256: 383c75e0fc7e62095853b1bbd90ad843522d0d22846e1b4c9d5fcfd44eff7143
+
 Package: proot
 Architecture: arm
 Installed-Size: 188
@@ -6994,6 +7151,18 @@ Filename: dists/dom-dev/testing/binary-arm/qalc-dev_2.6.1_arm.deb
 Size: 46460
 SHA256: 6569c9f76dff9365750f0b91db3b30b428393e6f166e5e69e493dfc0df7a86c0
 
+Package: qalc-dev
+Architecture: arm
+Installed-Size: 332
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.6.2
+Description: Development files for qalc
+Homepage: https://qalculate.github.io/
+Depends: qalc
+Filename: dists/dom-dev/testing/binary-arm/qalc-dev_2.6.2_arm.deb
+Size: 46656
+SHA256: 9ac8c6519f77a88628014c08859b65a323540eca150385323e5e07a7738b33f2
+
 Package: qalc
 Architecture: arm
 Installed-Size: 3444
@@ -7005,6 +7174,18 @@ Depends: libcurl, libmpfr, libxml2, readline, libgmp
 Filename: dists/dom-dev/testing/binary-arm/qalc_2.6.1_arm.deb
 Size: 987692
 SHA256: 8e6408d7a509af6444e4602e7555e894777a8014b4a78172ff260e587c913ab9
+
+Package: qalc
+Architecture: arm
+Installed-Size: 3460
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.6.2
+Description: Powerful and easy to use command line calculator
+Homepage: https://qalculate.github.io/
+Depends: libcurl, libmpfr, libxml2, readline, libgmp
+Filename: dists/dom-dev/testing/binary-arm/qalc_2.6.2_arm.deb
+Size: 990600
+SHA256: 4a9408e446c1c8fa3ded776d65c325764184d8f68d4cd3ca791b8a0bfb68ee30
 
 Package: qpdf-dev
 Architecture: arm
@@ -7948,6 +8129,18 @@ Filename: dists/dom-dev/testing/binary-arm/tty-solitaire_1.0.0_arm.deb
 Size: 7032
 SHA256: cbac89878d3b61a0205439ece675360ae249ecbaf8a93ab1cd7176ed6625dbb4
 
+Package: tty-solitaire
+Architecture: arm
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.0
+Description: Klondike solitaire game
+Homepage: https://github.com/mpereira/tty-solitaire
+Depends: ncurses
+Filename: dists/dom-dev/testing/binary-arm/tty-solitaire_1.1.0_arm.deb
+Size: 7052
+SHA256: 483f6db82a90d6dde6fa55bbf722d58cbd0b9082bb501f43a9803c6d89bc20fc
+
 Package: ttyrec
 Architecture: arm
 Installed-Size: 84
@@ -8183,6 +8376,17 @@ Homepage: http://invisible-island.net/vttest/
 Filename: dists/dom-dev/testing/binary-arm/vttest_20140305-1_arm.deb
 Size: 71912
 SHA256: 35143d8ff6a73ef7a16a17821df0285983f5d004ef490e8187473aac57f7dcd0
+
+Package: vttest
+Architecture: arm
+Installed-Size: 212
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180811
+Description: Program for testing the VT100 compatibility of terminal emulators
+Homepage: http://invisible-island.net/vttest/
+Filename: dists/dom-dev/testing/binary-arm/vttest_20180811_arm.deb
+Size: 71932
+SHA256: 3cc723173463c583f6139c486ced963f4954336144ed7067dd538f69f07790e9
 
 Package: vtutils
 Architecture: arm
