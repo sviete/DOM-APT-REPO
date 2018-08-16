@@ -105,6 +105,9 @@ for arch in encountered_arches:
             scanpackages_output += '\nSize: ' + str(os.stat(deb_to_read_path).st_size)
             scanpackages_output += '\nSHA256: ' + hashlib.sha256(open(deb_to_read_path, 'rb').read()).hexdigest()
             print(scanpackages_output, file=packages_file)
+            print("DEBUG: " + str(packages_file_path) + "/" + str(f))
+            print("DEBUG: " + 'Size: ' + str(os.stat(deb_to_read_path).st_size))
+            print("DEBUG: " + 'SHA256: ' + hashlib.sha256(open(deb_to_read_path, 'rb').read()).hexdigest())
 
     # Create Packages.xz
     subprocess.check_call(['rm -f ' + packagesxz_file_path + '; xz -9 --keep ' + packages_file_path], shell=True, universal_newlines=True)

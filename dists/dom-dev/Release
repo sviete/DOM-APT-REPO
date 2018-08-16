@@ -1,11 +1,13 @@
 Codename: dom-dev
 Version: 1
-Architectures: arm all
+Architectures: aarch64 arm all
 Description: Dev repository
 Suite: dom-dev
-Date: Wed, 15 Aug 2018 10:50:01 UTC
+Date: Thu, 16 Aug 2018 07:08:45 UTC
 SHA256:
+ fb5cd5d98f95bb1e28b5d8e09ed39eed4eaa92338090f0de9f0bb413346a3484 268819 testing/binary-aarch64/Packages
+ 2bd0856495d2410b2344ee7ec523c7e88d02ae2b0674002406c8889e57cfd87e 58120 testing/binary-aarch64/Packages.xz
  f9119b6ffc9b250728a53ce3168dddaf0e1ef337d85e296f7b47959c0f432477 288644 testing/binary-arm/Packages
  c53c731bda5c5f3524d006802aa5d9fdd7e847653545d5092612d2b4603e3597 63328 testing/binary-arm/Packages.xz
- baf5090280b6c6bffba4e2dff469ec6244b7dd9a4a7f9f6632655d8a309291c9 16817 testing/binary-all/Packages
- cdd903b66fafd3d0994b4908ff6b3eae08f11d4b4afd00122af5bbdc35896320 5040 testing/binary-all/Packages.xz
+ 8347fec5d18ecf2299ec2dfbe33dbac1f355f3c964308b6707a6b138c579510f 16817 testing/binary-all/Packages
+ c44619079d79a44666c2689fa70342a0c133c494b902df4bf8948d361e2cd2ab 5040 testing/binary-all/Packages.xz
