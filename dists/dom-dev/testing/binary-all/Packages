@@ -18,8 +18,8 @@ Version: 0.7-1
 Description: APK signing tool
 Homepage: https://github.com/fornwall/apksigner
 Filename: dists/dom-dev/testing/binary-all/apksigner_0.7-1_all.deb
-Size: 1474324
-SHA256: 786e707efcdbf31001536425cf8b758e4e4be3d125bf1253f2c5c527c386f233
+Size: 1474360
+SHA256: 87bfb083b6d5ab0d07330503937459c2fb522ffc163a6c0ebdd91c5f20402138
 
 Package: apt-transport-tor
 Architecture: all
@@ -113,8 +113,8 @@ Version: 20180620
 Description: Common CA certificates (java keystore format)
 Homepage: https://curl.haxx.se/docs/caextract.html
 Filename: dists/dom-dev/testing/binary-all/ca-certificates-java_20180620_all.deb
-Size: 105680
-SHA256: ebc7e2c81c3139dadfa75513de3d9feec3bcbd1ac0210312cfb6525290c9600f
+Size: 105688
+SHA256: 6bd9a1613f2c75d25a7e0f5b55a25e120a54c9933fc9601a9cbbfe7bf6aaa0c7
 
 Package: ca-certificates
 Architecture: all
@@ -124,8 +124,8 @@ Version: 20180620
 Description: Common CA certificates
 Homepage: https://curl.haxx.se/docs/caextract.html
 Filename: dists/dom-dev/testing/binary-all/ca-certificates_20180620_all.deb
-Size: 116552
-SHA256: 8085e0cf675c01f6f6aa110cd0e8f644c704fe95618f72b08a7de80c0d8d2521
+Size: 116564
+SHA256: 30f1e0ce70de3c1eba42beec9bded7f41f2a2b4e538fd1b64ce0aa9abc2b8e9a
 
 Package: colordiff
 Architecture: all
@@ -172,7 +172,7 @@ Description: Command which takes in class files and reformulates them for usage 
 Homepage: http://developer.android.com/tools/help/index.html
 Filename: dists/dom-dev/testing/binary-all/dx_28.0.1_all.deb
 Size: 327816
-SHA256: 457aa0d0a3cd6dbdbace17cc546d09f93b49c4fbf94770f25beb8b258140258f
+SHA256: 035e0a77f82133de0e556e0098f73ad157bc66e453b2804818107c3694eb79ad
 
 Package: ecj
 Architecture: all
@@ -182,8 +182,8 @@ Version: 4.7.2
 Description: Eclipse Compiler for Java
 Homepage: http://www.eclipse.org/jdt/core/
 Filename: dists/dom-dev/testing/binary-all/ecj_4.7.2_all.deb
-Size: 6392724
-SHA256: d7ffb8e7fcb6ff16bbe3ce703a7f730555c75879ebfdaea24ce274a9805c3875
+Size: 6390632
+SHA256: dd7e9d0cdc2efdb787fd4d73ad690d72638969364f8d78b861fc5dd23c3e92b1
 
 Package: getmail
 Architecture: all
@@ -194,8 +194,8 @@ Description: fetchmail replacement relatively easy to configure
 Homepage: http://pyropus.ca/software/getmail/
 Depends: python2
 Filename: dists/dom-dev/testing/binary-all/getmail_5.6_all.deb
-Size: 51540
-SHA256: db3a9186cf386b8f777a98dc52e0500490319ae499bdfed5a21d75c2c4bbf33e
+Size: 51524
+SHA256: 665abffba7eabc5db7ddd2f89b0d6a268a0d12a50cf1ec85647ab17f5b14bad2
 
 Package: hunspell-en-us
 Architecture: all
@@ -205,8 +205,8 @@ Version: 2017.10.27
 Description: American english dictionary for hunspell
 Homepage: https://hunspell.github.io
 Filename: dists/dom-dev/testing/binary-all/hunspell-en-us_2017.10.27_all.deb
-Size: 160492
-SHA256: 65e0d1a0aee61d28334d806b5e0c36817722249e221fd05288c1635a9b5592e9
+Size: 160444
+SHA256: 2ff2d6d6c559e2c768f29f6c908553fd673d3a32c0f0e9d935ecfd4a2c89c09f
 
 Package: hunspell-ru
 Architecture: all
@@ -216,8 +216,8 @@ Version: 2017.03.03
 Description: Russian dictionary for hunspell
 Homepage: https://hunspell.github.io
 Filename: dists/dom-dev/testing/binary-all/hunspell-ru_2017.03.03_all.deb
-Size: 421584
-SHA256: cc6c4eb782262c231083d9007158adbad17992933996e3b86c75011dc547c34c
+Size: 421452
+SHA256: f5036fbb844aeac1d2f7307e18be2b363f39bbf7ec5460e57626f2cb0de53b7f
 
 Package: linux-man-pages
 Architecture: all
@@ -252,8 +252,8 @@ Description: MIME type associations for file types
 Homepage: https://packages.debian.org/en/stretch/mime-support
 Conflicts: mutt (<< 1.8.3-1)
 Filename: dists/dom-dev/testing/binary-all/mime-support_3.61_all.deb
-Size: 7496
-SHA256: 93d1ef6d8406d9fc954356d060d4adcb11f89c41232bfd374b1f62a1e4fd7d97
+Size: 7488
+SHA256: caa66a0548b844ee97af924e1e86b9d709aa89234ddb7d3807a700e4dc90c817
 
 Package: ndk-multilib
 Architecture: all
@@ -264,7 +264,7 @@ Description: Multilib binaries for cross-compilation
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Filename: dists/dom-dev/testing/binary-all/ndk-multilib_17-3_all.deb
 Size: 3286676
-SHA256: 60444ceac637e93870c7764af89d330b1104d169a6299c9e19dce8fcffa04406
+SHA256: daf14611f4d5cfbd4af6ba55b9ed7d593a10f01e3e00cbb5ff81cb1feb397f91
 
 Package: neofetch
 Architecture: all
@@ -300,8 +300,8 @@ Homepage: htts://github.com/tadfisher/pass-otp
 Depends: pass, oathtool
 Suggests: libqrencode
 Filename: dists/dom-dev/testing/binary-all/pass-otp_1.1.1_all.deb
-Size: 5620
-SHA256: f10c97331898511a8516a48811d7defc8f6baeb969b593edba7a63d2b6a222c8
+Size: 5628
+SHA256: a3f559a8719cd81397d94c00f220221dd4cb73c67b9462c2b31b5892bee4d5de
 
 Package: pass
 Architecture: all
@@ -398,8 +398,8 @@ Description: Android Oreo-compatible am command reimplementation
 Homepage: https://github.com/michalbednarski/TermuxAm
 Conflicts: termux-tools (<< 0.51)
 Filename: dists/dom-dev/testing/binary-all/termux-am_0.3_all.deb
-Size: 17024
-SHA256: 0788a2b2f6a0df08642899c47a9e8750b03a3f201f185d2b9fda336a06658fae
+Size: 17016
+SHA256: 9126a4736b7287f26770472ff19db1d03d9a9f8b70239a83a307d293c339aa01
 
 Package: termux-apt-repo
 Architecture: all
@@ -448,8 +448,8 @@ Homepage: https://www.tug.org/texlive/tlmgr.html
 Depends: perl, wget, gnupg (>= 2.2.9-1), xz-utils, texlive
 Conflicts: texlive (<< 20180414-1)
 Filename: dists/dom-dev/testing/binary-all/texlive-tlmgr_20180414-2_all.deb
-Size: 367340
-SHA256: 1fa84360d6849ee9f77b176bfc9cca7ddbb6737dfe135872d2c8849aca918eb9
+Size: 367368
+SHA256: d6d0b103c6fce6631dd85eff781b5095607b4f8796fdb2e5412853bc72166011
 
 Package: texlive
 Architecture: all
@@ -462,8 +462,8 @@ Depends: perl, texlive-bin (>= 20180414)
 Conflicts: texlive (<< 20170524-5), texlive-bin (<< 20180414)
 Recommends: texlive-tlmgr
 Filename: dists/dom-dev/testing/binary-all/texlive_20180414-1_all.deb
-Size: 6473472
-SHA256: bd5ff35cca72e914592be7c4462745c63aa0f9b1d2cb38e0d0c323cb1e84e56f
+Size: 6482896
+SHA256: 29fb8b13573ec688dc9642e62dd2b62792f58540b72090a238d34883e93bd282
 
 Package: tsu
 Architecture: all
@@ -473,8 +473,8 @@ Version: 2.0
 Description: A su wrapper for Termux
 Homepage: https://github.com/cswl/tsu
 Filename: dists/dom-dev/testing/binary-all/tsu_2.0_all.deb
-Size: 2316
-SHA256: 636c31a9cea76ef09427feb4fe4478a9e4b278184e453e6af1db62478ff41ef4
+Size: 2312
+SHA256: 3acc353244ea5729fe062bae1b947f4eba8955e3e95e80f21e638a35266ed609
 
 Package: vcsh
 Architecture: all
@@ -496,8 +496,8 @@ Version: 8.1.0250
 Description: Vi IMproved - Runtime files
 Homepage: http://www.vim.org/
 Filename: dists/dom-dev/testing/binary-all/vim-runtime_8.1.0250_all.deb
-Size: 3895228
-SHA256: d0b5e33d3cb36a715322e2e66032d878ee6127687c4c27e0650dee2e512d3523
+Size: 3895788
+SHA256: d5271f4674149d543a9dde8638ccd925360f0a968a835851666289dc71952e7b
 
 Package: yarn
 Architecture: all

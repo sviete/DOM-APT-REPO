@@ -214,6 +214,18 @@ Filename: dists/dom-dev/testing/binary-aarch64/autossh_1.4f_aarch64.deb
 Size: 13444
 SHA256: 6db487d291df9409cc6797ab4960d6121c46ead4c374add0c0e8ba4b6b627b85
 
+Package: axel
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: lokesh @hax4us
+Version: 2.16.1
+Description: light command line download accelerator
+Homepage: https://github.com/axel-download-accelerator/axel
+Depends: openssl
+Filename: dists/dom-dev/testing/binary-aarch64/axel_2.16.1_aarch64.deb
+Size: 20824
+SHA256: df4055d306507026c9fe49d31045531a381f765c03dfdff290c3eecd8296fa1f
+
 Package: babl-dev
 Architecture: aarch64
 Installed-Size: 84
@@ -332,6 +344,32 @@ Filename: dists/dom-dev/testing/binary-aarch64/bmon_4.0-2_aarch64.deb
 Size: 31496
 SHA256: 21417fe0833975fa8eb83cc659d562d0d1515c7fea6eaeb1003f358c280a01a4
 
+Package: boost-dev
+Architecture: aarch64
+Installed-Size: 155512
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.68.0
+Description: Development files for boost
+Homepage: https://boost.org
+Depends: boost
+Filename: dists/dom-dev/testing/binary-aarch64/boost-dev_1.68.0_aarch64.deb
+Size: 8173024
+SHA256: f1af0338511582f88baea88425ca7194c25aadc66e04865137fc55527d0e01eb
+
+Package: boost
+Architecture: aarch64
+Installed-Size: 9776
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.68.0
+Description: Free peer-reviewed portable C++ source libraries
+Homepage: https://boost.org
+Breaks: libboost-python (<= 1.65.1-2)
+Depends: libbz2, liblzma
+Replaces: libboost-python (<= 1.65.1-2)
+Filename: dists/dom-dev/testing/binary-aarch64/boost_1.68.0_aarch64.deb
+Size: 1234756
+SHA256: d11ce857b5a017005a76bcfcd418255f4921849aa40dbd310561c06012d72237
+
 Package: brogue
 Architecture: aarch64
 Installed-Size: 892
@@ -366,6 +404,18 @@ Homepage: https://github.com/google/brotli
 Filename: dists/dom-dev/testing/binary-aarch64/brotli_1.0.5_aarch64.deb
 Size: 244016
 SHA256: 1f3887670a7e54387eff6128e1c2766897eeec38656c2873e2e4b3a6de316af4
+
+Package: bs1770gain
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 0.4.12-3
+Description: Tool to normalize the loudness of different audio files to the same level
+Homepage: http://bs1770gain.sourceforge.net/
+Depends: ffmpeg, sox
+Filename: dists/dom-dev/testing/binary-aarch64/bs1770gain_0.4.12-3_aarch64.deb
+Size: 26980
+SHA256: e914d8ba0801571fe9a8605bb398148d9bcacf0a864835b43cf85055d7cd5d7e
 
 Package: bsdtar
 Architecture: aarch64
@@ -462,6 +512,18 @@ Depends: libandroid-support, ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/calcurse_4.3.0_aarch64.deb
 Size: 80444
 SHA256: 73be71454499d96773846af4887c455e8cb73819decf8a239558cd4af0178829
+
+Package: cava
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 0.6.1-1
+Description: Console-based Audio Visualizer. Works with MPD and Pulseaudio
+Homepage: https://github.com/karlstav/cava
+Depends: ncurses,fftw,libpulseaudio
+Filename: dists/dom-dev/testing/binary-aarch64/cava_0.6.1-1_aarch64.deb
+Size: 18828
+SHA256: 032932b594595f8ae00a57ddb63af4be4ae44513cc3f61ce66a8e09b2d63fe27
 
 Package: cboard
 Architecture: aarch64
@@ -580,6 +642,18 @@ Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/cmatrix_1.2b_aarch64.deb
 Size: 6324
 SHA256: cc1bb645d803654016da2c320c1b6b15e79534557d48a14a506dc85a3801544b
+
+Package: cmus
+Architecture: aarch64
+Installed-Size: 616
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7.1-3
+Description: Small, fast and powerful console music player
+Homepage: https://cmus.github.io/
+Depends: libandroid-support, ncurses, libflac, libmad, libvorbis, opusfile, libcue, libpulseaudio
+Filename: dists/dom-dev/testing/binary-aarch64/cmus_2.7.1-3_aarch64.deb
+Size: 135604
+SHA256: a6019029304d0db1bd3df6cafc7ffdcd07d51ef29fca56e7f1cd8d62c3c2e8f8
 
 Package: command-not-found
 Architecture: aarch64
@@ -1014,6 +1088,30 @@ Filename: dists/dom-dev/testing/binary-aarch64/espeak_1.49.2-1_aarch64.deb
 Size: 2159244
 SHA256: eb4fc635e4a6d8e9a493e9eed202b09eddac332150e1b004bd84e5113d582326
 
+Package: expect-dev
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.45.4
+Description: Development files for expect
+Homepage: https://core.tcl.tk/expect/index
+Depends: expect
+Filename: dists/dom-dev/testing/binary-aarch64/expect-dev_5.45.4_aarch64.deb
+Size: 13932
+SHA256: 3969aafc2eab5738300900ae142ebd7819bdd3243ad8c5d513d48505bee14f43
+
+Package: expect
+Architecture: aarch64
+Installed-Size: 340
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.45.4
+Description: Tool for automating interactive terminal applications
+Homepage: https://core.tcl.tk/expect/index
+Depends: libutil, tcl
+Filename: dists/dom-dev/testing/binary-aarch64/expect_5.45.4_aarch64.deb
+Size: 88624
+SHA256: 7619fe2fed34452a5ef55ea6b92933ed24732ea6f84240356db38f7c63ec754a
+
 Package: fdupes
 Architecture: aarch64
 Installed-Size: 76
@@ -1323,6 +1421,30 @@ Filename: dists/dom-dev/testing/binary-aarch64/fsmon_1.5_aarch64.deb
 Size: 7544
 SHA256: 55ae60fc72547638fce96c924135355460ecd300eafe7df3afdec0c881f4f93d
 
+Package: fwknop-dev
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.6.10
+Description: Development files for fwknop
+Homepage: http://www.cipherdyne.org/fwknop/
+Depends: fwknop
+Filename: dists/dom-dev/testing/binary-aarch64/fwknop-dev_2.6.10_aarch64.deb
+Size: 10864
+SHA256: 589f38c57b84d05f883c731753a7e20ea0b8e3d7e5f10aac1337bb14946f7052
+
+Package: fwknop
+Architecture: aarch64
+Installed-Size: 268
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.6.10
+Description: fwknop: Single Packet Authorization > Port Knocking
+Homepage: http://www.cipherdyne.org/fwknop/
+Depends: gpgme
+Filename: dists/dom-dev/testing/binary-aarch64/fwknop_2.6.10_aarch64.deb
+Size: 65524
+SHA256: 70a7fee4b3cca7f21a3b3c9a8f1d47c5277579b3b5a085ac0701e77e47fabc79
+
 Package: fzf
 Architecture: aarch64
 Installed-Size: 2968
@@ -1453,6 +1575,30 @@ Filename: dists/dom-dev/testing/binary-aarch64/gdk-pixbuf_2.36.12_aarch64.deb
 Size: 91752
 SHA256: 10ffba39ee63665b188f3f030b2aef26f495aa136eea50b62c6f64a436a48d7d
 
+Package: gegl-dev
+Architecture: aarch64
+Installed-Size: 664
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.6
+Description: Development files for gegl
+Homepage: http://gegl.org/
+Depends: gegl
+Filename: dists/dom-dev/testing/binary-aarch64/gegl-dev_0.4.6_aarch64.deb
+Size: 65524
+SHA256: 4a9bca511c31e5f1767dd2f22452ba9f4fbe05f24c4f4213923d928d78667dbf
+
+Package: gegl
+Architecture: aarch64
+Installed-Size: 2744
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.6
+Description: Data flow based image processing framework
+Homepage: http://gegl.org/
+Depends: libandroid-support, ffmpeg, babl, json-glib, libjpeg-turbo, libpng, libjasper, littlecms, libtiff, librsvg
+Filename: dists/dom-dev/testing/binary-aarch64/gegl_0.4.6_aarch64.deb
+Size: 562496
+SHA256: 72cc0358023bef606bc9d748f040dca8797a5aac2f56261ba02d384dd687825a
+
 Package: getconf
 Architecture: aarch64
 Installed-Size: 60
@@ -1559,6 +1705,18 @@ Filename: dists/dom-dev/testing/binary-aarch64/glib_2.56.1-1_aarch64.deb
 Size: 1704304
 SHA256: 33e692cd796bef40b4dc6fd7be801ffb1d8d5b2887391cc41018133e8b8f617b
 
+Package: global
+Architecture: aarch64
+Installed-Size: 1976
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.6.2
+Description: Source code search and browse tools
+Homepage: https://www.gnu.org/software/global/
+Depends: coreutils, ncurses, libltdl
+Filename: dists/dom-dev/testing/binary-aarch64/global_6.6.2_aarch64.deb
+Size: 355768
+SHA256: deb7823c69b9f1dbe939bc6ae33a90b2e77ee4932183b5b53867e84c8e146fdc
+
 Package: glulxe
 Architecture: aarch64
 Installed-Size: 296
@@ -1632,6 +1790,18 @@ Replaces: gnupg2 (<< 2.2.9-1)
 Filename: dists/dom-dev/testing/binary-aarch64/gnupg_2.2.9-2_aarch64.deb
 Size: 773344
 SHA256: ed86fb2b86e347caf98a64575999c36d2e986503647e0107d50673396631dcff
+
+Package: gnuplot
+Architecture: aarch64
+Installed-Size: 1568
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.2.4
+Description: Command-line driven graphing utility
+Homepage: http://gnuplot.info/
+Depends: libandroid-support, readline, pango, libgd
+Filename: dists/dom-dev/testing/binary-aarch64/gnuplot_5.2.4_aarch64.deb
+Size: 483604
+SHA256: 35707a89fa34484ccc17eb1d0c774940797023a26f01c72fd47b46c55ac79cf7
 
 Package: gnushogi
 Architecture: aarch64
@@ -1800,6 +1970,30 @@ Filename: dists/dom-dev/testing/binary-aarch64/graphicsmagick_1.3.30-1_aarch64.d
 Size: 858388
 SHA256: 2dc5b7efcd2f651ca2893fd78d1ff1699f834053c7bcc335fb0571d1c5b9deef
 
+Package: graphviz-dev
+Architecture: aarch64
+Installed-Size: 380
+Maintainer: Dustin DeWeese @HackerFoo
+Version: 2.40.1-4
+Description: Development files for graphviz
+Homepage: https://www.graphviz.org/
+Depends: graphviz
+Filename: dists/dom-dev/testing/binary-aarch64/graphviz-dev_2.40.1-4_aarch64.deb
+Size: 50920
+SHA256: dce856f2682891d4dbfd388735b828b284a15f47951ce3e8453adc5ee6efa211
+
+Package: graphviz
+Architecture: aarch64
+Installed-Size: 12428
+Maintainer: Dustin DeWeese @HackerFoo
+Version: 2.40.1-4
+Description: Rich set of graph drawing tools
+Homepage: https://www.graphviz.org/
+Depends: libandroid-glob,libcairo,pango,libexpat,libltdl,librsvg,libgd
+Filename: dists/dom-dev/testing/binary-aarch64/graphviz_2.40.1-4_aarch64.deb
+Size: 4428708
+SHA256: a2f639a7d4f2a26a01d6d1b307580b89d26c59d306b5fefa643e12cfe41ca15a
+
 Package: greed
 Architecture: aarch64
 Installed-Size: 68
@@ -1847,6 +2041,30 @@ Filename: dists/dom-dev/testing/binary-aarch64/gsl_2.5_aarch64.deb
 Size: 537016
 SHA256: e57887bfe1b12daa456287a6a52a2f33bf7b427ea8b134594117f62f65a94c42
 
+Package: gst-plugins-bad-dev
+Architecture: aarch64
+Installed-Size: 680
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.14.2
+Description: Development files for gst-plugins-bad
+Homepage: https://gstreamer.freedesktop.org/
+Depends: gst-plugins-bad
+Filename: dists/dom-dev/testing/binary-aarch64/gst-plugins-bad-dev_1.14.2_aarch64.deb
+Size: 69412
+SHA256: e965d37e428b6cf7f94ca4fc5ee42c15b37ab0041125b5ce45dd8c026f8479a3
+
+Package: gst-plugins-bad
+Architecture: aarch64
+Installed-Size: 4508
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.14.2
+Description: GStreamer Bad Plug-ins
+Homepage: https://gstreamer.freedesktop.org/
+Depends: gst-plugins-base, libx264, libbz2, libpng, librsvg, libcurl, libx265, libsndfile, openjpeg, openal-soft, littlecms
+Filename: dists/dom-dev/testing/binary-aarch64/gst-plugins-bad_1.14.2_aarch64.deb
+Size: 947056
+SHA256: 76ccd334ec42ae6d3221a15b1044d265b2b8296ed0ee06f56ac3280fce38f4cc
+
 Package: gst-plugins-base-dev
 Architecture: aarch64
 Installed-Size: 1492
@@ -1870,6 +2088,30 @@ Depends: gstreamer, libjpeg-turbo, libopus, libpng, libvorbis
 Filename: dists/dom-dev/testing/binary-aarch64/gst-plugins-base_1.14.2_aarch64.deb
 Size: 939220
 SHA256: 728d119bd56e781b0f352fa1cba6384d249a94030e06a16c0abc3c96aa2b5981
+
+Package: gst-plugins-good
+Architecture: aarch64
+Installed-Size: 4004
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.14.2
+Description: GStreamer Good Plug-ins
+Homepage: https://gstreamer.freedesktop.org/
+Depends: gst-plugins-base,libcaca,libsoup,libjpeg-turbo,libpng,libflac,libbz2,libvpx,libpulseaudio,libmp3lame
+Filename: dists/dom-dev/testing/binary-aarch64/gst-plugins-good_1.14.2_aarch64.deb
+Size: 965384
+SHA256: b0b45e3193dc30da699e0241f72d45bcfad6dab82b55c06c407edf9ed3f8a1ee
+
+Package: gst-plugins-ugly
+Architecture: aarch64
+Installed-Size: 424
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.14.2
+Description: GStreamer Ugly Plug-ins
+Homepage: https://gstreamer.freedesktop.org/
+Depends: gst-plugins-base, libx264
+Filename: dists/dom-dev/testing/binary-aarch64/gst-plugins-ugly_1.14.2_aarch64.deb
+Size: 101852
+SHA256: a7908f4cedae4b0c2054f8e12866622ecd5eee28f7b2c6fbd6b16b17e0b7584b
 
 Package: gstreamer-dev
 Architecture: aarch64
@@ -2118,6 +2360,42 @@ Depends: libicu
 Filename: dists/dom-dev/testing/binary-aarch64/icu-devtools_62.1-1_aarch64.deb
 Size: 150460
 SHA256: 8c03ed087419d9ac399aafc9c2150a3db5e0963f39a9b4f6e302b3cb7a1f07ff
+
+Package: imagemagick-dev
+Architecture: aarch64
+Installed-Size: 820
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.8.9
+Description: Development files for imagemagick
+Homepage: https://www.imagemagick.org/
+Depends: imagemagick
+Filename: dists/dom-dev/testing/binary-aarch64/imagemagick-dev_7.0.8.9_aarch64.deb
+Size: 59392
+SHA256: 6fa7b2d022e6a9c89e769dcad548e30da6517d07c575f36856c9d23a8645d675
+
+Package: imagemagick
+Architecture: aarch64
+Installed-Size: 4864
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.8.9
+Description: Suite to create, edit, compose, or convert images in a variety of formats
+Homepage: https://www.imagemagick.org/
+Depends: fftw, pango, glib, libbz2, libjpeg-turbo, liblzma, libpng, libtiff, libxml2, openjpeg, littlecms
+Filename: dists/dom-dev/testing/binary-aarch64/imagemagick_7.0.8.9_aarch64.deb
+Size: 1142072
+SHA256: 68b3aaa6187cfcff8d2dbbb21ce9055af760852cb97fff7e3bbf5bc08ff6bfa8
+
+Package: imgflo
+Architecture: aarch64
+Installed-Size: 240
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.2-1
+Description: HTTP image processing server & Flowhub.io compatible runtime
+Homepage: https://www.imgflo.org/
+Depends: gegl, libsoup
+Filename: dists/dom-dev/testing/binary-aarch64/imgflo_0.4.2-1_aarch64.deb
+Size: 34728
+SHA256: 447447e27dd3ef1bcd01ab4f8388b06c3eba52f20f06b249d5dedfe55bf8ed17
 
 Package: indent
 Architecture: aarch64
@@ -2448,6 +2726,30 @@ Depends: openssl
 Filename: dists/dom-dev/testing/binary-aarch64/ldns_1.7.0-4_aarch64.deb
 Size: 85568
 SHA256: 91450aa798813939ab3464a5eaa213cb5f25da05eb7abb10e2cabeace47908ce
+
+Package: ledger-dev
+Architecture: aarch64
+Installed-Size: 588
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.1-5
+Description: Development files for ledger
+Homepage: http://ledger-cli.org/
+Depends: ledger
+Filename: dists/dom-dev/testing/binary-aarch64/ledger-dev_3.1.1-5_aarch64.deb
+Size: 66292
+SHA256: e0620060accc726a4a37297454cd2faad5bada535a69f38ffce3fdd88d8273b1
+
+Package: ledger
+Architecture: aarch64
+Installed-Size: 3832
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.1-5
+Description: Powerful, double-entry accounting system
+Homepage: http://ledger-cli.org/
+Depends: boost, libedit, libmpfr, utf8cpp, libgmp
+Filename: dists/dom-dev/testing/binary-aarch64/ledger_3.1.1-5_aarch64.deb
+Size: 698124
+SHA256: 37756489eb0e73180507075a0141306915f50dd492e304ebc1228480647cca82
 
 Package: leptonica-dev
 Architecture: aarch64
@@ -3877,6 +4179,30 @@ Filename: dists/dom-dev/testing/binary-aarch64/libmp3lame_3.100_aarch64.deb
 Size: 96884
 SHA256: 63fe6afb7952bb74a68e1fdcaeb58352ff7eff79d41e94d81a71e625211381bb
 
+Package: libmp3splt-dev
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.2-3
+Description: Development files for libmp3splt
+Homepage: http://mp3splt.sourceforge.net
+Depends: libmp3splt
+Filename: dists/dom-dev/testing/binary-aarch64/libmp3splt-dev_0.9.2-3_aarch64.deb
+Size: 15052
+SHA256: f8b5e6113b885816943f352b58becb6a4ff8e476fa3a24b7ba390f0c42571a08
+
+Package: libmp3splt
+Architecture: aarch64
+Installed-Size: 332
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.2-3
+Description: Utility to split MP3, Ogg Vorbis and native FLAC files without decoding
+Homepage: http://mp3splt.sourceforge.net
+Depends: libmad, libid3tag, libvorbis, libflac, pcre, libtool
+Filename: dists/dom-dev/testing/binary-aarch64/libmp3splt_0.9.2-3_aarch64.deb
+Size: 87196
+SHA256: c3ab587ed1394e01fe584d1287def6ecdac99a5dd6638e475bc74a487778487a
+
 Package: libmpc-dev
 Architecture: aarch64
 Installed-Size: 44
@@ -4298,6 +4624,30 @@ Filename: dists/dom-dev/testing/binary-aarch64/libprotobuf_3.6.1_aarch64.deb
 Size: 487176
 SHA256: 495b177fe567ffe4c5636bd7313559f87eb56ca04ee858e89930c9c9635569a6
 
+Package: libpulseaudio-dev
+Architecture: aarch64
+Installed-Size: 432
+Maintainer: Fredrik Fornwall @fornwall
+Version: 12.2-4
+Description: Development files for libpulseaudio
+Homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
+Depends: libpulseaudio
+Filename: dists/dom-dev/testing/binary-aarch64/libpulseaudio-dev_12.2-4_aarch64.deb
+Size: 57872
+SHA256: 7505d291adcc474bc9471e70d6d6dc892901a04408904c88161ac78dda6acaed
+
+Package: libpulseaudio
+Architecture: aarch64
+Installed-Size: 1400
+Maintainer: Fredrik Fornwall @fornwall
+Version: 12.2-4
+Description: A featureful, general-purpose sound server - shared libraries
+Homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
+Depends: libltdl, libsndfile, libandroid-glob, libsoxr
+Filename: dists/dom-dev/testing/binary-aarch64/libpulseaudio_12.2-4_aarch64.deb
+Size: 310768
+SHA256: c770e4afe44a979bf76a5a98b2334164869aec91f2e4694ba6084d4ce0af8f09
+
 Package: libqrencode-dev
 Architecture: aarch64
 Installed-Size: 64
@@ -4321,6 +4671,30 @@ Depends: libandroid-support, libpng
 Filename: dists/dom-dev/testing/binary-aarch64/libqrencode_4.0.2_aarch64.deb
 Size: 21704
 SHA256: b7996544853a179428856cae9e9a089b4839b43808e4bc59f7b1f391dfa9a58b
+
+Package: librsvg-dev
+Architecture: aarch64
+Installed-Size: 72
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.40.20
+Description: Development files for librsvg
+Homepage: https://wiki.gnome.org/action/show/Projects/LibRsvg
+Depends: librsvg
+Filename: dists/dom-dev/testing/binary-aarch64/librsvg-dev_2.40.20_aarch64.deb
+Size: 4540
+SHA256: 811a4bd08ecd9ca608852a3cefd77747e9956aef893e01bb1fc65da5f5b81685
+
+Package: librsvg
+Architecture: aarch64
+Installed-Size: 240
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.40.20
+Description: Library to render SVG files using cairo
+Homepage: https://wiki.gnome.org/action/show/Projects/LibRsvg
+Depends: libcroco,pango,gdk-pixbuf
+Filename: dists/dom-dev/testing/binary-aarch64/librsvg_2.40.20_aarch64.deb
+Size: 63360
+SHA256: 470938b920d3436a4dbb325acc57e895330a4fed026c2d5c9246ae65a7392f30
 
 Package: librsync-dev
 Architecture: aarch64
@@ -5429,6 +5803,18 @@ Filename: dists/dom-dev/testing/binary-aarch64/mosquitto_1.5-1_aarch64.deb
 Size: 93168
 SHA256: 2d9a4ff11c2fa050f7dc48038e7394208492cf1d35516b63a99fe86397214b42
 
+Package: mp3splt
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.6.2-1
+Description: Utility to split mp3, ogg vorbis and FLAC files without decoding
+Homepage: http://mp3splt.sourceforge.net
+Depends: libmp3splt
+Filename: dists/dom-dev/testing/binary-aarch64/mp3splt_2.6.2-1_aarch64.deb
+Size: 25444
+SHA256: b62b808929c3e170640e06c1b5f8b5ed37b4f0082413984f82db067470d71472
+
 Package: mpc
 Architecture: aarch64
 Installed-Size: 716
@@ -5440,6 +5826,30 @@ Depends: libmpdclient
 Filename: dists/dom-dev/testing/binary-aarch64/mpc_0.30_aarch64.deb
 Size: 143488
 SHA256: da8f7a65a062c18609752d6cadf2ae4c214796b5745848936c8b902783dce8e4
+
+Package: mpd
+Architecture: aarch64
+Installed-Size: 840
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.20.20-3
+Description: Music player daemon
+Homepage: https://www.musicpd.org
+Depends: libcurl, libid3tag, libopus, libevent, fftw, libpulseaudio, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg, libmp3lame, libbz2
+Filename: dists/dom-dev/testing/binary-aarch64/mpd_0.20.20-3_aarch64.deb
+Size: 224120
+SHA256: d41de0f6c6414e2f875bd25ab46e41332a63acbd61c612929a658b3b058efe5d
+
+Package: mpv
+Architecture: aarch64
+Installed-Size: 1764
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.29.0-1
+Description: Command-line media player
+Homepage: https://mpv.io/
+Depends: ffmpeg, openal-soft, libandroid-glob, libpulseaudio
+Filename: dists/dom-dev/testing/binary-aarch64/mpv_0.29.0-1_aarch64.deb
+Size: 531176
+SHA256: 3a5582783114a58e056a20bed4e8048a33a0dad8ec4e2723d74b8f5acd904e43
 
 Package: msmtp
 Architecture: aarch64
@@ -5524,6 +5934,18 @@ Depends: ncurses, libandroid-support
 Filename: dists/dom-dev/testing/binary-aarch64/ncdu_1.13-1_aarch64.deb
 Size: 29028
 SHA256: df1ddc48fce0bdd0e31349fcb377701044d729dfc4b4e0bc3d9a9cd6480cb892
+
+Package: ncmpcpp
+Architecture: aarch64
+Installed-Size: 2232
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.8.2-3
+Description: NCurses Music Player Client (Plus Plus)
+Homepage: https://rybczak.net/ncmpcpp/
+Depends: fftw, boost, readline, libcurl, libmpdclient, ncurses
+Filename: dists/dom-dev/testing/binary-aarch64/ncmpcpp_0.8.2-3_aarch64.deb
+Size: 397336
+SHA256: fe6994b370664911d96dba913e8c8bd5d98376a10823c2f876538125cf721deb
 
 Package: ncurses-dev
 Architecture: aarch64
@@ -6039,6 +6461,30 @@ Filename: dists/dom-dev/testing/binary-aarch64/p7zip_16.02-1_aarch64.deb
 Size: 958600
 SHA256: 3ad10860d3403cb670b4449c39dfe0c4b3f73a241bca8c70e53e8d5bd8b3150c
 
+Package: pango-dev
+Architecture: aarch64
+Installed-Size: 364
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.42.3
+Description: Development files for pango
+Homepage: http://www.pango.org/
+Depends: pango,libcairo-dev, libpixman-dev, fontconfig-dev, harfbuzz-dev
+Filename: dists/dom-dev/testing/binary-aarch64/pango-dev_1.42.3_aarch64.deb
+Size: 41828
+SHA256: 8be07d6a19e596dd5c7c941a1302b192d567a123004b562a063526220cf32bc6
+
+Package: pango
+Architecture: aarch64
+Installed-Size: 456
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.42.3
+Description: Library for laying out and rendering text
+Homepage: http://www.pango.org/
+Depends: fontconfig,fribidi,glib,harfbuzz,libcairo
+Filename: dists/dom-dev/testing/binary-aarch64/pango_1.42.3_aarch64.deb
+Size: 115048
+SHA256: 6c6f5941953d63dba732b3df907521c517db2407df308e22ba27784b4a1a713f
+
 Package: par2
 Architecture: aarch64
 Installed-Size: 660
@@ -6393,6 +6839,30 @@ Filename: dists/dom-dev/testing/binary-aarch64/procps_3.3.15_aarch64.deb
 Size: 175100
 SHA256: 81871386b372e33b4a87f4be89027b9ac80df630f5fd31bfbc3bd4c891db51ef
 
+Package: profanity-dev
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 0.5.1-1
+Description: Development files for profanity
+Homepage: http://profanity.im
+Depends: profanity
+Filename: dists/dom-dev/testing/binary-aarch64/profanity-dev_0.5.1-1_aarch64.deb
+Size: 2592
+SHA256: d1f3cf661c72461927ef7570b5dcd7e00d4e1606548111b06282ee69bb67e637
+
+Package: profanity
+Architecture: aarch64
+Installed-Size: 1124
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 0.5.1-1
+Description: Profanity is a console based XMPP client written in C using ncurses and libstrophe, inspired by Irssi
+Homepage: http://profanity.im
+Depends: libandroid-support,ncurses,glib,libmesode,libcurl,readline,libuuid,libotr,gpgme,python
+Filename: dists/dom-dev/testing/binary-aarch64/profanity_0.5.1-1_aarch64.deb
+Size: 188972
+SHA256: f2fa2501c8bae1eaccc5d031defbae7d2d0793a2075e36aec3fab41f1168252c
+
 Package: proot
 Architecture: aarch64
 Installed-Size: 216
@@ -6428,6 +6898,18 @@ Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/psmisc_23.1_aarch64.deb
 Size: 32412
 SHA256: 37198cf16c39f23f3aa6c050bc81a5a64acf4a0a7521338db5104aafa580a701
+
+Package: pulseaudio
+Architecture: aarch64
+Installed-Size: 2048
+Maintainer: Fredrik Fornwall @fornwall
+Version: 12.2-4
+Description: A featureful, general-purpose sound server
+Homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
+Depends: libpulseaudio
+Filename: dists/dom-dev/testing/binary-aarch64/pulseaudio_12.2-4_aarch64.deb
+Size: 247976
+SHA256: 9f3978786b5620f6cb16aa5ed5031d28c94db6d155c927a18c6a03fd8de51c17
 
 Package: pure-ftpd
 Architecture: aarch64
@@ -6931,6 +7413,30 @@ Filename: dists/dom-dev/testing/binary-aarch64/socat_1.7.3.2_aarch64.deb
 Size: 132356
 SHA256: 1cf66ecdf2201295a2660ac60343d10f12c0bb0da460f0f42742120a0cdad68c
 
+Package: sox-dev
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 14.4.2-10
+Description: Development files for sox
+Homepage: http://sox.sourceforge.net/
+Depends: sox
+Filename: dists/dom-dev/testing/binary-aarch64/sox-dev_14.4.2-10_aarch64.deb
+Size: 23452
+SHA256: eeb1cf5bc5fced783dfe1ebfe9463395baa2fd4f5ac5c56d293b0b7073711aa6
+
+Package: sox
+Architecture: aarch64
+Installed-Size: 1164
+Maintainer: Fredrik Fornwall @fornwall
+Version: 14.4.2-10
+Description: Command line utility for converting between and applying effects to various audio files formats
+Homepage: http://sox.sourceforge.net/
+Depends: libltdl, file, libpng, libmp3lame, libogg, libvorbis, libandroid-glob, libflac, libid3tag, libmad, libpulseaudio
+Filename: dists/dom-dev/testing/binary-aarch64/sox_14.4.2-10_aarch64.deb
+Size: 365640
+SHA256: 70d242a24f98e4755c5dbe13b4c0a54aceeb7fc3b362193da75494c96501ae69
+
 Package: sqlite
 Architecture: aarch64
 Installed-Size: 948
@@ -6942,6 +7448,18 @@ Depends: libsqlite, readline
 Filename: dists/dom-dev/testing/binary-aarch64/sqlite_3.24.0-1_aarch64.deb
 Size: 395120
 SHA256: e50c8bf81e6a986e1540e737d7d48273cd68fad8f98f3573c42714f8ad677d50
+
+Package: squid
+Architecture: aarch64
+Installed-Size: 14344
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 3.5.28
+Description: Full-featured Web proxy cache server
+Homepage: http://www.squid-cache.org
+Depends: libcrypt, openssl, libnettle, libltdl
+Filename: dists/dom-dev/testing/binary-aarch64/squid_3.5.28_aarch64.deb
+Size: 1492312
+SHA256: 2fb997a0a5ea2d157b15a58a7b18946c55fb54f6b23ebfb65d382e3f82138f40
 
 Package: sshpass
 Architecture: aarch64
@@ -7199,6 +7717,30 @@ Filename: dists/dom-dev/testing/binary-aarch64/teseq_1.1.1-1_aarch64.deb
 Size: 23548
 SHA256: 345812b4354bed204a329a1bed4772cac81135a2e020359cfa68229765fdb481
 
+Package: tesseract-dev
+Architecture: aarch64
+Installed-Size: 696
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.05.02-1
+Description: Development files for tesseract
+Homepage: https://github.com/tesseract-ocr/tesseract
+Depends: tesseract
+Filename: dists/dom-dev/testing/binary-aarch64/tesseract-dev_3.05.02-1_aarch64.deb
+Size: 67160
+SHA256: c1e8b4290fce646a5bd83d3f6b2e831bd10922a429be51f06c0beb382178f690
+
+Package: tesseract
+Architecture: aarch64
+Installed-Size: 40416
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.05.02-1
+Description: Tesseract is probably the most accurate open source OCR engine available
+Homepage: https://github.com/tesseract-ocr/tesseract
+Depends: libtool, libuuid, leptonica
+Filename: dists/dom-dev/testing/binary-aarch64/tesseract_3.05.02-1_aarch64.deb
+Size: 9579872
+SHA256: 094336eba5e991c69b88dff21961dbdffc2e2a76e1adb5f49dbb3fc5d1eb9315
+
 Package: texinfo
 Architecture: aarch64
 Installed-Size: 6728
@@ -7210,6 +7752,35 @@ Depends: ncurses, perl, gawk
 Filename: dists/dom-dev/testing/binary-aarch64/texinfo_6.5-1_aarch64.deb
 Size: 559452
 SHA256: 314be6f65b1daec9131a1893da9ec2a1d1a19d2ce40839d1853ae366af8e07cf
+
+Package: texlive-bin-dev
+Architecture: aarch64
+Installed-Size: 448
+Maintainer: Henrik Grimler @Grimler91
+Version: 20180414-3
+Description: Development files for texlive
+Homepage: https://www.tug.org/texlive/
+Depends: texlive-bin
+Conflicts: texlive-dev
+Replaces: texlive-dev
+Filename: dists/dom-dev/testing/binary-aarch64/texlive-bin-dev_20180414-3_aarch64.deb
+Size: 50296
+SHA256: 152668faad94039f15cda4eaa3d1dd6f726fd793570c2dbcc0233287034903e7
+
+Package: texlive-bin
+Architecture: aarch64
+Installed-Size: 33720
+Maintainer: Henrik Grimler @Grimler91
+Version: 20180414-3
+Description: TeX Live is a distribution of the TeX typesetting system. This package contains architecture dependent binaries.
+Homepage: https://www.tug.org/texlive/
+Breaks: texlive (<< 20180414)
+Depends: freetype, libpng, libgd, libgmp, libmpfr, libicu, liblua, poppler, libgraphite, harfbuzz-icu, teckit
+Recommends: texlive
+Replaces: texlive (<< 20170524-3)
+Filename: dists/dom-dev/testing/binary-aarch64/texlive-bin_20180414-3_aarch64.deb
+Size: 6839416
+SHA256: ea798d4a24dfce435b8d4913f3747442b0069e691ef2620b3dc3f2a84d419f4a
 
 Package: tig
 Architecture: aarch64
@@ -7504,6 +8075,42 @@ Depends: ncurses, libutil, libcrypt
 Filename: dists/dom-dev/testing/binary-aarch64/util-linux_2.32.1_aarch64.deb
 Size: 434548
 SHA256: 01affe77a7a5800c03639bd5c81120246da6449526c00e229b0917ecee588c59
+
+Package: valac-dev
+Architecture: aarch64
+Installed-Size: 1016
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 0.40.8
+Description: Development files for valac
+Homepage: https://wiki.gnome.org/Projects/Vala
+Depends: valac
+Filename: dists/dom-dev/testing/binary-aarch64/valac-dev_0.40.8_aarch64.deb
+Size: 82844
+SHA256: fc685a71ad70eed1c8bf2a17d810d205a57c414e7c60deb4102e96e21772065e
+
+Package: valac
+Architecture: aarch64
+Installed-Size: 11520
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 0.40.8
+Description: C# like language for the GObject system
+Homepage: https://wiki.gnome.org/Projects/Vala
+Depends: clang, glib-dev, pkg-config
+Filename: dists/dom-dev/testing/binary-aarch64/valac_0.40.8_aarch64.deb
+Size: 1410576
+SHA256: f03936dab7a70955f9524e6e50ba4bf81f6d0d59b756f4b0aff457851ff03ee7
+
+Package: valadoc
+Architecture: aarch64
+Installed-Size: 1292
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 0.40.8
+Description: API documentation generator for vala
+Homepage: https://wiki.gnome.org/Projects/Vala
+Depends: valac, graphviz
+Filename: dists/dom-dev/testing/binary-aarch64/valadoc_0.40.8_aarch64.deb
+Size: 259308
+SHA256: cd4388da69aa1e8863d9d6ffd5f92dd5443c021d3365f9f73f1a36501a743058
 
 Package: valgrind-dev
 Architecture: aarch64
@@ -7883,6 +8490,30 @@ Homepage: https://yasm.tortall.net/
 Filename: dists/dom-dev/testing/binary-aarch64/yasm_1.3.0-1_aarch64.deb
 Size: 319552
 SHA256: acde0c723070bbfdcc8124a02feec46714f70c9bf07363732e295acd288878d1
+
+Package: zbar-dev
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.10-6
+Description: Development files for zbar
+Homepage: http://zbar.sourceforge.net
+Depends: zbar
+Filename: dists/dom-dev/testing/binary-aarch64/zbar-dev_0.10-6_aarch64.deb
+Size: 17292
+SHA256: 132c4b7595a3f78ae3a38845ce008a13730b6a57d820623623ec62d8b50d77a7
+
+Package: zbar
+Architecture: aarch64
+Installed-Size: 196
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.10-6
+Description: Software suite for reading bar codes from various sources
+Homepage: http://zbar.sourceforge.net
+Depends: imagemagick, libjpeg-turbo
+Filename: dists/dom-dev/testing/binary-aarch64/zbar_0.10-6_aarch64.deb
+Size: 58960
+SHA256: 41548a00b732d958bfaa85bf84b13b07ec8d0991260fb5148357e7d560b7d763
 
 Package: zile
 Architecture: aarch64
