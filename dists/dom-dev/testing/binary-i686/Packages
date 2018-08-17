@@ -10,6 +10,42 @@ Filename: dists/dom-dev/testing/binary-i686/aapt_7.1.2.33-2_i686.deb
 Size: 1792352
 SHA256: e6553acdb86e8d4495187017b86dd37bde876d0e256bfc4f5a55d84b1d44a2ef
 
+Package: abduco
+Architecture: i686
+Installed-Size: 64
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6
+Description: Clean and simple terminal session manager
+Homepage: http://www.brain-dump.org/projects/abduco/
+Depends: libutil,dvtm
+Filename: dists/dom-dev/testing/binary-i686/abduco_0.6_i686.deb
+Size: 9304
+SHA256: 5103eed10c8dd9e32d523daf139db9a1e79b2fbb88455d878aeb98a41d3bc111
+
+Package: abook
+Architecture: i686
+Installed-Size: 136
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6.0pre2-1
+Description: Abook is a text-based addressbook program designed to use with mutt mail client
+Homepage: http://abook.sourceforge.net/
+Depends: libandroid-support, ncurses, readline
+Filename: dists/dom-dev/testing/binary-i686/abook_0.6.0pre2-1_i686.deb
+Size: 35644
+SHA256: ed686d3d0dd71224473a5182a980d80444d39edc3e0e14b13219a1e318d66868
+
+Package: alpine
+Architecture: i686
+Installed-Size: 7412
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.21-2
+Description: Fast, easy to use email client
+Homepage: http://repo.or.cz/alpine.git
+Depends: libcrypt, ncurses, openssl-tool
+Filename: dists/dom-dev/testing/binary-i686/alpine_2.21-2_i686.deb
+Size: 1512452
+SHA256: c550f7eeba06aa099c0a122e00938f72d78a3772acc8f847e5d1c9260f7575b5
+
 Package: angband
 Architecture: i686
 Installed-Size: 18056
@@ -34,6 +70,30 @@ Filename: dists/dom-dev/testing/binary-i686/apr-dev_1.6.3_i686.deb
 Size: 169700
 SHA256: 4ca72f9c497798526a3dc69fd46023de95698ed35bc6358c46024b3e6082587b
 
+Package: apr-util-dev
+Architecture: i686
+Installed-Size: 424
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.6.1
+Description: Development files for apr-util
+Homepage: https://apr.apache.org/
+Depends: apr-util
+Filename: dists/dom-dev/testing/binary-i686/apr-util-dev_1.6.1_i686.deb
+Size: 55308
+SHA256: 35e960b33d00e20f717b9b6439a69e65fb42e51ee34a2dc2b64b644b6d0c3ea6
+
+Package: apr-util
+Architecture: i686
+Installed-Size: 156
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.6.1
+Description: Apache Portable Runtime Utility Library
+Homepage: https://apr.apache.org/
+Depends: apr, libexpat
+Filename: dists/dom-dev/testing/binary-i686/apr-util_1.6.1_i686.deb
+Size: 52868
+SHA256: 2017228e509e0407a6d1269da5f27d2b376fa0195a6c3cf685e66c9a5a66e225
+
 Package: apr
 Architecture: i686
 Installed-Size: 172
@@ -56,6 +116,18 @@ Homepage: https://www.lysator.liu.se/~nisse/misc/
 Filename: dists/dom-dev/testing/binary-i686/argp_1.3_i686.deb
 Size: 45392
 SHA256: c64deb34c55d77f6936241d281330a53cf7d4040c6a5631cf44bbc5f7927c144
+
+Package: aria2
+Architecture: i686
+Installed-Size: 2612
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.34.0-1
+Description: Download utility supporting HTTP/HTTPS, FTP, BitTorrent and Metalink
+Homepage: https://aria2.github.io
+Depends: c-ares, openssl, libxml2
+Filename: dists/dom-dev/testing/binary-i686/aria2_1.34.0-1_i686.deb
+Size: 708276
+SHA256: abb53b1d241087c29a0ae796760450a11be6bbfd9632c79d7687837b3cfb0f60
 
 Package: atomicparsley
 Architecture: i686
@@ -113,6 +185,42 @@ Homepage: http://gegl.org/babl/
 Filename: dists/dom-dev/testing/binary-i686/babl_0.1.54_i686.deb
 Size: 205376
 SHA256: a3850fffba4207a2167c6a55b72c446cb702a596892d5513ada9a4ec7c6352be
+
+Package: bash-dev
+Architecture: i686
+Installed-Size: 432
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.4.23-2
+Description: Development files for bash
+Homepage: https://www.gnu.org/software/bash/
+Depends: bash
+Filename: dists/dom-dev/testing/binary-i686/bash-dev_4.4.23-2_i686.deb
+Size: 54404
+SHA256: 8060be06662cbbc5f380ab41890fd90fcce75522a9d9e34e0a839abbcb20b9d1
+
+Package: bash
+Architecture: i686
+Installed-Size: 1208
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.4.23-2
+Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
+Homepage: https://www.gnu.org/software/bash/
+Depends: ncurses, readline, libandroid-support, termux-tools, command-not-found
+Filename: dists/dom-dev/testing/binary-i686/bash_4.4.23-2_i686.deb
+Size: 351372
+SHA256: 96f0c4c7d617924d1b5560850ed7bc551fb6d7fc78ad427bfce62bb43743c39e
+
+Package: bc
+Architecture: i686
+Installed-Size: 204
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.07.1
+Description: Arbitrary precision numeric processing language
+Homepage: https://www.gnu.org/software/bc/
+Depends: readline,flex
+Filename: dists/dom-dev/testing/binary-i686/bc_1.07.1_i686.deb
+Size: 53028
+SHA256: fa0cbfce793578ee76b15ef6343fe1083a3765511898116acb5878d5e3878603
 
 Package: binutils-dev
 Architecture: i686
@@ -208,6 +316,18 @@ Filename: dists/dom-dev/testing/binary-i686/brotli_1.0.5_i686.deb
 Size: 258632
 SHA256: cef6b7e7a7b288a467f7fd48da199271b10a369802dcff868062506d15bdada1
 
+Package: bsdtar
+Architecture: i686
+Installed-Size: 188
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3.2
+Description: The tar(1) and cpio(1) programs from FreeBSD, using libarchive
+Homepage: https://www.libarchive.org/
+Depends: libarchive
+Filename: dists/dom-dev/testing/binary-i686/bsdtar_3.3.2_i686.deb
+Size: 41628
+SHA256: 0ebd23245cb5e21de32e04bb45860427183e0400e1c0fab23c37b90a3c0132b2
+
 Package: busybox
 Architecture: i686
 Installed-Size: 660
@@ -268,6 +388,18 @@ Filename: dists/dom-dev/testing/binary-i686/c-ares_1.14.0_i686.deb
 Size: 25324
 SHA256: f577d823d950c22009a8ecf6675739a9162741f5e320e67fe06f24c45d396bc3
 
+Package: cadaver
+Architecture: i686
+Installed-Size: 212
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.23.3-1
+Description: cadaver is a command-line WebDAV client for Unix
+Homepage: http://www.webdav.org/cadaver/
+Depends: openssl, libxml2, ncurses, readline
+Filename: dists/dom-dev/testing/binary-i686/cadaver_0.23.3-1_i686.deb
+Size: 69260
+SHA256: 07f47424ec9b49be6a7a33cf2d894450a0387aa21c2b2bb9625ee11eb003986c
+
 Package: calcurse
 Architecture: i686
 Installed-Size: 280
@@ -290,6 +422,30 @@ Homepage: https://ccache.samba.org
 Filename: dists/dom-dev/testing/binary-i686/ccache_3.4.2_i686.deb
 Size: 59620
 SHA256: 842ddfc828d950b80e9617108ce331fc68f3f91cccb148dd78dbab392b6269a7
+
+Package: ccrypt
+Architecture: i686
+Installed-Size: 152
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.11
+Description: Secure encryption and decryption of files and streams utility
+Homepage: http://ccrypt.sourceforge.net/
+Depends: libcrypt
+Filename: dists/dom-dev/testing/binary-i686/ccrypt_1.11_i686.deb
+Size: 33648
+SHA256: 678cc9bb2ec5f70da7a282209850cc2169f2803e808758d4a4ded7e08aec7018
+
+Package: clang
+Architecture: i686
+Installed-Size: 62748
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Description: C language frontend for LLVM
+Homepage: https://clang.llvm.org/
+Depends: libllvm
+Filename: dists/dom-dev/testing/binary-i686/clang_6.0.1_i686.deb
+Size: 15124624
+SHA256: b410328ef2d4fa286596bc7e8365b4570da0899ab19d1080888ba1263fcee5d9
 
 Package: cmark-dev
 Architecture: i686
@@ -348,6 +504,18 @@ Filename: dists/dom-dev/testing/binary-i686/coreutils_8.30-1_i686.deb
 Size: 425204
 SHA256: 1c5196b048c197c18037d4b8ad434ee0a7c83345d54490c4b370edf3bfc6ccef
 
+Package: cpio
+Architecture: i686
+Installed-Size: 168
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12
+Description: CPIO implementation from the GNU project
+Homepage: https://www.gnu.org/software/cpio/
+Depends: tar
+Filename: dists/dom-dev/testing/binary-i686/cpio_2.12_i686.deb
+Size: 54528
+SHA256: e569bf840d7a3ed2ec9f000df3ef33239d7e250f8d5914beb8d8ca38aba79752
+
 Package: cppi
 Architecture: i686
 Installed-Size: 96
@@ -381,6 +549,18 @@ Homepage: https://ctags.io/
 Filename: dists/dom-dev/testing/binary-i686/ctags_0.0.20180513_i686.deb
 Size: 226904
 SHA256: e0aacdf70351980a00b695bdf34c1f0939fb6abdbc7beaa684145ca70292f0b2
+
+Package: curl
+Architecture: i686
+Installed-Size: 300
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.61.0
+Description: Command line tool for transferring data with URL syntax
+Homepage: https://curl.haxx.se/
+Depends: libcurl
+Filename: dists/dom-dev/testing/binary-i686/curl_7.61.0_i686.deb
+Size: 82436
+SHA256: 9dbf6c86e47567888594ec5d27f816dd2c340e3c7279e6be84866ed476c64f3f
 
 Package: curseofwar
 Architecture: i686
@@ -519,6 +699,30 @@ Filename: dists/dom-dev/testing/binary-i686/direvent_5.1_i686.deb
 Size: 56476
 SHA256: 3218aa119c7908590b4d1688204ed22f841c7b398092a0b33feca8518e6ee3d0
 
+Package: dnsutils-dev
+Architecture: i686
+Installed-Size: 2164
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.12.2-P1-0
+Description: Development files for dnsutils
+Homepage: https://www.isc.org/downloads/bind/
+Depends: dnsutils
+Filename: dists/dom-dev/testing/binary-i686/dnsutils-dev_9.12.2-P1-0_i686.deb
+Size: 271456
+SHA256: 6baff51a39b28174582e14365baf48cb40a4e57bbb531505d1073eb0d3cdb72e
+
+Package: dnsutils
+Architecture: i686
+Installed-Size: 2728
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.12.2-P1-0
+Description: Clients provided with BIND
+Homepage: https://www.isc.org/downloads/bind/
+Depends: openssl, readline, resolv-conf
+Filename: dists/dom-dev/testing/binary-i686/dnsutils_9.12.2-P1-0_i686.deb
+Size: 825352
+SHA256: 08c3958676057a4bda98e9cd0e22a0764f56dd3ad60b853fa274da07f0e0f878
+
 Package: dos2unix
 Architecture: i686
 Installed-Size: 164
@@ -555,6 +759,19 @@ Essential: yes
 Filename: dists/dom-dev/testing/binary-i686/dpkg_1.19.0.5_i686.deb
 Size: 175624
 SHA256: 0c904cc00d7b66b76763a0d515cb8b8867b2e9f8b81c111b786efdf816f9f3f9
+
+Package: dropbear
+Architecture: i686
+Installed-Size: 368
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2018.76-3
+Description: Small SSH server and client
+Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
+Depends: libutil, readline
+Conflicts: openssh
+Filename: dists/dom-dev/testing/binary-i686/dropbear_2018.76-3_i686.deb
+Size: 121212
+SHA256: 8563b7b4351f30e18d28bd4f63c82761617cd4e7c0dd4042f80c88476b15d40d
 
 Package: dvtm
 Architecture: i686
@@ -602,6 +819,30 @@ Depends: libandroid-support, liblzma, libbz2
 Filename: dists/dom-dev/testing/binary-i686/elfutils_0.173_i686.deb
 Size: 403832
 SHA256: 90ec6d1aac3d9ec0f8a2df5f9226a1c2dfff2d26a4b13f5ccf2397530add1781
+
+Package: elinks
+Architecture: i686
+Installed-Size: 1096
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.13.GIT-1
+Description: Full-Featured Text WWW Browser
+Homepage: http://elinks.or.cz
+Depends: libexpat, libidn, openssl, libbz2
+Filename: dists/dom-dev/testing/binary-i686/elinks_0.13.GIT-1_i686.deb
+Size: 350492
+SHA256: d82aad0abc991117f0003fcede5de3266dd9174b40ad3711b57d88786193d8e7
+
+Package: erlang
+Architecture: i686
+Installed-Size: 97136
+Maintainer: Fredrik Fornwall @fornwall
+Version: 21.0.5
+Description: General-purpose concurrent functional programming language developed by Ericsson
+Homepage: https://www.erlang.org/
+Depends: openssl, ncurses, libutil
+Filename: dists/dom-dev/testing/binary-i686/erlang_21.0.5_i686.deb
+Size: 33186612
+SHA256: 8f72f826b8d001622260d9e79acbf420b4d903f5ceea87bc9814b8fab32bf08d
 
 Package: espeak-dev
 Architecture: i686
@@ -732,6 +973,42 @@ Filename: dists/dom-dev/testing/binary-i686/flex_2.6.4_i686.deb
 Size: 87248
 SHA256: cf3bdfe553b4246659dcfe45b1c7a532fea4293dd37023fffbbf885b8305872d
 
+Package: fontconfig-dev
+Architecture: i686
+Installed-Size: 84
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.13.0
+Description: Development files for fontconfig
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
+Depends: fontconfig,freetype-dev, libxml2-dev
+Filename: dists/dom-dev/testing/binary-i686/fontconfig-dev_2.13.0_i686.deb
+Size: 8568
+SHA256: bfc8d89a401e73ce1a799e3cb1c1b2995a10547ccdee286cd922fbdc23d9bfc2
+
+Package: fontconfig-utils
+Architecture: i686
+Installed-Size: 136
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.13.0
+Description: Fontconfig binaries
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
+Depends: fontconfig, libpng
+Filename: dists/dom-dev/testing/binary-i686/fontconfig-utils_2.13.0_i686.deb
+Size: 13276
+SHA256: e0e5b4a1c8df82aaab65f3194632ad6c70cbab5e864647c1e3d70459fd11d6b2
+
+Package: fontconfig
+Architecture: i686
+Installed-Size: 532
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.13.0
+Description: Library for configuring and customizing font access
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
+Depends: freetype, libxml2, libpng, libuuid
+Filename: dists/dom-dev/testing/binary-i686/fontconfig_2.13.0_i686.deb
+Size: 97092
+SHA256: 15d0e27a5dd83f968bcd62f1fe0bfa9fe19c4b0fdb32e4b1b578439f0f40cc62
+
 Package: fortune
 Architecture: i686
 Installed-Size: 2592
@@ -767,6 +1044,54 @@ Filename: dists/dom-dev/testing/binary-i686/freetype_2.9.1-1_i686.deb
 Size: 239888
 SHA256: 402ee686b8ad88ae108972b663fd7b1d453fd7f76ac6136536369e65388964c6
 
+Package: fribidi-dev
+Architecture: i686
+Installed-Size: 304
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.5
+Description: Development files for fribidi
+Homepage: https://github.com/fribidi/fribidi/
+Depends: fribidi
+Filename: dists/dom-dev/testing/binary-i686/fribidi-dev_1.0.5_i686.deb
+Size: 18384
+SHA256: 04ed52d3346c54398e7534e701ac7ec5a854270fdb2735aff4c7b7129d2d976c
+
+Package: fribidi
+Architecture: i686
+Installed-Size: 156
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.5
+Description: Implementation of the Unicode Bidirectional Algorithm
+Homepage: https://github.com/fribidi/fribidi/
+Depends: glib
+Filename: dists/dom-dev/testing/binary-i686/fribidi_1.0.5_i686.deb
+Size: 21884
+SHA256: 8e3cb55bc656f9effdb7b7c98699eb752f328c495fc356a32364624dc42da1a8
+
+Package: frobtads
+Architecture: i686
+Installed-Size: 9472
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.4-1
+Description: TADS is a free authoring system for writing your own Interactive Fiction
+Homepage: http://www.tads.org/frobtads.htm
+Depends: ncurses, libcurl
+Filename: dists/dom-dev/testing/binary-i686/frobtads_1.2.4-1_i686.deb
+Size: 1884732
+SHA256: c58b23f3fe0965c82059b69796d149c25a3694739ec389d0c4091c333461387a
+
+Package: frotz
+Architecture: i686
+Installed-Size: 140
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.44-1
+Description: Interpreter for Infocom and other Z-machine interactive fiction (IF) games
+Homepage: https://github.com/DavidGriffith/frotz
+Depends: ncurses, dialog, curl
+Filename: dists/dom-dev/testing/binary-i686/frotz_2.44-1_i686.deb
+Size: 41552
+SHA256: 22b30cdae55106bb7ebc16696b1e850d17bb9de3306a48574171139eaf59b1e4
+
 Package: fsmon
 Architecture: i686
 Installed-Size: 64
@@ -777,6 +1102,30 @@ Homepage: https://github.com/nowsecure/fsmon
 Filename: dists/dom-dev/testing/binary-i686/fsmon_1.5_i686.deb
 Size: 7524
 SHA256: 8c5ae29410f67bef26a94ba346912f3eebefd53877e1bd7076a6a5ea2326cd25
+
+Package: gawk-dev
+Architecture: i686
+Installed-Size: 132
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.2.1
+Description: Development files for gawk
+Homepage: https://www.gnu.org/software/gawk/
+Depends: gawk
+Filename: dists/dom-dev/testing/binary-i686/gawk-dev_4.2.1_i686.deb
+Size: 18300
+SHA256: 7b5d694f7fe22f7d92ee60544bd8a38f0b20ee64af103aa2f2c9be79ff631da7
+
+Package: gawk
+Architecture: i686
+Installed-Size: 848
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.2.1
+Description: Programming language designed for text processing
+Homepage: https://www.gnu.org/software/gawk/
+Depends: libandroid-support, libmpfr, libgmp, readline
+Filename: dists/dom-dev/testing/binary-i686/gawk_4.2.1_i686.deb
+Size: 243056
+SHA256: 98c437e06318e4b08097c6aad78bc6dbcde7cbb916c44871a24580e2431ce0a5
 
 Package: gbt
 Architecture: i686
@@ -801,6 +1150,30 @@ Filename: dists/dom-dev/testing/binary-i686/gcal_4.1-2_i686.deb
 Size: 554092
 SHA256: e96ffb7c86d0eaf837aebfc5ac2d83900b69496b456950de5ee188294304c05b
 
+Package: gdb-dev
+Architecture: i686
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.1.1
+Description: Development files for gdb
+Homepage: https://www.gnu.org/software/gdb/
+Depends: gdb
+Filename: dists/dom-dev/testing/binary-i686/gdb-dev_8.1.1_i686.deb
+Size: 4468
+SHA256: bbb75298f6e614ecd88e0b7934d43842ae037ff7e36041f6648c4c7fec9284d4
+
+Package: gdb
+Architecture: i686
+Installed-Size: 5972
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.1.1
+Description: The standard GNU Debugger that runs on many Unix-like systems and works for many programming languages
+Homepage: https://www.gnu.org/software/gdb/
+Depends: liblzma, libexpat, readline, ncurses, libmpfr
+Filename: dists/dom-dev/testing/binary-i686/gdb_8.1.1_i686.deb
+Size: 1944396
+SHA256: 380e52eedba5092c48e6dadb52028fe24f2e76081139d1aa7abe94a42fefbc69
+
 Package: gdbm-dev
 Architecture: i686
 Installed-Size: 72
@@ -824,6 +1197,30 @@ Filename: dists/dom-dev/testing/binary-i686/gdbm_1.17_i686.deb
 Size: 53792
 SHA256: 176554dcecfa0de9154938bc606213bd73ac36878d043a85e95f70e222b1cc8c
 
+Package: gdk-pixbuf-dev
+Architecture: i686
+Installed-Size: 172
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.36.12
+Description: Development files for gdk-pixbuf
+Homepage: https://developer.gnome.org/gdk-pixbuf/
+Depends: gdk-pixbuf,libpng-dev, glib-dev
+Filename: dists/dom-dev/testing/binary-i686/gdk-pixbuf-dev_2.36.12_i686.deb
+Size: 16688
+SHA256: c6c362b3b22a7dc610959e774b6a8246c1fc7e5439b18f75021f59d954b7419a
+
+Package: gdk-pixbuf
+Architecture: i686
+Installed-Size: 436
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.36.12
+Description: Library for image loading and manipulation
+Homepage: https://developer.gnome.org/gdk-pixbuf/
+Depends: glib, libpng, libtiff, libjpeg-turbo
+Filename: dists/dom-dev/testing/binary-i686/gdk-pixbuf_2.36.12_i686.deb
+Size: 100076
+SHA256: a4a486d45c63cdfdb892282c2d283dcc8a0480e8e707a8db0dfe7fc2e21fb7e8
+
 Package: getconf
 Architecture: i686
 Installed-Size: 56
@@ -846,6 +1243,54 @@ Filename: dists/dom-dev/testing/binary-i686/gifsicle_1.91_i686.deb
 Size: 85392
 SHA256: fd9a8a6e476ac3fbbead9549a558900d9831e2dfeae349eb068fe4ea2ffe4105
 
+Package: git
+Architecture: i686
+Installed-Size: 18344
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.18.0
+Description: Fast, scalable, distributed revision control system
+Homepage: https://git-scm.com/
+Depends: libcurl, less, openssl, pcre2
+Filename: dists/dom-dev/testing/binary-i686/git_2.18.0_i686.deb
+Size: 2525456
+SHA256: 70e5025705c6644a4d16313b4e154f57282d467d627be843ba8450c33bdef2e1
+
+Package: glib-bin
+Architecture: i686
+Installed-Size: 528
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.56.1-1
+Description: Programs for the GLib library
+Homepage: https://developer.gnome.org/glib/
+Depends: glib
+Filename: dists/dom-dev/testing/binary-i686/glib-bin_2.56.1-1_i686.deb
+Size: 100432
+SHA256: 4ba35c9db83a55e9c241587bbc91441109cbe30a97915f96b252478c8a161668
+
+Package: glib-dev
+Architecture: i686
+Installed-Size: 2580
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.56.1-1
+Description: Development files for glib
+Homepage: https://developer.gnome.org/glib/
+Depends: glib,pcre-dev
+Filename: dists/dom-dev/testing/binary-i686/glib-dev_2.56.1-1_i686.deb
+Size: 235512
+SHA256: 086144bb574c905edb00d7e767abc7afc7daa6553b151d4b2b018b6f0d03c3f4
+
+Package: glib
+Architecture: i686
+Installed-Size: 11496
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.56.1-1
+Description: Library providing core building blocks for libraries and applications written in C
+Homepage: https://developer.gnome.org/glib/
+Depends: libffi, pcre, libandroid-support
+Filename: dists/dom-dev/testing/binary-i686/glib_2.56.1-1_i686.deb
+Size: 1766876
+SHA256: c9d34959c6698f9fe69d2b382bbb6256de902eff67193b9389fd958b5cf11a36
+
 Package: glulxe
 Architecture: i686
 Installed-Size: 284
@@ -857,6 +1302,30 @@ Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/glulxe_0.5.4_i686.deb
 Size: 75148
 SHA256: 747b52392ec12ee39748451ceb29bf68a29b387c1861bc0fd14360c2a3ddb796
+
+Package: gnuchess
+Architecture: i686
+Installed-Size: 376
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.2.4-2
+Description: Chess-playing program
+Homepage: https://www.gnu.org/software/chess/
+Depends: ncurses, readline
+Filename: dists/dom-dev/testing/binary-i686/gnuchess_6.2.4-2_i686.deb
+Size: 127304
+SHA256: 74adcb89a273ba34d145226d97cc68ebe1ce1f51e10da58d21121932307ec768
+
+Package: gnugo
+Architecture: i686
+Installed-Size: 6496
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.8-1
+Description: Program that plays the game of Go
+Homepage: https://www.gnu.org/software/gnugo/
+Depends: ncurses, readline
+Filename: dists/dom-dev/testing/binary-i686/gnugo_3.8-1_i686.deb
+Size: 693864
+SHA256: 3a73474666d9209939349494d0e32fec2401f258184a1a5e518659fdf0e3344c
 
 Package: gnuit
 Architecture: i686
@@ -881,6 +1350,42 @@ Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/gnushogi_1.4.2-1_i686.deb
 Size: 57328
 SHA256: 234f85b6228b44206594085d5ffb2e7780e7f891922567e86bc1b5365c13af60
+
+Package: gnutls
+Architecture: i686
+Installed-Size: 1124
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.19
+Description: Commandline utilities for interfacing with the gnutls library
+Homepage: https://www.gnutls.org/
+Depends: libgnutls
+Filename: dists/dom-dev/testing/binary-i686/gnutls_3.5.19_i686.deb
+Size: 209792
+SHA256: c5e4133855adade44feb87fd1e56df4dfbf127cf1aa1813ee4e10725888c948a
+
+Package: golang-doc
+Architecture: i686
+Installed-Size: 4440
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2:1.10.3
+Description: Go programming language - documentation
+Homepage: https://golang.org/
+Depends: golang
+Filename: dists/dom-dev/testing/binary-i686/golang-doc_2:1.10.3_i686.deb
+Size: 2400664
+SHA256: b81b7abb973cf30bcc214edbb3ec8463b32c46b4a225bae636b07477f071d4e9
+
+Package: golang
+Architecture: i686
+Installed-Size: 185332
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2:1.10.3
+Description: Go programming language compiler
+Homepage: https://golang.org/
+Depends: clang
+Filename: dists/dom-dev/testing/binary-i686/golang_2:1.10.3_i686.deb
+Size: 34535380
+SHA256: f3b5368f25542650c9d9dc9068050fcfafd2e09ecc23e2ebdee09c9714f0ca9e
 
 Package: googletest
 Architecture: i686
@@ -928,6 +1433,18 @@ Filename: dists/dom-dev/testing/binary-i686/greed_4.2_i686.deb
 Size: 8280
 SHA256: d1d673cd385a99ec56642514f86950e71709df976a19d93e750b072a07820788
 
+Package: grep
+Architecture: i686
+Installed-Size: 244
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1
+Description: Command which searches one or more input files for lines containing a match to a specified pattern
+Homepage: https://www.gnu.org/software/grep/
+Depends: pcre
+Filename: dists/dom-dev/testing/binary-i686/grep_3.1_i686.deb
+Size: 89640
+SHA256: a14aca8abff2969653f6bec7703a302dce3701509aebcd88d915c46c21c3c785
+
 Package: gsl-dev
 Architecture: i686
 Installed-Size: 1680
@@ -950,6 +1467,30 @@ Homepage: https://www.gnu.org/software/gsl/
 Filename: dists/dom-dev/testing/binary-i686/gsl_2.5_i686.deb
 Size: 649032
 SHA256: ebb9f7d1c73eb2faf7f9b4440746e7907703253628e09903540a0cae4e7f07a3
+
+Package: gstreamer-dev
+Architecture: i686
+Installed-Size: 1300
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.14.2
+Description: Development files for gstreamer
+Homepage: https://gstreamer.freedesktop.org/
+Depends: gstreamer,glib-dev
+Filename: dists/dom-dev/testing/binary-i686/gstreamer-dev_1.14.2_i686.deb
+Size: 139588
+SHA256: a9c84b1ae72c01020afd1f8466c8b08ec86c4c6e42ce8cea0fc082846ee951a1
+
+Package: gstreamer
+Architecture: i686
+Installed-Size: 2156
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.14.2
+Description: Open source multimedia framework
+Homepage: https://gstreamer.freedesktop.org/
+Depends: glib
+Filename: dists/dom-dev/testing/binary-i686/gstreamer_1.14.2_i686.deb
+Size: 639896
+SHA256: 8590e06b1cff7bb2aed8053c6a3d5c3e6ae7f9bb6cb37fcbc83dd6127883d649
 
 Package: gtypist
 Architecture: i686
@@ -1032,6 +1573,42 @@ Filename: dists/dom-dev/testing/binary-i686/htop_2.2.0-1_i686.deb
 Size: 55396
 SHA256: 3bd27416bbb905ac968d5701639119d877c8087209f8dfbe898e88583c1eff59
 
+Package: httping
+Architecture: i686
+Installed-Size: 128
+Maintainer: Pierre Rudloff @Rudloff
+Version: 2.5-1
+Description: ping-like program for http-requests
+Homepage: https://www.vanheusden.com/httping/
+Depends: fftw, libandroid-support, ncurses, openssl
+Filename: dists/dom-dev/testing/binary-i686/httping_2.5-1_i686.deb
+Size: 34220
+SHA256: d6f67ba5ae84742977b204eef73a0f14d9b6bdcd2deedb06d31b79b5305c5948
+
+Package: hunspell-dev
+Architecture: i686
+Installed-Size: 112
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.6.2-1
+Description: Development files for hunspell
+Homepage: https://hunspell.github.io
+Depends: hunspell
+Filename: dists/dom-dev/testing/binary-i686/hunspell-dev_1.6.2-1_i686.deb
+Size: 9664
+SHA256: 4a29471398905fece0d8321fe1f1fd4f03d7e91fd750fd83ea2a34d4d1232611
+
+Package: hunspell
+Architecture: i686
+Installed-Size: 844
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.6.2-1
+Description: Spell checker
+Homepage: https://hunspell.github.io
+Depends: ncurses, readline, hunspell-en-us
+Filename: dists/dom-dev/testing/binary-i686/hunspell_1.6.2-1_i686.deb
+Size: 205428
+SHA256: b2b32ffd0f70454865f8462fd3e232023c9478292e87a4a84ff86cc55ab9c579
+
 Package: iconv
 Architecture: i686
 Installed-Size: 944
@@ -1067,6 +1644,18 @@ Filename: dists/dom-dev/testing/binary-i686/indent_2.2.11_i686.deb
 Size: 39432
 SHA256: fc82fe2b2026efc8d29248ce6cc8be2501d7957d38072cf24886c5c6d778ad85
 
+Package: inetutils
+Architecture: i686
+Installed-Size: 796
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.4-5
+Description: Collection of common network programs
+Homepage: https://www.gnu.org/software/inetutils/
+Depends: readline, libutil
+Filename: dists/dom-dev/testing/binary-i686/inetutils_1.9.4-5_i686.deb
+Size: 173040
+SHA256: 297a001598599297955825e6afa3ba46c039a1b2253b3b985425e10e1b893d92
+
 Package: inotify-tools-dev
 Architecture: i686
 Installed-Size: 48
@@ -1090,6 +1679,42 @@ Filename: dists/dom-dev/testing/binary-i686/inotify-tools_3.20.1_i686.deb
 Size: 24620
 SHA256: fb5714a05a9d3f9049f33876849e3d7c8393a3b2a1a08e2a802806f9aff8cf0e
 
+Package: ipcalc
+Architecture: i686
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.41
+Description: Calculates IP broadcast, network, Cisco wildcard mask, and host ranges
+Homepage: http://jodies.de/ipcalc
+Depends: perl
+Filename: dists/dom-dev/testing/binary-i686/ipcalc_0.41_i686.deb
+Size: 8744
+SHA256: 5e7edc980768a6c8f56154f81fe9425eea007b3456717cdba85f210c8ff08bef
+
+Package: iperf3-dev
+Architecture: i686
+Installed-Size: 64
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6
+Description: Development files for iperf3
+Homepage: https://github.com/esnet/iperf
+Depends: iperf3
+Filename: dists/dom-dev/testing/binary-i686/iperf3-dev_3.6_i686.deb
+Size: 6348
+SHA256: 5a9cdb7dca9b217ae3c994789f48d50665e5f4e088f50002d4ad10ad3951f2b9
+
+Package: iperf3
+Architecture: i686
+Installed-Size: 188
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6
+Description: TCP, UDP, and SCTP network bandwidth measurement tool
+Homepage: https://github.com/esnet/iperf
+Depends: openssl
+Filename: dists/dom-dev/testing/binary-i686/iperf3_3.6_i686.deb
+Size: 51036
+SHA256: 92ce7c2765d077005cf5b2656706d12f49f89c9b3d319f9dea7bbd3d25d70d21
+
 Package: ipfs
 Architecture: i686
 Installed-Size: 25328
@@ -1111,6 +1736,42 @@ Homepage: https://github.com/radare/ired
 Filename: dists/dom-dev/testing/binary-i686/ired_0.6_i686.deb
 Size: 13724
 SHA256: 6f0ae3dfb7e5e9c727e64dc3754cd65a7f594e53ff21da606b2651535ac9d4a4
+
+Package: irssi-dev
+Architecture: i686
+Installed-Size: 608
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.1
+Description: Development files for irssi
+Homepage: https://irssi.org/
+Depends: irssi
+Filename: dists/dom-dev/testing/binary-i686/irssi-dev_1.1.1_i686.deb
+Size: 39320
+SHA256: 78e2a51882cc51810e9c92c2fd9acae6c358235244358544686aabeb100d374c
+
+Package: irssi
+Architecture: i686
+Installed-Size: 1440
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.1
+Description: Terminal based IRC client
+Homepage: https://irssi.org/
+Depends: ncurses, openssl, glib, libandroid-glob
+Filename: dists/dom-dev/testing/binary-i686/irssi_1.1.1_i686.deb
+Size: 310524
+SHA256: 0520620533510baa26f543c4ed2e2bb897181ed7811216c6a44cfa99d24f513c
+
+Package: isync
+Architecture: i686
+Installed-Size: 196
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.0
+Description: IMAP and MailDir mailbox synchronizer
+Homepage: http://isync.sourceforge.net
+Depends: readline, openssl
+Filename: dists/dom-dev/testing/binary-i686/isync_1.3.0_i686.deb
+Size: 63644
+SHA256: 05cc2a6acad8b90be5590529ed135bd7b3c79cc29c881986459721e327a6f03b
 
 Package: jhead
 Architecture: i686
@@ -1182,6 +1843,30 @@ Filename: dists/dom-dev/testing/binary-i686/json-c_0.13.1_i686.deb
 Size: 19304
 SHA256: fb4aae65fe4aebff6a26d69a292f2eebdccf1e3e75ed6f2ef96d19522727b951
 
+Package: json-glib-dev
+Architecture: i686
+Installed-Size: 148
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.2-1
+Description: Development files for json-glib
+Homepage: https://wiki.gnome.org/Projects/JsonGlib
+Depends: json-glib,glib-dev
+Filename: dists/dom-dev/testing/binary-i686/json-glib-dev_1.4.2-1_i686.deb
+Size: 9844
+SHA256: dad53f0d78628edf7bb81493029596b8557e47dc3dbb95203e9dcf332931dbf0
+
+Package: json-glib
+Architecture: i686
+Installed-Size: 152
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.2-1
+Description: GLib JSON manipulation library
+Homepage: https://wiki.gnome.org/Projects/JsonGlib
+Depends: glib
+Filename: dists/dom-dev/testing/binary-i686/json-glib_1.4.2-1_i686.deb
+Size: 41692
+SHA256: bb12ada1e9148ab113dd8bee076ec29c640a765fd457647edd3518148df3d38f
+
 Package: jsoncpp-dev
 Architecture: i686
 Installed-Size: 136
@@ -1229,6 +1914,90 @@ Filename: dists/dom-dev/testing/binary-i686/kona_3.39-69-0_i686.deb
 Size: 108624
 SHA256: 8b9d0b7ab7576b4fee49c553671fca9abaccde66d6957196d377c07276a5ac39
 
+Package: krb5-dev
+Architecture: i686
+Installed-Size: 900
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.16.1
+Description: Development files for krb5
+Homepage: https://web.mit.edu/kerberos
+Depends: krb5
+Filename: dists/dom-dev/testing/binary-i686/krb5-dev_1.16.1_i686.deb
+Size: 114676
+SHA256: f6e403feb4a7cac3d15b18acdcc3cdefc003e2472d867cce99f74a8a98821b9a
+
+Package: krb5
+Architecture: i686
+Installed-Size: 2684
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.16.1
+Description: The Kerberos network authentication system
+Homepage: https://web.mit.edu/kerberos
+Depends: libandroid-support, libandroid-glob, readline, openssl, libutil, libdb
+Filename: dists/dom-dev/testing/binary-i686/krb5_1.16.1_i686.deb
+Size: 694736
+SHA256: c0b38511e80677a782d5ddba6e16f6d628a6a7135d8ee9832c957ec7144c75b0
+
+Package: ldns-dev
+Architecture: i686
+Installed-Size: 3116
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.7.0-4
+Description: Development files for ldns
+Homepage: https://www.nlnetlabs.nl/projects/ldns/
+Depends: ldns
+Filename: dists/dom-dev/testing/binary-i686/ldns-dev_1.7.0-4_i686.deb
+Size: 89168
+SHA256: da05980a0e65cd716439e2dab0ed52872ad7d2ef5d58df228bc666262ec6f170
+
+Package: ldns
+Architecture: i686
+Installed-Size: 304
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.7.0-4
+Description: Library for simplifying DNS programming and supporting recent and experimental RFCs
+Homepage: https://www.nlnetlabs.nl/projects/ldns/
+Depends: openssl
+Filename: dists/dom-dev/testing/binary-i686/ldns_1.7.0-4_i686.deb
+Size: 98572
+SHA256: 00bad716e1b452f17f2fb5eb2da753d9e0460023628fd6cb4da807599d8813cb
+
+Package: leptonica-dev
+Architecture: i686
+Installed-Size: 616
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.76.0
+Description: Development files for leptonica
+Homepage: http://www.leptonica.com/
+Depends: leptonica
+Filename: dists/dom-dev/testing/binary-i686/leptonica-dev_1.76.0_i686.deb
+Size: 100316
+SHA256: 9a238d56d943c6a6db4f592323973d99bc69da04d94893a1f360a60cc4e66004
+
+Package: leptonica
+Architecture: i686
+Installed-Size: 2052
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.76.0
+Description: Library for image processing and image analysis
+Homepage: http://www.leptonica.com/
+Depends: libjpeg-turbo, libpng, libtiff
+Filename: dists/dom-dev/testing/binary-i686/leptonica_1.76.0_i686.deb
+Size: 684300
+SHA256: f69a5f906bba8b21276f335fa6071fd29a7274a74aa48f1192792968365fe716
+
+Package: less
+Architecture: i686
+Installed-Size: 260
+Maintainer: Fredrik Fornwall @fornwall
+Version: 530-1
+Description: Terminal pager program used to view the contents of a text file one screen at a time
+Homepage: http://www.greenwoodsoftware.com/less/
+Depends: ncurses, pcre
+Filename: dists/dom-dev/testing/binary-i686/less_530-1_i686.deb
+Size: 74476
+SHA256: 4a20f4cfce7311b7fddbdd2814aff527aee89f23065d5f7a04e3e9624e0bc55e
+
 Package: leveldb-dev
 Architecture: i686
 Installed-Size: 116
@@ -1251,6 +2020,18 @@ Homepage: https://github.com/google/leveldb
 Filename: dists/dom-dev/testing/binary-i686/leveldb_1.20-1_i686.deb
 Size: 129652
 SHA256: 4987909f9085ec7f19238a0df7d19fc2438547598f39a2240381a337b8bd6d83
+
+Package: lftp
+Architecture: i686
+Installed-Size: 1348
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.8.4
+Description: FTP/HTTP client and file transfer program
+Homepage: https://lftp.tech/
+Depends: libexpat, openssl, readline, libutil, libidn
+Filename: dists/dom-dev/testing/binary-i686/lftp_4.8.4_i686.deb
+Size: 465464
+SHA256: 2b9dcf4b023994d2966ae6571b432b37560a9bd605d27e2b3de206373de079fc
 
 Package: libandroid-glob-dev
 Architecture: i686
@@ -1321,6 +2102,30 @@ Essential: yes
 Filename: dists/dom-dev/testing/binary-i686/libandroid-support_22_i686.deb
 Size: 107472
 SHA256: 0cf5945c4d2411f20a3030cc1662cf3fdeafccee9562d489acb46a1d07e4ea9f
+
+Package: libarchive-dev
+Architecture: i686
+Installed-Size: 436
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3.2
+Description: Development files for libarchive
+Homepage: https://www.libarchive.org/
+Depends: libarchive
+Filename: dists/dom-dev/testing/binary-i686/libarchive-dev_3.3.2_i686.deb
+Size: 52796
+SHA256: 43f5125dab4f963944e5caf1cd1cdcdbe124589030013f49e5276ef6af8bf6d8
+
+Package: libarchive
+Architecture: i686
+Installed-Size: 680
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3.2
+Description: Multi-format archive and compression library
+Homepage: https://www.libarchive.org/
+Depends: libbz2, liblzma, libxml2, openssl
+Filename: dists/dom-dev/testing/binary-i686/libarchive_3.3.2_i686.deb
+Size: 257936
+SHA256: cb6630a51439876aa2eeb82ae2adc876b5b384a2b60256d044d24ff51e463fbf
 
 Package: libassuan-dev
 Architecture: i686
@@ -1405,6 +2210,30 @@ Filename: dists/dom-dev/testing/binary-i686/libcaca_0.99.beta19-2_i686.deb
 Size: 223420
 SHA256: 73ec199027ac6120de722b647faf49e213bc5b9925be916f0c8b04fcbbfee378
 
+Package: libclang-dev
+Architecture: i686
+Installed-Size: 158444
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Description: C language frontend library for LLVM
+Homepage: https://clang.llvm.org/
+Depends: libllvm
+Filename: dists/dom-dev/testing/binary-i686/libclang-dev_6.0.1_i686.deb
+Size: 24484424
+SHA256: 4c6582f3cd1acd5d4b8fa84185f1cc0a08a4e6fb86d655387f921f3025cf94ec
+
+Package: libclang
+Architecture: i686
+Installed-Size: 11768
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Description: C language frontend library for LLVM
+Homepage: https://clang.llvm.org/
+Depends: libllvm
+Filename: dists/dom-dev/testing/binary-i686/libclang_6.0.1_i686.deb
+Size: 3475852
+SHA256: f3d2b45cbb7b850bf695503ca506fc373aa26f0f43d39d868dcd06a5d86cfd35
+
 Package: libcln-dev
 Architecture: i686
 Installed-Size: 592
@@ -1452,6 +2281,54 @@ Filename: dists/dom-dev/testing/binary-i686/libconfuse_3.2.1_i686.deb
 Size: 15956
 SHA256: beb91a42615b369f9ac60fb28bc0f4ca4eba6c7dfa63d1b406c827b43e53bf7f
 
+Package: libcroco-dev
+Architecture: i686
+Installed-Size: 216
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6.12
+Description: Development files for libcroco
+Homepage: https://github.com/GNOME/libcroco
+Depends: libcroco
+Filename: dists/dom-dev/testing/binary-i686/libcroco-dev_0.6.12_i686.deb
+Size: 18104
+SHA256: 651a5533b3fc6e9a4c44cce2c7c811cff29df8c1150d219492f65e9f7d6a0f43
+
+Package: libcroco
+Architecture: i686
+Installed-Size: 244
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6.12
+Description: CSS parsing and manipulation library
+Homepage: https://github.com/GNOME/libcroco
+Depends: glib,liblzma,libxml2
+Filename: dists/dom-dev/testing/binary-i686/libcroco_0.6.12_i686.deb
+Size: 62296
+SHA256: 1c93bdaed024e280182b4ad29419cb85766f63fd09e90d3ba6b243c84e0d4d76
+
+Package: libcrypt-dev
+Architecture: i686
+Installed-Size: 32
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Description: Development files for libcrypt
+Homepage: http://michael.dipperstein.com/crypt/
+Depends: libcrypt
+Filename: dists/dom-dev/testing/binary-i686/libcrypt-dev_0.2_i686.deb
+Size: 944
+SHA256: d06958a5ba619aac6b7b67cac478c771c8b981aabc46d0c3489e53da7e000daf
+
+Package: libcrypt
+Architecture: i686
+Installed-Size: 48
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Description: A crypt(3) implementation
+Homepage: http://michael.dipperstein.com/crypt/
+Depends: openssl
+Filename: dists/dom-dev/testing/binary-i686/libcrypt_0.2_i686.deb
+Size: 7868
+SHA256: 53e40917a64c013f556ddfcfa3bb9ad8a3661359e550ae27f3f2371af9edbfea
+
 Package: libcue-dev
 Architecture: i686
 Installed-Size: 52
@@ -1474,6 +2351,30 @@ Homepage: https://github.com/lipnitsk/libcue/
 Filename: dists/dom-dev/testing/binary-i686/libcue_2.2.1_i686.deb
 Size: 12804
 SHA256: bc5e68eba836b348258f9c1ce274d2fc4575283056c48aee80cba5665f902e36
+
+Package: libcurl-dev
+Architecture: i686
+Installed-Size: 2300
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.61.0
+Description: Development files for libcurl
+Homepage: https://curl.haxx.se/
+Depends: libcurl
+Filename: dists/dom-dev/testing/binary-i686/libcurl-dev_7.61.0_i686.deb
+Size: 207272
+SHA256: 4c3e5b310c3e91de9e2fa76f94dd156cf06ead3f533bb1a7c755b89ce8b6bb2e
+
+Package: libcurl
+Architecture: i686
+Installed-Size: 452
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.61.0
+Description: Easy-to-use client-side URL transfer library
+Homepage: https://curl.haxx.se/
+Depends: openssl, libnghttp2
+Filename: dists/dom-dev/testing/binary-i686/libcurl_7.61.0_i686.deb
+Size: 174892
+SHA256: d6ac8ea2d38ec58e0bfb64fc7d89f55172757f79591faa6b1edb1cb24f2f67a9
 
 Package: libdb-dev
 Architecture: i686
@@ -1708,6 +2609,30 @@ Filename: dists/dom-dev/testing/binary-i686/libgcrypt_1.8.3_i686.deb
 Size: 296828
 SHA256: d989cac3a7ba3d7ea3d13a8e668ed65a6a26379147cbc9521f6d9800491e89ae
 
+Package: libgmime-dev
+Architecture: i686
+Installed-Size: 388
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.2.0-1
+Description: Development files for libgmime
+Homepage: http://spruce.sourceforge.net/gmime/
+Depends: libgmime
+Filename: dists/dom-dev/testing/binary-i686/libgmime-dev_3.2.0-1_i686.deb
+Size: 29452
+SHA256: c525562535aed29f607a2a8663a18d09499c13554e6f1f7d7b255bbe8155c76d
+
+Package: libgmime
+Architecture: i686
+Installed-Size: 392
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.2.0-1
+Description: MIME message parser and creator
+Homepage: http://spruce.sourceforge.net/gmime/
+Depends: glib, libidn
+Filename: dists/dom-dev/testing/binary-i686/libgmime_3.2.0-1_i686.deb
+Size: 115000
+SHA256: 9de89426aba09a8979335631fa7cb196528749f45c21a377f8dc2d5ca46d7d5a
+
 Package: libgmp-dev
 Architecture: i686
 Installed-Size: 112
@@ -1730,6 +2655,30 @@ Homepage: https://gmplib.org/
 Filename: dists/dom-dev/testing/binary-i686/libgmp_6.1.2-1_i686.deb
 Size: 159056
 SHA256: 8fb41d4c56da4c624ead81b98e84ffa5acaf6b5c64851334c1cbe84e704d9c76
+
+Package: libgnutls-dev
+Architecture: i686
+Installed-Size: 4568
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.19
+Description: Development files for libgnutls
+Homepage: https://www.gnutls.org/
+Depends: libgnutls,libidn2-dev, libnettle-dev
+Filename: dists/dom-dev/testing/binary-i686/libgnutls-dev_3.5.19_i686.deb
+Size: 163060
+SHA256: e7f360e1f49762c89b641279ba04f86255839d8ea04ef5300e248cac6d3b4284
+
+Package: libgnutls
+Architecture: i686
+Installed-Size: 1072
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.19
+Description: Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them
+Homepage: https://www.gnutls.org/
+Depends: libgmp, libnettle, ca-certificates, libidn2, libunistring
+Filename: dists/dom-dev/testing/binary-i686/libgnutls_3.5.19_i686.deb
+Size: 351548
+SHA256: c80c9b2ad8124d52706db32146e544d73f4e8278839b65af6be33d118f5ded8c
 
 Package: libgpg-error-dev
 Architecture: i686
@@ -1776,6 +2725,30 @@ Homepage: https://github.com/silnrsi/graphite
 Filename: dists/dom-dev/testing/binary-i686/libgraphite_1.3.11-1_i686.deb
 Size: 80052
 SHA256: 07ce84171cd2e3e0819c19ce4b4f47bfef0c79ccd53514bb49f32f032bd343f9
+
+Package: libgrpc-dev
+Architecture: i686
+Installed-Size: 1520
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.14.1
+Description: Development files for libgrpc
+Homepage: https://grpc.io/
+Depends: libgrpc
+Filename: dists/dom-dev/testing/binary-i686/libgrpc-dev_1.14.1_i686.deb
+Size: 117252
+SHA256: 2aa72adf17a930d33043d0b9fd59bb544e1084ba5df9fbf72ddd2f153410df4c
+
+Package: libgrpc
+Architecture: i686
+Installed-Size: 6384
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.14.1
+Description: High performance, open source, general RPC framework that puts mobile and HTTP/2 first
+Homepage: https://grpc.io/
+Depends: openssl, protobuf, c-ares
+Filename: dists/dom-dev/testing/binary-i686/libgrpc_1.14.1_i686.deb
+Size: 1195032
+SHA256: 337aa852890b41dfabc96ef904727e8228c57e196c7ab321d4dad3ebea0fa28c
 
 Package: libgsasl-dev
 Architecture: i686
@@ -1824,6 +2797,30 @@ Depends: libzopfli
 Filename: dists/dom-dev/testing/binary-i686/libhdf5_1.10.1-1_i686.deb
 Size: 3941140
 SHA256: 021c28b99c6b756b662c88eb82699ea51a8f417f3306ac28edf82693daf93f0f
+
+Package: libical-dev
+Architecture: i686
+Installed-Size: 784
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.3-1
+Description: Development files for libical
+Homepage: http://libical.github.io/libical/
+Depends: libical
+Filename: dists/dom-dev/testing/binary-i686/libical-dev_3.0.3-1_i686.deb
+Size: 59484
+SHA256: c423e0c0b377e2e5024d9717beb46fdb64830b3062237f7ac30fe38f4e178266
+
+Package: libical
+Architecture: i686
+Installed-Size: 2648
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.3-1
+Description: Libical is an Open Source implementation of the iCalendar protocols and protocol data units
+Homepage: http://libical.github.io/libical/
+Depends: libxml2
+Filename: dists/dom-dev/testing/binary-i686/libical_3.0.3-1_i686.deb
+Size: 166980
+SHA256: 69a1784db4c569cdae77cc5ef259f8b614203a2cf78cb772bd8c96fd9047fabf
 
 Package: libicu-dev
 Architecture: i686
@@ -2060,6 +3057,57 @@ Filename: dists/dom-dev/testing/binary-i686/libksba_1.3.5-1_i686.deb
 Size: 66676
 SHA256: 8da6f9b305c72ec60cb51ba3cdafd9624b828dbbee10c3f3b10302534d3131b2
 
+Package: libllvm-dev
+Architecture: i686
+Installed-Size: 16872
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Description: Development files for libllvm
+Homepage: https://clang.llvm.org/
+Depends: libllvm
+Filename: dists/dom-dev/testing/binary-i686/libllvm-dev_6.0.1_i686.deb
+Size: 2035920
+SHA256: 80994fc03debc4cab5d5d126116ca053b6e8351f0c5d526b864f4ea68edcfad3
+
+Package: libllvm
+Architecture: i686
+Installed-Size: 44980
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Description: Modular compiler and toolchain technologies library
+Homepage: https://clang.llvm.org/
+Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libffi
+Conflicts: gcc, clang (<< 3.9.1-3)
+Replaces: gcc
+Filename: dists/dom-dev/testing/binary-i686/libllvm_6.0.1_i686.deb
+Size: 9968016
+SHA256: dca8d31f9292049b48a7184d58ba11236c4cf077d07fc7b6061f11bf0ebd6e37
+
+Package: liblua-dev
+Architecture: i686
+Installed-Size: 100
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.3.5
+Description: Development files for liblua
+Homepage: https://www.lua.org/
+Depends: liblua
+Filename: dists/dom-dev/testing/binary-i686/liblua-dev_5.3.5_i686.deb
+Size: 12796
+SHA256: 6d62d1cb8a1a16d2a836eead5e8662433660e16bab623132f7670fa4995d0495
+
+Package: liblua
+Architecture: i686
+Installed-Size: 196
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.3.5
+Description: Shared library for the Lua interpreter
+Homepage: https://www.lua.org/
+Conflicts: libluajit
+Replaces: libluajit
+Filename: dists/dom-dev/testing/binary-i686/liblua_5.3.5_i686.deb
+Size: 73908
+SHA256: 43ef17cc5a740b40843907d1cfac6685989e1bca2e37ff017184a5800ac2f848
+
 Package: liblz4-dev
 Architecture: i686
 Installed-Size: 124
@@ -2152,6 +3200,30 @@ Filename: dists/dom-dev/testing/binary-i686/libmad_0.15.1b-1_i686.deb
 Size: 49292
 SHA256: 0f0ca1a9764bb66aeeb03814a7ce49316fd23e744ec07bf6d473bc30148d1f8f
 
+Package: libmesode-dev
+Architecture: i686
+Installed-Size: 56
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 0.9.1
+Description: Development files for libmesode
+Homepage: https://github.com/boothj5/libmesode
+Depends: libmesode
+Filename: dists/dom-dev/testing/binary-i686/libmesode-dev_0.9.1_i686.deb
+Size: 4412
+SHA256: 9a9019ea370901f647a8511e272151e0d229da2812800d3e61718e3e4e80d2b7
+
+Package: libmesode
+Architecture: i686
+Installed-Size: 104
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 0.9.1
+Description: libmesode is a minimal XMPP library written in C. Fork of libstrophe for use with Profanity XMPP Client. Provides extra TLS functionality such as manual SSL certificate verfication
+Homepage: https://github.com/boothj5/libmesode
+Depends: openssl,libexpat
+Filename: dists/dom-dev/testing/binary-i686/libmesode_0.9.1_i686.deb
+Size: 32748
+SHA256: 0cd684169449df57acefa2ac0786d6b166a5363621c093368c235e9cdedf07e8
+
 Package: libmnl-dev
 Architecture: i686
 Installed-Size: 52
@@ -2175,6 +3247,30 @@ Filename: dists/dom-dev/testing/binary-i686/libmnl_1.0.4_i686.deb
 Size: 5932
 SHA256: b269265393d716fd458a24557988947b244ec3b0571f2be8ab8a48d2376f45aa
 
+Package: libmosquitto-dev
+Architecture: i686
+Installed-Size: 136
+Maintainer: Nathaniel Wesley Filardo @nwf
+Version: 1.5-1
+Description: Development files for libmosquitto
+Homepage: https://mosquitto.org/
+Depends: libmosquitto
+Filename: dists/dom-dev/testing/binary-i686/libmosquitto-dev_1.5-1_i686.deb
+Size: 15476
+SHA256: edc704279e85d6f4641917205d01c31efb3cf4c480dcf55606e7a2c080f785df
+
+Package: libmosquitto
+Architecture: i686
+Installed-Size: 116
+Maintainer: Nathaniel Wesley Filardo @nwf
+Version: 1.5-1
+Description: MQTT library
+Homepage: https://mosquitto.org/
+Depends: c-ares, openssl
+Filename: dists/dom-dev/testing/binary-i686/libmosquitto_1.5-1_i686.deb
+Size: 31084
+SHA256: 7f0008f074682a159f7eda2ec5d88ccc9fc37cd320a054dd2dd2bdcf08cd1686
+
 Package: libmp3lame-dev
 Architecture: i686
 Installed-Size: 84
@@ -2197,6 +3293,30 @@ Homepage: https://lame.sourceforge.net/
 Filename: dists/dom-dev/testing/binary-i686/libmp3lame_3.100_i686.deb
 Size: 103032
 SHA256: 015065a96b6c244fb8dbe38e6b6d461687e23b31a00603a5a7b8afceea82a44e
+
+Package: libmpc-dev
+Architecture: i686
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.0
+Description: Development files for libmpc
+Homepage: http://www.multiprecision.org/
+Depends: libmpc
+Filename: dists/dom-dev/testing/binary-i686/libmpc-dev_1.1.0_i686.deb
+Size: 3484
+SHA256: abc280f9f814e71930c5189a78e8a625fc03c27cf9533e73c2232785298e7b84
+
+Package: libmpc
+Architecture: i686
+Installed-Size: 108
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.0
+Description: Library for the arithmetic of complex numbers with arbitrarily high precision
+Homepage: http://www.multiprecision.org/
+Depends: libgmp, libmpfr
+Filename: dists/dom-dev/testing/binary-i686/libmpc_1.1.0_i686.deb
+Size: 31324
+SHA256: ac8456f00fc75a1706c878cb8d00fd79432ee50c4a6a3e51db0c92bdc1846fc1
 
 Package: libmpdclient-dev
 Architecture: i686
@@ -2431,6 +3551,30 @@ Filename: dists/dom-dev/testing/binary-i686/libopus_1.2.1_i686.deb
 Size: 135412
 SHA256: c8e86661af779ea6f3520902d19a7eaa47ce4469b5c5a2d9bf33ec48cae8bca8
 
+Package: libotr-dev
+Architecture: i686
+Installed-Size: 156
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 4.1.1
+Description: Development files for libotr
+Homepage: https://otr.cypherpunks.ca
+Depends: libotr
+Filename: dists/dom-dev/testing/binary-i686/libotr-dev_4.1.1_i686.deb
+Size: 17800
+SHA256: 9b33db9150bf276554c206ee92a71d27e3ac40cb4b659c63cb8060a1d4bbaf81
+
+Package: libotr
+Architecture: i686
+Installed-Size: 268
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 4.1.1
+Description: Off-the-Record (OTR) Messaging allows you to have private conversations over instant messaging by providing: Encryption, Authentication, Deniability, Perfect forward secrecy
+Homepage: https://otr.cypherpunks.ca
+Depends: libgcrypt
+Filename: dists/dom-dev/testing/binary-i686/libotr_4.1.1_i686.deb
+Size: 53680
+SHA256: cd8271767c1903f6a00c0338980ada85aa85472df82475009586ef5f4784da21
+
 Package: libpcap-dev
 Architecture: i686
 Installed-Size: 500
@@ -2595,6 +3739,30 @@ Filename: dists/dom-dev/testing/binary-i686/libqrencode_4.0.2_i686.deb
 Size: 23400
 SHA256: 9fc530374bf37abbb17e02ff5d044989e582ee95d03713c0d2fd41c62ef443d6
 
+Package: librsync-dev
+Architecture: i686
+Installed-Size: 64
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.2
+Description: Development files for librsync
+Homepage: https://github.com/librsync/librsync
+Depends: librsync
+Filename: dists/dom-dev/testing/binary-i686/librsync-dev_2.0.2_i686.deb
+Size: 7728
+SHA256: 15b59545e91bf5cf234a7ef4bc6169d3088b22ebd693a259a6317d9841b51c68
+
+Package: librsync
+Architecture: i686
+Installed-Size: 84
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.2
+Description: Remote delta-compression library
+Homepage: https://github.com/librsync/librsync
+Depends: libbz2
+Filename: dists/dom-dev/testing/binary-i686/librsync_2.0.2_i686.deb
+Size: 22380
+SHA256: 49c45944a7aec99ccf71424e498fbc6deeec884f3d82a0f41014a64787b919a3
+
 Package: libsasl-dev
 Architecture: i686
 Installed-Size: 364
@@ -2617,6 +3785,30 @@ Homepage: https://www.cyrusimap.org/sasl/
 Filename: dists/dom-dev/testing/binary-i686/libsasl_2.1.26-2_i686.deb
 Size: 56508
 SHA256: a6460a2b65089b8e3d852a7f15d023ab0c090ffdf90057ef6ca712fe6ac07b41
+
+Package: libsndfile-dev
+Architecture: i686
+Installed-Size: 88
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.29~pre1-2
+Description: Development files for libsndfile
+Homepage: http://www.mega-nerd.com/libsndfile
+Depends: libsndfile
+Filename: dists/dom-dev/testing/binary-i686/libsndfile-dev_1.0.29~pre1-2_i686.deb
+Size: 11756
+SHA256: 995dcfefdad4e774d31e7f6f17b8699e9231aec6e9bbdef8b22b3a21a70aed34
+
+Package: libsndfile
+Architecture: i686
+Installed-Size: 436
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.29~pre1-2
+Description: Library for reading/writing audio files
+Homepage: http://www.mega-nerd.com/libsndfile
+Depends: libflac, libvorbis
+Filename: dists/dom-dev/testing/binary-i686/libsndfile_1.0.29~pre1-2_i686.deb
+Size: 145920
+SHA256: f493d3ffaafddb898de0c317a89c8d5264825481518e584ea847653161ef9cac
 
 Package: libsodium-dev
 Architecture: i686
@@ -2663,6 +3855,53 @@ Homepage: https://sourceforge.net/projects/soxr/
 Filename: dists/dom-dev/testing/binary-i686/libsoxr_0.1.3_i686.deb
 Size: 250116
 SHA256: 085aeb3b1fd39b6eb35c3ad01f2bf39ebf9eb9ae10db3b3303e53aca1b6881b7
+
+Package: libsqlite-dev
+Architecture: i686
+Installed-Size: 732
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.24.0-1
+Description: Development files for libsqlite
+Homepage: https://www.sqlite.org
+Depends: libsqlite
+Filename: dists/dom-dev/testing/binary-i686/libsqlite-dev_3.24.0-1_i686.deb
+Size: 143740
+SHA256: 9d3528ddc9344ef154ac30cc69ace79f2d70d13b2eb4aa7e19ecbb96deb770a2
+
+Package: libsqlite
+Architecture: i686
+Installed-Size: 780
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.24.0-1
+Description: Library implementing a self-contained and transactional SQL database engine
+Homepage: https://www.sqlite.org
+Filename: dists/dom-dev/testing/binary-i686/libsqlite_3.24.0-1_i686.deb
+Size: 375928
+SHA256: 1deb1d880a641e91e6f8a098fab6811a8feb04b45964cfe3a2bf2d5cd4055758
+
+Package: libssh-dev
+Architecture: i686
+Installed-Size: 200
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.5-1
+Description: Development files for libssh
+Homepage: https://www.libssh.org/
+Depends: libssh
+Filename: dists/dom-dev/testing/binary-i686/libssh-dev_0.7.5-1_i686.deb
+Size: 23756
+SHA256: adde0c278bafe48a1a6a12950f4b0da97dacf4238cc29f96811477b2db7cdabc
+
+Package: libssh
+Architecture: i686
+Installed-Size: 432
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.5-1
+Description: Tiny C SSH library
+Homepage: https://www.libssh.org/
+Depends: openssl
+Filename: dists/dom-dev/testing/binary-i686/libssh_0.7.5-1_i686.deb
+Size: 133812
+SHA256: e5e0d6b3c3639f20674f528c15afc1f8b6954619ee1de10a1991a723106bdda3
 
 Package: libtalloc-dev
 Architecture: i686
@@ -3049,6 +4288,30 @@ Filename: dists/dom-dev/testing/binary-i686/libxml2_2.9.8_i686.deb
 Size: 401300
 SHA256: 9efc680448489d1cd198a35e1a9817bc20ac6ce1711b687f312c356a0fba021d
 
+Package: libxslt-dev
+Architecture: i686
+Installed-Size: 268
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.32
+Description: Development files for libxslt
+Homepage: http://xmlsoft.org/libxslt/
+Depends: libxslt,libxml2-dev
+Filename: dists/dom-dev/testing/binary-i686/libxslt-dev_1.1.32_i686.deb
+Size: 28644
+SHA256: 89c3b0fceefaa145600c1e5ae48f79c036a59fb51af87092d53b1991533312ba
+
+Package: libxslt
+Architecture: i686
+Installed-Size: 300
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.32
+Description: XSLT processing library
+Homepage: http://xmlsoft.org/libxslt/
+Depends: libxml2,libgcrypt
+Filename: dists/dom-dev/testing/binary-i686/libxslt_1.1.32_i686.deb
+Size: 97820
+SHA256: 50b684304714b428cc53023d636f567a208fec5262906244af07bd89b055cdc4
+
 Package: libyaml-dev
 Architecture: i686
 Installed-Size: 96
@@ -3118,6 +4381,113 @@ Homepage: https://github.com/google/zopfli
 Filename: dists/dom-dev/testing/binary-i686/libzopfli_1.0.2-1_i686.deb
 Size: 19588
 SHA256: 48c1d20754b51796ed8f2cae38c4342b2614bd28ab67be4529b3cd11fd95d834
+
+Package: lighttpd
+Architecture: i686
+Installed-Size: 836
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.50
+Description: Fast webserver with minimal memory footprint
+Homepage: http://www.lighttpd.net
+Depends: libbz2, openssl, pcre, libcrypt, libandroid-glob
+Filename: dists/dom-dev/testing/binary-i686/lighttpd_1.4.50_i686.deb
+Size: 205844
+SHA256: 2f7643329c532d75c5d67052a580ac82a3f40c1b77156295de7168b734fb8065
+
+Package: littlecms-dev
+Architecture: i686
+Installed-Size: 172
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9
+Description: Development files for littlecms
+Homepage: http://www.littlecms.com/
+Depends: littlecms
+Filename: dists/dom-dev/testing/binary-i686/littlecms-dev_2.9_i686.deb
+Size: 23220
+SHA256: 0d27b536bc08fce952f4ae74f38f612f22955e00212fe0296ce7f1f913521cfe
+
+Package: littlecms-utils
+Architecture: i686
+Installed-Size: 168
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9
+Description: Color management utilities
+Homepage: http://www.littlecms.com/
+Depends: littlecms, libtiff
+Filename: dists/dom-dev/testing/binary-i686/littlecms-utils_2.9_i686.deb
+Size: 28068
+SHA256: 6bd0d589f579c2787656dd19791aae71e0e1fc91039f0d12576c76cf1caa0652
+
+Package: littlecms
+Architecture: i686
+Installed-Size: 312
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9
+Description: Color management library
+Homepage: http://www.littlecms.com/
+Filename: dists/dom-dev/testing/binary-i686/littlecms_2.9_i686.deb
+Size: 104224
+SHA256: e09972909df9c2f2b08bb78904a1aee02f696818760e947c410046ce2373e62c
+
+Package: lld
+Architecture: i686
+Installed-Size: 8160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Description: LD replace based on LLVM
+Homepage: https://clang.llvm.org/
+Depends: libllvm
+Filename: dists/dom-dev/testing/binary-i686/lld_6.0.1_i686.deb
+Size: 1052300
+SHA256: 5d5f2db64e785bcb8d4e7ff5175eb7077660d83b71b5f96f01249fe6af4b44ff
+
+Package: llvm
+Architecture: i686
+Installed-Size: 7340
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Description: C language frontend for LLVM
+Homepage: https://clang.llvm.org/
+Depends: libllvm
+Filename: dists/dom-dev/testing/binary-i686/llvm_6.0.1_i686.deb
+Size: 1780824
+SHA256: ec8abd0f1f724271a1de8eda5d4482b72003ad5395e031e726875162314c8ac8
+
+Package: ltrace
+Architecture: i686
+Installed-Size: 332
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.3.20160411-2
+Description: Tracks runtime library calls in dynamically linked programs
+Homepage: http://www.ltrace.org/
+Depends: elfutils
+Filename: dists/dom-dev/testing/binary-i686/ltrace_0.7.3.20160411-2_i686.deb
+Size: 91660
+SHA256: 5404868dd9b39dcaf1082c48190ab2b6d913fe2674e25b10acbb5ace8782fb55
+
+Package: lua
+Architecture: i686
+Installed-Size: 332
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.3.5
+Description: Simple, extensible, embeddable programming language
+Homepage: https://www.lua.org/
+Depends: readline
+Filename: dists/dom-dev/testing/binary-i686/lua_5.3.5_i686.deb
+Size: 86648
+SHA256: e02064fa4349794c990f8e8c6a719b2f6872e5a6a50d4edafa069a718174cac6
+
+Package: lynx
+Architecture: i686
+Installed-Size: 1532
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.8.9rel.1
+Description: The text web browser
+Homepage: http://lynx.browser.org/
+Depends: ncurses, openssl, libbz2, libidn
+Filename: dists/dom-dev/testing/binary-i686/lynx_2.8.9rel.1_i686.deb
+Size: 521548
+SHA256: 546fa87a1cff8a19230f506a87a76c994e59d9cf3894380f7c66f38d1450afb5
 
 Package: lz4
 Architecture: i686
@@ -3199,6 +4569,55 @@ Filename: dists/dom-dev/testing/binary-i686/make_4.2.1_i686.deb
 Size: 85076
 SHA256: edb3d06bdc999c2f0c80befb03e07ffe576b3791d0d80a6d07418aea1ec92e99
 
+Package: man
+Architecture: i686
+Installed-Size: 868
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.14.4
+Description: Man page viewer from the mandoc toolset
+Homepage: https://mdocml.bsd.lv/
+Depends: less,libandroid-glob
+Filename: dists/dom-dev/testing/binary-i686/man_1.14.4_i686.deb
+Size: 212304
+SHA256: 3beb3e708db165c216305bbf9b4e0b5aa2aa36f7cf1852ffdf922a9fb97cef1d
+
+Package: mariadb-dev
+Architecture: i686
+Installed-Size: 5632
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 10.3.8
+Description: Development files for mariadb
+Homepage: https://mariadb.org
+Depends: mariadb
+Filename: dists/dom-dev/testing/binary-i686/mariadb-dev_10.3.8_i686.deb
+Size: 849836
+SHA256: c83310ca2545d698cf395b3f9f0b1147002965e24b3c507292d482c36747f576
+
+Package: mariadb
+Architecture: i686
+Installed-Size: 151428
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 10.3.8
+Description: A drop-in replacement for mysql server
+Homepage: https://mariadb.org
+Depends: liblzma, ncurses, libedit, openssl, pcre, libcrypt, libandroid-support, libandroid-glob
+Conflicts: mysql
+Filename: dists/dom-dev/testing/binary-i686/mariadb_10.3.8_i686.deb
+Size: 15688420
+SHA256: 5e17bb2824d0b799b78322eeb41878f333269350e10897bb006b2e590519f2c9
+
+Package: mathomatic
+Architecture: i686
+Installed-Size: 304
+Maintainer: Jonathan Badger @jhbadger
+Version: 16.0.5-3
+Description: Simple CAS and symbolic calculator
+Homepage: https://en.wikipedia.org/wiki/Mathomatic
+Depends: readline
+Filename: dists/dom-dev/testing/binary-i686/mathomatic_16.0.5-3_i686.deb
+Size: 117804
+SHA256: ef7b063fa62d0d6d26ea7cf6a8a4bbe84bb979b0ca563b3d3154a88de6d52f2e
+
 Package: mbedtls-dev
 Architecture: i686
 Installed-Size: 1404
@@ -3221,6 +4640,18 @@ Homepage: https://tls.mbed.org/
 Filename: dists/dom-dev/testing/binary-i686/mbedtls_2.12.0_i686.deb
 Size: 202508
 SHA256: 1f33eaeb2e4017573241305c428361247f3830169b199c31e0cc81c71956eb34
+
+Package: mc
+Architecture: i686
+Installed-Size: 2764
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.8.21
+Description: Midnight Commander - a powerful file manager
+Homepage: https://www.midnight-commander.org/
+Depends: libandroid-support, ncurses, glib
+Filename: dists/dom-dev/testing/binary-i686/mc_4.8.21_i686.deb
+Size: 510724
+SHA256: 81d9c1372b55b1157a29ff128548fb8dce4df20fe2eadf061af5266bf5aad266
 
 Package: mdp
 Architecture: i686
@@ -3317,6 +4748,18 @@ Filename: dists/dom-dev/testing/binary-i686/moria_5.6_i686.deb
 Size: 146036
 SHA256: 87bd2bf380b9622865c566a4c4cf11428e810d0964e9809cbc50408b82423398
 
+Package: mosquitto
+Architecture: i686
+Installed-Size: 480
+Maintainer: Nathaniel Wesley Filardo @nwf
+Version: 1.5-1
+Description: MQTT version 3.1/3.1.1 compatible message broker and clients
+Homepage: https://mosquitto.org/
+Depends: libmosquitto, libuuid
+Filename: dists/dom-dev/testing/binary-i686/mosquitto_1.5-1_i686.deb
+Size: 101404
+SHA256: 998a96cfa00f315ee83f4ca9ba8a91daf0c0e21f8c0d64f4644806239913a198
+
 Package: mpc
 Architecture: i686
 Installed-Size: 708
@@ -3352,6 +4795,18 @@ Depends: ncurses, ncurses-ui-libs, libandroid-glob
 Filename: dists/dom-dev/testing/binary-i686/multitail_6.4.2-1_i686.deb
 Size: 110560
 SHA256: 0d225de17ba03c10feaf62ff406a256d1708605db1bf5442ac8d06d7cb2af783
+
+Package: mutt
+Architecture: i686
+Installed-Size: 1228
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.1-1
+Description: Mail client with patches from neomutt
+Homepage: http://www.mutt.org/
+Depends: libandroid-support, ncurses, gdbm, openssl, libsasl, mime-support
+Filename: dists/dom-dev/testing/binary-i686/mutt_1.10.1-1_i686.deb
+Size: 378896
+SHA256: 5f6fe9cf7794a12bae78d6217c6b18f6178b1b74be520f480fb54a1a1ccb281f
 
 Package: nano
 Architecture: i686
@@ -3472,6 +4927,30 @@ Filename: dists/dom-dev/testing/binary-i686/net-tools_1.60.2017.02.21-1_i686.deb
 Size: 97832
 SHA256: a0b4b34ba453ce5b5ecbd272faed75f30d5c201209e8da0b1f50fd3f630ecd55
 
+Package: netpbm-dev
+Architecture: i686
+Installed-Size: 196
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3094
+Description: Development files for netpbm
+Homepage: http://netpbm.sourceforge.net/
+Depends: netpbm
+Filename: dists/dom-dev/testing/binary-i686/netpbm-dev_3094_i686.deb
+Size: 27528
+SHA256: 01af24d4297b8dc5508e032f63de83d853bb6f895658d569761c8761320d0f01
+
+Package: netpbm
+Architecture: i686
+Installed-Size: 5480
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3094
+Description: Toolkit for manipulation of graphic images of different formats
+Homepage: http://netpbm.sourceforge.net/
+Depends: libpng, libxml2, libjpeg-turbo, libtiff
+Filename: dists/dom-dev/testing/binary-i686/netpbm_3094_i686.deb
+Size: 936928
+SHA256: 6fd38969a80ea5ce3c6415d727bf051316c9aaaf64c0c508deb971c302bd99a2
+
 Package: nettle
 Architecture: i686
 Installed-Size: 112
@@ -3484,6 +4963,18 @@ Filename: dists/dom-dev/testing/binary-i686/nettle_3.4_i686.deb
 Size: 17096
 SHA256: 1a85fda50ee895780165b2c1943c7333346bec4549dede67c6780718e4efd88a
 
+Package: nginx
+Architecture: i686
+Installed-Size: 1028
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.14.0
+Description: Lightweight HTTP server
+Homepage: https://www.nginx.org
+Depends: libandroid-glob, libcrypt, pcre, openssl
+Filename: dists/dom-dev/testing/binary-i686/nginx_1.14.0_i686.deb
+Size: 314076
+SHA256: 9e9dbe3e3525dc70ba086811e0eb3a3cb9edf1da46485f713eda84c8c7dc06e8
+
 Package: ninja
 Architecture: i686
 Installed-Size: 168
@@ -3494,6 +4985,56 @@ Homepage: https://ninja-build.org
 Filename: dists/dom-dev/testing/binary-i686/ninja_1.8.2-1_i686.deb
 Size: 55064
 SHA256: d166291b50846f539be24bb184224ffc11e038d2661628fe9798810f4f236d45
+
+Package: nodejs-current-dev
+Architecture: i686
+Installed-Size: 844
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.11.1
+Description: Development files for nodejs-current
+Homepage: https://nodejs.org/
+Depends: nodejs-current
+Filename: dists/dom-dev/testing/binary-i686/nodejs-current-dev_9.11.1_i686.deb
+Size: 125724
+SHA256: 50f2b5a70eba5808f6d1d69aa474daebfc11ddb0cb82fd5332db9732156562c8
+
+Package: nodejs-current
+Architecture: i686
+Installed-Size: 46904
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.11.1
+Description: Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications
+Homepage: https://nodejs.org/
+Depends: openssl, c-ares
+Conflicts: nodejs
+Filename: dists/dom-dev/testing/binary-i686/nodejs-current_9.11.1_i686.deb
+Size: 6159220
+SHA256: 26deb653b0a6f365fb49ff1433784eda1ef3f2afbca69d65bfebba58d488fb88
+
+Package: nodejs-dev
+Architecture: i686
+Installed-Size: 836
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.11.3
+Description: Development files for nodejs
+Homepage: https://nodejs.org/
+Depends: nodejs
+Filename: dists/dom-dev/testing/binary-i686/nodejs-dev_8.11.3_i686.deb
+Size: 124856
+SHA256: 57f218804221c680793ae3b1cd08886359bc6176b687350746632a023123fb94
+
+Package: nodejs
+Architecture: i686
+Installed-Size: 46748
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.11.3
+Description: Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications
+Homepage: https://nodejs.org/
+Depends: openssl, c-ares
+Conflicts: nodejs-current
+Filename: dists/dom-dev/testing/binary-i686/nodejs_8.11.3_i686.deb
+Size: 6126912
+SHA256: 87ff527d44cdacd6c89999e1162977f1a231ccc9cd094f94ffd911c8c9813244
 
 Package: nyancat
 Architecture: i686
@@ -3552,6 +5093,19 @@ Filename: dists/dom-dev/testing/binary-i686/openal-soft_1.18.2_i686.deb
 Size: 299644
 SHA256: f8e741485261ce54c60d76f8d7b01651af1a68a3c2f7229a21520cf8e95cc15d
 
+Package: openssh
+Architecture: i686
+Installed-Size: 3976
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.7p1-4
+Description: Secure shell for logging into a remote machine
+Homepage: https://www.openssh.com/
+Depends: libandroid-support, ldns, openssl, libedit, libutil
+Conflicts: dropbear
+Filename: dists/dom-dev/testing/binary-i686/openssh_7.7p1-4_i686.deb
+Size: 533860
+SHA256: 408f2ae20c4b3708798479943464644687b1739f335a62a192ae9e0192d43af9
+
 Package: openssl-dev
 Architecture: i686
 Installed-Size: 1896
@@ -3600,6 +5154,18 @@ Filename: dists/dom-dev/testing/binary-i686/optipng_0.7.7_i686.deb
 Size: 35168
 SHA256: 67fcc567b00a9adcfdf7b05d1e80201035acaf9c1374d8920ef4cf3dc92ffa79
 
+Package: opus-tools
+Architecture: i686
+Installed-Size: 208
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.1.10-2
+Description: Utilities to encode and decode .opus files
+Homepage: https://www.opus-codec.org/
+Depends: libopus, libogg, libflac
+Filename: dists/dom-dev/testing/binary-i686/opus-tools_0.1.10-2_i686.deb
+Size: 52380
+SHA256: d2f106284cc52f5b6ab044533dc39f0d8ed1ba49bfadbcbbd1dd5767d9316006
+
 Package: opusfile-dev
 Architecture: i686
 Installed-Size: 164
@@ -3645,6 +5211,30 @@ Homepage: https://github.com/Parchive/par2cmdline
 Filename: dists/dom-dev/testing/binary-i686/par2_0.8.0_i686.deb
 Size: 246640
 SHA256: 45f7bacc7de74b2fce0ed08f6c5560c95c9046a0004f3d7e83403f67051b3475
+
+Package: parted-dev
+Architecture: i686
+Installed-Size: 116
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.2
+Description: Development files for parted
+Homepage: https://www.gnu.org/software/parted/
+Depends: parted
+Filename: dists/dom-dev/testing/binary-i686/parted-dev_3.2_i686.deb
+Size: 9576
+SHA256: 352f2bff5ad37efbed9d7d84b8c7d77983b9f9904b4efa4d8d4fcc214c9322fe
+
+Package: parted
+Architecture: i686
+Installed-Size: 484
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.2
+Description: Versatile partition editor
+Homepage: https://www.gnu.org/software/parted/
+Depends: libuuid, readline
+Filename: dists/dom-dev/testing/binary-i686/parted_3.2_i686.deb
+Size: 168012
+SHA256: 2064f2512cf741f260d27c7eb46ab329b8b3ecf4e156f9c3832a0cad672c5b1a
 
 Package: patch
 Architecture: i686
@@ -3748,6 +5338,30 @@ Filename: dists/dom-dev/testing/binary-i686/pick_2.0.2_i686.deb
 Size: 9492
 SHA256: 40785f129588dc8de34c1f72216dd17bb4a4f6d3560abb7eda21163873adc371
 
+Package: pinentry
+Architecture: i686
+Installed-Size: 80
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.0
+Description: Dialog allowing secure password entry
+Homepage: https://www.gnupg.org/related_software/pinentry/index.html
+Depends: libandroid-support, libassuan, ncurses
+Filename: dists/dom-dev/testing/binary-i686/pinentry_1.1.0_i686.deb
+Size: 21620
+SHA256: f5033f6450932dcb87158ec0cd5c6aff97c7da1d8cd93491d964e05f87d29552
+
+Package: pkg-config
+Architecture: i686
+Installed-Size: 120
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.29.2
+Description: Helper tool used when compiling applications and libraries
+Homepage: https://www.freedesktop.org/wiki/Software/pkg-config/
+Depends: glib
+Filename: dists/dom-dev/testing/binary-i686/pkg-config_0.29.2_i686.deb
+Size: 25188
+SHA256: 7dba0fd0a35ca50d069d77f5d039717cc9644f851686d53cb70d8adcae89b569
+
 Package: play-audio
 Architecture: i686
 Installed-Size: 64
@@ -3758,6 +5372,32 @@ Homepage: https://github.com/termux/play-audio
 Filename: dists/dom-dev/testing/binary-i686/play-audio_0.5-1_i686.deb
 Size: 4256
 SHA256: d81522329b578f3d5cd9a6bb2dd2156135030be66ccfbb4e38711aee65f12087
+
+Package: postgresql-dev
+Architecture: i686
+Installed-Size: 6440
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 10.5
+Description: Development files for postgresql
+Homepage: https://www.postgresql.org
+Depends: postgresql
+Filename: dists/dom-dev/testing/binary-i686/postgresql-dev_10.5_i686.deb
+Size: 751444
+SHA256: 8ea7daaa197db526f435fe1c13a68566c6453ed81e1d8e62600a30b95fd70dc2
+
+Package: postgresql
+Architecture: i686
+Installed-Size: 16544
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 10.5
+Description: Object-relational SQL database
+Homepage: https://www.postgresql.org
+Breaks: postgresql-contrib (<= 10.3-1)
+Depends: openssl, libcrypt, readline, libandroid-shmem, libuuid, libxml2
+Replaces: postgresql-contrib (<= 10.3-1)
+Filename: dists/dom-dev/testing/binary-i686/postgresql_10.5_i686.deb
+Size: 3532764
+SHA256: 2cf187678fa29ffea393b13c72cbae696f37be8fe235d7f43cb502ae7a639bbe
 
 Package: potrace
 Architecture: i686
@@ -3840,6 +5480,18 @@ Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/psmisc_23.1_i686.deb
 Size: 33464
 SHA256: cfb6666725cc1b6168dba651ae69a68a2967f45a7f4c58039b1892e0249be8ca
+
+Package: pure-ftpd
+Architecture: i686
+Installed-Size: 332
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.47
+Description: Pure-FTPd is a free (BSD), secure, production-quality and standard-conformant FTP server
+Homepage: https://www.pureftpd.org/project/pure-ftpd
+Depends: libcrypt, openssl
+Filename: dists/dom-dev/testing/binary-i686/pure-ftpd_1.0.47_i686.deb
+Size: 79020
+SHA256: 10b8f622b955174d11f390c5dc25e4b1b51cbf0e2a0f7da0aa704df79e38bd66
 
 Package: pv
 Architecture: i686
@@ -3949,6 +5601,18 @@ Filename: dists/dom-dev/testing/binary-i686/rcs_5.9.4-2_i686.deb
 Size: 107296
 SHA256: 6e965a6a72f5902d35060b5618ad6e8ce03608a7517d5aff59e7f1433bed9c5f
 
+Package: rdiff
+Architecture: i686
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.2
+Description: Remote incremental backup
+Homepage: https://github.com/librsync/librsync
+Depends: librsync,libpopt
+Filename: dists/dom-dev/testing/binary-i686/rdiff_2.0.2_i686.deb
+Size: 5716
+SHA256: 4625778b54ca96c63cf91f32de62df7190efe19f411543b9d281be6ebf6f69fa
+
 Package: readline-dev
 Architecture: i686
 Installed-Size: 208
@@ -4030,6 +5694,116 @@ Filename: dists/dom-dev/testing/binary-i686/rgbds_0.3.7_i686.deb
 Size: 79680
 SHA256: e2b243507456d2fdac7bc20029a3fe88049a6be9ece50431931bd634d857ffe1
 
+Package: rhash-dev
+Architecture: i686
+Installed-Size: 56
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.3.6-3
+Description: Development files for rhash
+Homepage: https://github.com/rhash/RHash
+Depends: rhash
+Filename: dists/dom-dev/testing/binary-i686/rhash-dev_1.3.6-3_i686.deb
+Size: 4484
+SHA256: ad70dca92cd66b7724f77a71dd86747501c241571102bd3e71ea7aaf1ebf5b34
+
+Package: rhash
+Architecture: i686
+Installed-Size: 260
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.3.6-3
+Description: Console utility for calculation and verification of magnet links and a wide range of hash sums
+Homepage: https://github.com/rhash/RHash
+Depends: openssl
+Conflicts: librhash
+Replaces: librhash
+Filename: dists/dom-dev/testing/binary-i686/rhash_1.3.6-3_i686.deb
+Size: 100216
+SHA256: e20516ebaa55aa409176df3d6cc6b5e36a139f1d339161e67ceba56862103cfa
+
+Package: rlwrap
+Architecture: i686
+Installed-Size: 384
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.43-1
+Description: Wrapper using readline to enable editing of keyboard input for commands
+Homepage: https://github.com/hanslub42/rlwrap
+Depends: ncurses, readline
+Filename: dists/dom-dev/testing/binary-i686/rlwrap_0.43-1_i686.deb
+Size: 69948
+SHA256: 37ce22a580153e7f3c1e0fa97e9d6fe5678d5785d01d6ce1e15b7ea899209d46
+
+Package: rtmpdump-dev
+Architecture: i686
+Installed-Size: 92
+Maintainer: Pierre Rudloff @Rudloff
+Version: 2.4
+Description: Development files for rtmpdump
+Homepage: https://rtmpdump.mplayerhq.hu/
+Depends: rtmpdump
+Filename: dists/dom-dev/testing/binary-i686/rtmpdump-dev_2.4_i686.deb
+Size: 8804
+SHA256: 18ff430c1307fe431958d4bc0572d0b882ec3f658eeb42a53382c93b7a8e5860
+
+Package: rtmpdump
+Architecture: i686
+Installed-Size: 256
+Maintainer: Pierre Rudloff @Rudloff
+Version: 2.4
+Description: Small dumper for media content streamed over the RTMP protocol
+Homepage: https://rtmpdump.mplayerhq.hu/
+Depends: openssl
+Filename: dists/dom-dev/testing/binary-i686/rtmpdump_2.4_i686.deb
+Size: 69924
+SHA256: 2ff0a4bbd15c2e75add5dcc040718cdecc1815eefe21647d1477dd5d75973a91
+
+Package: ruby-dev
+Architecture: i686
+Installed-Size: 364
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.5.1-1
+Description: Development files for ruby
+Homepage: https://www.ruby-lang.org/
+Depends: ruby
+Filename: dists/dom-dev/testing/binary-i686/ruby-dev_2.5.1-1_i686.deb
+Size: 48712
+SHA256: dbe35d178d95ca0aeb50acdd889481317e10067b65de708ab2ef28a14971b1d0
+
+Package: ruby
+Architecture: i686
+Installed-Size: 17772
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.5.1-1
+Description: Dynamic programming language with a focus on simplicity and productivity
+Homepage: https://www.ruby-lang.org/
+Depends: libandroid-support, libffi, libgmp, readline, openssl, libutil, libyaml
+Filename: dists/dom-dev/testing/binary-i686/ruby_2.5.1-1_i686.deb
+Size: 3468112
+SHA256: a540f8050168f297e6487d9c2a93c4332278185d27d8fd635ce14cb31069442b
+
+Package: screen
+Architecture: i686
+Installed-Size: 872
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.6.2
+Description: Terminal multiplexer with VT100/ANSI terminal emulation
+Homepage: https://www.gnu.org/software/screen/
+Depends: ncurses, libcrypt, libutil
+Filename: dists/dom-dev/testing/binary-i686/screen_4.6.2_i686.deb
+Size: 382684
+SHA256: b41cd94921c8d5966e76d27ae3c2ad88b9f45c516026dbcc31167df08721a020
+
+Package: scrypt
+Architecture: i686
+Installed-Size: 84
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.1
+Description: scrypt KDF library and file encryption tool
+Homepage: https://www.tarsnap.com/scrypt.html
+Depends: openssl
+Filename: dists/dom-dev/testing/binary-i686/scrypt_1.2.1_i686.deb
+Size: 19680
+SHA256: 20a96ffcd9dbefe6bc223eb9b24973b90ebf4323934dbe7f98dfac89796be699
+
 Package: sed
 Architecture: i686
 Installed-Size: 184
@@ -4064,6 +5838,18 @@ Filename: dists/dom-dev/testing/binary-i686/sharutils_4.15.2-1_i686.deb
 Size: 88312
 SHA256: d3c8036f24e1482fbb6c30ae300bc2645fba50ff07f080e65b43c17d7f72f366
 
+Package: silversearcher-ag
+Architecture: i686
+Installed-Size: 144
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.0
+Description: Fast grep-like program, alternative to ack-grep
+Homepage: https://geoff.greer.fm/ag/
+Depends: pcre, liblzma
+Filename: dists/dom-dev/testing/binary-i686/silversearcher-ag_2.2.0_i686.deb
+Size: 28972
+SHA256: e831122a7aea65372b99ba63a8a267212f7de121ae68655812bb71480bfdd68a
+
 Package: sl
 Architecture: i686
 Installed-Size: 60
@@ -4076,6 +5862,30 @@ Filename: dists/dom-dev/testing/binary-i686/sl_5.02-1_i686.deb
 Size: 5100
 SHA256: 0d5ffba574e21fa8d7455190c20ce76aba614986d2eb3011c389f43b7ebdc995
 
+Package: socat
+Architecture: i686
+Installed-Size: 548
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.7.3.2
+Description: Relay for bidirectional data transfer between two independent data channels
+Homepage: http://www.dest-unreach.org/socat/
+Depends: openssl, readline, libutil
+Filename: dists/dom-dev/testing/binary-i686/socat_1.7.3.2_i686.deb
+Size: 134620
+SHA256: a91f672383d38ce7e4d0e7032e1549a2174565aa48d498b63ba3ade08d771014
+
+Package: sqlite
+Architecture: i686
+Installed-Size: 944
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.24.0-1
+Description: Command line shell for SQLite
+Homepage: https://www.sqlite.org
+Depends: libsqlite, readline
+Filename: dists/dom-dev/testing/binary-i686/sqlite_3.24.0-1_i686.deb
+Size: 443056
+SHA256: 975162bc4c54486d92c35a89aba4ce1cf06914bc01424adc2c89049a4816f580
+
 Package: sshpass
 Architecture: i686
 Installed-Size: 60
@@ -4086,6 +5896,18 @@ Homepage: http://sourceforge.net/projects/sshpass/
 Filename: dists/dom-dev/testing/binary-i686/sshpass_1.06_i686.deb
 Size: 7056
 SHA256: 3fc4ed48de2d4ece431105ea94452706b4fa0728e062887bdf2c245dfd12e28d
+
+Package: sslscan
+Architecture: i686
+Installed-Size: 112
+Maintainer: Pierre Rudloff @Rudloff
+Version: 1.11.11
+Description: Fast SSL scanner
+Homepage: https://github.com/rbsec/sslscan
+Depends: openssl
+Filename: dists/dom-dev/testing/binary-i686/sslscan_1.11.11_i686.deb
+Size: 23528
+SHA256: f5c6accbbf1da7b74d43b88283bc53753a404cf259501ffb830ec42511c0d332
 
 Package: stag
 Architecture: i686
@@ -4134,6 +5956,18 @@ Filename: dists/dom-dev/testing/binary-i686/strace_4.23_i686.deb
 Size: 198448
 SHA256: e4114e1dc2bd98671fce5f2034704a222198f0c41a2cbf6b06ebf4962c81aac7
 
+Package: stunnel
+Architecture: i686
+Installed-Size: 256
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.48
+Description: Socket wrapper which can provide TLS support to ordinary applications
+Homepage: https://www.stunnel.org/
+Depends: openssl, libutil
+Filename: dists/dom-dev/testing/binary-i686/stunnel_5.48_i686.deb
+Size: 71768
+SHA256: e36b4e0c8984bb54b0f4370c119e518cee6601aa5bbaa96a2e94fbda53d273a7
+
 Package: syncthing
 Architecture: i686
 Installed-Size: 16052
@@ -4156,6 +5990,18 @@ Depends: xz-utils
 Filename: dists/dom-dev/testing/binary-i686/tar_1.30-1_i686.deb
 Size: 185612
 SHA256: 96e4513e00aa698d5a84a93d7b81ff49a33f2e1be2895bd21438557b25bd3ec9
+
+Package: tcsh
+Architecture: i686
+Installed-Size: 552
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.20.00
+Description: TENEX C Shell, an enhanced version of Berkeley csh
+Homepage: http://www.tcsh.org
+Depends: ncurses, libcrypt
+Filename: dists/dom-dev/testing/binary-i686/tcsh_6.20.00_i686.deb
+Size: 191788
+SHA256: 1dd0ceb8aca84f93f590b7d34e6f793c25d68818164d40ea49ef4fa457d002c9
 
 Package: teckit-dev
 Architecture: i686
@@ -4259,6 +6105,30 @@ Filename: dists/dom-dev/testing/binary-i686/tmux_2.7_i686.deb
 Size: 191360
 SHA256: c5daa7dba937766c135952cbc15b388fb626e8d955bc3947f03902129f0dfce0
 
+Package: toilet
+Architecture: i686
+Installed-Size: 868
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3-1
+Description: FIGlet-compatible display of large colourful characters in text mode
+Homepage: http://caca.zoy.org/wiki/toilet
+Depends: libcaca
+Filename: dists/dom-dev/testing/binary-i686/toilet_0.3-1_i686.deb
+Size: 718372
+SHA256: 2f849da2aef9c1014b5a608df888b313b63a145470888fd6903a01b6cce3af9e
+
+Package: tor
+Architecture: i686
+Installed-Size: 9936
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 0.3.3.9
+Description: The Onion Router anonymizing overlay network
+Homepage: https://www.torproject.org
+Depends: libevent, openssl, liblzma
+Filename: dists/dom-dev/testing/binary-i686/tor_0.3.3.9_i686.deb
+Size: 1862300
+SHA256: 8ed6ed9bd0003baaeaa4b6bc707e8740e0cebe111747e947daed100cc637896c
+
 Package: tracepath
 Architecture: i686
 Installed-Size: 60
@@ -4329,6 +6199,30 @@ Filename: dists/dom-dev/testing/binary-i686/ttyrec_1.0.8-3_i686.deb
 Size: 8440
 SHA256: ae6fbdb3f0ddadf235433513170e136ea191077720a961f7aaea90b9b8296a0f
 
+Package: units
+Architecture: i686
+Installed-Size: 548
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.17
+Description: Converts between different systems of units
+Homepage: https://www.gnu.org/software/units/
+Depends: readline, libandroid-support
+Filename: dists/dom-dev/testing/binary-i686/units_2.17_i686.deb
+Size: 141376
+SHA256: 93670d08689fdba09d243ab1e7be0e6aa94546f377e604fc8e723775cdf56f4f
+
+Package: unrar
+Architecture: i686
+Installed-Size: 292
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.6.5-1
+Description: Tool for extracting files from .rar archives
+Homepage: https://www.rarlab.com/
+Depends: libandroid-support,readline
+Filename: dists/dom-dev/testing/binary-i686/unrar_5.6.5-1_i686.deb
+Size: 110272
+SHA256: 7427af87a2c4cd49807673d301f2ea6958c0a3780850902e833d1c7498658c85
+
 Package: unzip
 Architecture: i686
 Installed-Size: 392
@@ -4386,6 +6280,30 @@ Filename: dists/dom-dev/testing/binary-i686/utfdecode_0.3.4-2_i686.deb
 Size: 170556
 SHA256: 05a320276a884b03f306802b6959da4f9d117f4469b8a9938f67a2a299b7ee21
 
+Package: util-linux-dev
+Architecture: i686
+Installed-Size: 100
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.32.1
+Description: Development files for util-linux
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+Depends: util-linux
+Filename: dists/dom-dev/testing/binary-i686/util-linux-dev_2.32.1_i686.deb
+Size: 7704
+SHA256: cd0ba6568b36aa50a1a336afc3fa6c701a08b49a0a76c404dfeed3abb6f86cfc
+
+Package: util-linux
+Architecture: i686
+Installed-Size: 2896
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.32.1
+Description: Miscellaneous system utilities
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+Depends: ncurses, libutil, libcrypt
+Filename: dists/dom-dev/testing/binary-i686/util-linux_2.32.1_i686.deb
+Size: 467484
+SHA256: ea6001db85069712c56ab2aeeecd67c257aa16ec32e311b47bdb95fddd81a970
+
 Package: valgrind-dev
 Architecture: i686
 Installed-Size: 2128
@@ -4434,6 +6352,18 @@ Filename: dists/dom-dev/testing/binary-i686/vim_8.1.0250_i686.deb
 Size: 849252
 SHA256: d9fbcd3ad3413d2f5cf1f073cd6cdaae96a4768e2501cc19d60176addf8e31b7
 
+Package: vorbis-tools
+Architecture: i686
+Installed-Size: 236
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.0-3
+Description: Ogg Vorbis tools
+Homepage: http://www.vorbis.com
+Depends: libvorbis, libflac, libogg
+Filename: dists/dom-dev/testing/binary-i686/vorbis-tools_1.4.0-3_i686.deb
+Size: 54028
+SHA256: 63825425707e3bb2505495bb7acdf74e4175179ae16ef461d615e2798deacb48
+
 Package: vttest
 Architecture: i686
 Installed-Size: 240
@@ -4455,6 +6385,54 @@ Homepage: https://github.com/fornwall/vtutils
 Filename: dists/dom-dev/testing/binary-i686/vtutils_0.5-1_i686.deb
 Size: 9648
 SHA256: c066793815c047f23ff111abb56c08b33cffb74a8806a0833d0758225986e9a7
+
+Package: w3m
+Architecture: i686
+Installed-Size: 1420
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.5.3.20180125
+Description: Text based Web browser and pager
+Homepage: http://w3m.sourceforge.net/
+Depends: libgc, ncurses, openssl
+Filename: dists/dom-dev/testing/binary-i686/w3m_0.5.3.20180125_i686.deb
+Size: 620076
+SHA256: 2c7af83e8dc6086f2aadaa5d08889f5b59d9f97325bde13e9a99bda7764a8ee0
+
+Package: wcalc
+Architecture: i686
+Installed-Size: 324
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.5-3
+Description: Capable calculator
+Homepage: http://w-calc.sourceforge.net
+Depends: flex,libmpfr,libgmp,readline
+Filename: dists/dom-dev/testing/binary-i686/wcalc_2.5-3_i686.deb
+Size: 85492
+SHA256: b3cafa11cf0666f59bd78feb0af85979c24dccefcda3d185250125da671fce29
+
+Package: wget
+Architecture: i686
+Installed-Size: 568
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.19.5
+Description: Commandline tool for retrieving files using HTTP, HTTPS and FTP
+Homepage: https://www.gnu.org/software/wget/
+Depends: pcre, openssl, libuuid, libandroid-support, libunistring
+Filename: dists/dom-dev/testing/binary-i686/wget_1.19.5_i686.deb
+Size: 209232
+SHA256: 804694d5e3c7b72dcbccd26f005c82a76ca078eb612193692d122ecf5c920230
+
+Package: wireguard-tools
+Architecture: i686
+Installed-Size: 140
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.0.20180802
+Description: Tools for the WireGuard secure network tunnel
+Homepage: https://www.wireguard.com
+Depends: libmnl, tsu
+Filename: dists/dom-dev/testing/binary-i686/wireguard-tools_0.0.20180802_i686.deb
+Size: 33284
+SHA256: 7966f0636a5e9a8048ad36ef956a41c344e067b0d9aaf726b1b0088efcff1ba3
 
 Package: wol
 Architecture: i686
@@ -4501,6 +6479,30 @@ Depends: libxapian
 Filename: dists/dom-dev/testing/binary-i686/xapian-tools_1.4.7_i686.deb
 Size: 65384
 SHA256: a654ad5655081a1d6c73b3f55b6564ce9370e4427eba0ddb8275f36e28c63fce
+
+Package: xorriso
+Architecture: i686
+Installed-Size: 1880
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.8-1
+Description: Tool for creating ISO files.
+Homepage: https://www.gnu.org/software/xorriso
+Depends: libandroid-support, readline, libbz2
+Filename: dists/dom-dev/testing/binary-i686/xorriso_1.4.8-1_i686.deb
+Size: 620600
+SHA256: 7467ff3b87704ed6cffd31cd8f8501d0b6694257b00db5cc6ad772476c9744e0
+
+Package: xsltproc
+Architecture: i686
+Installed-Size: 76
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.32
+Description: XSLT command line processor
+Homepage: http://xmlsoft.org/libxslt/
+Depends: libxslt
+Filename: dists/dom-dev/testing/binary-i686/xsltproc_1.1.32_i686.deb
+Size: 10668
+SHA256: 3d620a9f29009fb95cab9422aceb67245860d411dd90d15ead1c6ba7da208945
 
 Package: xvidcore-dev
 Architecture: i686
@@ -4594,6 +6596,18 @@ Homepage: https://github.com/google/zopfli
 Filename: dists/dom-dev/testing/binary-i686/zopfli_1.0.2-1_i686.deb
 Size: 79588
 SHA256: 03b15c425927344b681aaee1c2e4bc88e1ff85533031cf6deaf088d839b60461
+
+Package: zsh
+Architecture: i686
+Installed-Size: 9320
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.5.1-3
+Description: Shell with lots of features
+Homepage: https://www.zsh.org
+Depends: libandroid-support, ncurses, termux-tools, command-not-found, pcre
+Filename: dists/dom-dev/testing/binary-i686/zsh_5.5.1-3_i686.deb
+Size: 1653308
+SHA256: aa09e38975a2059f31ade8f706663751d54a40103ce30be119e8d70bcb1a0c2a
 
 Package: zstd-dev
 Architecture: i686

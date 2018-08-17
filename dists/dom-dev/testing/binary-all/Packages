@@ -7,8 +7,8 @@ Description: Tool like grep optimized for programmers
 Homepage: https://beyondgrep.com/
 Depends: perl, coreutils
 Filename: dists/dom-dev/testing/binary-all/ack-grep_2.24_all.deb
-Size: 36872
-SHA256: 2c68526c20ffad26b002659a355e569dd26b592b19e397478c28bef6cf9ae59f
+Size: 36896
+SHA256: 0803b5594763c82b1d77ddac57bcbc0d7a7c00892c7481160f6c56be9bc81478
 
 Package: apksigner
 Architecture: all
@@ -54,8 +54,8 @@ Description: Creator of shell scripts to configure source code packages
 Homepage: https://www.gnu.org/software/autoconf/autoconf.html
 Depends: m4, make, perl
 Filename: dists/dom-dev/testing/binary-all/autoconf_2.69_all.deb
-Size: 271064
-SHA256: 756a94a719e93293a735d37f6401d175fd1dc82d9410efa5065c59979695ade2
+Size: 271072
+SHA256: 5f4fe1ebe624a358dc35e78c4acc37f2c11a0ccf279695f701bbd7656f418151
 
 Package: automake
 Architecture: all
@@ -66,8 +66,8 @@ Description: Tool for automatically generating Makefile.in files
 Homepage: https://www.gnu.org/software/automake/
 Depends: autoconf
 Filename: dists/dom-dev/testing/binary-all/automake_1.16.1_all.deb
-Size: 317984
-SHA256: e2d878887a80697a802d81e4c75ac1e72d08584721474594670892798bd58887
+Size: 317964
+SHA256: fdfce2d5450c3afd466a766958b435fcdba4a4e7314cf6a93abbda0d2f05ff6d
 
 Package: bash-completion
 Architecture: all
@@ -136,8 +136,8 @@ Description: Tool to colorize 'diff' output
 Homepage: http://www.colordiff.org
 Depends: perl
 Filename: dists/dom-dev/testing/binary-all/colordiff_1.0.18_all.deb
-Size: 8832
-SHA256: 938a082b9531796c267928176d4af0fa15e6af5f373dd57f760ce8c5e056de1b
+Size: 8836
+SHA256: ae90cb854d271323fb4e91e2d4cd0c4ada8961a532e33a6914a75376549c3943
 
 Package: cowsay
 Architecture: all
@@ -148,8 +148,8 @@ Description: Program which generates ASCII pictures of a cow with a message
 Homepage: https://en.wikipedia.org/wiki/Cowsay
 Depends: perl
 Filename: dists/dom-dev/testing/binary-all/cowsay_3.03_all.deb
-Size: 10268
-SHA256: af743dd7bae320c957d9665d7cf000f642cb2b3cb7dcee13dd58ba92531258d0
+Size: 10256
+SHA256: 50476751a1075035f2ee5a2bfce3885374d0941bfef2f4e4613604a1941e4bbc
 
 Package: debootstrap
 Architecture: all
@@ -287,8 +287,8 @@ Description: GNU Parallel is a shell tool for executing jobs in parallel using o
 Homepage: https://www.gnu.org/software/parallel/
 Depends: perl
 Filename: dists/dom-dev/testing/binary-all/parallel_20180222-1_all.deb
-Size: 198604
-SHA256: 22ee14043d0d88c7cf940f9649053ce89833952ae31970509e0d4a027cd5516c
+Size: 198552
+SHA256: c36fc11cdc4db036ce373569cb3f0558b0ef2c9ec78750fdc6523b6588d74d4e
 
 Package: pass-otp
 Architecture: all
@@ -362,8 +362,8 @@ Description: Ruby documentation index
 Homepage: https://www.ruby-lang.org/
 Depends: ruby
 Filename: dists/dom-dev/testing/binary-all/ruby-ri_2.5.1-1_all.deb
-Size: 1546320
-SHA256: 018dc2d3b6d6b84090775dc001e67ddef337cd80a3bdac07c02e6c778ea2029a
+Size: 1545520
+SHA256: 903e881b0def7238fe05904dbc82969b9f2c6bca6a32d98b3d1d494ecd5a5152
 
 Package: screenfetch
 Architecture: all
@@ -386,8 +386,8 @@ Description: Tool for managing the installation of multiple software packages in
 Homepage: https://www.gnu.org/software/stow/
 Depends: perl
 Filename: dists/dom-dev/testing/binary-all/stow_2.2.2_all.deb
-Size: 24744
-SHA256: 58c383844e5aba467805015f1fec85af61965080ed9fa4a7b97d174e4ac82bae
+Size: 24748
+SHA256: 50b0b82a96caf848d5313c309febe30bc1336491ef65d95aa79eb54eac4abe79
 
 Package: termux-am
 Architecture: all
@@ -435,8 +435,8 @@ Homepage: https://termux.com/
 Depends: termux-am
 Essential: yes
 Filename: dists/dom-dev/testing/binary-all/termux-tools_0.56_all.deb
-Size: 4284
-SHA256: c1a3cb86bfd13078e54c38bed469996b713e392d9f428f498b1299fb7fb5ff9c
+Size: 4280
+SHA256: de473eb3debb1bd479242b4d178d581ce26ef91a5739d9fa9e6cce7cd54232ea
 
 Package: texlive-tlmgr
 Architecture: all

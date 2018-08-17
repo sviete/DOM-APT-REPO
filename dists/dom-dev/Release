@@ -1,17 +1,17 @@
 Codename: dom-dev
 Version: 1
-Architectures: x86_64 aarch64 arm all i686
+Architectures: x86_64 i686 aarch64 arm all
 Description: Dev repository
 Suite: dom-dev
-Date: Thu, 16 Aug 2018 16:41:48 UTC
+Date: Fri, 17 Aug 2018 06:21:47 UTC
 SHA256:
- 7d4c6d6cce751c55bf7a699a7fd7f2a79ecd8217fc6a9d005aa5958eb52881cc 153468 testing/binary-x86_64/Packages
- a0d0f220cc215dc7edfe82b7c901a54fddfbab73a1b9065442fd1c69c2e26517 34376 testing/binary-x86_64/Packages.xz
+ 782d57ef0337928aa16beaf13e6f3e8676bdb66adc2af496ae87cec4c9caa411 221202 testing/binary-x86_64/Packages
+ 61601abef7a92730a2c29ad8df727f536347ee54a92c3a6ad0fe9177591885fb 48576 testing/binary-x86_64/Packages.xz
+ 74e2b2c7ca5a1b1932340423b1325b30ecffc6e14e895e1e90ef6c7652dfb7a0 218212 testing/binary-i686/Packages
+ 92fa6d89e13f0af81fc298dbb9faba97543601686437f09d5d1f782ddb12f923 48572 testing/binary-i686/Packages.xz
  48bb0660397473017715525e1ee449ff08e02fea32b358eae24a99cf4b193c23 291076 testing/binary-aarch64/Packages
  fd4912d173cb9e94d71584cc9471dd11971f233aba1e1ced02ae8093a15d0adf 62788 testing/binary-aarch64/Packages.xz
  f9119b6ffc9b250728a53ce3168dddaf0e1ef337d85e296f7b47959c0f432477 288644 testing/binary-arm/Packages
  c53c731bda5c5f3524d006802aa5d9fdd7e847653545d5092612d2b4603e3597 63328 testing/binary-arm/Packages.xz
- f992ca5c498f42b0d8dc68cd96b6efea953e5d2ef7059efbdabce9a2a64be185 16817 testing/binary-all/Packages
- 866d7952eb2147d283e7f5e24079cdf8640a0cf2a3741adf6499630ed03a8088 5048 testing/binary-all/Packages.xz
- b8d457bbe262575a72cf9b36234387f228cc6745d4438ae7925f772977c446ce 151832 testing/binary-i686/Packages
- 4df01b270bdb6b4b585999b81591877d42c5cca025cc2f268ac765b660cb5ec2 34468 testing/binary-i686/Packages.xz
+ 71cc8cb846fc6750633ac61595ff08aa89e31e665121489ec01ed566d1a9c13d 16817 testing/binary-all/Packages
+ b353bd3b3f4fb9dccf96562c1eebf7539bdc346379c57c65ae1b0d80f7f346e3 5048 testing/binary-all/Packages.xz
