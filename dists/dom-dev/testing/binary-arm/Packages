@@ -6200,6 +6200,18 @@ Filename: dists/dom-dev/testing/binary-arm/ne_3.1.1_arm.deb
 Size: 221396
 SHA256: cf618202c750abb1eb3850d06322fa1b413929e01ed7cb44f48dd12e57301c6d
 
+Package: neovim
+Architecture: arm
+Installed-Size: 18232
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.1
+Description: Ambitious Vim-fork focused on extensibility and agility (nvim)
+Homepage: https://neovim.io/
+Depends: libuv, libmsgpack, libandroid-support, libvterm, libtermkey, libutil, liblua, libunibilium
+Filename: dists/dom-dev/testing/binary-arm/neovim_0.3.1_arm.deb
+Size: 3663796
+SHA256: a9db3d0190b6e2181173e5fc7f4db27f250308ca240c45509d67456238ca50cb
+
 Package: net-tools
 Architecture: arm
 Installed-Size: 480
