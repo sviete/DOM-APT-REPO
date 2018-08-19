@@ -1,17 +1,17 @@
 Codename: dom-dev
 Version: 1
-Architectures: all x86_64 aarch64 i686 arm
+Architectures: x86_64 arm all i686 aarch64
 Description: Dev repository
 Suite: dom-dev
-Date: Sun, 19 Aug 2018 13:29:28 UTC
+Date: Sun, 19 Aug 2018 17:48:00 UTC
 SHA256:
- 50d3ade245b4a2a07f4001559596ff0e04fa43f26a8887b2f2167d14641c8cd1 17222 testing/binary-all/Packages
- 481ed9edf83c1b3bf78656b530059085ae3a98b36b7185df03d4715bce6748f1 5084 testing/binary-all/Packages.xz
- 1b51efd0036882c78e040ded7f76b250a1e7f05b80f0d97e3d7a8b0fbb32d75e 294825 testing/binary-x86_64/Packages
- d6f0c28b54b58eae6e12c11f6b1fe91071d0bc22e6ffd403bbba178ddd0bd2bc 63560 testing/binary-x86_64/Packages.xz
- d5b56687b30385c1e3b9242bb9099d82fbaaf2c818eb00dc82eaf7a652f820dd 298169 testing/binary-aarch64/Packages
- edbacae20f80f1fd041cc8176ff5ef81d58218fc04bf96dfae6ad102f52fda2c 63856 testing/binary-aarch64/Packages.xz
- 0719cb132b4c6abba102004dc0cea4333ef55e5a01e55a62a340655589e5cdd2 290370 testing/binary-i686/Packages
- 3ed6063aa7ef613cb3357128feb93e354f3cf8b4a1db9191679c71e28d48ee14 63432 testing/binary-i686/Packages.xz
- 4bd81c534ae915728efa4bb379556c9fd39f8600c09efcaa52286c35c788d81c 295986 testing/binary-arm/Packages
- 25ce40e91a771895c2858e004bc99bc9fe50fc1619bd4a9b9e5cd63810062eb1 64476 testing/binary-arm/Packages.xz
+ 74c7e2ffcad7a8ee33521c0720ea24cc35e0c483156b6fa816ad2c2f555ad6e5 294825 testing/binary-x86_64/Packages
+ 1dfdd8d3f22698832d17b63717e652da8685917c7051f69bbe845ba3a87f0287 63544 testing/binary-x86_64/Packages.xz
+ 56cf3d95e37b2fe1e8a549f3b7fdc89f2e5d26943bfed6fdf8bd80bd5aa1a4c5 295986 testing/binary-arm/Packages
+ ab7166a8c0900e278d27d62c2ab455df6042ccedcc2a5da285ad2c393379d6af 64452 testing/binary-arm/Packages.xz
+ 7c7a0d977225b4d864b24e330bd5e2837c1633e5a396bcbaca918930342c8295 17222 testing/binary-all/Packages
+ 0af25934b596c8f767a91825723adf6711de49b08dffb8fa26efd27289e3df3b 5088 testing/binary-all/Packages.xz
+ 47d91a75de3abb9912753c9cd13c73310875e65e3bcdfb74fbe74d7c9987479e 290370 testing/binary-i686/Packages
+ 07cca3c0752f967251ffd182a1cee7c6d2822bd49925de243f1371979e31a358 63424 testing/binary-i686/Packages.xz
+ b5cdc58fcb35e6ea5aedaf2f5d9c9b39f92b7f697f47f81ccfeac87364a6722a 298169 testing/binary-aarch64/Packages
+ 79cd29e9b88eccb6abb166a02908a97cdee482b28286498b787612d4e4c91fcd 63828 testing/binary-aarch64/Packages.xz

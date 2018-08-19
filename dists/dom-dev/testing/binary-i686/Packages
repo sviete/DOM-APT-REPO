@@ -55,8 +55,8 @@ Description: Dungeon exploration adventure game
 Homepage: http://rephial.org/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/angband_4.1.3_i686.deb
-Size: 15521896
-SHA256: 112d62e4cbbdb0fe195614904fdbd739fd4d3fffb185cd55492ffcbf99aa07b9
+Size: 15521796
+SHA256: 1da728c5406b9e92147ab2848014ada1174c1a05a3e10cd0a3f17053aa31e561
 
 Package: apache2-dev
 Architecture: i686
@@ -353,7 +353,7 @@ Homepage: https://www.gnu.org/software/bison/
 Depends: m4
 Filename: dists/dom-dev/testing/binary-i686/bison_3.0.5_i686.deb
 Size: 218768
-SHA256: b69331926fdf4df0192db2a5727328f5f6b137a7d38ba3d258a3e33ffad223bd
+SHA256: daf92dc588a69f9d6997457a66396ac9cad6c226af86965d74ba70cd610d501d
 
 Package: bmon
 Architecture: i686
@@ -364,8 +364,8 @@ Description: Bandwidth monitor and rate estimator
 Homepage: https://github.com/tgraf/bmon
 Depends: libconfuse, libnl, ncurses
 Filename: dists/dom-dev/testing/binary-i686/bmon_4.0-2_i686.deb
-Size: 33084
-SHA256: bac0291a711e6e5ed30f2b005adc4920107c16a75f6abbe785e0263970ebab23
+Size: 33096
+SHA256: 4b755cab976575b29417d8c9f9b9a47bdada69706c6e25f0f9a4a47cb057b352
 
 Package: boost-dev
 Architecture: i686
@@ -402,8 +402,8 @@ Description: Roguelike dungeon crawling game
 Homepage: https://sites.google.com/site/broguegame/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/brogue_1.7.4-1_i686.deb
-Size: 214404
-SHA256: 1a2c3eb6a51659f6bcece81c36ee3c7b83b9c71770d28d69f7fe72fc228d9da4
+Size: 214396
+SHA256: 47a62e91afee3a257f2a9c099003dab2d587e89e4513af82b4f215e47c580ff9
 
 Package: brotli-dev
 Architecture: i686
@@ -487,8 +487,8 @@ Description: Binary file editor based on vi
 Homepage: http://bvi.sourceforge.net/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/bvi_1.4.0-1_i686.deb
-Size: 38704
-SHA256: eae358bb26a140991c7e54389bbd5c7ae8a7e83454847391fe1b1a5fe867dd7f
+Size: 38732
+SHA256: a24fb4b6ad03bd4f2c586ed942c10924b08c41a258ebe4c601dca5b31701d23d
 
 Package: bzip2
 Architecture: i686
@@ -570,8 +570,8 @@ Description: calcurse is a calendar and scheduling application for the command l
 Homepage: https://calcurse.org/
 Depends: libandroid-support, ncurses
 Filename: dists/dom-dev/testing/binary-i686/calcurse_4.3.0_i686.deb
-Size: 84548
-SHA256: f1ca25c25e0c5e0129a2c371cb253a4f23721bb1d59e8076deb75ab395c5b515
+Size: 84456
+SHA256: 8f82d0969d94039ca8c98e1eeeddf3b87ff7b1b21c67ccbc2217144f7c9134af
 
 Package: cava
 Architecture: i686
@@ -700,8 +700,8 @@ Description: Command producing a Matrix-style animation
 Homepage: https://github.com/abishekvashok/cmatrix
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/cmatrix_1.2b_i686.deb
-Size: 6252
-SHA256: 8327ff7cbd54622cf85f6f7e1dd0c5ab6795f878f33d7b7598a1632455710cd2
+Size: 6264
+SHA256: 5a0fc780d98b81980f42cb080b4119dbf2e3d8853fe339e60617fc11a290132d
 
 Package: cmus
 Architecture: i686
@@ -781,8 +781,8 @@ Description: A developers tool for browsing program code
 Homepage: http://cscope.sourceforge.net/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/cscope_15.8b_i686.deb
-Size: 111388
-SHA256: 33336b9b50e3ca91f08c23bfb0fb45cd67745b90464ed15a324341fc8d14cd06
+Size: 111424
+SHA256: 7c659dad322d38d2ad5052b2c154a260226518d7a01ae24c7dcdb01a76c22ca2
 
 Package: ctags
 Architecture: i686
@@ -816,8 +816,8 @@ Description: Fast-paced action strategy game focusing on high-level strategic pl
 Homepage: http://a-nikolaev.github.io/curseofwar/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/curseofwar_1.2.0-2_i686.deb
-Size: 22664
-SHA256: c94c5f0014b8548dfe0420e6b35998b600c0e99e67bbbd625b34692298be02fd
+Size: 22676
+SHA256: e92d42c0d3629e95a8c852dffce65ec9de48993644460972d468bab8096d75bf
 
 Package: cvs
 Architecture: i686
@@ -930,8 +930,8 @@ Description: Application used in shell scripts which displays text user interfac
 Homepage: http://invisible-island.net/dialog/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/dialog_1.3-20180621-0_i686.deb
-Size: 93632
-SHA256: c0478658bd13a7245e5e2f7196cee2f6b32b1e533e5539585019e023028c1a08
+Size: 93380
+SHA256: 231fb9cb963e622911d8daf8f04cac1dcc5657f9ce53a6211a47984c016b3c73
 
 Package: diffutils
 Architecture: i686
@@ -1051,8 +1051,8 @@ Description: Terminal tiling window manager
 Homepage: https://github.com/martanne/dvtm
 Depends: libutil, ncurses
 Filename: dists/dom-dev/testing/binary-i686/dvtm_0.15-1_i686.deb
-Size: 23536
-SHA256: 3a419285d789fd576137e40e6bddd3195984d86817c01db4a283893d39d15f70
+Size: 23524
+SHA256: 877c9c7e11c0923cff4918401a0a56c250aa64c95a51b6a629ffdf77fff6319e
 
 Package: ed
 Architecture: i686
@@ -1336,8 +1336,8 @@ Depends: m4
 Conflicts: flex-dev
 Replaces: flex-dev
 Filename: dists/dom-dev/testing/binary-i686/flex_2.6.4_i686.deb
-Size: 87248
-SHA256: cf3bdfe553b4246659dcfe45b1c7a532fea4293dd37023fffbbf885b8305872d
+Size: 87212
+SHA256: 993f0571619af42013a6efcc7623f6764f04647a62d4f22009a6bf2b521bea57
 
 Package: fontconfig-dev
 Architecture: i686
@@ -1561,8 +1561,8 @@ Description: Program for calculating and printing calendars
 Homepage: https://www.gnu.org/software/gcal/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/gcal_4.1-2_i686.deb
-Size: 554092
-SHA256: e96ffb7c86d0eaf837aebfc5ac2d83900b69496b456950de5ee188294304c05b
+Size: 554016
+SHA256: 9b2c2c526de776df7ad96e37c3aab3e38763876d5ed56a273b8cb08b9eee4ac7
 
 Package: gdb-dev
 Architecture: i686
@@ -1786,8 +1786,8 @@ Description: Interpreter for the Glulx portable VM for interactive fiction (IF) 
 Homepage: http://www.eblong.com/zarf/glulx/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/glulxe_0.5.4_i686.deb
-Size: 75148
-SHA256: 747b52392ec12ee39748451ceb29bf68a29b387c1861bc0fd14360c2a3ddb796
+Size: 74668
+SHA256: c3172bfd8a85bda5da1efa06e7047f7a97d80ce49696efbb6060e3b6121509b7
 
 Package: gmic
 Architecture: i686
@@ -1834,8 +1834,8 @@ Description: gnuit - GNU Interactive Tools
 Homepage: https://www.gnu.org/software/gnuit/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/gnuit_4.9.5_i686.deb
-Size: 100596
-SHA256: f0879da6d278000c14a9e885e486be9e555e3afa835314f98c20f07d43732077
+Size: 100508
+SHA256: c0d48ed8bc8d2fbf62bf2ac6ff480c9871d9da151c8bd465bb49bb01b4b65c55
 
 Package: gnupg
 Architecture: i686
@@ -1872,8 +1872,8 @@ Description: Program that plays the game of Shogi, also known as Japanese Chess
 Homepage: https://www.gnu.org/software/gnushogi/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/gnushogi_1.4.2-1_i686.deb
-Size: 57328
-SHA256: 234f85b6228b44206594085d5ffb2e7780e7f891922567e86bc1b5365c13af60
+Size: 57348
+SHA256: 0a0303f8228d08c7afcff88d50988c0fe05d4e8f97cea5ec22dd5fa7947831fb
 
 Package: gnutls
 Architecture: i686
@@ -2063,8 +2063,8 @@ Description: Game where you try to eat as much as possible of the board before m
 Homepage: http://www.catb.org/~esr/greed/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/greed_4.2_i686.deb
-Size: 8280
-SHA256: d1d673cd385a99ec56642514f86950e71709df976a19d93e750b072a07820788
+Size: 8276
+SHA256: 0fd783bb80c7d5e57b116ed3250b493cfc0fb2624a196c7554671ccb9eab5261
 
 Package: grep
 Architecture: i686
@@ -2206,8 +2206,8 @@ Description: Universal typing tutor
 Homepage: https://www.gnu.org/software/gtypist/
 Depends: libandroid-support, ncurses
 Filename: dists/dom-dev/testing/binary-i686/gtypist_2.9.5-1_i686.deb
-Size: 534796
-SHA256: 3e2b0365291ee619f57796ca9421773f5dc36f1c81b2c69ab3cce862c5ebaba4
+Size: 534716
+SHA256: a13b752ac687be0f6862c56924f101d3bd70d61547a4094962c697a261c1df19
 
 Package: gzip
 Architecture: i686
@@ -2289,7 +2289,7 @@ Homepage: https://github.com/LonnyGomes/hexcurse
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/hexcurse_1.60.0-2_i686.deb
 Size: 16760
-SHA256: 60b95caaeca0f746e2a58be9a482e668cda291bb7a4abda6bb40d81d6124725d
+SHA256: 844f119de45118a72b4b257978874004142cf73dedaf350539c80fd10945c2d3
 
 Package: heyu
 Architecture: i686
@@ -2323,8 +2323,8 @@ Description: Interactive process viewer for Linux
 Homepage: https://hisham.hm/htop/
 Depends: ncurses, libandroid-support
 Filename: dists/dom-dev/testing/binary-i686/htop_2.2.0-1_i686.deb
-Size: 55396
-SHA256: 3bd27416bbb905ac968d5701639119d877c8087209f8dfbe898e88583c1eff59
+Size: 55404
+SHA256: 17c9535bcd5eafe2d97b8f9b0e9fec7ae3b89fbce02b5a5ec8824fbccda1918e
 
 Package: httping
 Architecture: i686
@@ -2619,8 +2619,8 @@ Homepage: http://joe-editor.sourceforge.net
 Depends: ncurses, libutil
 Conflicts: jupp
 Filename: dists/dom-dev/testing/binary-i686/joe_4.6_i686.deb
-Size: 351060
-SHA256: 4bd59f2a13192400a0478cc8e6ec7c2f4d6cc9fcaffe7c5411e714f5d9f7cd63
+Size: 351100
+SHA256: f2ec1b6bf27d79dc4a997d0c0f7fc13c547ab6a2f0bbcf354045bd4865d30009
 
 Package: jq-dev
 Architecture: i686
@@ -2725,8 +2725,8 @@ Homepage: https://www.mirbsd.org/jupp.htm
 Depends: ncurses, libutil
 Conflicts: joe
 Filename: dists/dom-dev/testing/binary-i686/jupp_3.1jupp36_i686.deb
-Size: 156280
-SHA256: e5d420a214968fe17026a5995f5ae715fd18879e46eb677e16f5d010ff5b002d
+Size: 156224
+SHA256: 58f252168eb802dd38fbe4b73fe1a2e67631af1ad5e05325097d3db63acb9e3f
 
 Package: kona
 Architecture: i686
@@ -3045,7 +3045,7 @@ Homepage: http://caca.zoy.org/wiki/libcaca
 Depends: libcaca
 Filename: dists/dom-dev/testing/binary-i686/libcaca-dev_0.99.beta19-2_i686.deb
 Size: 11660
-SHA256: adbc41451be4a1957185316f5542f8a984ce67738eb8cc3cb703c97794ea40b3
+SHA256: 11d852eaed7990cb1e8f9ca69fdb5628a16f9766dd6fc83f3d69206a817e1f03
 
 Package: libcaca
 Architecture: i686
@@ -3056,8 +3056,8 @@ Description: Graphics library that outputs text instead of pixels
 Homepage: http://caca.zoy.org/wiki/libcaca
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/libcaca_0.99.beta19-2_i686.deb
-Size: 223420
-SHA256: 73ec199027ac6120de722b647faf49e213bc5b9925be916f0c8b04fcbbfee378
+Size: 223444
+SHA256: c546c2abcdd552882bb9c22548fd8fb0e23862ec5caa67c3ae4082a0409c5b2e
 
 Package: libcairo-dev
 Architecture: i686
@@ -3316,8 +3316,8 @@ Description: Development files for libedit
 Homepage: http://thrysoee.dk/editline/
 Depends: libedit
 Filename: dists/dom-dev/testing/binary-i686/libedit-dev_20180525-3.1-0_i686.deb
-Size: 12264
-SHA256: 5e90b5440f3ed0b1b68d4e01e95e71b37e4c1ae8fc8cda1619a697d8e7783457
+Size: 12260
+SHA256: 7eeff4c70b0e9968fa149421a90d184428d451971fac05bad7765702e134146d
 
 Package: libedit
 Architecture: i686
@@ -3328,8 +3328,8 @@ Description: Library providing line editing, history, and tokenization functions
 Homepage: http://thrysoee.dk/editline/
 Depends: libandroid-support, ncurses
 Filename: dists/dom-dev/testing/binary-i686/libedit_20180525-3.1-0_i686.deb
-Size: 58460
-SHA256: 5c638cf1112bc5bdc06840ac39230aa1c35d6f3b2349eacc020455d113a5fba7
+Size: 58588
+SHA256: 8f5376d7f3419202d13c2751c5dc367778351e6cd9e9423932f3c5bf47ce4a10
 
 Package: libelf-dev
 Architecture: i686
@@ -5824,8 +5824,8 @@ Description:  A command-line based markdown presentation tool.
 Homepage: https://github.com/visit1985/mdp
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/mdp_1.0.13_i686.deb
-Size: 14912
-SHA256: 838adce3633022ae7bfac420a85efddf26042e652e92d41af474634c14469c42
+Size: 14924
+SHA256: 97773b091208b09ba12a8517d6bd22570cd266fe9ce029f6b76e8533d7fca669
 
 Package: megatools
 Architecture: i686
@@ -5883,8 +5883,8 @@ Description: Friendly menu driven serial communication program
 Homepage: https://alioth.debian.org/projects/minicom/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/minicom_2.7.1_i686.deb
-Size: 80812
-SHA256: 26d84738c78d53f06abcde85b3425393e0cd6e796644037137062dea65c155f9
+Size: 80696
+SHA256: 774e2cc4654457cdc0f56603e720a7ffe9f1a2bd02fb558c72ab121b34877203
 
 Package: mlocate
 Architecture: i686
@@ -5907,8 +5907,8 @@ Description: Simple game where you drive a car across the moon's surface
 Homepage: https://github.com/seehuhn/moon-buggy
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/moon-buggy_1.0.51-1_i686.deb
-Size: 27632
-SHA256: ae88ff5d46d5afc5fb81ce4ee2f666c8d2fa5061ebdf9b994ae04020ab03e472
+Size: 27604
+SHA256: f8424972c97aebb32745bece3e0f4d6a25d9807a536fecafc72804d1f5617c4b
 
 Package: moria
 Architecture: i686
@@ -5919,8 +5919,8 @@ Description: Rogue-like game with an infinite dungeon
 Homepage: http://remarque.org/~grabiner/moria.html
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/moria_5.6_i686.deb
-Size: 146036
-SHA256: 87bd2bf380b9622865c566a4c4cf11428e810d0964e9809cbc50408b82423398
+Size: 146040
+SHA256: 416c22d31e980530c1ba4d1388f3fe925b023fe58369f5d6b9fc98c736eaee66
 
 Package: mosh
 Architecture: i686
@@ -6027,8 +6027,8 @@ Description: Tool to monitor logfiles and command output in multiple windows in 
 Homepage: http://www.vanheusden.com/multitail/
 Depends: ncurses, ncurses-ui-libs, libandroid-glob
 Filename: dists/dom-dev/testing/binary-i686/multitail_6.4.2-1_i686.deb
-Size: 110560
-SHA256: 0d225de17ba03c10feaf62ff406a256d1708605db1bf5442ac8d06d7cb2af783
+Size: 110564
+SHA256: 6540e937049c6a2604485000c46ed7c88fd23b813480ba5a3ca57aed101f3f05
 
 Package: mutt
 Architecture: i686
@@ -6051,8 +6051,8 @@ Description: Small, free and friendly text editor
 Homepage: https://www.nano-editor.org/
 Depends: libandroid-support, libandroid-glob, ncurses
 Filename: dists/dom-dev/testing/binary-i686/nano_2.9.8-1_i686.deb
-Size: 146744
-SHA256: 6f9c8d573becc36b2283fd40c813c4be2f8cfe2b18db9450af595c1f2dadafa3
+Size: 146708
+SHA256: c185de617f0558179c5c30a76b54e67b7064a2f09d1448b695471c629ca5b2fc
 
 Package: ncdc
 Architecture: i686
@@ -6075,8 +6075,8 @@ Description: Disk usage analyzer
 Homepage: https://dev.yorhel.nl/ncdu
 Depends: ncurses, libandroid-support
 Filename: dists/dom-dev/testing/binary-i686/ncdu_1.13-1_i686.deb
-Size: 31000
-SHA256: 0d4e9f9ee699fb609e81e56e1460768646895b58ac28b6526c9dc87c512039a9
+Size: 30992
+SHA256: a999ab4eab6d883f0e62726121649b30c11d2911d78d28d96391f81b4d3831b0
 
 Package: ncmpcpp
 Architecture: i686
@@ -6171,8 +6171,8 @@ Description: Easy-to-use and powerful text editor
 Homepage: http://ne.di.unimi.it/
 Depends: libandroid-support, ncurses
 Filename: dists/dom-dev/testing/binary-i686/ne_3.1.1_i686.deb
-Size: 225204
-SHA256: c5ae6afc34b8954325ab980c6e4a03e022cba9e8abb6749e157b32fb5c89dd4c
+Size: 225276
+SHA256: 070795ab07e97477add4d0f3550e0c7fa72023262735a416d605246dd6088728
 
 Package: neovim
 Architecture: i686
@@ -6860,8 +6860,8 @@ Description: Utility to choose one option from a set of choices with fuzzy searc
 Homepage: https://github.com/calleerlandsson/pick
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/pick_2.0.2_i686.deb
-Size: 9492
-SHA256: 40785f129588dc8de34c1f72216dd17bb4a4f6d3560abb7eda21163873adc371
+Size: 9500
+SHA256: 2239454ecaac8835be792ce27cbb8d4ce5d547a1e797936e23cc88a0562bda6b
 
 Package: pinentry
 Architecture: i686
@@ -6992,7 +6992,7 @@ Homepage: https://gitlab.com/procps-ng/procps
 Depends: procps
 Filename: dists/dom-dev/testing/binary-i686/procps-dev_3.3.15_i686.deb
 Size: 12056
-SHA256: 651160a21a9cbebb24f3195c5b60a324a05b3d0fb52815eede405edf28c34947
+SHA256: 811a04b9d392953de2b9e6f97add07865abc696db92a9afcefe884fee96eb178
 
 Package: procps
 Architecture: i686
@@ -7003,8 +7003,8 @@ Description: Utilities that give information about processes using the /proc fil
 Homepage: https://gitlab.com/procps-ng/procps
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/procps_3.3.15_i686.deb
-Size: 171520
-SHA256: fbd43997cb01f11e0a773f9e98c5a646427402aeb9b2dfe3ca2c3d8372b0ccc2
+Size: 171516
+SHA256: c5053636f4052df27ae257b44610e1d007685a008918e82b5b5aa19d0be78b03
 
 Package: profanity-dev
 Architecture: i686
@@ -7063,8 +7063,8 @@ Description: Some small useful utilities that use the proc filesystem
 Homepage: https://gitlab.com/psmisc/psmisc
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/psmisc_23.1_i686.deb
-Size: 33464
-SHA256: cfb6666725cc1b6168dba651ae69a68a2967f45a7f4c58039b1892e0249be8ca
+Size: 33444
+SHA256: 8189967dca329530a442969db535a067c4cd6f9575efc7b36911daf640fb3032
 
 Package: pulseaudio
 Architecture: i686
@@ -7292,8 +7292,8 @@ Description: Development files for readline
 Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Depends: readline
 Filename: dists/dom-dev/testing/binary-i686/readline-dev_7.0.5_i686.deb
-Size: 34180
-SHA256: 8828a7009ff16cd6871ae8e51b5bb98b178bd5a5c2d39e85a72d67d0972e36de
+Size: 34168
+SHA256: 9a358e15be13b300da4d18f47ebcf4a0834ca7cd0511a5923c0cc00ffbe4403c
 
 Package: readline
 Architecture: i686
@@ -7304,8 +7304,8 @@ Description: Library that allow users to edit command lines as they are typed in
 Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Depends: libandroid-support, ncurses
 Filename: dists/dom-dev/testing/binary-i686/readline_7.0.5_i686.deb
-Size: 82380
-SHA256: 53d238bf6a0190b86d2360b1bf71fe72d20b69b30cdc867e7965e1a8e6003e9d
+Size: 82124
+SHA256: 2151cd21a4e918456175827069a21a0ff3dc672e2c69c4a0be61d05e9420659d
 
 Package: redir
 Architecture: i686
@@ -7566,7 +7566,7 @@ Homepage: https://github.com/mtoyoda/sl
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/sl_5.02-1_i686.deb
 Size: 5100
-SHA256: 0d5ffba574e21fa8d7455190c20ce76aba614986d2eb3011c389f43b7ebdc995
+SHA256: 9e0cddff0fd9ad09197fa9a05c74731714d3aca003fefa31be7f8c9aaa2db8e4
 
 Package: socat
 Architecture: i686
@@ -7660,8 +7660,8 @@ Description: Streaming bar graphs. For stats and stuff.
 Homepage: https://github.com/seenaburns/stag
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/stag_1.0.0_i686.deb
-Size: 6220
-SHA256: fcdb33c177b841ea71b651aaad6ac316cf15f7a7d968ee1a904d41ef9617a1d0
+Size: 6216
+SHA256: a767c41a4f36b0e3f69ec4101775228937d97d6bb3278b3b9f9f979d3f4a7cd1
 
 Package: stfl-dev
 Architecture: i686
@@ -7673,7 +7673,7 @@ Homepage: http://www.clifford.at/stfl
 Depends: stfl
 Filename: dists/dom-dev/testing/binary-i686/stfl-dev_0.24_i686.deb
 Size: 1920
-SHA256: 8dc2b9b97a7288efeac90fdb666f342ac2f63e4fe9a9965a7cdb1e74a7360c4e
+SHA256: 8a28275a30ad34ba0821b9888680b417e4d0ee0c8889bff780f27c0d34fec4a0
 
 Package: stfl
 Architecture: i686
@@ -7684,8 +7684,8 @@ Description: Structured Terminal Forms Language/Library
 Homepage: http://www.clifford.at/stfl
 Depends: libandroid-support, ncurses
 Filename: dists/dom-dev/testing/binary-i686/stfl_0.24_i686.deb
-Size: 22916
-SHA256: 0cbdd1523e0168d697cf696bf8cb83988f7e171e9699d87ec2bd9d1d0a942832
+Size: 22912
+SHA256: fa75835c735512e24783beee64f80f39d8d6db746d7b36e0e3d6468a201552d9
 
 Package: strace
 Architecture: i686
@@ -8028,8 +8028,8 @@ Description: Terminal multiplexer
 Homepage: https://tmux.github.io/
 Depends: ncurses, libevent, libutil, libandroid-support, libandroid-glob
 Filename: dists/dom-dev/testing/binary-i686/tmux_2.7_i686.deb
-Size: 191360
-SHA256: c5daa7dba937766c135952cbc15b388fb626e8d955bc3947f03902129f0dfce0
+Size: 191304
+SHA256: 6b0f4fa2ed971b46eab56329f02dd7a39cd9248f6140f7f291485f117b672291
 
 Package: toilet
 Architecture: i686
@@ -8123,8 +8123,8 @@ Description: Simple terminal clock
 Homepage: https://github.com/xorg62/tty-clock
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/tty-clock_2.3_i686.deb
-Size: 7580
-SHA256: 35cd4b4bde90238f144ccb62e11d03c851c312fc54a520ba9371a8f32b8a1fa5
+Size: 7604
+SHA256: 7e1fdaeaff2c80226e36a30e20eeb0d7a5864ec83ba9185d27b7c20edd12ffa7
 
 Package: tty-solitaire
 Architecture: i686
@@ -8135,8 +8135,8 @@ Description: Klondike solitaire game
 Homepage: https://github.com/mpereira/tty-solitaire
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/tty-solitaire_1.1.0_i686.deb
-Size: 7668
-SHA256: 811dccef199f46284a7e95acea7d6f60e5eda2b26cc4e38d34ba8f3ff3c29e3f
+Size: 7660
+SHA256: 996c92c4b6d5f0b01b09f659f1fe2e6a0989a6ad1099fa802935b28f84af3c25
 
 Package: ttyrec
 Architecture: i686
@@ -8322,8 +8322,8 @@ Description: Vifm is an ncurses based file manager with vi like keybindings/mode
 Homepage: https://vifm.info/
 Depends: ncurses, file
 Filename: dists/dom-dev/testing/binary-i686/vifm_0.9.1_i686.deb
-Size: 348412
-SHA256: 892a4dc6a9297c2b024c92f28f8ea88cabe5aba7eead6bca61783540f349e83a
+Size: 348508
+SHA256: 38b365c1afe293768cd3f9e3afdf1c72214bb20d383da6e04a185d35c0876a98
 
 Package: vim-python
 Architecture: i686
@@ -8348,8 +8348,8 @@ Homepage: http://www.vim.org/
 Depends: ncurses, vim-runtime
 Conflicts: vim-python
 Filename: dists/dom-dev/testing/binary-i686/vim_8.1.0250_i686.deb
-Size: 849252
-SHA256: d9fbcd3ad3413d2f5cf1f073cd6cdaae96a4768e2501cc19d60176addf8e31b7
+Size: 849364
+SHA256: 1d65eceabb47c2d325c89e795ebf13c1942604656b1468092085272b12a795e6
 
 Package: vorbis-tools
 Architecture: i686
@@ -8702,8 +8702,8 @@ Description: Lightweight clone of the Emacs text editor
 Homepage: https://www.gnu.org/software/zile/
 Depends: libgc, ncurses
 Filename: dists/dom-dev/testing/binary-i686/zile_2.4.14_i686.deb
-Size: 97856
-SHA256: 16a8e5020fcfb7ce6f1c28ab8964169c07b9dc7b491bb9680c6fc61108da4e5d
+Size: 97800
+SHA256: e979a2ff0d2f79a295411975637faa6b4c759e258b9e49fb5d582ad07029b60e
 
 Package: zip
 Architecture: i686

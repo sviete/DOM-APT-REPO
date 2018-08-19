@@ -55,8 +55,8 @@ Description: Dungeon exploration adventure game
 Homepage: http://rephial.org/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/angband_4.1.3_aarch64.deb
-Size: 15451656
-SHA256: d3b85c51877fc39c95fcc072a10b83e46f392261cf1668e0ce68f0e2de6afaf4
+Size: 15451648
+SHA256: f8bc5ee69fe0190af6ca8b9af82bd2163bd8b31be23dc1829566c55453546eeb
 
 Package: apache2-dev
 Architecture: aarch64
@@ -352,8 +352,8 @@ Description: General-purpose parser generator
 Homepage: https://www.gnu.org/software/bison/
 Depends: m4
 Filename: dists/dom-dev/testing/binary-aarch64/bison_3.0.5_aarch64.deb
-Size: 217088
-SHA256: aba0dbaf44462619d020bc48e9b796728eb6429e53d7a3b59bd0bb2e81c802df
+Size: 217056
+SHA256: adb8d16ee03b51406667fe07b9f6d85debab8f3f7e2fe12aa935e1218724b08a
 
 Package: bmon
 Architecture: aarch64
@@ -364,8 +364,8 @@ Description: Bandwidth monitor and rate estimator
 Homepage: https://github.com/tgraf/bmon
 Depends: libconfuse, libnl, ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/bmon_4.0-2_aarch64.deb
-Size: 31496
-SHA256: 21417fe0833975fa8eb83cc659d562d0d1515c7fea6eaeb1003f358c280a01a4
+Size: 31488
+SHA256: 692cab39c95974eb414ea30e46a7a28aa7fd358360ea1b793ba72455a58dabef
 
 Package: boost-dev
 Architecture: aarch64
@@ -402,8 +402,8 @@ Description: Roguelike dungeon crawling game
 Homepage: https://sites.google.com/site/broguegame/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/brogue_1.7.4-1_aarch64.deb
-Size: 200000
-SHA256: c3f537acd5293e9e63b75335504c7171b3c973a59df47a83732554efaf083043
+Size: 200008
+SHA256: 3415c2641bbcdc1365261361395cbf71f4ab7668f815c84e290048413cb08f03
 
 Package: brotli-dev
 Architecture: aarch64
@@ -487,8 +487,8 @@ Description: Binary file editor based on vi
 Homepage: http://bvi.sourceforge.net/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/bvi_1.4.0-1_aarch64.deb
-Size: 38564
-SHA256: 67671e1320bdb3417e8b034781dcdf037c819c20ed112149f9f96ef8cc3a934e
+Size: 38560
+SHA256: cbfa310da83f54e0b4c462feda134ef1dd1c4bd9088b10039f77df688340160b
 
 Package: bzip2
 Architecture: aarch64
@@ -570,8 +570,8 @@ Description: calcurse is a calendar and scheduling application for the command l
 Homepage: https://calcurse.org/
 Depends: libandroid-support, ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/calcurse_4.3.0_aarch64.deb
-Size: 80444
-SHA256: 73be71454499d96773846af4887c455e8cb73819decf8a239558cd4af0178829
+Size: 80480
+SHA256: 845849535002c7f3269b870aefcb8e6d011b6b8fac8e05311e18b48a53b46164
 
 Package: cava
 Architecture: aarch64
@@ -700,8 +700,8 @@ Description: Command producing a Matrix-style animation
 Homepage: https://github.com/abishekvashok/cmatrix
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/cmatrix_1.2b_aarch64.deb
-Size: 6324
-SHA256: cc1bb645d803654016da2c320c1b6b15e79534557d48a14a506dc85a3801544b
+Size: 6328
+SHA256: 3b1e3cb2ad14cc196fc5381cc3ab2a72f909f30af54e9467fee8419356d2b85a
 
 Package: cmus
 Architecture: aarch64
@@ -781,8 +781,8 @@ Description: A developers tool for browsing program code
 Homepage: http://cscope.sourceforge.net/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/cscope_15.8b_aarch64.deb
-Size: 112848
-SHA256: ef37fdc6e9ebc7a35c409f0b59f39b55a6188310d0f76f858c9df629404615d6
+Size: 111440
+SHA256: 68960b02ab3a0fb66e3beacd51749c2a4c7eb3a58606bb823888a79ba2698e85
 
 Package: ctags
 Architecture: aarch64
@@ -816,8 +816,8 @@ Description: Fast-paced action strategy game focusing on high-level strategic pl
 Homepage: http://a-nikolaev.github.io/curseofwar/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/curseofwar_1.2.0-2_aarch64.deb
-Size: 21716
-SHA256: 9b4ea5d3a98d48bbf597c3054ac353f48acb70b933091246cf695d3f6bdace53
+Size: 21704
+SHA256: c2c1038587a4caf3eb84f873d335bf160de87c433e1bf0c4e4a1dd9173673c93
 
 Package: cvs
 Architecture: aarch64
@@ -930,8 +930,8 @@ Description: Application used in shell scripts which displays text user interfac
 Homepage: http://invisible-island.net/dialog/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/dialog_1.3-20180621-0_aarch64.deb
-Size: 87576
-SHA256: 6b52baf3e9779ca09971cc3e20ba9a86ef0cf100ecbb7aa1fcd3e3e86480deb4
+Size: 87500
+SHA256: 2c47e31c1287f272882dd4fc111eef6b29453dc3e1971276604de8b39d959e39
 
 Package: diffutils
 Architecture: aarch64
@@ -1051,8 +1051,8 @@ Description: Terminal tiling window manager
 Homepage: https://github.com/martanne/dvtm
 Depends: libutil, ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/dvtm_0.15-1_aarch64.deb
-Size: 23092
-SHA256: 451d356484392f22823a8d5424093743ff4721eec8567fd5db8c2834997b2e99
+Size: 22988
+SHA256: 62f4da5223867bb4c145aced1196869ad7e0053b1e786b671e2892cb1b846324
 
 Package: ed
 Architecture: aarch64
@@ -1336,8 +1336,8 @@ Depends: m4
 Conflicts: flex-dev
 Replaces: flex-dev
 Filename: dists/dom-dev/testing/binary-aarch64/flex_2.6.4_aarch64.deb
-Size: 96748
-SHA256: c834dcc5d0347b70feb778082895bf812facdc39771e1b15646534d14f9e9c01
+Size: 96788
+SHA256: 6350ee74e296ca965e64763f2d2581dc2177a6fa717826a569462ec495a97200
 
 Package: fontconfig-dev
 Architecture: aarch64
@@ -1561,8 +1561,8 @@ Description: Program for calculating and printing calendars
 Homepage: https://www.gnu.org/software/gcal/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/gcal_4.1-2_aarch64.deb
-Size: 525236
-SHA256: f09b72c72d339c9838e7ba665cc7890eade7609252eec0f13c9773a75a68bbd9
+Size: 525336
+SHA256: 42b7376a97b52f7ff1107fc083707dd22cec229571c8f3c70baced1fca90b100
 
 Package: gdb-dev
 Architecture: aarch64
@@ -1786,8 +1786,8 @@ Description: Interpreter for the Glulx portable VM for interactive fiction (IF) 
 Homepage: http://www.eblong.com/zarf/glulx/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/glulxe_0.5.4_aarch64.deb
-Size: 68544
-SHA256: 7540079683582105804a4cf9d1570add1e4e9b21563054c81b4bce48a66d5cdf
+Size: 68680
+SHA256: 35356806b0de61d05492f47eb21e1a41a8e4c1f155941aa265b0e6b2ad5217ba
 
 Package: gmic
 Architecture: aarch64
@@ -1834,8 +1834,8 @@ Description: gnuit - GNU Interactive Tools
 Homepage: https://www.gnu.org/software/gnuit/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/gnuit_4.9.5_aarch64.deb
-Size: 96528
-SHA256: b97d2b199610f2ce3c223c9c7469a67b9bd741ddc88ec305367fd708bef49dfb
+Size: 96988
+SHA256: 525c34ff0dd9bc99bead8516f7825c9df00931b1f96b33fda823046346abd23b
 
 Package: gnupg
 Architecture: aarch64
@@ -1873,7 +1873,7 @@ Homepage: https://www.gnu.org/software/gnushogi/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/gnushogi_1.4.2-1_aarch64.deb
 Size: 59192
-SHA256: d2123176498c7f2a40836225347c3f6f526bed6b7c6b56e3e735e0631e7d12d6
+SHA256: cba45ab81f3d0317bd06de526785759b5db728a2d6bb14f76d9e2dbf02d70a2d
 
 Package: gnutls
 Architecture: aarch64
@@ -2063,8 +2063,8 @@ Description: Game where you try to eat as much as possible of the board before m
 Homepage: http://www.catb.org/~esr/greed/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/greed_4.2_aarch64.deb
-Size: 8036
-SHA256: f5f81ea460d10aa96eb080b6a50fad1a2d893cf2a23ae9d9163e0b62bc20d87a
+Size: 8040
+SHA256: 893922b20fc10d1b2ad38b85210f33360dcf76c77d3ddc12edca708fb7782fa0
 
 Package: grep
 Architecture: aarch64
@@ -2206,8 +2206,8 @@ Description: Universal typing tutor
 Homepage: https://www.gnu.org/software/gtypist/
 Depends: libandroid-support, ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/gtypist_2.9.5-1_aarch64.deb
-Size: 534560
-SHA256: dc1ae74b6637c911dc1824f0b3af4481886c658fff4815890969e456d29fcd86
+Size: 534708
+SHA256: 35712295fe1ec87dafde95419b636481f160d0dbec875ce8303cb802c10c27b2
 
 Package: gzip
 Architecture: aarch64
@@ -2288,8 +2288,8 @@ Description: Console hexeditor
 Homepage: https://github.com/LonnyGomes/hexcurse
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/hexcurse_1.60.0-2_aarch64.deb
-Size: 15756
-SHA256: dfbf6cf1de6e7cd50e4853b4f764399ab12ceb1b7e9e917a1a68c90666b5c69d
+Size: 15744
+SHA256: e62d8255fada1894dc31f0a1f5d4d73f7106e61180b005d8f1664c95976712b5
 
 Package: heyu
 Architecture: aarch64
@@ -2323,8 +2323,8 @@ Description: Interactive process viewer for Linux
 Homepage: https://hisham.hm/htop/
 Depends: ncurses, libandroid-support
 Filename: dists/dom-dev/testing/binary-aarch64/htop_2.2.0-1_aarch64.deb
-Size: 51712
-SHA256: a6083b923a61d502664e5d2a3d9067cbc071a069f872749f9374f11627bc9f58
+Size: 51700
+SHA256: 634ceb2719c46f0ad7cc3b720c8475123a462f1b3208c3417edf5107dac030b5
 
 Package: httping
 Architecture: aarch64
@@ -2619,8 +2619,8 @@ Homepage: http://joe-editor.sourceforge.net
 Depends: ncurses, libutil
 Conflicts: jupp
 Filename: dists/dom-dev/testing/binary-aarch64/joe_4.6_aarch64.deb
-Size: 334632
-SHA256: 493d989fa92593b11d08f70f82f0fb6fbcbb51ad0fb50c2ad294ba7bdd39061c
+Size: 334444
+SHA256: a29b190a435804de33fa9eb05ef43b3a624cea2df7f473a5ce7c94644591c93c
 
 Package: jq-dev
 Architecture: aarch64
@@ -2725,8 +2725,8 @@ Homepage: https://www.mirbsd.org/jupp.htm
 Depends: ncurses, libutil
 Conflicts: joe
 Filename: dists/dom-dev/testing/binary-aarch64/jupp_3.1jupp36_aarch64.deb
-Size: 148012
-SHA256: bc067d9fdc8a88e8204e79075b4757b1f3644ee9d1fc56c0299ff70c62e76599
+Size: 147876
+SHA256: c7708f938ecbb2a5d6e4892c41e8344c902251e339bcfbaec35a70837265ee35
 
 Package: kona
 Architecture: aarch64
@@ -3045,7 +3045,7 @@ Homepage: http://caca.zoy.org/wiki/libcaca
 Depends: libcaca
 Filename: dists/dom-dev/testing/binary-aarch64/libcaca-dev_0.99.beta19-2_aarch64.deb
 Size: 11652
-SHA256: 7175eda0ef8e6d8872f31a3b224e22b72096b25190b234482d530e391c7eb57a
+SHA256: 082b30d057132d130a6713e7b33692f06ac052ea216fbde03aeb21b1a83a8885
 
 Package: libcaca
 Architecture: aarch64
@@ -3056,8 +3056,8 @@ Description: Graphics library that outputs text instead of pixels
 Homepage: http://caca.zoy.org/wiki/libcaca
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/libcaca_0.99.beta19-2_aarch64.deb
-Size: 214404
-SHA256: 630d1a3d309c15649e385adf2ae74fcacf7460963a9720a7b9abd137fec87c0a
+Size: 214328
+SHA256: 5698933f8fc0b8e159a5cdcadb92771542cac38c58ba02ed99287aacfd6313bc
 
 Package: libcairo-dev
 Architecture: aarch64
@@ -3316,8 +3316,8 @@ Description: Development files for libedit
 Homepage: http://thrysoee.dk/editline/
 Depends: libedit
 Filename: dists/dom-dev/testing/binary-aarch64/libedit-dev_20180525-3.1-0_aarch64.deb
-Size: 12256
-SHA256: dee52f378f23f4d111068acba4f5417cc2f646dfe9fe16fb1ce59a71a0087fd3
+Size: 12260
+SHA256: 7ed60874f2a520667f89ea41012cd08b3da9f820f277119dc0e18c65d4b650ea
 
 Package: libedit
 Architecture: aarch64
@@ -3328,8 +3328,8 @@ Description: Library providing line editing, history, and tokenization functions
 Homepage: http://thrysoee.dk/editline/
 Depends: libandroid-support, ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/libedit_20180525-3.1-0_aarch64.deb
-Size: 54608
-SHA256: 0671b6e6e0b05131c49ded60d2366d1d4e1a0692dbcc131045fd3f82eb4bbf67
+Size: 54628
+SHA256: 2a0c4def546d1df736d5f849759767f7f0d6d3400bf4d44d4bb6beb1a9b5944b
 
 Package: libelf-dev
 Architecture: aarch64
@@ -5848,8 +5848,8 @@ Description:  A command-line based markdown presentation tool.
 Homepage: https://github.com/visit1985/mdp
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/mdp_1.0.13_aarch64.deb
-Size: 14024
-SHA256: 28b0a695b0c4eda6685bf74d092aa1cb46a5a95faf65f686f9eae0432515c315
+Size: 13992
+SHA256: 2e130dabb8e52d640cd333aaa193dee11a6e39fb8c6b097609d1b7256c270092
 
 Package: megatools
 Architecture: aarch64
@@ -5907,8 +5907,8 @@ Description: Friendly menu driven serial communication program
 Homepage: https://alioth.debian.org/projects/minicom/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/minicom_2.7.1_aarch64.deb
-Size: 77724
-SHA256: 14a74750d3dd59942c64a1a745deca93910f57d8b10da2fd5e667ff4fc85e6e0
+Size: 77744
+SHA256: c97cb73bcd497fd2bf8c559d63f06c102896e035a0064efacff078a7564d2c69
 
 Package: mlocate
 Architecture: aarch64
@@ -5931,8 +5931,8 @@ Description: Simple game where you drive a car across the moon's surface
 Homepage: https://github.com/seehuhn/moon-buggy
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/moon-buggy_1.0.51-1_aarch64.deb
-Size: 28100
-SHA256: b5a05c26352b656f102a8d96140f80804bebb7b518ee3568b04ffcaffe2f6784
+Size: 28120
+SHA256: 585c99fb624d5e795e2c1a06907fb0b628968de10ac005bd9ecced35a3b9153b
 
 Package: moria
 Architecture: aarch64
@@ -5943,8 +5943,8 @@ Description: Rogue-like game with an infinite dungeon
 Homepage: http://remarque.org/~grabiner/moria.html
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/moria_5.6_aarch64.deb
-Size: 141536
-SHA256: dd2f7345b68bd3764b0ce47c4f1aab2f0b80688122474344e0a146373e989d57
+Size: 141496
+SHA256: 21fdffade87d69e4d38a0e3b047d9eee7939ab1affcd9bf7035a8f0e9e99bef0
 
 Package: mosh
 Architecture: aarch64
@@ -6051,8 +6051,8 @@ Description: Tool to monitor logfiles and command output in multiple windows in 
 Homepage: http://www.vanheusden.com/multitail/
 Depends: ncurses, ncurses-ui-libs, libandroid-glob
 Filename: dists/dom-dev/testing/binary-aarch64/multitail_6.4.2-1_aarch64.deb
-Size: 105160
-SHA256: f6f6b9ab52fcc3fddc2239ab7faec235064dcb4bd9d232643a5710717634ce1a
+Size: 105080
+SHA256: 83505a5b67fe920185d474d5dbf10c15a52073a674db3c8cfd18a08120df3d81
 
 Package: mutt
 Architecture: aarch64
@@ -6075,8 +6075,8 @@ Description: Small, free and friendly text editor
 Homepage: https://www.nano-editor.org/
 Depends: libandroid-support, libandroid-glob, ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/nano_2.9.8-1_aarch64.deb
-Size: 141140
-SHA256: 26202e36fbe20b17a24180ee47b9021ef87bf96b2e1648ad5ab14f44027ec6a9
+Size: 141196
+SHA256: c1d78d5ff78999d95fbbf4bfbfdc09aa4236e833d7db91144eb88eff5f2d96ba
 
 Package: ncdc
 Architecture: aarch64
@@ -6100,7 +6100,7 @@ Homepage: https://dev.yorhel.nl/ncdu
 Depends: ncurses, libandroid-support
 Filename: dists/dom-dev/testing/binary-aarch64/ncdu_1.13-1_aarch64.deb
 Size: 29028
-SHA256: df1ddc48fce0bdd0e31349fcb377701044d729dfc4b4e0bc3d9a9cd6480cb892
+SHA256: 8e39642ac56ea0cdd9bef4bf5c9dcea231048a5a2968860423818472978c8fa1
 
 Package: ncmpcpp
 Architecture: aarch64
@@ -6195,8 +6195,8 @@ Description: Easy-to-use and powerful text editor
 Homepage: http://ne.di.unimi.it/
 Depends: libandroid-support, ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/ne_3.1.1_aarch64.deb
-Size: 201340
-SHA256: b7fc6aa63f8b7d326f5839679d9cb4a5bceef08d912e49aa389bad497313f99b
+Size: 201432
+SHA256: e0d571dc735a7a388275bb4ba2b65e33a19c2605b9c6a3c8209cbf81c5364e69
 
 Package: neovim
 Architecture: aarch64
@@ -6884,8 +6884,8 @@ Description: Utility to choose one option from a set of choices with fuzzy searc
 Homepage: https://github.com/calleerlandsson/pick
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/pick_2.0.2_aarch64.deb
-Size: 9004
-SHA256: bb449e83ddda0436591ee5bcd19981bde29a5708b708c793fa4437daf4a5f43c
+Size: 9008
+SHA256: 4d2b35cba9432f8bc353936e937e68316302c5ff10edaecca9ed50418c0f8bc2
 
 Package: picolisp
 Architecture: aarch64
@@ -7027,8 +7027,8 @@ Description: Development files for procps
 Homepage: https://gitlab.com/procps-ng/procps
 Depends: procps
 Filename: dists/dom-dev/testing/binary-aarch64/procps-dev_3.3.15_aarch64.deb
-Size: 12056
-SHA256: 82a913dc67f8aa70cb8cee1d2cb88651724e2d5529b200719ba819d59f9e4ed7
+Size: 12052
+SHA256: 09cb821342a59d10003e5e11c1bf13e9cf502305d8598aaa45dbbd97e3c084e5
 
 Package: procps
 Architecture: aarch64
@@ -7039,8 +7039,8 @@ Description: Utilities that give information about processes using the /proc fil
 Homepage: https://gitlab.com/procps-ng/procps
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/procps_3.3.15_aarch64.deb
-Size: 175100
-SHA256: 81871386b372e33b4a87f4be89027b9ac80df630f5fd31bfbc3bd4c891db51ef
+Size: 174880
+SHA256: aab7b4bd2d604016521c71949ff6392fa1011ea94cd717429aa9a98d3ae42064
 
 Package: profanity-dev
 Architecture: aarch64
@@ -7099,8 +7099,8 @@ Description: Some small useful utilities that use the proc filesystem
 Homepage: https://gitlab.com/psmisc/psmisc
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/psmisc_23.1_aarch64.deb
-Size: 32412
-SHA256: 37198cf16c39f23f3aa6c050bc81a5a64acf4a0a7521338db5104aafa580a701
+Size: 32448
+SHA256: e76d3d8b0044686786b485ec1361d33d159d5ff59902a613230e881c92198a1b
 
 Package: pulseaudio
 Architecture: aarch64
@@ -7328,8 +7328,8 @@ Description: Development files for readline
 Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Depends: readline
 Filename: dists/dom-dev/testing/binary-aarch64/readline-dev_7.0.5_aarch64.deb
-Size: 34180
-SHA256: 67e028aa544dd4d6993a6772ea7c6f157a774eded4a26b45a6a8a7262d686690
+Size: 34164
+SHA256: 015bb719920870ea135c7fdc5a46370ff89c02352b77d2a3953099d66090fa2e
 
 Package: readline
 Architecture: aarch64
@@ -7340,8 +7340,8 @@ Description: Library that allow users to edit command lines as they are typed in
 Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Depends: libandroid-support, ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/readline_7.0.5_aarch64.deb
-Size: 77392
-SHA256: d4f87e773e10379801b818f1cac92ff4c9ad0b301a005e9c554dedbb8bb0744e
+Size: 77400
+SHA256: 7cda120d3620049606d2531860ded45da3186b3f0008176ba3fab3238080ce0d
 
 Package: redir
 Architecture: aarch64
@@ -7601,8 +7601,8 @@ Description: Tool curing your bad habit of mistyping
 Homepage: https://github.com/mtoyoda/sl
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/sl_5.02-1_aarch64.deb
-Size: 5488
-SHA256: bc25a7be4dd7bcc2cc1d13c63fb9d59fb762dc0d168250d4ea666dc6372877a4
+Size: 5472
+SHA256: 6af99a8d5ed64adccf19c94d9c17a1f495eaa9b5cee8ccabbee4b2fc94f614c5
 
 Package: socat
 Architecture: aarch64
@@ -7696,8 +7696,8 @@ Description: Streaming bar graphs. For stats and stuff.
 Homepage: https://github.com/seenaburns/stag
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/stag_1.0.0_aarch64.deb
-Size: 5944
-SHA256: 4ea81cf0818b9bba05578c501dff09a5d1c5fe721c2fd656e2ae7cd486e86b49
+Size: 5940
+SHA256: addd493e0250c4ce9c3aef7f96e562980a8d744d8f1b1c1a36917b1250a37316
 
 Package: stfl-dev
 Architecture: aarch64
@@ -7708,8 +7708,8 @@ Description: Development files for stfl
 Homepage: http://www.clifford.at/stfl
 Depends: stfl
 Filename: dists/dom-dev/testing/binary-aarch64/stfl-dev_0.24_aarch64.deb
-Size: 1916
-SHA256: 7ae2622b3958c905a210e0ad0cdea485c57a14daedf6046dddc66e69ff66300a
+Size: 1920
+SHA256: 77bc8d315a219793fc7027d467634b40c9bd788cc6dd151c16b4208b67060c54
 
 Package: stfl
 Architecture: aarch64
@@ -7720,8 +7720,8 @@ Description: Structured Terminal Forms Language/Library
 Homepage: http://www.clifford.at/stfl
 Depends: libandroid-support, ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/stfl_0.24_aarch64.deb
-Size: 20664
-SHA256: 6cdaa572a8f94759d54a4e947d4e273bdf94aff1a959e24e6171b6717e16d66c
+Size: 20652
+SHA256: 12adfd4da1091c9b8e12fa335676ed3f874dc8216ee2f68fcff291833323d127
 
 Package: strace
 Architecture: aarch64
@@ -8064,8 +8064,8 @@ Description: Terminal multiplexer
 Homepage: https://tmux.github.io/
 Depends: ncurses, libevent, libutil, libandroid-support, libandroid-glob
 Filename: dists/dom-dev/testing/binary-aarch64/tmux_2.7_aarch64.deb
-Size: 174432
-SHA256: 5d5b6364a48b3c4329c91d9afdb49210cdf8d51ff1fa5d6c42285905449f9ae8
+Size: 174348
+SHA256: 913dd7d6f0ce60c5158e68b905a13e258c0f11a841d08bd617246300da6681b6
 
 Package: toilet
 Architecture: aarch64
@@ -8159,8 +8159,8 @@ Description: Simple terminal clock
 Homepage: https://github.com/xorg62/tty-clock
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/tty-clock_2.3_aarch64.deb
-Size: 7324
-SHA256: 0c571f4a44e4adb2a39f334d81d63b0a19d13720ccbbc31ac9855e0b2342aebc
+Size: 7332
+SHA256: 81fce34281ac9edb6f718067dfa335a4a8d73bb6e8658e3bbc80f6eec4cb27d5
 
 Package: tty-solitaire
 Architecture: aarch64
@@ -8172,7 +8172,7 @@ Homepage: https://github.com/mpereira/tty-solitaire
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/tty-solitaire_1.1.0_aarch64.deb
 Size: 7320
-SHA256: 41fe613eb4b545dc0b6210b76fcae1c1116cab86e220bd4307ce3cc7721e3b3a
+SHA256: d543ff348e6adc17ebe3d092fc2da5b469ae4aa125dc5216f8972d58f2ea49cd
 
 Package: ttyrec
 Architecture: aarch64
@@ -8358,8 +8358,8 @@ Description: Vifm is an ncurses based file manager with vi like keybindings/mode
 Homepage: https://vifm.info/
 Depends: ncurses, file
 Filename: dists/dom-dev/testing/binary-aarch64/vifm_0.9.1_aarch64.deb
-Size: 331144
-SHA256: cc715758ea42dfd79eac3eb3347ed79ebea8da599f33b58dfc9e3684b07d0b10
+Size: 330936
+SHA256: 76d972765594127ec8a733a0bdeb80a78f617f172b4fdd5eb675d916de58f440
 
 Package: vim-python
 Architecture: aarch64
@@ -8384,8 +8384,8 @@ Homepage: http://www.vim.org/
 Depends: ncurses, vim-runtime
 Conflicts: vim-python
 Filename: dists/dom-dev/testing/binary-aarch64/vim_8.1.0250_aarch64.deb
-Size: 795100
-SHA256: 6971429edf1e3a2d7133eb65961381b0272406219d75d8f146f226718c039ee4
+Size: 795012
+SHA256: f70d425c647d4d59e0ae639fccc2f6361d22fcd54e4026a58f3a4ea01218de1f
 
 Package: vorbis-tools
 Architecture: aarch64
@@ -8738,8 +8738,8 @@ Description: Lightweight clone of the Emacs text editor
 Homepage: https://www.gnu.org/software/zile/
 Depends: libgc, ncurses
 Filename: dists/dom-dev/testing/binary-aarch64/zile_2.4.14_aarch64.deb
-Size: 94264
-SHA256: a488ee460fb7fc800fb7f2bf6f07ff76306ad49e1cff968e52a83d08c8102c1b
+Size: 94168
+SHA256: e276593a5b655ad90a8abcf7deb4a89af537979b8fa91a963fd46722dcf064d1
 
 Package: zip
 Architecture: aarch64

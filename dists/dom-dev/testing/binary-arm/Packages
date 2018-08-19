@@ -55,8 +55,8 @@ Description: Dungeon exploration adventure game
 Homepage: http://rephial.org/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/angband_4.1.3_arm.deb
-Size: 15461776
-SHA256: aed8ecbae0ce2fffbb1f690cb4c4675e26d94741e5506398093d4088a0c637a0
+Size: 15462044
+SHA256: 285564143089eaeeeca66abea94d31c30676825a1511a7f4b9ca24e9b0ef322b
 
 Package: apache2-dev
 Architecture: arm
@@ -352,8 +352,8 @@ Description: General-purpose parser generator
 Homepage: https://www.gnu.org/software/bison/
 Depends: m4
 Filename: dists/dom-dev/testing/binary-arm/bison_3.0.5_arm.deb
-Size: 242160
-SHA256: cc37750990037c74fa603468e195bb8353befe1d52484d9ff1896b8df99e2eb3
+Size: 242120
+SHA256: b3c7e4ab401204ac94f054fdf46c23afd2cf374f1a99c7b819e0ac5f1d58df56
 
 Package: bmon
 Architecture: arm
@@ -364,8 +364,8 @@ Description: Bandwidth monitor and rate estimator
 Homepage: https://github.com/tgraf/bmon
 Depends: libconfuse, libnl, ncurses
 Filename: dists/dom-dev/testing/binary-arm/bmon_4.0-2_arm.deb
-Size: 39484
-SHA256: 096ad6d1c52f35f5560928d90b2cda46c539e19ac41517b8cc1ffa0a69bb4783
+Size: 39516
+SHA256: b48649bdf8a58269d32ce19211d4973a1324a7dfda916e10c9b99af7a20287c0
 
 Package: boost-dev
 Architecture: arm
@@ -428,8 +428,8 @@ Description: Roguelike dungeon crawling game
 Homepage: https://sites.google.com/site/broguegame/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/brogue_1.7.4-1_arm.deb
-Size: 235224
-SHA256: b408e534af00f1a61a662928583636c52ed7e285468e57ae07dbdcb031e26697
+Size: 235228
+SHA256: cf705cb05b105b542ddbf96123b6366d1785b89ca4b1e1b1cb269d371a8b5b00
 
 Package: brotli-dev
 Architecture: arm
@@ -513,8 +513,8 @@ Description: Binary file editor based on vi
 Homepage: http://bvi.sourceforge.net/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/bvi_1.4.0-1_arm.deb
-Size: 47956
-SHA256: ba7b70ff0f229381e157045ea8f2d7d64b7d0dc46ddc2f30bcf70b1b6084abc5
+Size: 47940
+SHA256: d60d7a837d6a8bcdc05d91b2a55ca4a4081c7f1a3620ba8cae298141bf93b437
 
 Package: bzip2
 Architecture: arm
@@ -596,8 +596,8 @@ Description: calcurse is a calendar and scheduling application for the command l
 Homepage: https://calcurse.org/
 Depends: libandroid-support, ncurses
 Filename: dists/dom-dev/testing/binary-arm/calcurse_4.3.0_arm.deb
-Size: 91120
-SHA256: d3dc3f53cc7d284d521b2e5fd74031153feaf193d5245d34ba073eede6c8c6bf
+Size: 91160
+SHA256: 5fcf0a3a0f395098c6c5d58fbc51ca06719b55089dadd6bcb66f0d931988bcf3
 
 Package: cava
 Architecture: arm
@@ -726,8 +726,8 @@ Description: Command producing a Matrix-style animation
 Homepage: https://github.com/abishekvashok/cmatrix
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/cmatrix_1.2b_arm.deb
-Size: 9328
-SHA256: 7e896381df4f6e02fb7a872e2330e88bf4112ad150646d1964b97f9831f7d355
+Size: 9332
+SHA256: 1719f49607b12870e255e2c55209fe548ad457b6783002d13b9954714eb2c38d
 
 Package: cmus
 Architecture: arm
@@ -807,8 +807,8 @@ Description: A developers tool for browsing program code
 Homepage: http://cscope.sourceforge.net/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/cscope_15.8b_arm.deb
-Size: 122884
-SHA256: 3151c3583e49af76248eb49c64012f6653b10ac342553f0063bc1923806c0506
+Size: 122676
+SHA256: 657a71745ff741a699b4047d732c154c4e6a4b69d08d1adcaea0972783ae4d34
 
 Package: ctags
 Architecture: arm
@@ -842,8 +842,8 @@ Description: Fast-paced action strategy game focusing on high-level strategic pl
 Homepage: http://a-nikolaev.github.io/curseofwar/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/curseofwar_1.2.0-2_arm.deb
-Size: 21948
-SHA256: 0004eee8545db0f3961985b70de161e3df66129ca3f38b01e75452f906e14528
+Size: 21952
+SHA256: ce979b7c3bfb00fde9a13203978e1d57aefc24f3f1c182c7ad94d5c2b0f3f20c
 
 Package: cvs
 Architecture: arm
@@ -956,8 +956,8 @@ Description: Application used in shell scripts which displays text user interfac
 Homepage: http://invisible-island.net/dialog/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/dialog_1.3-20180621-0_arm.deb
-Size: 94696
-SHA256: 9c7c72fa44e2d5d20325274a3f105f9cdd7a5ae7ef9ff3b312e4cc62cd92d8d9
+Size: 94384
+SHA256: 9f22f4d70f997a75cf73e2fb6e5a16d80e781346df6c2ae62214aa9f5bf1f899
 
 Package: diffutils
 Architecture: arm
@@ -1101,8 +1101,8 @@ Description: Terminal tiling window manager
 Homepage: https://github.com/martanne/dvtm
 Depends: libutil, ncurses
 Filename: dists/dom-dev/testing/binary-arm/dvtm_0.15-1_arm.deb
-Size: 27180
-SHA256: e3258f3cfe40cf5e7fc76dad18447ec5428963cd509f1460e6de5c681fbce5af
+Size: 27156
+SHA256: 2520c7f70197ab67463ff215694f2a187cd62bdadca34e47fd8e949adc04dc0b
 
 Package: ed
 Architecture: arm
@@ -1398,8 +1398,8 @@ Depends: m4
 Conflicts: flex-dev
 Replaces: flex-dev
 Filename: dists/dom-dev/testing/binary-arm/flex_2.6.4_arm.deb
-Size: 106700
-SHA256: 88abb26dbba2c957cd87917579087b9e8b4dcf94dd7acf31ba60cd26727b2918
+Size: 107004
+SHA256: 7bde497792f8f39f13be43569875af04256cabc9834ccc7087afcb3453d52792
 
 Package: fontconfig-dev
 Architecture: arm
@@ -1623,8 +1623,8 @@ Description: Program for calculating and printing calendars
 Homepage: https://www.gnu.org/software/gcal/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/gcal_4.1-2_arm.deb
-Size: 605516
-SHA256: e9f8747368ef50b1ba3c6a6ce693a23de5e1da68760699f509406e6f7dfe2751
+Size: 605668
+SHA256: dea0d9ba9834c1249251ffa8d7b7c8eefb7d95a6fad809fbc59279833c05fca5
 
 Package: gdb-dev
 Architecture: arm
@@ -1848,8 +1848,8 @@ Description: Interpreter for the Glulx portable VM for interactive fiction (IF) 
 Homepage: http://www.eblong.com/zarf/glulx/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/glulxe_0.5.4_arm.deb
-Size: 75200
-SHA256: 36acbbb3820615e157489d91756001f0b8bb72910bd1335f853f8ee3ef8cabf3
+Size: 75656
+SHA256: d51ddbb8f9e5662387eaa7fde70e070cc5eb39037ddec79113fee749b969a2db
 
 Package: gmic
 Architecture: arm
@@ -1896,8 +1896,8 @@ Description: gnuit - GNU Interactive Tools
 Homepage: https://www.gnu.org/software/gnuit/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/gnuit_4.9.5_arm.deb
-Size: 104092
-SHA256: 352210f80c80ab7bab6f34cd58f2a42c8c8fdcfa7e4b58fa0c2c1a140863681f
+Size: 104424
+SHA256: 392be52f0da53656734f645bac1f557491f17d6dee3ba62f18591a2f14401851
 
 Package: gnupg
 Architecture: arm
@@ -1934,8 +1934,8 @@ Description: Program that plays the game of Shogi, also known as Japanese Chess
 Homepage: https://www.gnu.org/software/gnushogi/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/gnushogi_1.4.2-1_arm.deb
-Size: 69368
-SHA256: aa660faf1294fb20817d0255321a6a99a2a05754a2bec7069376e57cccd82ed1
+Size: 69388
+SHA256: 76845f731aa3682c7af8d40c6e58373c239046cb8787e1b0ee255bea3ba8662a
 
 Package: gnutls
 Architecture: arm
@@ -2125,8 +2125,8 @@ Description: Game where you try to eat as much as possible of the board before m
 Homepage: http://www.catb.org/~esr/greed/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/greed_4.2_arm.deb
-Size: 8524
-SHA256: ac627b9fa1f448d69a6b2f1278e0036464bfa6e523696737c089fcf034310ed7
+Size: 8548
+SHA256: d900476ff37dcff54ad533faa5e4d7261a72d41e5f8910fb24e74c8f18e1eb31
 
 Package: grep
 Architecture: arm
@@ -2268,8 +2268,8 @@ Description: Universal typing tutor
 Homepage: https://www.gnu.org/software/gtypist/
 Depends: libandroid-support, ncurses
 Filename: dists/dom-dev/testing/binary-arm/gtypist_2.9.5-1_arm.deb
-Size: 538784
-SHA256: d2903ea8bc27eb69522ca28bb5cc5845d9babd3bd695e8518c8809a34fcd138d
+Size: 539068
+SHA256: ba471613bed789fb503ab59cc7351ab6808a3cb5e34fdef3813d754cf58688ad
 
 Package: gzip
 Architecture: arm
@@ -2350,8 +2350,8 @@ Description: Console hexeditor
 Homepage: https://github.com/LonnyGomes/hexcurse
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/hexcurse_1.60.0-2_arm.deb
-Size: 20128
-SHA256: 39c91de4cab335e0eaea38e7f85c08cd5abc761fcda1c699c1229016db40955e
+Size: 20120
+SHA256: b2e688bfcbf577e98c1c69915e978722dcccbac2a2349cd6d037498470e8c140
 
 Package: heyu
 Architecture: arm
@@ -2385,8 +2385,8 @@ Description: Interactive process viewer for Linux
 Homepage: https://hisham.hm/htop/
 Depends: ncurses, libandroid-support
 Filename: dists/dom-dev/testing/binary-arm/htop_2.2.0-1_arm.deb
-Size: 57704
-SHA256: f6b3c5892777c2f8d10ce7955e6d06d48f2a47136be0bd67d3f599c7beba8bd1
+Size: 57708
+SHA256: 60faf9413d25984770ecc9857b944c9ffca9cca461cc36bd8dd60c26f75d127f
 
 Package: httping
 Architecture: arm
@@ -2681,8 +2681,8 @@ Homepage: http://joe-editor.sourceforge.net
 Depends: ncurses, libutil
 Conflicts: jupp
 Filename: dists/dom-dev/testing/binary-arm/joe_4.6_arm.deb
-Size: 351148
-SHA256: c43ba600e1f0cf0af12f309d774a21989d4871a249e4ff28051de27ddb5f7548
+Size: 350576
+SHA256: ef76655498e6747e0bb91fc172a52dee1626c8652df34115f9e0d009b1152c53
 
 Package: jq-dev
 Architecture: arm
@@ -2787,8 +2787,8 @@ Homepage: https://www.mirbsd.org/jupp.htm
 Depends: ncurses, libutil
 Conflicts: joe
 Filename: dists/dom-dev/testing/binary-arm/jupp_3.1jupp36_arm.deb
-Size: 155664
-SHA256: 562ba6eab292650791b1970589861f79a0e515abda8e0547d5f53bc6c5b5e917
+Size: 155692
+SHA256: 9c86a2ce35ba20aa4dda4fa689df4a36a02f8f5b9852e0556d65a0afdb309e01
 
 Package: kona
 Architecture: arm
@@ -3142,8 +3142,8 @@ Description: Development files for libcaca
 Homepage: http://caca.zoy.org/wiki/libcaca
 Depends: libcaca
 Filename: dists/dom-dev/testing/binary-arm/libcaca-dev_0.99.beta19-2_arm.deb
-Size: 11644
-SHA256: b416a74785a6e974119bb58f092e49b6adb98ea3042ba958bf0866d574f5bd8e
+Size: 11652
+SHA256: e02927cd9adf665896f45f9e39c0126cad1d7d034fd9e2b8353c40b0e95f5a31
 
 Package: libcaca
 Architecture: arm
@@ -3154,8 +3154,8 @@ Description: Graphics library that outputs text instead of pixels
 Homepage: http://caca.zoy.org/wiki/libcaca
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/libcaca_0.99.beta19-2_arm.deb
-Size: 225576
-SHA256: 1cc52631b3bd364f7812e15afc39218cdc8e03cb5c46a29e6367c65340877bac
+Size: 225784
+SHA256: 7b14caeef766b095452897f021eaa2fac920c76de24bd74c3a624904b9acdb07
 
 Package: libcairo-dev
 Architecture: arm
@@ -3414,8 +3414,8 @@ Description: Development files for libedit
 Homepage: http://thrysoee.dk/editline/
 Depends: libedit
 Filename: dists/dom-dev/testing/binary-arm/libedit-dev_20180525-3.1-0_arm.deb
-Size: 12256
-SHA256: f2dfac2b48d56f6bc6b6e11f222236f2ee2a47961c978732df7d3940ba5295c6
+Size: 12260
+SHA256: 5e805bb275bcdb2dc3ce4fbc81275ab00ddd520a7a0fff01e67096382721c638
 
 Package: libedit
 Architecture: arm
@@ -3426,8 +3426,8 @@ Description: Library providing line editing, history, and tokenization functions
 Homepage: http://thrysoee.dk/editline/
 Depends: libandroid-support, ncurses
 Filename: dists/dom-dev/testing/binary-arm/libedit_20180525-3.1-0_arm.deb
-Size: 56120
-SHA256: 4d9815fa0807dbd7b9557993d7744cb0c50de853bd8fbd611dbdcb997b689463
+Size: 56148
+SHA256: 9a0cd080897181944cb9eac986929e8aad035c9647ba7dfce21d0cbce3bab5b1
 
 Package: libelf-dev
 Architecture: arm
@@ -5981,8 +5981,8 @@ Description:  A command-line based markdown presentation tool.
 Homepage: https://github.com/visit1985/mdp
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/mdp_1.0.13_arm.deb
-Size: 16892
-SHA256: de0311ce82f843919d452c5124ac7cc4fe8162f72a59022297c2c6cd01333067
+Size: 16916
+SHA256: 6752e0ebc1b46290cb08daadac24b685a300716a614dd2bf54e56a86c21fd1e3
 
 Package: megatools
 Architecture: arm
@@ -6040,8 +6040,8 @@ Description: Friendly menu driven serial communication program
 Homepage: https://alioth.debian.org/projects/minicom/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/minicom_2.7.1_arm.deb
-Size: 89704
-SHA256: 565a2bea36c9a08829d319f46e06491708affd7fa75e143f2ae15a1cf14fecc4
+Size: 90084
+SHA256: 72a49cba915a35d1d4aebba2c74cc4408cdce147421a1de2e97915678f29fa59
 
 Package: mlocate
 Architecture: arm
@@ -6064,8 +6064,8 @@ Description: Simple game where you drive a car across the moon's surface
 Homepage: https://github.com/seehuhn/moon-buggy
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/moon-buggy_1.0.51-1_arm.deb
-Size: 28452
-SHA256: 8dddc8678ee1acc2aff4458d52b3d5bb601586e5c140fc98552b33e0b00f0b32
+Size: 28464
+SHA256: e505828599216994ca9be294a0504d3447e5c126b0b527bdb285a90a81941012
 
 Package: moria
 Architecture: arm
@@ -6076,8 +6076,8 @@ Description: Rogue-like game with an infinite dungeon
 Homepage: http://remarque.org/~grabiner/moria.html
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/moria_5.6_arm.deb
-Size: 161816
-SHA256: edab7eb6164010e5bb8d884a7d1690ae728b10e9290ce444537251feaf61f156
+Size: 161788
+SHA256: 7a1d47f42e60d98ab3014911e848a7b1eb9f3689b82118910cf48e185c6c64ed
 
 Package: mos-dev
 Architecture: arm
@@ -6208,8 +6208,8 @@ Description: Tool to monitor logfiles and command output in multiple windows in 
 Homepage: http://www.vanheusden.com/multitail/
 Depends: ncurses, ncurses-ui-libs, libandroid-glob
 Filename: dists/dom-dev/testing/binary-arm/multitail_6.4.2-1_arm.deb
-Size: 111876
-SHA256: ac1cf76c60593d1c77f614e7c616ed299ffed8f0202bec456ac600198484e0f1
+Size: 112216
+SHA256: c41707416161a63efb0f4ebf805d69d4a39c4fd478e7810c7e7ffff370b57e13
 
 Package: mutt
 Architecture: arm
@@ -6232,8 +6232,8 @@ Description: Small, free and friendly text editor
 Homepage: https://www.nano-editor.org/
 Depends: libandroid-support, libandroid-glob, ncurses
 Filename: dists/dom-dev/testing/binary-arm/nano_2.9.8-1_arm.deb
-Size: 149280
-SHA256: 40bad10688a326e86b53a43a2a57b5a345ffd80ae04298333c0e97b7f3c26f3d
+Size: 149328
+SHA256: c246a748fa0715f104f4c258d9f1d109fdeb3abebf82d7b4b04c8caf229dcb23
 
 Package: ncdc
 Architecture: arm
@@ -6257,7 +6257,7 @@ Homepage: https://dev.yorhel.nl/ncdu
 Depends: ncurses, libandroid-support
 Filename: dists/dom-dev/testing/binary-arm/ncdu_1.13-1_arm.deb
 Size: 36648
-SHA256: 29f048194e367367aeb7fcef8dc828addb915c46453ef5f982f65782cf40c48d
+SHA256: a796f7684048b66d61e291e266ba5e9e0d140a654bd67e5dc826e9ec5f35ffd3
 
 Package: ncmpcpp
 Architecture: arm
@@ -6364,8 +6364,8 @@ Description: Easy-to-use and powerful text editor
 Homepage: http://ne.di.unimi.it/
 Depends: libandroid-support, ncurses
 Filename: dists/dom-dev/testing/binary-arm/ne_3.1.1_arm.deb
-Size: 221396
-SHA256: cf618202c750abb1eb3850d06322fa1b413929e01ed7cb44f48dd12e57301c6d
+Size: 221208
+SHA256: 82e6c36dbea630829b61242b60cda2c482a88570ade77b4cb84d21744fcb36aa
 
 Package: neovim
 Architecture: arm
@@ -7053,8 +7053,8 @@ Description: Utility to choose one option from a set of choices with fuzzy searc
 Homepage: https://github.com/calleerlandsson/pick
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/pick_2.0.2_arm.deb
-Size: 12084
-SHA256: 20329c516f478098eb639ff7ddf9e17b04c498c0ae0cf42a46719676e4e85dcd
+Size: 12080
+SHA256: 149ef520485e7709f1747c2957ceeab652f303be6cc62dcc585f86c11a2837f1
 
 Package: pinentry
 Architecture: arm
@@ -7184,8 +7184,8 @@ Description: Development files for procps
 Homepage: https://gitlab.com/procps-ng/procps
 Depends: procps
 Filename: dists/dom-dev/testing/binary-arm/procps-dev_3.3.15_arm.deb
-Size: 12060
-SHA256: 51a10d91d41ea69e3fe68121f672f303b75ea795e64ec536871b647dbf136d79
+Size: 12052
+SHA256: adcc166fbddc83cda7b86b82005d0e57b78cf5b6e0ffea819570f231ba54d33e
 
 Package: procps
 Architecture: arm
@@ -7196,8 +7196,8 @@ Description: Utilities that give information about processes using the /proc fil
 Homepage: https://gitlab.com/procps-ng/procps
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/procps_3.3.15_arm.deb
-Size: 190488
-SHA256: b5804ddfd1892b52add6ecde5203437d2d5aa8e0998f87b9a158ee4f55c837cc
+Size: 190504
+SHA256: 166516a16c3b4eedce6374fe3c2a15829b76cb668cffd26283163f3d3b93e9cf
 
 Package: profanity-dev
 Architecture: arm
@@ -7256,8 +7256,8 @@ Description: Some small useful utilities that use the proc filesystem
 Homepage: https://gitlab.com/psmisc/psmisc
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/psmisc_23.1_arm.deb
-Size: 38520
-SHA256: 5b2c398c754a2146a33307ddf1b876f733b7afa1daf4e91a623fbeee8821e535
+Size: 38532
+SHA256: fa24ba6aa934f9e87bba2688d987b2d079d1684c4d26b6161d5557fe1917e4e6
 
 Package: pulseaudio
 Architecture: arm
@@ -7510,7 +7510,7 @@ Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Depends: readline
 Filename: dists/dom-dev/testing/binary-arm/readline-dev_7.0.5_arm.deb
 Size: 34176
-SHA256: 27266c24daac1832803019d424fd4ba2fe132325f7b2dd9ea59afdf720e05c3f
+SHA256: ae80142037ab11c64d0182da00809f67088e7132fdf523d39b00517bf47dcdf0
 
 Package: readline
 Architecture: arm
@@ -7521,8 +7521,8 @@ Description: Library that allow users to edit command lines as they are typed in
 Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Depends: libandroid-support, ncurses
 Filename: dists/dom-dev/testing/binary-arm/readline_7.0.5_arm.deb
-Size: 88276
-SHA256: 597be293029d73f48c0aef091b59ce5c40ae4498466b682b5deec6b86beb1e97
+Size: 88308
+SHA256: c35b1252b4200e7f35248695f99476a651201ecfb603da2bff410447ef6e77b7
 
 Package: redir
 Architecture: arm
@@ -7783,7 +7783,7 @@ Homepage: https://github.com/mtoyoda/sl
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/sl_5.02-1_arm.deb
 Size: 5016
-SHA256: 979145bb24dd862aea8d2dc16c55dac5e41f23d3395f0b3cb25b54981d64f56f
+SHA256: b2f801686ee70ed9b23be1e877c2e1ae654c0b688df36e9291add54b245c706e
 
 Package: socat
 Architecture: arm
@@ -7877,8 +7877,8 @@ Description: Streaming bar graphs. For stats and stuff.
 Homepage: https://github.com/seenaburns/stag
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/stag_1.0.0_arm.deb
-Size: 8964
-SHA256: 0e51f870e758d20bbe6f939709e8daca605ad214b0e9a09fd4cbefb2aa8611c9
+Size: 8956
+SHA256: c51d6bfd40f359b83da8ae61c7442174d379c0e34100ab5dcceb3918e9697050
 
 Package: stfl-dev
 Architecture: arm
@@ -7890,7 +7890,7 @@ Homepage: http://www.clifford.at/stfl
 Depends: stfl
 Filename: dists/dom-dev/testing/binary-arm/stfl-dev_0.24_arm.deb
 Size: 1916
-SHA256: 8e5da4d5662614b26774b7ba7503b465750877d2089882466222454f1246c564
+SHA256: fde0077ff7f7a686d53636c4a38276f7f46d2c5bcd665c347d23a5d7271da388
 
 Package: stfl
 Architecture: arm
@@ -7901,8 +7901,8 @@ Description: Structured Terminal Forms Language/Library
 Homepage: http://www.clifford.at/stfl
 Depends: libandroid-support, ncurses
 Filename: dists/dom-dev/testing/binary-arm/stfl_0.24_arm.deb
-Size: 23612
-SHA256: 2c148c168f6a5bd6a3615547e481fe16595f2ec610d362adeb59fcd19f86a454
+Size: 23616
+SHA256: 0da5d7e08f13e33255f13f9ebc2d2bc7de7a60f8211068733b0bcca78460a165
 
 Package: strace
 Architecture: arm
@@ -8245,8 +8245,8 @@ Description: Terminal multiplexer
 Homepage: https://tmux.github.io/
 Depends: ncurses, libevent, libutil, libandroid-support, libandroid-glob
 Filename: dists/dom-dev/testing/binary-arm/tmux_2.7_arm.deb
-Size: 183376
-SHA256: aa75ece4ae7dbaa06e7769b5229326e6195f94b399994dab0638a8965e291e7e
+Size: 183036
+SHA256: aa34d99d02646423c144e019c6414e8deb5f812ee351151b649b58900316a303
 
 Package: toilet
 Architecture: arm
@@ -8340,8 +8340,8 @@ Description: Simple terminal clock
 Homepage: https://github.com/xorg62/tty-clock
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/tty-clock_2.3_arm.deb
-Size: 7568
-SHA256: 8fc5da9bc85af77c047caa467fc3600bf092123dcd0798d2deb823ce1942811b
+Size: 7560
+SHA256: 233898f3fde56202cf7fa8acdb336c847644de27a30fdebe3f21fe64688f3f3a
 
 Package: tty-solitaire
 Architecture: arm
@@ -8364,8 +8364,8 @@ Description: Klondike solitaire game
 Homepage: https://github.com/mpereira/tty-solitaire
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-arm/tty-solitaire_1.1.0_arm.deb
-Size: 7052
-SHA256: 483f6db82a90d6dde6fa55bbf722d58cbd0b9082bb501f43a9803c6d89bc20fc
+Size: 7060
+SHA256: 41edc532043ca4d3f40e8429c34c519bfdad2bf0bfbd66dad424c5fe0735ee06
 
 Package: ttyrec
 Architecture: arm
@@ -8551,8 +8551,8 @@ Description: Vifm is an ncurses based file manager with vi like keybindings/mode
 Homepage: https://vifm.info/
 Depends: ncurses, file
 Filename: dists/dom-dev/testing/binary-arm/vifm_0.9.1_arm.deb
-Size: 352344
-SHA256: 9dc8d81ea47e69c5ea4a95eb4e17a2c56fdb86dc960fd8852cb9c1766ff9bd72
+Size: 352308
+SHA256: 4eeab32f0ed662deea55995552001cc2d5b4b9d4fe2077498ab14a609b8798ae
 
 Package: vim-python
 Architecture: arm
@@ -8577,8 +8577,8 @@ Homepage: http://www.vim.org/
 Depends: ncurses, vim-runtime
 Conflicts: vim-python
 Filename: dists/dom-dev/testing/binary-arm/vim_8.1.0250_arm.deb
-Size: 898836
-SHA256: 66ee5fa06156bb6534c9fefbb02fa538bfd29088ac72efb79106795d7e977f3e
+Size: 899188
+SHA256: 3dc4f710f815a68990abef15a9bc3ec1ecca3462579c079b9fe02e9d1863cfe8
 
 Package: vorbis-tools
 Architecture: arm
@@ -8942,8 +8942,8 @@ Description: Lightweight clone of the Emacs text editor
 Homepage: https://www.gnu.org/software/zile/
 Depends: libgc, ncurses
 Filename: dists/dom-dev/testing/binary-arm/zile_2.4.14_arm.deb
-Size: 94744
-SHA256: 890da18048b987b5e2c15043d632a9546b0d022dbbde1bd2c022405313fcf713
+Size: 94828
+SHA256: dbdd91adf318c86903a96cfeaa1a2b85c01ed19c8ffe68d807a48dde9cb5b394
 
 Package: zip
 Architecture: arm

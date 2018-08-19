@@ -507,8 +507,8 @@ Version: 8.1.0250
 Description: Vi IMproved - Runtime files
 Homepage: http://www.vim.org/
 Filename: dists/dom-dev/testing/binary-all/vim-runtime_8.1.0250_all.deb
-Size: 3895788
-SHA256: d5271f4674149d543a9dde8638ccd925360f0a968a835851666289dc71952e7b
+Size: 3895564
+SHA256: 9d2f28323b09d622c4dfcee44c2d274354f49d8b01ed31318a5162fb33454243
 
 Package: yarn
 Architecture: all
