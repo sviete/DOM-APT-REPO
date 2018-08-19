@@ -12,14 +12,14 @@ SHA256: 0803b5594763c82b1d77ddac57bcbc0d7a7c00892c7481160f6c56be9bc81478
 
 Package: apksigner
 Architecture: all
-Installed-Size: 1504
+Installed-Size: 1496
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.7-1
 Description: APK signing tool
 Homepage: https://github.com/fornwall/apksigner
 Filename: dists/dom-dev/testing/binary-all/apksigner_0.7-1_all.deb
-Size: 1474360
-SHA256: 87bfb083b6d5ab0d07330503937459c2fb522ffc163a6c0ebdd91c5f20402138
+Size: 1464084
+SHA256: d6c43d0447bc334477680c531614a8698f573e1fd89e717764fc00bfce503228
 
 Package: apt-transport-tor
 Architecture: all
@@ -113,8 +113,8 @@ Version: 20180620
 Description: Common CA certificates (java keystore format)
 Homepage: https://curl.haxx.se/docs/caextract.html
 Filename: dists/dom-dev/testing/binary-all/ca-certificates-java_20180620_all.deb
-Size: 105688
-SHA256: 6bd9a1613f2c75d25a7e0f5b55a25e120a54c9933fc9601a9cbbfe7bf6aaa0c7
+Size: 105656
+SHA256: 32076e96bf8151aad2d5d098ce7a7906b3d5d43fb99c659a408b3f88d351fef2
 
 Package: ca-certificates
 Architecture: all
@@ -124,8 +124,8 @@ Version: 20180620
 Description: Common CA certificates
 Homepage: https://curl.haxx.se/docs/caextract.html
 Filename: dists/dom-dev/testing/binary-all/ca-certificates_20180620_all.deb
-Size: 116564
-SHA256: 30f1e0ce70de3c1eba42beec9bded7f41f2a2b4e538fd1b64ce0aa9abc2b8e9a
+Size: 116572
+SHA256: 600c23a63332149509bd417b86b63dbc5e9c048082ff27c03eb06cd0cfb1b9cd
 
 Package: colordiff
 Architecture: all
@@ -174,16 +174,27 @@ Filename: dists/dom-dev/testing/binary-all/dx_28.0.1_all.deb
 Size: 327816
 SHA256: 035e0a77f82133de0e556e0098f73ad157bc66e453b2804818107c3694eb79ad
 
+Package: dx
+Architecture: all
+Installed-Size: 360
+Maintainer: Fredrik Fornwall @fornwall
+Version: 28.0.2
+Description: Command which takes in class files and reformulates them for usage on Android
+Homepage: http://developer.android.com/tools/help/index.html
+Filename: dists/dom-dev/testing/binary-all/dx_28.0.2_all.deb
+Size: 325860
+SHA256: 3cf0307d2acca893582d5d5f08b12f93ce05508dd2fb8054bfa6b88a145fc565
+
 Package: ecj
 Architecture: all
-Installed-Size: 7664
+Installed-Size: 7656
 Maintainer: Fredrik Fornwall @fornwall
 Version: 4.7.2
 Description: Eclipse Compiler for Java
 Homepage: http://www.eclipse.org/jdt/core/
 Filename: dists/dom-dev/testing/binary-all/ecj_4.7.2_all.deb
-Size: 6390632
-SHA256: dd7e9d0cdc2efdb787fd4d73ad690d72638969364f8d78b861fc5dd23c3e92b1
+Size: 6385416
+SHA256: 7d46327fe29455b37b460cc075ea23a24a5f85e84ed2b72504859b865d9b46a2
 
 Package: getmail
 Architecture: all
@@ -205,8 +216,8 @@ Version: 2017.10.27
 Description: American english dictionary for hunspell
 Homepage: https://hunspell.github.io
 Filename: dists/dom-dev/testing/binary-all/hunspell-en-us_2017.10.27_all.deb
-Size: 160444
-SHA256: 2ff2d6d6c559e2c768f29f6c908553fd673d3a32c0f0e9d935ecfd4a2c89c09f
+Size: 160468
+SHA256: 7eae62771f6232d0baf1730290fc997251804e209b0b47542c9606df395c9c63
 
 Package: hunspell-ru
 Architecture: all
@@ -216,8 +227,8 @@ Version: 2017.03.03
 Description: Russian dictionary for hunspell
 Homepage: https://hunspell.github.io
 Filename: dists/dom-dev/testing/binary-all/hunspell-ru_2017.03.03_all.deb
-Size: 421452
-SHA256: f5036fbb844aeac1d2f7307e18be2b363f39bbf7ec5460e57626f2cb0de53b7f
+Size: 421584
+SHA256: d9bb235b1e204c515ab1e11985a7df764ee519526f35e700b2283def4e944f74
 
 Package: linux-man-pages
 Architecture: all
@@ -252,8 +263,8 @@ Description: MIME type associations for file types
 Homepage: https://packages.debian.org/en/stretch/mime-support
 Conflicts: mutt (<< 1.8.3-1)
 Filename: dists/dom-dev/testing/binary-all/mime-support_3.61_all.deb
-Size: 7488
-SHA256: caa66a0548b844ee97af924e1e86b9d709aa89234ddb7d3807a700e4dc90c817
+Size: 7504
+SHA256: 9c9f05b3bc2fe9d0f6d736d59eab20d7e8004cda0e5c178a7dd6cdcec5986514
 
 Package: ndk-multilib
 Architecture: all
@@ -263,8 +274,8 @@ Version: 17-3
 Description: Multilib binaries for cross-compilation
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Filename: dists/dom-dev/testing/binary-all/ndk-multilib_17-3_all.deb
-Size: 3286676
-SHA256: daf14611f4d5cfbd4af6ba55b9ed7d593a10f01e3e00cbb5ff81cb1feb397f91
+Size: 3287408
+SHA256: 3c900593c4dd1ab532014879279db63d120811ad806b4a5a6697e819dd862c44
 
 Package: neofetch
 Architecture: all
@@ -398,8 +409,8 @@ Description: Android Oreo-compatible am command reimplementation
 Homepage: https://github.com/michalbednarski/TermuxAm
 Conflicts: termux-tools (<< 0.51)
 Filename: dists/dom-dev/testing/binary-all/termux-am_0.3_all.deb
-Size: 17016
-SHA256: 9126a4736b7287f26770472ff19db1d03d9a9f8b70239a83a307d293c339aa01
+Size: 17020
+SHA256: 7adb8f06e45b81db8a674ae83665314387b62b5a2b400fa09e393f6c622cd132
 
 Package: termux-apt-repo
 Architecture: all
@@ -473,8 +484,8 @@ Version: 2.0
 Description: A su wrapper for Termux
 Homepage: https://github.com/cswl/tsu
 Filename: dists/dom-dev/testing/binary-all/tsu_2.0_all.deb
-Size: 2312
-SHA256: 3acc353244ea5729fe062bae1b947f4eba8955e3e95e80f21e638a35266ed609
+Size: 2320
+SHA256: b674afb9480192ec0fcc89ddf9e90000bfa74591f4127bc7eca22007bfd58f25
 
 Package: vcsh
 Architecture: all

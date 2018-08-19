@@ -7,8 +7,8 @@ Description: Android Asset Packaging Tool
 Homepage: http://elinux.org/Android_aapt
 Depends: libexpat, libpng, libzopfli
 Filename: dists/dom-dev/testing/binary-i686/aapt_7.1.2.33-2_i686.deb
-Size: 1792352
-SHA256: e6553acdb86e8d4495187017b86dd37bde876d0e256bfc4f5a55d84b1d44a2ef
+Size: 1792544
+SHA256: 83b9abd5bd87f9dc2b86932b49eb6ae6a558916efd8788b0e2a64c135e7682c1
 
 Package: abduco
 Architecture: i686
@@ -91,8 +91,8 @@ Description: Development files for apr
 Homepage: https://apr.apache.org/
 Depends: apr
 Filename: dists/dom-dev/testing/binary-i686/apr-dev_1.6.3_i686.deb
-Size: 169700
-SHA256: 4ca72f9c497798526a3dc69fd46023de95698ed35bc6358c46024b3e6082587b
+Size: 169684
+SHA256: 685fc7296dac8f89bee6871afb3027bb428b2b470603bb4357097a8e20c5a050
 
 Package: apr-util-dev
 Architecture: i686
@@ -127,8 +127,8 @@ Description: Apache Portable Runtime Library
 Homepage: https://apr.apache.org/
 Depends: libuuid
 Filename: dists/dom-dev/testing/binary-i686/apr_1.6.3_i686.deb
-Size: 59300
-SHA256: 4ed53f545da9de500f9fef7adbef39e63297bf03e8129870abbf25a0b9ead5c3
+Size: 59296
+SHA256: 30079b82ba17bf0b93f5c0badd524b3c329d24f4ef16d947d5adbc2a41e257a6
 
 Package: apt
 Architecture: i686
@@ -153,8 +153,8 @@ Version: 1.3
 Description: Standalone version of arguments parsing functions from GLIBC
 Homepage: https://www.lysator.liu.se/~nisse/misc/
 Filename: dists/dom-dev/testing/binary-i686/argp_1.3_i686.deb
-Size: 45392
-SHA256: c64deb34c55d77f6936241d281330a53cf7d4040c6a5631cf44bbc5f7927c144
+Size: 45328
+SHA256: 69f975c2380b6ba60892d71f674476f72f8debfafaa79dd4ef38012f5b225d04
 
 Package: aria2
 Architecture: i686
@@ -177,7 +177,7 @@ Description: Read, parse and set metadata of MPEG-4 and 3gp files
 Homepage: https://bitbucket.org/wez/atomicparsley
 Filename: dists/dom-dev/testing/binary-i686/atomicparsley_0.9.6-2_i686.deb
 Size: 92340
-SHA256: 62dc70cfe023cf3b34ce3e41f167914304adf50fdb5c08e4c4c04499db149f40
+SHA256: ddc2794f23e3af5bb170175ddf2dff7c66a9ec3245bf1fb04a3084f7498a456b
 
 Package: attr-dev
 Architecture: i686
@@ -188,8 +188,8 @@ Description: Development files for attr
 Homepage: http://savannah.nongnu.org/projects/attr/
 Depends: attr
 Filename: dists/dom-dev/testing/binary-i686/attr-dev_2.4.48_i686.deb
-Size: 8452
-SHA256: 2f583ec7e5c51d094de92fd489eb95ae98d842a32b8f72d115391a8c39f0a171
+Size: 8444
+SHA256: e79f328f15fcff6bcff4dd5fae4abc604dbcc32f7c7b8070079e329a0144256a
 
 Package: attr
 Architecture: i686
@@ -199,8 +199,8 @@ Version: 2.4.48
 Description: Utilities for manipulating filesystem extended attributes
 Homepage: http://savannah.nongnu.org/projects/attr/
 Filename: dists/dom-dev/testing/binary-i686/attr_2.4.48_i686.deb
-Size: 19016
-SHA256: 42faaa81c8b206ba94b4e683514a99c62d185fb2bed4d7271a70db4e9aa6ac4d
+Size: 19012
+SHA256: aa8128f9835d48c85990b5d7ba51e1cebb48ac3f70fe807f45e039c418c16523
 
 Package: autossh
 Architecture: i686
@@ -238,6 +238,18 @@ Filename: dists/dom-dev/testing/binary-i686/babl-dev_0.1.54_i686.deb
 Size: 6704
 SHA256: db5306c82e90f3384ad8aaaa8318f06343d16f566127911569d849713a83bea5
 
+Package: babl-dev
+Architecture: i686
+Installed-Size: 84
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.1.56
+Description: Development files for babl
+Homepage: http://gegl.org/babl/
+Depends: babl
+Filename: dists/dom-dev/testing/binary-i686/babl-dev_0.1.56_i686.deb
+Size: 6700
+SHA256: 6b83d9887177f1faa67bd8431f0c8ecdb49311f36a1307ce09c23c028d53d571
+
 Package: babl
 Architecture: i686
 Installed-Size: 892
@@ -248,6 +260,17 @@ Homepage: http://gegl.org/babl/
 Filename: dists/dom-dev/testing/binary-i686/babl_0.1.54_i686.deb
 Size: 205376
 SHA256: a3850fffba4207a2167c6a55b72c446cb702a596892d5513ada9a4ec7c6352be
+
+Package: babl
+Architecture: i686
+Installed-Size: 892
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.1.56
+Description: Dynamic pixel format translation library
+Homepage: http://gegl.org/babl/
+Filename: dists/dom-dev/testing/binary-i686/babl_0.1.56_i686.deb
+Size: 205600
+SHA256: 56322fd5d62b636ffd91c6cf8eb418cb13bb3ab7b1210d4e2e0c7039e5f41a77
 
 Package: bash-dev
 Architecture: i686
@@ -294,8 +317,8 @@ Description: Development files for binutils
 Homepage: https://www.gnu.org/software/binutils/
 Depends: binutils
 Filename: dists/dom-dev/testing/binary-i686/binutils-dev_2.31.1_i686.deb
-Size: 66812
-SHA256: 8a11610534a56ba50647241cb1867262f9c4dd796fd6c9353bb8995ac2a0561d
+Size: 66804
+SHA256: 867567cbee6699e8c26ee5ed521c31802396ae6e1f63b64a0fd2545d71ac2750
 
 Package: binutils-gold
 Architecture: i686
@@ -306,8 +329,8 @@ Description: gold linker
 Homepage: https://www.gnu.org/software/binutils/
 Depends: binutils
 Filename: dists/dom-dev/testing/binary-i686/binutils-gold_2.31.1_i686.deb
-Size: 959520
-SHA256: de5cd6b1b7c13a7fa68c050fbca692a231a69b8a9f7b1b42c3ec9f5707077bdc
+Size: 959528
+SHA256: bf9ed8ffbab802900ce9a4364af4572026f96b38e6abcd14672665cba543c8b4
 
 Package: binutils
 Architecture: i686
@@ -317,8 +340,8 @@ Version: 2.31.1
 Description: Collection of binary tools, the main ones being ld, the GNU linker, and as, the GNU assembler
 Homepage: https://www.gnu.org/software/binutils/
 Filename: dists/dom-dev/testing/binary-i686/binutils_2.31.1_i686.deb
-Size: 1484380
-SHA256: 1e91c5c29ad9ea0c78f759226ab1f75fa69e7ea048794125ea747535de0a0fc1
+Size: 1484104
+SHA256: 598cb36ada8abcbc03311ca88f25eebc9c03c900a759ab672402b7b9322c5d64
 
 Package: bison
 Architecture: i686
@@ -391,8 +414,8 @@ Description: Development files for brotli
 Homepage: https://github.com/google/brotli
 Depends: brotli
 Filename: dists/dom-dev/testing/binary-i686/brotli-dev_1.0.5_i686.deb
-Size: 13648
-SHA256: 5391ed56cc6a1338f27084fc9c678740fdb9ff9342e549e195bc25de83b640f9
+Size: 13640
+SHA256: 9c8501838c4f063764157f906382a599401117779f78632f4549e211b538e6bc
 
 Package: brotli
 Architecture: i686
@@ -402,8 +425,8 @@ Version: 1.0.5
 Description: lossless compression algorithm and format (command line utility)
 Homepage: https://github.com/google/brotli
 Filename: dists/dom-dev/testing/binary-i686/brotli_1.0.5_i686.deb
-Size: 258632
-SHA256: cef6b7e7a7b288a467f7fd48da199271b10a369802dcff868062506d15bdada1
+Size: 258444
+SHA256: 1fe92b259176271fa1f395b4eacdb9fc68967eedd2245c4a888e5084612ce3f2
 
 Package: bs1770gain
 Architecture: i686
@@ -428,6 +451,19 @@ Depends: libarchive
 Filename: dists/dom-dev/testing/binary-i686/bsdtar_3.3.2_i686.deb
 Size: 41628
 SHA256: 0ebd23245cb5e21de32e04bb45860427183e0400e1c0fab23c37b90a3c0132b2
+
+Package: busybox
+Architecture: i686
+Installed-Size: 660
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.29.2-1
+Description: Tiny versions of many common UNIX utilities into a single small executable
+Homepage: https://busybox.net/
+Essential: yes
+Conflicts: coreutils (<< 8.25-4)
+Filename: dists/dom-dev/testing/binary-i686/busybox_1.29.2-1_i686.deb
+Size: 290348
+SHA256: 61ef9ff376686644a9b507d9f7d36a2eaeca4e296cdac823d9a825e077d209ea
 
 Package: busybox
 Architecture: i686
@@ -463,8 +499,8 @@ Description: Tools for working with bzip2 compression
 Homepage: http://www.bzip.org/
 Depends: libbz2
 Filename: dists/dom-dev/testing/binary-i686/bzip2_1.0.6-1_i686.deb
-Size: 23496
-SHA256: 8a97ee2ecd6d5290b8a73b52dc7e065d619be87a6aa502a5ad55c8ffec3d21ae
+Size: 23504
+SHA256: e6b368f2ca4b61ddbb71c0f572f169f090651b5e64367715c6dd42887fea814e
 
 Package: c-ares-dev
 Architecture: i686
@@ -475,8 +511,8 @@ Description: Development files for c-ares
 Homepage: https://c-ares.haxx.se
 Depends: c-ares
 Filename: dists/dom-dev/testing/binary-i686/c-ares-dev_1.14.0_i686.deb
-Size: 10164
-SHA256: d3087c118c56994c653d0f7de116b6088cf6ec11772feaa854bfa6f34fb53f14
+Size: 10148
+SHA256: 247f89c1367249db2185acb27910b68aae8d86cb6d9025777e40de5a1063f748
 
 Package: c-ares
 Architecture: i686
@@ -486,8 +522,32 @@ Version: 1.14.0
 Description: Library for asynchronous DNS requests (including name resolves)
 Homepage: https://c-ares.haxx.se
 Filename: dists/dom-dev/testing/binary-i686/c-ares_1.14.0_i686.deb
-Size: 25324
-SHA256: f577d823d950c22009a8ecf6675739a9162741f5e320e67fe06f24c45d396bc3
+Size: 25356
+SHA256: d22e01b9aa31a8458c0223a96f4ca60de412717b77d36ac2ad0c0a71a5eeefad
+
+Package: c-toxcore-dev
+Architecture: i686
+Installed-Size: 156
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 0.2.5
+Description: Development files for c-toxcore
+Homepage: https://tox.chat
+Depends: c-toxcore
+Filename: dists/dom-dev/testing/binary-i686/c-toxcore-dev_0.2.5_i686.deb
+Size: 21952
+SHA256: e111d094ca67282dab060d1563ede4e775b05eb9e02a65316fdd51d28f0fee4c
+
+Package: c-toxcore
+Architecture: i686
+Installed-Size: 228
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 0.2.5
+Description: Backend library for the Tox protocol
+Homepage: https://tox.chat
+Depends: libsodium
+Filename: dists/dom-dev/testing/binary-i686/c-toxcore_0.2.5_i686.deb
+Size: 83668
+SHA256: cb091abf0e760862b5868fc1d6607f4045b6b81afebd5b89b80cef3547c594e7
 
 Package: cadaver
 Architecture: i686
@@ -545,8 +605,8 @@ Version: 3.4.2
 Description: Compiler cache for fast recompilation of C/C++ code
 Homepage: https://ccache.samba.org
 Filename: dists/dom-dev/testing/binary-i686/ccache_3.4.2_i686.deb
-Size: 59620
-SHA256: 842ddfc828d950b80e9617108ce331fc68f3f91cccb148dd78dbab392b6269a7
+Size: 59640
+SHA256: e5c786be3e06b889976c545cf42385de931a424ed3167fd1e97f2e915d8e70ce
 
 Package: ccrypt
 Architecture: i686
@@ -617,8 +677,8 @@ Description: Development files for cmark
 Homepage: https://github.com/jgm/cmark
 Depends: cmark
 Filename: dists/dom-dev/testing/binary-i686/cmark-dev_0.28.3_i686.deb
-Size: 9196
-SHA256: 81c184082549eb69e7aa301386a24727e58f9e5aecb5a65feb7393e3c6810db4
+Size: 9200
+SHA256: 23ae5e7c5262ed632176f320e9c12fe8ccb904de10993a4386d638e9c0b91410
 
 Package: cmark
 Architecture: i686
@@ -628,8 +688,8 @@ Version: 0.28.3
 Description: CommonMark parsing and rendering program
 Homepage: https://github.com/jgm/cmark
 Filename: dists/dom-dev/testing/binary-i686/cmark_0.28.3_i686.deb
-Size: 72712
-SHA256: ac2f8583d06e891a4350945ef769a0053ffef1e77cd669114ae3e363e1ae98f5
+Size: 72620
+SHA256: ecd749e3a78ecff214e29f4bd97fe7cb91988d391c2b35deb0f59ab778a13212
 
 Package: cmatrix
 Architecture: i686
@@ -663,8 +723,8 @@ Version: 1.33
 Description: Suggest installation of packages in interactive shell sessions
 Homepage: https://termux.com
 Filename: dists/dom-dev/testing/binary-i686/command-not-found_1.33_i686.deb
-Size: 18228
-SHA256: b0cb372effdec89640c52976c7c3e61dd7e0b2ed273ad3154a9cd5eff1fc2720
+Size: 18224
+SHA256: c79640c40b512ceaaabc1ea4c707820b62707da7c888e53e6cfd9e75143f7d29
 
 Package: coreutils
 Architecture: i686
@@ -674,8 +734,8 @@ Version: 8.30-1
 Description: Basic file, shell and text manipulation utilities from the GNU project
 Homepage: https://www.gnu.org/software/coreutils/
 Filename: dists/dom-dev/testing/binary-i686/coreutils_8.30-1_i686.deb
-Size: 425204
-SHA256: 1c5196b048c197c18037d4b8ad434ee0a7c83345d54490c4b370edf3bfc6ccef
+Size: 425128
+SHA256: 8eb25ebdb7e3c1d18331908d3aa9dcc24ac84277ed3b8d8ebd208b4612233b1d
 
 Package: corkscrew
 Architecture: i686
@@ -709,8 +769,8 @@ Version: 1.18-1
 Description: Indents C preprocessor directives to reflect their nesting, among other regularizations
 Homepage: https://www.gnu.org/software/cppi/
 Filename: dists/dom-dev/testing/binary-i686/cppi_1.18-1_i686.deb
-Size: 18196
-SHA256: b1530f1838db77f59ab3a6e43fcea09d4ed7bfb6d96ce71a667b870f698dc73d
+Size: 18188
+SHA256: 1da463637c00932455e65ec35bacefbf310e2c5fed56ed299ffea4eda55d3551
 
 Package: cscope
 Architecture: i686
@@ -732,8 +792,8 @@ Version: 0.0.20180513
 Description: Universal ctags: Source code index builder
 Homepage: https://ctags.io/
 Filename: dists/dom-dev/testing/binary-i686/ctags_0.0.20180513_i686.deb
-Size: 226904
-SHA256: e0aacdf70351980a00b695bdf34c1f0939fb6abdbc7beaa684145ca70292f0b2
+Size: 226920
+SHA256: fbf043757da8cf96160ba5b64e704c54156fbd2453d18e4cc5072ffbef659479
 
 Package: curl
 Architecture: i686
@@ -767,8 +827,8 @@ Version: 1.12.13+real-26-0
 Description: Concurrent Versions System
 Homepage: https://www.nongnu.org/cvs/
 Filename: dists/dom-dev/testing/binary-i686/cvs_1.12.13+real-26-0_i686.deb
-Size: 337208
-SHA256: 40ab1629f79de5ec02e08adfc83a2658624dd9bda8ddab0ac7167678208c7029
+Size: 337188
+SHA256: e2dfc91cbe2b7113475ed81a92279ed004763685884b87e4b8225f45a4adaeef
 
 Package: daemonize
 Architecture: i686
@@ -779,7 +839,7 @@ Description: Run a command as a Unix daemon
 Homepage: http://software.clapper.org/daemonize/
 Filename: dists/dom-dev/testing/binary-i686/daemonize_1.7.8_i686.deb
 Size: 7776
-SHA256: 6a3d419d9cd067987f65cb154eeeeac672472e4c6e7df3c8ca71be37f648cbfe
+SHA256: f16238e962404ee70fd95f83fad447cb6c71e599ed7b8542292c256465a1e7b4
 
 Package: darkhttpd
 Architecture: i686
@@ -789,8 +849,8 @@ Version: 1.12
 Description: A simple webserver, implemented in a single .c file.
 Homepage: https://unix4lyfe.org/darkhttpd
 Filename: dists/dom-dev/testing/binary-i686/darkhttpd_1.12_i686.deb
-Size: 14044
-SHA256: 8ce4db444124f8096ca2e23e98aa3cb6ea6f83e5184c66ab756bbd7029f6b730
+Size: 14064
+SHA256: 24114c34034601aebc90d50c146ba6066ec2f65eae03f6bd5bb242cd0b448c18
 
 Package: dash
 Architecture: i686
@@ -801,8 +861,8 @@ Description: Small POSIX-compliant implementation of /bin/sh
 Homepage: http://gondor.apana.org.au/~herbert/dash/
 Essential: yes
 Filename: dists/dom-dev/testing/binary-i686/dash_0.5.10.2-1_i686.deb
-Size: 59428
-SHA256: 1bc877342f63a975b424602ad097de53fbc8739357e351c69e7b5218cb2253ca
+Size: 59420
+SHA256: 447b0d4ac952c4e8933332cc2a1ce478335c145acbeec8d68f6397af653c0453
 
 Package: datamash
 Architecture: i686
@@ -812,8 +872,8 @@ Version: 1.3
 Description: GNU datamash performs basic numeric,textual and statistical operations
 Homepage: https://www.gnu.org/software/datamash/
 Filename: dists/dom-dev/testing/binary-i686/datamash_1.3_i686.deb
-Size: 232092
-SHA256: f51a9c2b4f146dfc480f44f578c7a3293ec8cd86513f501f18e808623477e632
+Size: 232116
+SHA256: f8e3c4f6ed1f156702046b0007ac053e20208fbc22c2f087ddd4e0742e558bed
 
 Package: db
 Architecture: i686
@@ -824,8 +884,8 @@ Description: The Berkeley DB embedded database system
 Homepage: https://www.oracle.com/database/berkeley-db
 Depends: libdb
 Filename: dists/dom-dev/testing/binary-i686/db_6.2.32_i686.deb
-Size: 37540
-SHA256: aa7ecdf7a545f4d73045cc5f9e6f4600363b82994e0384a64200aa478429d36c
+Size: 37564
+SHA256: e37a8167bd0ef29ea6eea026ec4739f337ec102e520eba9e06d586932e1160dd
 
 Package: dcraw
 Architecture: i686
@@ -847,8 +907,8 @@ Version: 1.23-1
 Description: GNU data recovery tool
 Homepage: https://www.gnu.org/software/ddrescue/
 Filename: dists/dom-dev/testing/binary-i686/ddrescue_1.23-1_i686.deb
-Size: 72376
-SHA256: 2e10616490f12b9aaccda8ba5ebe2bf0af28a837af9186604c3d64fa88e4efb7
+Size: 72404
+SHA256: 8ef39a4a0cc7aecb8c66dc99373fe271e28977384b24cf93f86a1548e9d5bf75
 
 Package: debianutils
 Architecture: i686
@@ -858,8 +918,8 @@ Version: 4.8.6
 Description: Small utilities which are used primarily by the installation scripts of Debian packages
 Homepage: https://packages.debian.org/debianutils
 Filename: dists/dom-dev/testing/binary-i686/debianutils_4.8.6_i686.deb
-Size: 16732
-SHA256: c9ec7e0fa50dd7758339db62ddf0fd146ee36a60b15636fbd1202850be6075b2
+Size: 16752
+SHA256: 6492ab9c23cfb15c7eed275cb68dbb508baf8f706c7a82af12130e7afcde1cd3
 
 Package: dialog
 Architecture: i686
@@ -881,8 +941,8 @@ Version: 3.6-1
 Description: Programs (cmp, diff, diff3 and sdiff) related to finding differences between files
 Homepage: https://www.gnu.org/software/diffutils/
 Filename: dists/dom-dev/testing/binary-i686/diffutils_3.6-1_i686.deb
-Size: 98360
-SHA256: 293471c3813356fe6ed8a61120a0b6ab938d691e9d3f83f30769479d948d704d
+Size: 98352
+SHA256: 8e5623bb880b73644aa56bf0cb091240796e2e481acedff862bbc832c91ea6e1
 
 Package: direvent
 Architecture: i686
@@ -893,8 +953,8 @@ Description: Monitor of events in file system directories
 Homepage: https://www.gnu.org.ua/software/direvent/
 Depends: libandroid-glob
 Filename: dists/dom-dev/testing/binary-i686/direvent_5.1_i686.deb
-Size: 56476
-SHA256: 3218aa119c7908590b4d1688204ed22f841c7b398092a0b33feca8518e6ee3d0
+Size: 56484
+SHA256: 3bb7420a96c167e52b5a8bee447b0c5495101a2b43703b47d2732d48ac95a1be
 
 Package: dirmngr
 Architecture: i686
@@ -941,8 +1001,8 @@ Description: Converts between DOS and Unix text files
 Homepage: https://waterlan.home.xs4all.nl/dos2unix.html
 Depends: libandroid-support
 Filename: dists/dom-dev/testing/binary-i686/dos2unix_7.4.0_i686.deb
-Size: 26100
-SHA256: 970b792bba34eb88986c3766a53c4d98ba6750962c32ada94dbbd1fb6fd17edf
+Size: 26116
+SHA256: 2da3bd237c1debbff04babf7ab934b11fb96e32406e49fc03ec872ddc1930d46
 
 Package: dpkg-dev
 Architecture: i686
@@ -953,8 +1013,8 @@ Description: Development files for dpkg
 Homepage: https://packages.debian.org/dpkg
 Depends: dpkg
 Filename: dists/dom-dev/testing/binary-i686/dpkg-dev_1.19.0.5_i686.deb
-Size: 18188
-SHA256: 705ed180b854f3090fc4ad2efb7d26f08cf3bd0280b37a1339a36fd2fdc28280
+Size: 18176
+SHA256: 6387616a625d90f77ab096c13d7fe24e3554cfb75b47ec0de5b98a9e6694b771
 
 Package: dpkg
 Architecture: i686
@@ -966,8 +1026,8 @@ Homepage: https://packages.debian.org/dpkg
 Depends: busybox, liblzma
 Essential: yes
 Filename: dists/dom-dev/testing/binary-i686/dpkg_1.19.0.5_i686.deb
-Size: 175624
-SHA256: 0c904cc00d7b66b76763a0d515cb8b8867b2e9f8b81c111b786efdf816f9f3f9
+Size: 175540
+SHA256: 51e2ba8c0bd21427ee9b6563a0c00c7b7991dd3d23eff1b9eefb4ce95b4bf222
 
 Package: dropbear
 Architecture: i686
@@ -1002,8 +1062,8 @@ Version: 1.14.2
 Description: Classic UNIX line editor
 Homepage: https://www.gnu.org/software/ed/
 Filename: dists/dom-dev/testing/binary-i686/ed_1.14.2_i686.deb
-Size: 17608
-SHA256: da2fc099ebf5a258209d465e8d0a6c3bb755e54350961fb5cddc38d47afa036e
+Size: 17616
+SHA256: 499b3350000ab8b6a5e16652610036f660bd53a3fde1928c796f1e42f5035f6e
 
 Package: elfutils-dev
 Architecture: i686
@@ -1074,8 +1134,8 @@ Description: Development files for espeak
 Homepage: https://github.com/espeak-ng/espeak-ng
 Depends: espeak
 Filename: dists/dom-dev/testing/binary-i686/espeak-dev_1.49.2-1_i686.deb
-Size: 9564
-SHA256: 4beea9828a645b1c0931f7575e964050e35d313db6fa96f2d3678eb03094d095
+Size: 9576
+SHA256: 3a8ecb748105225d4e4a1ffa4f6b466e607c9b3dc8143e87d799fa680f280681
 
 Package: espeak
 Architecture: i686
@@ -1085,8 +1145,8 @@ Version: 1.49.2-1
 Description: Compact software speech synthesizer
 Homepage: https://github.com/espeak-ng/espeak-ng
 Filename: dists/dom-dev/testing/binary-i686/espeak_1.49.2-1_i686.deb
-Size: 2161024
-SHA256: 2f9b174b23b052e057bc89d488307f63306a077dbd24e4b32c4e7919cefe792a
+Size: 2161120
+SHA256: 0adeb31993ad1e0c5c8ca7e04d12ff61240bbe9df37244ad09f8f2fb8afc2961
 
 Package: expect-dev
 Architecture: i686
@@ -1120,8 +1180,8 @@ Version: 1.6.1
 Description: Duplicates file detector
 Homepage: https://github.com/adrianlopezroche/fdupes
 Filename: dists/dom-dev/testing/binary-i686/fdupes_1.6.1_i686.deb
-Size: 12144
-SHA256: 556360505a88bdf2bfc9923c18cb06027c03365ade26f5f401db24d5a2c6731d
+Size: 12152
+SHA256: cc6f4a8d1f8656212dc730d9dfa4815d93e02b779fdc7ad273b09726eff154b6
 
 Package: ffmpeg-dev
 Architecture: i686
@@ -1157,8 +1217,8 @@ Description: Development files for fftw
 Homepage: http://www.fftw.org/
 Depends: fftw
 Filename: dists/dom-dev/testing/binary-i686/fftw-dev_3.3.8_i686.deb
-Size: 23104
-SHA256: 19d553fd7f7931ce465901e997f168c7db55b865388a70cd3ba349b6c4375013
+Size: 23100
+SHA256: 8b7c2f2c20dbf68f112b29bb676d229bf999c405861470622409ea790d7d854c
 
 Package: fftw
 Architecture: i686
@@ -1168,8 +1228,8 @@ Version: 3.3.8
 Description: Library for computing the Discrete Fourier Transform (DFT) in one or more dimensions
 Homepage: http://www.fftw.org/
 Filename: dists/dom-dev/testing/binary-i686/fftw_3.3.8_i686.deb
-Size: 783496
-SHA256: 177659d0129f240df475d7ff2711384c201b8ab650dc7de2a42f58bac92a31c3
+Size: 783620
+SHA256: 9d71c8f92fb661db7957b65d146cc4fe1a7b44d4644409c67414c50f239756d5
 
 Package: figlet
 Architecture: i686
@@ -1179,8 +1239,8 @@ Version: 2.2.5-1
 Description: Program for making large letters out of ordinary text
 Homepage: http://www.figlet.org/
 Filename: dists/dom-dev/testing/binary-i686/figlet_2.2.5-1_i686.deb
-Size: 85904
-SHA256: 90ed474df1df8fc4508ae3842bf4fe1d17763656343bf3104fea8a2834145cd9
+Size: 85940
+SHA256: d7f9e7f404a8f9fea38f29fb4ffa720337733f960b577485e945b7cf9637a2bb
 
 Package: file-dev
 Architecture: i686
@@ -1192,7 +1252,7 @@ Homepage: https://darwinsys.com/file/
 Depends: file
 Filename: dists/dom-dev/testing/binary-i686/file-dev_5.34_i686.deb
 Size: 5620
-SHA256: 238dbfdfcd811a79d88ba6a86d975798583cbaf3d5ee2b18f89d2f0f29824e40
+SHA256: 69ed4f783d5e2ab7b58dc4f23eaa767a9c4ed6af45310d8dba386ed0c2097c53
 
 Package: file
 Architecture: i686
@@ -1202,8 +1262,8 @@ Version: 5.34
 Description: Command-line tool that tells you in words what kind of data a file contains
 Homepage: https://darwinsys.com/file/
 Filename: dists/dom-dev/testing/binary-i686/file_5.34_i686.deb
-Size: 259632
-SHA256: 69725f252c56e667ef6c014b371c54a15c93e5a514fb2adebb74b22e4bbe22dd
+Size: 259608
+SHA256: e7d8f8ca48390b79845f23f3fb9ae9fc753d79e04dba2a5e42e5df6468316a75
 
 Package: finch-dev
 Architecture: i686
@@ -1238,8 +1298,8 @@ Description: Utilities to find files meeting specified criteria and perform vari
 Homepage: https://www.gnu.org/software/findutils/
 Depends: libandroid-support
 Filename: dists/dom-dev/testing/binary-i686/findutils_4.6.0-2_i686.deb
-Size: 140496
-SHA256: 4bf3c9e63726edbeb7e38efcbdbfac640eceefb4dc0a6759c2eba1dad36f8e03
+Size: 140568
+SHA256: 8cc7d69fe478e517e6c8c8f58dd768c7415e9d463af1bef064330073c3ad056a
 
 Package: fish
 Architecture: i686
@@ -1262,8 +1322,8 @@ Description: FLAC (Free Lossless Audio Codec) command-line tool
 Homepage: https://xiph.org/flac/
 Depends: libflac
 Filename: dists/dom-dev/testing/binary-i686/flac_1.3.2-4_i686.deb
-Size: 89636
-SHA256: e7237c3b483f7f03c478da552fa1b1b7854dae2cfb66f26e8034e11cec1f96e5
+Size: 89624
+SHA256: d725f78709894c5cfd0fde4c0f8726c76bad7fa1e8842594aec389e27547bca9
 
 Package: flex
 Architecture: i686
@@ -1323,8 +1383,8 @@ Version: 1.2
 Description: Revealer of fortunes
 Homepage: https://www.fefe.de/fortune/
 Filename: dists/dom-dev/testing/binary-i686/fortune_1.2_i686.deb
-Size: 817068
-SHA256: 3df3b4da8651cf688cb7569fa2fa2242da3f6c089583172e8adc18b9aa78c491
+Size: 816992
+SHA256: d7fc0ad207ff2ff0cdb9b0b26078b4aab0b256860dc4a81fd2d7863ab31fe9da
 
 Package: fossil
 Architecture: i686
@@ -1348,7 +1408,7 @@ Homepage: https://www.freetype.org
 Depends: freetype
 Filename: dists/dom-dev/testing/binary-i686/freetype-dev_2.9.1-1_i686.deb
 Size: 145996
-SHA256: b7837059414a32f4b964105d9545e7eefb1b1c082cd8bd25181ee7f0845b7598
+SHA256: a10b0a924910117e5ba0ca52f0f05aab3d36e96e833d4d8bc792a55616ad8795
 
 Package: freetype
 Architecture: i686
@@ -1359,8 +1419,8 @@ Description: Software font engine capable of producing high-quality output
 Homepage: https://www.freetype.org
 Depends: libbz2, libpng
 Filename: dists/dom-dev/testing/binary-i686/freetype_2.9.1-1_i686.deb
-Size: 239888
-SHA256: 402ee686b8ad88ae108972b663fd7b1d453fd7f76ac6136536369e65388964c6
+Size: 239800
+SHA256: 07b012b881a0f0fce9420caf01218269cc782fdf9e8a5d71f7eae7558a9a4287
 
 Package: fribidi-dev
 Architecture: i686
@@ -1419,7 +1479,7 @@ Description: Filesystem monitor with fanotify and inotify backends
 Homepage: https://github.com/nowsecure/fsmon
 Filename: dists/dom-dev/testing/binary-i686/fsmon_1.5_i686.deb
 Size: 7524
-SHA256: 8c5ae29410f67bef26a94ba346912f3eebefd53877e1bd7076a6a5ea2326cd25
+SHA256: 2f7a47e26de6c71ce4d19bb403e900963561722af7bab5dcc547dd6618e73bb1
 
 Package: fwknop-dev
 Architecture: i686
@@ -1489,8 +1549,8 @@ Version: 1.2.0-1
 Description: Highly configurable prompt builder for Bash and ZSH written in Go
 Homepage: https://github.com/jtyr/gbt
 Filename: dists/dom-dev/testing/binary-i686/gbt_1.2.0-1_i686.deb
-Size: 612208
-SHA256: 92fcba20de12e26b28933616bb34d5022eeaa864c7577b8f44089d5db225343a
+Size: 612024
+SHA256: 7002f996b3e3b3fe1db808653335889853316bac931ff0d23a977fff7af50438
 
 Package: gcal
 Architecture: i686
@@ -1537,8 +1597,8 @@ Description: Development files for gdbm
 Homepage: https://www.gnu.org.ua/software/gdbm/
 Depends: gdbm
 Filename: dists/dom-dev/testing/binary-i686/gdbm-dev_1.17_i686.deb
-Size: 8992
-SHA256: 76a9c97a059b49049fce73059a97af7118ddc607766c8652d54e340fa94bcadf
+Size: 8996
+SHA256: 35c2bb06bad3ac01bb46b35a65b1a158bbe6808dde416cd550212466d2014cc8
 
 Package: gdbm
 Architecture: i686
@@ -1548,8 +1608,8 @@ Version: 1.17
 Description: Library of database functions that use extensible hashing
 Homepage: https://www.gnu.org.ua/software/gdbm/
 Filename: dists/dom-dev/testing/binary-i686/gdbm_1.17_i686.deb
-Size: 53792
-SHA256: 176554dcecfa0de9154938bc606213bd73ac36878d043a85e95f70e222b1cc8c
+Size: 53760
+SHA256: 5dc6a9d1656ef6ddc154dcf3ddde7fa78b06b808bddb8bd8920e9df21b54185b
 
 Package: gdk-pixbuf-dev
 Architecture: i686
@@ -1607,8 +1667,8 @@ Version: 0.5
 Description: Utility to print configuration values
 Homepage: https://github.com/termux/getconf
 Filename: dists/dom-dev/testing/binary-i686/getconf_0.5_i686.deb
-Size: 5268
-SHA256: 9f392875be066487f5bd1d71090bbfdefe25eb118296b8b4efe93c29d2dad969
+Size: 5272
+SHA256: bd80cdf79f8f9fc293895c9a49a69f48e36d99af921846aabe6d24f81d172357
 
 Package: gettext-dev
 Architecture: i686
@@ -1654,8 +1714,8 @@ Version: 1.91
 Description: Tool for creating, editing, and getting information about GIF images and animations
 Homepage: https://www.lcdf.org/gifsicle/
 Filename: dists/dom-dev/testing/binary-i686/gifsicle_1.91_i686.deb
-Size: 85392
-SHA256: fd9a8a6e476ac3fbbead9549a558900d9831e2dfeae349eb068fe4ea2ffe4105
+Size: 85396
+SHA256: 9f16212aca10eb0a8514c55c26e7c52a6887f60599e96fcf24dba0a1ff7828ba
 
 Package: git
 Architecture: i686
@@ -1859,8 +1919,8 @@ Version: 1.8.0-2
 Description: Google C++ testing framework
 Homepage: https://github.com/google/googletest
 Filename: dists/dom-dev/testing/binary-i686/googletest_1.8.0-2_i686.deb
-Size: 357136
-SHA256: 73dd2b91a22ee987790205043fd21355e52a0e7567745f33ad562382d072b139
+Size: 357104
+SHA256: e34a36ebb5d3169c1471de8415392921b0a351ba0be6047f831e5ecceab71d16
 
 Package: gperf
 Architecture: i686
@@ -1870,8 +1930,8 @@ Version: 3.1-2
 Description: A perfect hash function generator
 Homepage: https://www.gnu.org/software/gperf
 Filename: dists/dom-dev/testing/binary-i686/gperf_3.1-2_i686.deb
-Size: 43860
-SHA256: b0b51dc3c4c4f0621edcfcad817f45be3a253de05ac055f904f3ab1b5f3f803b
+Size: 43868
+SHA256: ada3c5c55c48938e17fbf3022bb479671c8a956103ccc765c7ed3bdd19e58d67
 
 Package: gpgme-dev
 Architecture: i686
@@ -1919,8 +1979,8 @@ Description: GPS file conversion plus transfer to/from GPS units
 Homepage: https://www.gpsbabel.org/
 Depends: libexpat
 Filename: dists/dom-dev/testing/binary-i686/gpsbabel_1.4.4_i686.deb
-Size: 412668
-SHA256: aa1c72e866d3e9ea7762e30739d360f0abc5b9fd0dcdb7c4a261c8a1a834b985
+Size: 412796
+SHA256: a2a8568116bca7791a57be8f20422ff5b0da42f73c8bf7964d3d282a5ef932d2
 
 Package: graphicsmagick++-dev
 Architecture: i686
@@ -2027,8 +2087,8 @@ Description: Development files for gsl
 Homepage: https://www.gnu.org/software/gsl/
 Depends: gsl
 Filename: dists/dom-dev/testing/binary-i686/gsl-dev_2.5_i686.deb
-Size: 95576
-SHA256: a7e57c34de47722327d947595bf0e78e5a53c59fac7beb41c6c5120778c952cb
+Size: 95708
+SHA256: a65db6dd88ed05a9bfdbb060dca84b0aebd014289e08269ef08b4fdd10cb8499
 
 Package: gsl
 Architecture: i686
@@ -2038,8 +2098,8 @@ Version: 2.5
 Description: GNU Scientific Library (GSL) providing a wide range of mathematical routines
 Homepage: https://www.gnu.org/software/gsl/
 Filename: dists/dom-dev/testing/binary-i686/gsl_2.5_i686.deb
-Size: 649032
-SHA256: ebb9f7d1c73eb2faf7f9b4440746e7907703253628e09903540a0cae4e7f07a3
+Size: 648828
+SHA256: edbec20f309b2c2226bd8a27913c8281eb7b63d323a9d9891f0694047e53cb28
 
 Package: gst-plugins-bad-dev
 Architecture: i686
@@ -2157,8 +2217,8 @@ Version: 1.9-2
 Description: Standard GNU file compression utilities
 Homepage: https://www.gnu.org/software/gzip/
 Filename: dists/dom-dev/testing/binary-i686/gzip_1.9-2_i686.deb
-Size: 56852
-SHA256: 7e8c77cbb4cc0d917d989a13eca02a6444e105612d1593f9691a4d043a5c4ac7
+Size: 56832
+SHA256: 7c9623ee8ca993fd0c5e5f1fec8801173a490e0cb64f0e111ddfd7a127aa65e8
 
 Package: harfbuzz-dev
 Architecture: i686
@@ -2216,8 +2276,8 @@ Version: 4.4-2
 Description: Programs to compute hashsums of arbitrary number of files recursively
 Homepage: http://md5deep.sourceforge.net/
 Filename: dists/dom-dev/testing/binary-i686/hashdeep_4.4-2_i686.deb
-Size: 98960
-SHA256: 8a29b6df902158a73a6a500184355f57573f4e4571d407aec78747cccdad5faf
+Size: 98856
+SHA256: 2532216fd7647d29f7ac4b68281009528c3a279c8fc13c2857fc68451ef48cdc
 
 Package: hexcurse
 Architecture: i686
@@ -2239,8 +2299,8 @@ Version: 2.11-rc2-0
 Description: A text-based console program for remotely controlling lights and appliances in the home or office
 Homepage: http://www.heyu.org/
 Filename: dists/dom-dev/testing/binary-i686/heyu_2.11-rc2-0_i686.deb
-Size: 310540
-SHA256: bebe813bb7e71b4b304491c6e5760b69d14576256dbebb2e868de6fa45d12bb0
+Size: 310556
+SHA256: 122081ea70dd78c121231777ff96e8ca62c699f40d1ff30cc6a94a2c3dd259ae
 
 Package: hfsutils
 Architecture: i686
@@ -2251,8 +2311,8 @@ Description: Tool for manipulating HFS images.
 Homepage: https://www.mars.org/home/rob/proj/hfs/
 Depends: libandroid-support
 Filename: dists/dom-dev/testing/binary-i686/hfsutils_3.2.6_i686.deb
-Size: 46620
-SHA256: 39c7832a52db94a79e187d2d7000d8495cdeb71a6faa635cb2f595fbe0b04c4c
+Size: 46644
+SHA256: ef72cb0c9e2854b58549b75553968be55d30321ec7c756ffb938b1dadfb2492c
 
 Package: htop
 Architecture: i686
@@ -2346,8 +2406,8 @@ Version: 1.15
 Description: Utility converting between different character encodings
 Homepage: https://www.gnu.org/software/libiconv/
 Filename: dists/dom-dev/testing/binary-i686/iconv_1.15_i686.deb
-Size: 494076
-SHA256: 69f5d43f0013f72138adecb06996752f8f356754eee23c5be3c0fcfee47cf3ae
+Size: 492680
+SHA256: a48bca5ba02ea8e399d87b3f6a697bc9e73341cd198dc81ded3940deb6065967
 
 Package: icu-devtools
 Architecture: i686
@@ -2358,8 +2418,8 @@ Description: Development utilities for International Components for Unicode
 Homepage: http://site.icu-project.org/home
 Depends: libicu
 Filename: dists/dom-dev/testing/binary-i686/icu-devtools_62.1-1_i686.deb
-Size: 158420
-SHA256: e7d0f8360225fac2b9f259311c9df33ac5a792a9c83cfd720a9793a74477608f
+Size: 158356
+SHA256: d80e7c8da32f8ea2b2d96ba80e6ce3de904347f033123e2a81427377e70595d8
 
 Package: imagemagick-dev
 Architecture: i686
@@ -2406,8 +2466,8 @@ Description: C language source code formatting program
 Homepage: https://packages.debian.org/sid/indent
 Depends: libandroid-support
 Filename: dists/dom-dev/testing/binary-i686/indent_2.2.11_i686.deb
-Size: 39432
-SHA256: fc82fe2b2026efc8d29248ce6cc8be2501d7957d38072cf24886c5c6d778ad85
+Size: 39436
+SHA256: a2392c4bddd2a49e76289a19eee85d12cbcf39689e7d3531a9a5b9ff60b93ba7
 
 Package: inetutils
 Architecture: i686
@@ -2431,7 +2491,7 @@ Homepage: https://github.com/rvoicilas/inotify-tools/wiki
 Depends: inotify-tools
 Filename: dists/dom-dev/testing/binary-i686/inotify-tools-dev_3.20.1_i686.deb
 Size: 3156
-SHA256: 443394a5bc5723a4560c8020b7b8aea40c0a5585b8e92d6d7102ccfc6bc74ef5
+SHA256: b66e748d2e4ddcc075baff4d3b213f1582552cee84cb1f0cc57aa99c13688044
 
 Package: inotify-tools
 Architecture: i686
@@ -2441,8 +2501,8 @@ Version: 3.20.1
 Description: Programs providing a simple interface to inotify
 Homepage: https://github.com/rvoicilas/inotify-tools/wiki
 Filename: dists/dom-dev/testing/binary-i686/inotify-tools_3.20.1_i686.deb
-Size: 24620
-SHA256: fb5714a05a9d3f9049f33876849e3d7c8393a3b2a1a08e2a802806f9aff8cf0e
+Size: 24612
+SHA256: ba40235d1021571fd0a7e12eddb513fd643ef1f54167c3e0e84a171dd568e5c8
 
 Package: ipcalc
 Architecture: i686
@@ -2488,8 +2548,8 @@ Version: 0.4.17
 Description: A peer-to-peer hypermedia distribution protocol
 Homepage: https://ipfs.io/
 Filename: dists/dom-dev/testing/binary-i686/ipfs_0.4.17_i686.deb
-Size: 7162512
-SHA256: 3871d7b1bcbdd968e2b9385ec8c821d9a129691f86b1592354b599bae94b3390
+Size: 7167924
+SHA256: 21cc978e8cc3db38037c2c68ea2324210237047b0259b2fd139daac204c1c08c
 
 Package: ired
 Architecture: i686
@@ -2499,8 +2559,8 @@ Version: 0.6
 Description: Minimalist hexadecimal editor
 Homepage: https://github.com/radare/ired
 Filename: dists/dom-dev/testing/binary-i686/ired_0.6_i686.deb
-Size: 13724
-SHA256: 6f0ae3dfb7e5e9c727e64dc3754cd65a7f594e53ff21da606b2651535ac9d4a4
+Size: 13720
+SHA256: a24b4fa13a1378c8b57e3f47ad30b62ddaf2a41b8fb71b6a0af13a1d65e5ff3e
 
 Package: irssi-dev
 Architecture: i686
@@ -2546,8 +2606,8 @@ Version: 3.00-1
 Description: Exif Jpeg header manipulation tool
 Homepage: http://www.sentex.net/~mwandel/jhead/
 Filename: dists/dom-dev/testing/binary-i686/jhead_3.00-1_i686.deb
-Size: 32716
-SHA256: 1fba988ca57e76d5ebac52dd640c204d25c17880513e9f7a281db9a626b9bb4e
+Size: 32668
+SHA256: 7aa045ef43be0e353137785c1a8868cec0b8cffe02df02df56d410d2b5948c3a
 
 Package: joe
 Architecture: i686
@@ -2572,7 +2632,7 @@ Homepage: http://stedolan.github.io/jq/
 Depends: jq
 Filename: dists/dom-dev/testing/binary-i686/jq-dev_1.5-1_i686.deb
 Size: 3444
-SHA256: e4b6446d3590fe5a3641bda2d5d3fe365d5422cdf215d9e40ddd30922e640a1f
+SHA256: ddc1434773cec0170f8e5cc929754bfe3a06be62b1eb029b953fa875aba8ef9c
 
 Package: jq
 Architecture: i686
@@ -2582,8 +2642,8 @@ Version: 1.5-1
 Description: Command-line JSON processor
 Homepage: http://stedolan.github.io/jq/
 Filename: dists/dom-dev/testing/binary-i686/jq_1.5-1_i686.deb
-Size: 120756
-SHA256: 378873e2869682d73e8904e51f495e2baa55927893233021e7ff17889ec0b7a2
+Size: 120772
+SHA256: 2a5ef5e738d814870fafa0134b65c85d0540daf21d88f9dc85b9d0829cce2298
 
 Package: json-c-dev
 Architecture: i686
@@ -2594,8 +2654,8 @@ Description: Development files for json-c
 Homepage: https://github.com/json-c/json-c/wiki
 Depends: json-c
 Filename: dists/dom-dev/testing/binary-i686/json-c-dev_0.13.1_i686.deb
-Size: 20716
-SHA256: f8b72dee4c8dbb750b9bf08f9651211eb128c1d8516b46825cc660eabc02f75f
+Size: 20708
+SHA256: b14038f7335de322f272b9b3f419e7d1ecd6c1dc3b0167cab82997b0808825e5
 
 Package: json-c
 Architecture: i686
@@ -2606,7 +2666,7 @@ Description: A JSON implementation in C
 Homepage: https://github.com/json-c/json-c/wiki
 Filename: dists/dom-dev/testing/binary-i686/json-c_0.13.1_i686.deb
 Size: 19304
-SHA256: fb4aae65fe4aebff6a26d69a292f2eebdccf1e3e75ed6f2ef96d19522727b951
+SHA256: 07819e8fe93d5d1b8105e0b7e5ff366fda027b2f4b615ebd87f422bb4b88ba95
 
 Package: json-glib-dev
 Architecture: i686
@@ -2642,7 +2702,7 @@ Homepage: https://github.com/open-source-parsers/jsoncpp
 Depends: jsoncpp
 Filename: dists/dom-dev/testing/binary-i686/jsoncpp-dev_1.8.4-1_i686.deb
 Size: 16432
-SHA256: 79fe7453d7f0c57f5f022302bc96ecb22993eb1103f9da14fa67fbcd63c88bb8
+SHA256: ccea13965f5665f02db538558659facf3d4a60b9962df864fba69e5911b822d9
 
 Package: jsoncpp
 Architecture: i686
@@ -2652,8 +2712,8 @@ Version: 1.8.4-1
 Description: C++ library for interacting with JSON
 Homepage: https://github.com/open-source-parsers/jsoncpp
 Filename: dists/dom-dev/testing/binary-i686/jsoncpp_1.8.4-1_i686.deb
-Size: 71608
-SHA256: 7f947f57cda4e15d75ec41542240437d7249938ffb5f907d215cdc578bf6c2f4
+Size: 71736
+SHA256: f09e575c5ce7d5c7866bd6e9eb2f70a01556354ab51928fd5efa5cab48173512
 
 Package: jupp
 Architecture: i686
@@ -2676,8 +2736,8 @@ Version: 3.39-69-0
 Description: Open-source implementation of the APL-like K programming language
 Homepage: https://github.com/kevinlawler/kona
 Filename: dists/dom-dev/testing/binary-i686/kona_3.39-69-0_i686.deb
-Size: 108624
-SHA256: 8b9d0b7ab7576b4fee49c553671fca9abaccde66d6957196d377c07276a5ac39
+Size: 108592
+SHA256: 2799c3f69fa69efdd9cfa3f154a21584137df8e7332292d82b892ecac16be3bb
 
 Package: krb5-dev
 Architecture: i686
@@ -2797,7 +2857,7 @@ Homepage: https://github.com/google/leveldb
 Depends: leveldb
 Filename: dists/dom-dev/testing/binary-i686/leveldb-dev_1.20-1_i686.deb
 Size: 16916
-SHA256: 74556c1031dc846e6174b7ddb7b922727adbabd60ba4c89b848cc90fb9a8a0a8
+SHA256: 1965413f33ffd6bd5f6337b4a4ee1fa829aa4cd08321b5ce843f870d277a6e6b
 
 Package: leveldb
 Architecture: i686
@@ -2807,8 +2867,8 @@ Version: 1.20-1
 Description: Fast key-value storage library
 Homepage: https://github.com/google/leveldb
 Filename: dists/dom-dev/testing/binary-i686/leveldb_1.20-1_i686.deb
-Size: 129652
-SHA256: 4987909f9085ec7f19238a0df7d19fc2438547598f39a2240381a337b8bd6d83
+Size: 129744
+SHA256: c668c2e487aff65f540b5de530a066c572ebe64186a05f40e5e4eb6ee6087747
 
 Package: lftp
 Architecture: i686
@@ -2831,8 +2891,8 @@ Description: Development files for libandroid-glob
 Homepage: http://man7.org/linux/man-pages/man3/glob.3.html
 Depends: libandroid-glob
 Filename: dists/dom-dev/testing/binary-i686/libandroid-glob-dev_0.4_i686.deb
-Size: 2672
-SHA256: 86f5b0f2770b828a37e3b7fa79d14c7d06d8376564e963602fbdbd69621e1b11
+Size: 2676
+SHA256: c73fb9325e7ce560e2cdd9cce732e9169fd2a1e850259a7b874d90e366185cb8
 
 Package: libandroid-glob
 Architecture: i686
@@ -2842,8 +2902,8 @@ Version: 0.4
 Description: Shared library for the glob(3) system function
 Homepage: http://man7.org/linux/man-pages/man3/glob.3.html
 Filename: dists/dom-dev/testing/binary-i686/libandroid-glob_0.4_i686.deb
-Size: 5320
-SHA256: 1436577f6014199d29bc2e1b9cf20241414b872a23bfa77cf33fa8e37552c7ef
+Size: 5324
+SHA256: dd4fb3c67d23608d9d901a16e78c6a3730e258d22663b3430bf73cc0fc8f2bae
 
 Package: libandroid-shmem-dev
 Architecture: i686
@@ -2855,7 +2915,7 @@ Homepage: https://github.com/termux/libandroid-shmem
 Depends: libandroid-shmem
 Filename: dists/dom-dev/testing/binary-i686/libandroid-shmem-dev_0.2_i686.deb
 Size: 1124
-SHA256: 7d032e2ac19d629517ca18fa3c7e12d8d679079c4071135d220d92eb292fe854
+SHA256: f79fb9eec67511e11a14fdc42c493226181505b2d9ddd6f40358875826a69e2e
 
 Package: libandroid-shmem
 Architecture: i686
@@ -2866,7 +2926,7 @@ Description: System V shared memory emulation on Android using ashmem
 Homepage: https://github.com/termux/libandroid-shmem
 Filename: dists/dom-dev/testing/binary-i686/libandroid-shmem_0.2_i686.deb
 Size: 5552
-SHA256: 603f84520b701f7ce587c1d2e4736382c33a1441684131a04bbdf90b8c34b457
+SHA256: a260f61f1ad086c150dfbbbb424a2ae6ccd78f7f67bf76246da14ce2a4780fee
 
 Package: libandroid-support-dev
 Architecture: i686
@@ -2878,7 +2938,7 @@ Homepage: https://github.com/termux/libandroid-support
 Depends: libandroid-support
 Filename: dists/dom-dev/testing/binary-i686/libandroid-support-dev_22_i686.deb
 Size: 2256
-SHA256: 8a567a42f61d336b611fbdaa41bb48f479e47bcfbd930a7b84a13c2b2675c61e
+SHA256: d1e26eeee668d63269c517210e1a9bf05e09d3469869290c45c944fdff6f27e3
 
 Package: libandroid-support
 Architecture: i686
@@ -2889,8 +2949,8 @@ Description: Library extending the Android C library (Bionic) for additional mul
 Homepage: https://github.com/termux/libandroid-support
 Essential: yes
 Filename: dists/dom-dev/testing/binary-i686/libandroid-support_22_i686.deb
-Size: 107472
-SHA256: 0cf5945c4d2411f20a3030cc1662cf3fdeafccee9562d489acb46a1d07e4ea9f
+Size: 107272
+SHA256: e437dfaa41dc3f36b603e1b2e1201c2227fdf284246e708629c0a903c5da4622
 
 Package: libarchive-dev
 Architecture: i686
@@ -2925,8 +2985,8 @@ Description: Development files for libassuan
 Homepage: https://www.gnupg.org/related_software/libassuan/
 Depends: libassuan
 Filename: dists/dom-dev/testing/binary-i686/libassuan-dev_2.5.1_i686.deb
-Size: 8852
-SHA256: f184e10c9f5e068bd8fa991012f008f79a006acfda706d34017b29b0d53af6c2
+Size: 8868
+SHA256: fa9d94fea6b3ff1377ab04d7385ec371c815050bd394e1285dd04db20e20c437
 
 Package: libassuan
 Architecture: i686
@@ -2937,8 +2997,8 @@ Description: Library implementing the Assuan IPC protocol used between most newe
 Homepage: https://www.gnupg.org/related_software/libassuan/
 Depends: libgpg-error
 Filename: dists/dom-dev/testing/binary-i686/libassuan_2.5.1_i686.deb
-Size: 22912
-SHA256: 1b3bc79905c94786e0a725751f4dc626dcd9e973a2ce079d781cc7a35d13c50c
+Size: 22884
+SHA256: 893dbaafa7dea3b6da78cb9194883ef45c1071ff82fa0ff1ada93b6974225eeb
 
 Package: libbz2-dev
 Architecture: i686
@@ -2950,7 +3010,7 @@ Homepage: http://www.bzip.org/
 Depends: libbz2
 Filename: dists/dom-dev/testing/binary-i686/libbz2-dev_1.0.6-1_i686.deb
 Size: 2452
-SHA256: 2e2920f5b99fc603a325d90aeeda372d97b720496eeaea3c9a659f762dbf7d95
+SHA256: e8013d25510e7925c5ce601eab9bfdde1bf11d1627c5fec4effbef9d08625a22
 
 Package: libbz2
 Architecture: i686
@@ -2961,7 +3021,7 @@ Description: BZ2 format compression library
 Homepage: http://www.bzip.org/
 Filename: dists/dom-dev/testing/binary-i686/libbz2_1.0.6-1_i686.deb
 Size: 23220
-SHA256: 3f12cedb4066a5afe2176f0c9c1b709964f935069df32c894a7897343ff5ea3c
+SHA256: 498d8df6f968934849ae229b268e2a73d863d8fb0e2879a16c97da3d205dd1d3
 
 Package: libc++
 Architecture: i686
@@ -2972,8 +3032,8 @@ Description: C++ Standard Library
 Homepage: https://libcxx.llvm.org/
 Essential: yes
 Filename: dists/dom-dev/testing/binary-i686/libc++_17_i686.deb
-Size: 257988
-SHA256: 18760784c79c2adf46bc9fae1c2e64afec980121d75174e43fe996fd15b1113a
+Size: 258416
+SHA256: af33feee8b3f9355b2dfa8c708549ce4b5dc6ed0a62d6b068dc88d3dbe469c01
 
 Package: libcaca-dev
 Architecture: i686
@@ -3069,7 +3129,7 @@ Homepage: https://www.ginac.de/CLN/
 Depends: libcln
 Filename: dists/dom-dev/testing/binary-i686/libcln-dev_1.3.4-3_i686.deb
 Size: 48920
-SHA256: fcb36dddf72a0b532a47264aecce9e561001a72b4280dda0734b0d00dbf7dce3
+SHA256: 4bffca5689ee52f6192f587a729d50298d47ed76cd175c562b2014793daec1b7
 
 Package: libcln
 Architecture: i686
@@ -3080,8 +3140,31 @@ Description: CLN is a library for efficient computations with all kinds of numbe
 Homepage: https://www.ginac.de/CLN/
 Depends: libgmp
 Filename: dists/dom-dev/testing/binary-i686/libcln_1.3.4-3_i686.deb
-Size: 392408
-SHA256: 97e2f7a6f6925c835d9200453800177fb932f4356eae8af3a06b60deaa4c38ed
+Size: 392332
+SHA256: 4bfe5314484dd5ef6525d7d37aeda03c7a1f499d82c7bfe6ebe2112308f7eda2
+
+Package: libconfig-dev
+Architecture: i686
+Installed-Size: 96
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.7.2
+Description: Development files for libconfig
+Homepage: https://github.com/hyperrealm/libconfig
+Depends: libconfig
+Filename: dists/dom-dev/testing/binary-i686/libconfig-dev_1.7.2_i686.deb
+Size: 5804
+SHA256: ceed84f955bb2b2dbd1e9340b3e21e0cb26bbae6a4674210d7f5e29bbaf7cef7
+
+Package: libconfig
+Architecture: i686
+Installed-Size: 180
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.7.2
+Description: C/C++ Configuration File Library
+Homepage: https://github.com/hyperrealm/libconfig
+Filename: dists/dom-dev/testing/binary-i686/libconfig_1.7.2_i686.deb
+Size: 40436
+SHA256: c62568f39e6270f33828322a76a9e67275853cd8ab9c1c5bde3c6bbe1a11d526
 
 Package: libconfuse-dev
 Architecture: i686
@@ -3092,8 +3175,8 @@ Description: Development files for libconfuse
 Homepage: https://github.com/martinh/libconfuse
 Depends: libconfuse
 Filename: dists/dom-dev/testing/binary-i686/libconfuse-dev_3.2.1_i686.deb
-Size: 10396
-SHA256: 0d0c6e573d6ed59b10780bf61c043c061aff1ad02670eded7c43798e256039fe
+Size: 10384
+SHA256: fd78113c13c40fae4048a1b678d5579a962382495206c5a4f3bf440b93f0d5cb
 
 Package: libconfuse
 Architecture: i686
@@ -3103,8 +3186,8 @@ Version: 3.2.1
 Description: Small configuration file parser library for C
 Homepage: https://github.com/martinh/libconfuse
 Filename: dists/dom-dev/testing/binary-i686/libconfuse_3.2.1_i686.deb
-Size: 15956
-SHA256: beb91a42615b369f9ac60fb28bc0f4ca4eba6c7dfa63d1b406c827b43e53bf7f
+Size: 15988
+SHA256: 30f941ff716f969e94fe3db7608c13cdbd6b324e1fed0f73a7720042876ac491
 
 Package: libcroco-dev
 Architecture: i686
@@ -3163,8 +3246,8 @@ Description: Development files for libcue
 Homepage: https://github.com/lipnitsk/libcue/
 Depends: libcue
 Filename: dists/dom-dev/testing/binary-i686/libcue-dev_2.2.1_i686.deb
-Size: 2612
-SHA256: a043de16e4c085313e03b2092ea59b251315a5f246ceb0eb3a8dd2b1b84c289b
+Size: 2616
+SHA256: 57c004af4d2d4d598c6218cb4246c024eae48d429d719152f049d6b2da04866e
 
 Package: libcue
 Architecture: i686
@@ -3174,8 +3257,8 @@ Version: 2.2.1
 Description: CUE Sheet Parser Library
 Homepage: https://github.com/lipnitsk/libcue/
 Filename: dists/dom-dev/testing/binary-i686/libcue_2.2.1_i686.deb
-Size: 12804
-SHA256: bc5e68eba836b348258f9c1ce274d2fc4575283056c48aee80cba5665f902e36
+Size: 12808
+SHA256: b5ba35e562fc9bba1af5f5022feb54e251ea9f44d6211253219262d5b8add26b
 
 Package: libcurl-dev
 Architecture: i686
@@ -3210,8 +3293,8 @@ Description: Development files for libdb
 Homepage: https://www.oracle.com/database/berkeley-db
 Depends: libdb
 Filename: dists/dom-dev/testing/binary-i686/libdb-dev_6.2.32_i686.deb
-Size: 40528
-SHA256: adbe926f3ee3176f948affed779758da35c9d88592b8373bb5294d6c0bf9de90
+Size: 40532
+SHA256: e864243c5db43477fa5e4448129ebbee2623a56085c0f96fa0cdc0886c9f43ec
 
 Package: libdb
 Architecture: i686
@@ -3221,8 +3304,8 @@ Version: 6.2.32
 Description: The Berkeley DB embedded database system (library)
 Homepage: https://www.oracle.com/database/berkeley-db
 Filename: dists/dom-dev/testing/binary-i686/libdb_6.2.32_i686.deb
-Size: 349908
-SHA256: 36f2888e97f65ad7f1dceaa895d8c8092a7e0b30d124ed2f72956a51f5b8087c
+Size: 349852
+SHA256: 34a59bc74231da086b5b6b92bc4ba949d8f10d4989596643ec9929fef8323766
 
 Package: libedit-dev
 Architecture: i686
@@ -3248,6 +3331,32 @@ Filename: dists/dom-dev/testing/binary-i686/libedit_20180525-3.1-0_i686.deb
 Size: 58460
 SHA256: 5c638cf1112bc5bdc06840ac39230aa1c35d6f3b2349eacc020455d113a5fba7
 
+Package: libelf-dev
+Architecture: i686
+Installed-Size: 72
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.173
+Description: Development files for libelf
+Homepage: https://sourceware.org/elfutils/
+Depends: libelf
+Filename: dists/dom-dev/testing/binary-i686/libelf-dev_0.173_i686.deb
+Size: 8884
+SHA256: f7c8f9a1bd083919c5f59e42edb525a3103197a561721642f77c989b95632b49
+
+Package: libelf
+Architecture: i686
+Installed-Size: 104
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.173
+Description: ELF object file access library
+Homepage: https://sourceware.org/elfutils/
+Depends: libandroid-support
+Conflicts: elfutils
+Replaces: elfutils
+Filename: dists/dom-dev/testing/binary-i686/libelf_0.173_i686.deb
+Size: 33196
+SHA256: 3a83ddb2cabcd974a9016e92b17c7a0d9c066958570edcace1aba3a8af9de5db
+
 Package: libev-dev
 Architecture: i686
 Installed-Size: 352
@@ -3257,8 +3366,8 @@ Description: Development files for libev
 Homepage: http://software.schmorp.de/pkg/libev.html
 Depends: libev
 Filename: dists/dom-dev/testing/binary-i686/libev-dev_4.24_i686.deb
-Size: 79064
-SHA256: 2f8e89cf8dd00a25d30337616edd6e6a4b8d6ec92edf4718ccdb8a3b0e9212ed
+Size: 79080
+SHA256: 5e4b2911a75be30cdb9d503686209adf8dd6f4ef8514e8634fbbee77bbf51eff
 
 Package: libev
 Architecture: i686
@@ -3268,8 +3377,8 @@ Version: 4.24
 Description: Full-featured and high-performance event loop library
 Homepage: http://software.schmorp.de/pkg/libev.html
 Filename: dists/dom-dev/testing/binary-i686/libev_4.24_i686.deb
-Size: 16740
-SHA256: 21b83999bd866421a5a776e1513becd417c9b1523dc2a1822c08144112c1f0fe
+Size: 16752
+SHA256: a18daf8ed44ad5b65b414a74cfffdfa5e5b59c2dd3a114238ec0c529e69fef10
 
 Package: libevent-dev
 Architecture: i686
@@ -3280,8 +3389,8 @@ Description: Development files for libevent
 Homepage: http://libevent.org/
 Depends: libevent
 Filename: dists/dom-dev/testing/binary-i686/libevent-dev_2.1.8-1_i686.deb
-Size: 70620
-SHA256: 001e946904b38a4aa88110e9dbf5cfcce8bb51fc319ea245ad21b6bad27d2d6d
+Size: 70612
+SHA256: 30a988796fdedff1e42a194221989a594838e7df6a356f2bbccc7ab61a92bdb6
 
 Package: libevent
 Architecture: i686
@@ -3291,8 +3400,8 @@ Version: 2.1.8-1
 Description: Library that provides asynchronous event notification
 Homepage: http://libevent.org/
 Filename: dists/dom-dev/testing/binary-i686/libevent_2.1.8-1_i686.deb
-Size: 81596
-SHA256: 3000dd1b21d23fa6d11f59434ac1279eb45e1e17c82654925d188624831e33b0
+Size: 81640
+SHA256: e3da2bd0d761cd999c864dcacc83fef9528aade3e496cc31c3767bfa42be5f3d
 
 Package: libexif-dev
 Architecture: i686
@@ -3303,8 +3412,8 @@ Description: Development files for libexif
 Homepage: https://libexif.github.io/
 Depends: libexif
 Filename: dists/dom-dev/testing/binary-i686/libexif-dev_0.6.21-1_i686.deb
-Size: 11728
-SHA256: 417f9a7e03586e065db02b1fd66a7e0aab2a0d85edd745751874829f8f231ab8
+Size: 11716
+SHA256: c775fed2e72b878910adc87fd97714bd56d50d7a95ab06108c36cfc88a89e6a0
 
 Package: libexif
 Architecture: i686
@@ -3314,8 +3423,8 @@ Version: 0.6.21-1
 Description: Library for reading and writing EXIF image metadata
 Homepage: https://libexif.github.io/
 Filename: dists/dom-dev/testing/binary-i686/libexif_0.6.21-1_i686.deb
-Size: 50892
-SHA256: 0eed18998d533a1d04c2a0e40622759f2d32f138d519501b59feee3b5cc3ad6e
+Size: 50880
+SHA256: 39339ee7a9d8ee486e730714358ebea94902094455b07426b37e4c980ecb9127
 
 Package: libexpat-dev
 Architecture: i686
@@ -3329,6 +3438,18 @@ Filename: dists/dom-dev/testing/binary-i686/libexpat-dev_2.2.5_i686.deb
 Size: 13788
 SHA256: 04f6198f268e9e94be9c4769b2f364f9efd80d09d2ccba8697c58133edc23784
 
+Package: libexpat-dev
+Architecture: i686
+Installed-Size: 96
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.6
+Description: Development files for libexpat
+Homepage: https://libexpat.github.io/
+Depends: libexpat
+Filename: dists/dom-dev/testing/binary-i686/libexpat-dev_2.2.6_i686.deb
+Size: 13792
+SHA256: cf68744b5edf50a8cd0eaf4501f738a1ebc91ffd37a1683e83188e027de84206
+
 Package: libexpat
 Architecture: i686
 Installed-Size: 144
@@ -3340,6 +3461,17 @@ Filename: dists/dom-dev/testing/binary-i686/libexpat_2.2.5_i686.deb
 Size: 43540
 SHA256: 0ad5ab5cd933f98ab3ef99d70bda94e59fdc2b29fa9f4d3e957471b1905bdd95
 
+Package: libexpat
+Architecture: i686
+Installed-Size: 144
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.6
+Description: XML parsing C library
+Homepage: https://libexpat.github.io/
+Filename: dists/dom-dev/testing/binary-i686/libexpat_2.2.6_i686.deb
+Size: 43688
+SHA256: a8376d6ce3f7d6e30c2c86d7ba61fd2f745efdea880ad2de0460e23e14720a7b
+
 Package: libffi-dev
 Architecture: i686
 Installed-Size: 92
@@ -3349,8 +3481,8 @@ Description: Development files for libffi
 Homepage: https://sourceware.org/libffi/
 Depends: libffi
 Filename: dists/dom-dev/testing/binary-i686/libffi-dev_3.2.1-2_i686.deb
-Size: 7188
-SHA256: 2266c97f1e5547244993279c77e9138f1480e9c992180387e4b1249e518e1c17
+Size: 7180
+SHA256: 69a5a41e0b282dea187446dd2c11bbc8c67d710f734fd08b735ba3b5dd60d777
 
 Package: libffi
 Architecture: i686
@@ -3360,8 +3492,8 @@ Version: 3.2.1-2
 Description: Library providing a portable, high level programming interface to various calling conventions
 Homepage: https://sourceware.org/libffi/
 Filename: dists/dom-dev/testing/binary-i686/libffi_3.2.1-2_i686.deb
-Size: 5604
-SHA256: c79c1a27790511b834ca38ed7b9e3791331da702014ecfcde53b755ded747ae7
+Size: 5608
+SHA256: a9f82bcc3080bd4d4db8589af1760d116f0dd74a2f7c9e96a6f2b4550c70f00b
 
 Package: libflac-dev
 Architecture: i686
@@ -3372,8 +3504,8 @@ Description: Development files for libflac
 Homepage: https://xiph.org/flac/
 Depends: libflac
 Filename: dists/dom-dev/testing/binary-i686/libflac-dev_1.3.2-4_i686.deb
-Size: 55384
-SHA256: d7a50e7f7fdbb1988aa8282d98f0c79cbb1812b015cb7d7e1919f8bc86284cae
+Size: 55348
+SHA256: 457cabf8a0499f6b99f7714d4f1a46f386b66759a10f702d3940b7e20cf2860e
 
 Package: libflac
 Architecture: i686
@@ -3384,8 +3516,8 @@ Description: FLAC (Free Lossless Audio Codec) library
 Homepage: https://xiph.org/flac/
 Depends: libogg
 Filename: dists/dom-dev/testing/binary-i686/libflac_1.3.2-4_i686.deb
-Size: 93692
-SHA256: 6fdf9f652702e43f4c7d359d2a364ad173c6e82cbe84d66db4bab1fe5e804013
+Size: 93920
+SHA256: abea29fef2d69f05edd51c41417c8908b1031ac05d9663663a824771f1e8f3b1
 
 Package: libgc-dev
 Architecture: i686
@@ -3396,8 +3528,8 @@ Description: Development files for libgc
 Homepage: http://www.hboehm.info/gc/
 Depends: libgc
 Filename: dists/dom-dev/testing/binary-i686/libgc-dev_7.6.8_i686.deb
-Size: 51736
-SHA256: b5e5aa9f079a680431dec5b13bb4f581960229ce44bc0070e528db2de9fba307
+Size: 51720
+SHA256: 26d26f6c5f5f4616a3b48b55c66e09486c99aea40fa77d9c7cbee82b52e6432f
 
 Package: libgc
 Architecture: i686
@@ -3407,8 +3539,8 @@ Version: 7.6.8
 Description: Library providing the Boehm-Demers-Weiser conservative garbage collector
 Homepage: http://www.hboehm.info/gc/
 Filename: dists/dom-dev/testing/binary-i686/libgc_7.6.8_i686.deb
-Size: 57036
-SHA256: 161aa0184147014336fa78def2dd1f5fc4dcb35f5a72cff8bd6aaf63acec4e9e
+Size: 56976
+SHA256: 9a7386f9c5112c74bb148f5b77161a3ff0ab2d4567ad0f22d2171d73bf54ce91
 
 Package: libgcrypt-dev
 Architecture: i686
@@ -3419,8 +3551,8 @@ Description: Development files for libgcrypt
 Homepage: https://www.gnu.org/software/libgcrypt/
 Depends: libgcrypt,libgpg-error-dev
 Filename: dists/dom-dev/testing/binary-i686/libgcrypt-dev_1.8.3_i686.deb
-Size: 18320
-SHA256: 37c107bbaa5567e0e59d92578bc902c32134c4796d6664d6787f62c03b45f93f
+Size: 18308
+SHA256: 8c029efe9544f4a2cb52390dd59caebead189d7235042063566a41a381ce2b4b
 
 Package: libgcrypt
 Architecture: i686
@@ -3431,8 +3563,8 @@ Description: General purpose cryptographic library based on the code from GnuPG
 Homepage: https://www.gnu.org/software/libgcrypt/
 Depends: libgpg-error
 Filename: dists/dom-dev/testing/binary-i686/libgcrypt_1.8.3_i686.deb
-Size: 296828
-SHA256: d989cac3a7ba3d7ea3d13a8e668ed65a6a26379147cbc9521f6d9800491e89ae
+Size: 297112
+SHA256: 2de78b017ec73fb3cc1a44f71197dc8ab9d1c283a7d2cbe5b6ef8a02f07b9b7b
 
 Package: libgd-dev
 Architecture: i686
@@ -3515,8 +3647,8 @@ Description: Development files for libgmp
 Homepage: https://gmplib.org/
 Depends: libgmp
 Filename: dists/dom-dev/testing/binary-i686/libgmp-dev_6.1.2-1_i686.deb
-Size: 15732
-SHA256: 1f7685337f46325e8c1535a1f3482d63eb9de7f20a8fbd2f211f2a7550b667ce
+Size: 15716
+SHA256: 6024c87c09f0f70112947ae24369e0cc2318d1777238a8860f1ff42448a740c1
 
 Package: libgmp
 Architecture: i686
@@ -3526,8 +3658,8 @@ Version: 6.1.2-1
 Description: Library for arbitrary precision arithmetic
 Homepage: https://gmplib.org/
 Filename: dists/dom-dev/testing/binary-i686/libgmp_6.1.2-1_i686.deb
-Size: 159056
-SHA256: 8fb41d4c56da4c624ead81b98e84ffa5acaf6b5c64851334c1cbe84e704d9c76
+Size: 159172
+SHA256: b5e8340eb491689cc638b162f8dec4674ac85180b5da18e970f1a96fab380382
 
 Package: libgnutls-dev
 Architecture: i686
@@ -3562,8 +3694,8 @@ Description: Development files for libgpg-error
 Homepage: https://www.gnupg.org/related_software/libgpg-error/
 Depends: libgpg-error
 Filename: dists/dom-dev/testing/binary-i686/libgpg-error-dev_1.32_i686.deb
-Size: 16620
-SHA256: 9e9642e3e317842d1d08dff6e9f124350eb0524311a20d735d277f4bee7ad684
+Size: 16608
+SHA256: 4da1c2ab3fa0f70512bd62af2fd406c0ac411ea73905bb9323deb2742d06e4e0
 
 Package: libgpg-error
 Architecture: i686
@@ -3573,8 +3705,8 @@ Version: 1.32
 Description: Small library that defines common error values for all GnuPG components
 Homepage: https://www.gnupg.org/related_software/libgpg-error/
 Filename: dists/dom-dev/testing/binary-i686/libgpg-error_1.32_i686.deb
-Size: 60760
-SHA256: 7e298eb323571cf84061d6ad7f5bec8efcc70b6e427ebd1702636f1248c4029b
+Size: 60744
+SHA256: bbeb93e666d24275bb17b3386ff2c9c4e5ea1ff2eb6ed8977e615f24f6e78afe
 
 Package: libgraphite-dev
 Architecture: i686
@@ -3588,6 +3720,18 @@ Filename: dists/dom-dev/testing/binary-i686/libgraphite-dev_1.3.11-1_i686.deb
 Size: 12048
 SHA256: e38a846ef264ab1543ed278e51553eda13903e257d0350910ab4960f4c61b9e4
 
+Package: libgraphite-dev
+Architecture: i686
+Installed-Size: 108
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.12
+Description: Development files for libgraphite
+Homepage: https://github.com/silnrsi/graphite
+Depends: libgraphite
+Filename: dists/dom-dev/testing/binary-i686/libgraphite-dev_1.3.12_i686.deb
+Size: 12224
+SHA256: 43866e55b7b6068e1e1edb3a35fa81e97ded7b65a47663564bde85f0394748f8
+
 Package: libgraphite
 Architecture: i686
 Installed-Size: 220
@@ -3598,6 +3742,17 @@ Homepage: https://github.com/silnrsi/graphite
 Filename: dists/dom-dev/testing/binary-i686/libgraphite_1.3.11-1_i686.deb
 Size: 80052
 SHA256: 07ce84171cd2e3e0819c19ce4b4f47bfef0c79ccd53514bb49f32f032bd343f9
+
+Package: libgraphite
+Architecture: i686
+Installed-Size: 184
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.12
+Description: Font system for multiple languages
+Homepage: https://github.com/silnrsi/graphite
+Filename: dists/dom-dev/testing/binary-i686/libgraphite_1.3.12_i686.deb
+Size: 66180
+SHA256: 3a68bdd164e9f2e7b20f257b0d5deb29459bc9d2f86616712a0b0b3d1a3f7578
 
 Package: libgrpc-dev
 Architecture: i686
@@ -3632,8 +3787,8 @@ Description: Development files for libgsasl
 Homepage: https://www.gnu.org/software/gsasl
 Depends: libgsasl
 Filename: dists/dom-dev/testing/binary-i686/libgsasl-dev_1.8.0-1_i686.deb
-Size: 7744
-SHA256: b9024c2419c929c44ef38bcb038e4d22a3c65446e9dd9de94428c80a35e432fb
+Size: 7740
+SHA256: dbce4119b5857dbe98827f8178cc3f9e6f67df6f88ee7e15c956d67d39d72576
 
 Package: libgsasl
 Architecture: i686
@@ -3644,8 +3799,8 @@ Description: GNU SASL library
 Homepage: https://www.gnu.org/software/gsasl
 Depends: libidn
 Filename: dists/dom-dev/testing/binary-i686/libgsasl_1.8.0-1_i686.deb
-Size: 34448
-SHA256: fbc7e290368efdef6b998effaf8fe9a7447c8c81ede43646e8fed72ecb882b1d
+Size: 34452
+SHA256: 0decba5aa4ef4fc53ba3684a5da19e058d9a0a0fe2b974b3d29e7568b403b162
 
 Package: libhdf5-dev
 Architecture: i686
@@ -3656,8 +3811,8 @@ Description: Development files for libhdf5
 Homepage: https://portal.hdfgroup.org/display/support
 Depends: libhdf5
 Filename: dists/dom-dev/testing/binary-i686/libhdf5-dev_1.10.1-1_i686.deb
-Size: 179564
-SHA256: 9f5e89883ee63e8b1859502559a4cabcea9c5436c526597abef848f5510b0931
+Size: 179556
+SHA256: b11afbd136845102137b6d5f4dd21b102071a81542669ee6253443245a5467fc
 
 Package: libhdf5
 Architecture: i686
@@ -3668,8 +3823,8 @@ Description: Hierarchical Data Format 5 (HDF5)
 Homepage: https://portal.hdfgroup.org/display/support
 Depends: libzopfli
 Filename: dists/dom-dev/testing/binary-i686/libhdf5_1.10.1-1_i686.deb
-Size: 3941140
-SHA256: 021c28b99c6b756b662c88eb82699ea51a8f417f3306ac28edf82693daf93f0f
+Size: 3941256
+SHA256: eb6fa3ca23227fc98157a2dac0c0b8c6c12eec360e17575f329088d424817abd
 
 Package: libical-dev
 Architecture: i686
@@ -3704,8 +3859,8 @@ Description: Development files for libicu
 Homepage: http://site.icu-project.org/home
 Depends: libicu
 Filename: dists/dom-dev/testing/binary-i686/libicu-dev_62.1-1_i686.deb
-Size: 605192
-SHA256: 89dd8b4096fd901600aff22896b3a32c778b712165991133e9c6c2a562e951f6
+Size: 605116
+SHA256: 8f3b1f6231093232c1c2d86e104f911d3baf431e1da26d40e818bc2926334526
 
 Package: libicu
 Architecture: i686
@@ -3715,8 +3870,8 @@ Version: 62.1-1
 Description: International Components for Unicode library
 Homepage: http://site.icu-project.org/home
 Filename: dists/dom-dev/testing/binary-i686/libicu_62.1-1_i686.deb
-Size: 7796940
-SHA256: 2b407f8607f6c8c61f332273ac43121c7c3d795fa56ed64c8b5b15c643c53ea1
+Size: 7802980
+SHA256: f07cd9f29fc004dc0a6d599763fe466a1278d62f4d3ac73229d9ed01afdd733f
 
 Package: libid3tag-dev
 Architecture: i686
@@ -3727,8 +3882,8 @@ Description: Development files for libid3tag
 Homepage: http://www.underbit.com/products/mad/
 Depends: libid3tag
 Filename: dists/dom-dev/testing/binary-i686/libid3tag-dev_0.15.1b-1_i686.deb
-Size: 3568
-SHA256: 49c27c88bdb90347031282b0e129f361e78edaf8060f6667269e914640d907ab
+Size: 3572
+SHA256: 6561b1e2593082f050c440ae919daf40e00cd649740ce7d1c54c3a20e0039cc8
 
 Package: libid3tag
 Architecture: i686
@@ -3738,8 +3893,8 @@ Version: 0.15.1b-1
 Description: MAD ID3 tag manipulation library
 Homepage: http://www.underbit.com/products/mad/
 Filename: dists/dom-dev/testing/binary-i686/libid3tag_0.15.1b-1_i686.deb
-Size: 23212
-SHA256: 7f7237297c038eef5a6a6eecd94d9a5519dec0d67e610ba9a96a219075969eec
+Size: 23224
+SHA256: 573e7f7c224afae17375288fb980955d27e3b10d02f890ee8e110914ddf40c8e
 
 Package: libidn-dev
 Architecture: i686
@@ -3750,8 +3905,8 @@ Description: Development files for libidn
 Homepage: https://www.gnu.org/software/libidn/
 Depends: libidn
 Filename: dists/dom-dev/testing/binary-i686/libidn-dev_1.35_i686.deb
-Size: 20476
-SHA256: 9c3b80264f843200bfc804a5723e1bfb196255a8022a74e489d1df79a2a52780
+Size: 20468
+SHA256: 6fc4376679f1befcc6583623bc04c65941a17f02ed33e85858f635d8a7e85185
 
 Package: libidn2-dev
 Architecture: i686
@@ -3762,8 +3917,8 @@ Description: Development files for libidn2
 Homepage: https://www.gnu.org/software/libidn/#libidn2
 Depends: libidn2
 Filename: dists/dom-dev/testing/binary-i686/libidn2-dev_2.0.5-1_i686.deb
-Size: 8048
-SHA256: 488c408173bafe123a1b7e50bf87310412080badef8b82ccc5387683f94db8f7
+Size: 8068
+SHA256: 9e35177bdf5385e0f929d9396d2ef77a00a9b4cec0ef4d1d34b7324e651f479f
 
 Package: libidn2
 Architecture: i686
@@ -3774,8 +3929,8 @@ Description: Free software implementation of IDNA2008, Punycode and TR46
 Homepage: https://www.gnu.org/software/libidn/#libidn2
 Depends: libunistring, libandroid-support
 Filename: dists/dom-dev/testing/binary-i686/libidn2_2.0.5-1_i686.deb
-Size: 52656
-SHA256: 143a7dac069722dc11bbbbd91de40e5e3952e11305db819f4513a8ad646e45af
+Size: 52332
+SHA256: 506495888c0ac90148026c3567be5eeb6b39fe626ca0262a3219a0d1427efe86
 
 Package: libidn
 Architecture: i686
@@ -3786,7 +3941,7 @@ Description: GNU Libidn library, implementation of IETF IDN specifications
 Homepage: https://www.gnu.org/software/libidn/
 Filename: dists/dom-dev/testing/binary-i686/libidn_1.35_i686.deb
 Size: 36664
-SHA256: 8ee750b81e1bf12fb7c3687a493c71a332a58093ae20ffe4e3bdda9317ae136a
+SHA256: 8ac3657936c2f6b36a28fb3c3e8daccf7dba8358d2872671fec2c92d736cbc2e
 
 Package: libisl-dev
 Architecture: i686
@@ -3797,8 +3952,8 @@ Description: Development files for libisl
 Homepage: http://isl.gforge.inria.fr/
 Depends: libisl
 Filename: dists/dom-dev/testing/binary-i686/libisl-dev_0.20_i686.deb
-Size: 31536
-SHA256: 7c1dc219b5303087136705c558180b8a70e1df76a96aebcbab7089ec6833d4b1
+Size: 31516
+SHA256: 090448e7ca4b8391d0176e72dfd7ebf21791c6ac3753ac287c34c3959af04381
 
 Package: libisl
 Architecture: i686
@@ -3809,8 +3964,8 @@ Description: Library for manipulating sets and relations of integer points bound
 Homepage: http://isl.gforge.inria.fr/
 Depends: libgmp
 Filename: dists/dom-dev/testing/binary-i686/libisl_0.20_i686.deb
-Size: 444220
-SHA256: ca1bdfd16f6b835325cb6cfc31852deeafdc1cf278a4f3e51d2467dcebc962e7
+Size: 443768
+SHA256: 5c7041e439a4f23d77c0566a16ca26384d0508838c5bc7cc181aaedfd61c4faa
 
 Package: libjansson-dev
 Architecture: i686
@@ -3821,8 +3976,8 @@ Description: Development files for libjansson
 Homepage: http://www.digip.org/jansson/
 Depends: libjansson
 Filename: dists/dom-dev/testing/binary-i686/libjansson-dev_2.11_i686.deb
-Size: 4424
-SHA256: bbeb69e6d18052c14ebbace9339848172069ccf88a01a5773312e367e67a59d0
+Size: 4420
+SHA256: 9e01fbdceb0b36452222eefdb38a318b14d73626726eabef49152dd115e6c9e1
 
 Package: libjansson
 Architecture: i686
@@ -3832,8 +3987,8 @@ Version: 2.11
 Description: C library for encoding, decoding and manipulating JSON data
 Homepage: http://www.digip.org/jansson/
 Filename: dists/dom-dev/testing/binary-i686/libjansson_2.11_i686.deb
-Size: 17344
-SHA256: e37196caf2d564a92abd53dd79d38f8d57ff954578a13f2f49cc936e7b8ed735
+Size: 17340
+SHA256: 58c362e46af2b4babf4dbb04decad515dfd9633ae70ec63270d94a02cc27fe88
 
 Package: libjasper-dev
 Architecture: i686
@@ -3845,7 +4000,7 @@ Homepage: http://www.ece.uvic.ca/~frodo/jasper/
 Depends: libjasper
 Filename: dists/dom-dev/testing/binary-i686/libjasper-dev_2.0.14_i686.deb
 Size: 18636
-SHA256: 58b3a52fef42b0c6b44c051435ea0dbb3564f82db685411b66003703ca4ea275
+SHA256: f96c04330ce8c1d1dd315bf69a5e72c81a9b812e6a83c2903b78615b5e1008ed
 
 Package: libjasper-utils
 Architecture: i686
@@ -3856,8 +4011,8 @@ Description: JPEG-2000 utilities
 Homepage: http://www.ece.uvic.ca/~frodo/jasper/
 Depends: libjasper
 Filename: dists/dom-dev/testing/binary-i686/libjasper-utils_2.0.14_i686.deb
-Size: 9896
-SHA256: fa8c0e6b71c81ef3e16754d85be364a902d70032848ce00d2c4948c61b251fdd
+Size: 9908
+SHA256: a142ee8d0a2b5afe6ef1d77eaefd613ca85bec8d416c94d0d9c93a5bb14b1d4c
 
 Package: libjasper
 Architecture: i686
@@ -3869,7 +4024,7 @@ Homepage: http://www.ece.uvic.ca/~frodo/jasper/
 Depends: libjpeg-turbo
 Filename: dists/dom-dev/testing/binary-i686/libjasper_2.0.14_i686.deb
 Size: 112216
-SHA256: 57c4aaeaa3e1bcd230b1bbb9ed42c30ea552021cbc935ae36f261727821568a2
+SHA256: df871e3c30804363908bc9a3fe655049788b36c3a6bf1be29d3b46cde9dbad03
 
 Package: libjpeg-turbo-dev
 Architecture: i686
@@ -3880,8 +4035,8 @@ Description: Development files for libjpeg-turbo
 Homepage: http://libjpeg-turbo.virtualgl.org/
 Depends: libjpeg-turbo
 Filename: dists/dom-dev/testing/binary-i686/libjpeg-turbo-dev_1.5.3_i686.deb
-Size: 31784
-SHA256: 2008e1deaf9c610f5614966b8ea041c49eb51e2af2a186158bd4ab7327db4aa2
+Size: 31796
+SHA256: fad8b07a19928658296418de50be5c20ed099d9991cbde07f62fdb2bdc3ae7e3
 
 Package: libjpeg-turbo-progs
 Architecture: i686
@@ -3892,8 +4047,8 @@ Description: Programs for manipulating JPEG files
 Homepage: http://libjpeg-turbo.virtualgl.org/
 Depends: libjpeg-turbo
 Filename: dists/dom-dev/testing/binary-i686/libjpeg-turbo-progs_1.5.3_i686.deb
-Size: 51528
-SHA256: f091ce732c1f419fb3f27882d634a4a3127b4429e85f2f21bec3071134cf4805
+Size: 51520
+SHA256: 52218df527a543d34d454e6e0f20f2f5a793781303431cbc2ba206d9d8aab39d
 
 Package: libjpeg-turbo
 Architecture: i686
@@ -3903,8 +4058,8 @@ Version: 1.5.3
 Description: Library for reading and writing JPEG image files
 Homepage: http://libjpeg-turbo.virtualgl.org/
 Filename: dists/dom-dev/testing/binary-i686/libjpeg-turbo_1.5.3_i686.deb
-Size: 108556
-SHA256: 264e9c1604824c4dba88d2660e5b07347576ffbd1edc42547a5ec5b7f82d5a00
+Size: 108504
+SHA256: ac0a53ae14441f51960fb625b8fa99c44b81eaf13867714f9699287554cf8bfc
 
 Package: libksba-dev
 Architecture: i686
@@ -3916,7 +4071,7 @@ Homepage: https://gnupg.org/related_software/libksba/
 Depends: libksba
 Filename: dists/dom-dev/testing/binary-i686/libksba-dev_1.3.5-1_i686.deb
 Size: 7380
-SHA256: 06f2bd51b34eee947e04cc0d11cc2fb9e65b51304a8d574f7e4e9abb40e9e6e7
+SHA256: f9301e04a925a57ecb04e82459d4aa73323e5c7f0e0ea3847c07e129a57083e0
 
 Package: libksba
 Architecture: i686
@@ -3927,8 +4082,8 @@ Description: Library for using X.509 certificates and CMS (Cryptographic Message
 Homepage: https://gnupg.org/related_software/libksba/
 Depends: libgpg-error
 Filename: dists/dom-dev/testing/binary-i686/libksba_1.3.5-1_i686.deb
-Size: 66676
-SHA256: 8da6f9b305c72ec60cb51ba3cdafd9624b828dbbee10c3f3b10302534d3131b2
+Size: 66664
+SHA256: 7ff973fae1495d1ecdae848513dd74b66c7521f1334ab82786339d393956cf7c
 
 Package: libllvm-dev
 Architecture: i686
@@ -4003,7 +4158,7 @@ Homepage: https://lz4.github.io/lz4/
 Depends: liblz4
 Filename: dists/dom-dev/testing/binary-i686/liblz4-dev_1.8.2_i686.deb
 Size: 17504
-SHA256: 5f0126e8558f4ed51b088d88e6f9b5bd1a49401b8207fd264b595ad298800963
+SHA256: 8a82a5f0b321117db8865e7315e29846875ebfa3fb8a4b84de450ddbc2ef4051
 
 Package: liblz4
 Architecture: i686
@@ -4013,8 +4168,8 @@ Version: 1.8.2
 Description: Fast LZ compression algorithm library
 Homepage: https://lz4.github.io/lz4/
 Filename: dists/dom-dev/testing/binary-i686/liblz4_1.8.2_i686.deb
-Size: 41416
-SHA256: d291e434d6d98b47d0f12885da9b15b9cd0f25b95190ad89b05efb77f133a9db
+Size: 41420
+SHA256: 9808230f1d271f15bc2c84ea1a2db863f2a3a3cd4872b37520ef262d4bdd4c72
 
 Package: liblzma-dev
 Architecture: i686
@@ -4025,8 +4180,8 @@ Description: Development files for liblzma
 Homepage: https://tukaani.org/xz/
 Depends: liblzma
 Filename: dists/dom-dev/testing/binary-i686/liblzma-dev_5.2.4_i686.deb
-Size: 35168
-SHA256: 118fc86c7ded666d3f1b48fa786f5083dc5846a5669dbddd3dea60dfb63f28e0
+Size: 35156
+SHA256: 8792b4a1fa06349fe60aa0cd0771d6775b287df5353b5906f337a3e608490e51
 
 Package: liblzma
 Architecture: i686
@@ -4036,8 +4191,8 @@ Version: 5.2.4
 Description: XZ-format compression library
 Homepage: https://tukaani.org/xz/
 Filename: dists/dom-dev/testing/binary-i686/liblzma_5.2.4_i686.deb
-Size: 63504
-SHA256: 5ab708fe37df8992e42ed6a9624643602c2d5cc8f4d31d01076659a504820340
+Size: 63484
+SHA256: d3cd4837e4acbc6c10208d3c5c9cdeaab583b9fe5d0cd8b6844d1a59a479bb09
 
 Package: liblzo-dev
 Architecture: i686
@@ -4048,8 +4203,8 @@ Description: Development files for liblzo
 Homepage: http://www.oberhumer.com/opensource/lzo
 Depends: liblzo
 Filename: dists/dom-dev/testing/binary-i686/liblzo-dev_2.10_i686.deb
-Size: 21096
-SHA256: 066cfa463c47d524799747024e5a360344203c988615642059eafe7abd4791d4
+Size: 21108
+SHA256: 484fb914948b3f1bc178c7b2e4048177d8efcbb8f6675635e5a861bab104bf25
 
 Package: liblzo
 Architecture: i686
@@ -4059,8 +4214,8 @@ Version: 2.10
 Description: Portable lossless data compression library
 Homepage: http://www.oberhumer.com/opensource/lzo
 Filename: dists/dom-dev/testing/binary-i686/liblzo_2.10_i686.deb
-Size: 38228
-SHA256: cf16fe2de367154440066dfb4da20f8857a978a030e97478acde55506b6aab18
+Size: 38216
+SHA256: 391563a0727fd80fbf85c9efa234bc915d2b829f088ff389d967cb860fcd765a
 
 Package: libmad-dev
 Architecture: i686
@@ -4071,8 +4226,8 @@ Description: Development files for libmad
 Homepage: http://www.underbit.com/products/mad/
 Depends: libmad
 Filename: dists/dom-dev/testing/binary-i686/libmad-dev_0.15.1b-1_i686.deb
-Size: 7704
-SHA256: 02623c513d58b0ef106dc33dfbeb70f6d8bc5e97ca4120b9f6f7a2486ed06cdc
+Size: 7700
+SHA256: 5d6ca74b04f8fe2677987e6c16441b22583fd5f9e3f59481ece4dd63eaaee344
 
 Package: libmad
 Architecture: i686
@@ -4082,8 +4237,8 @@ Version: 0.15.1b-1
 Description: MAD is a high-quality MPEG audio decoder
 Homepage: http://www.underbit.com/products/mad/
 Filename: dists/dom-dev/testing/binary-i686/libmad_0.15.1b-1_i686.deb
-Size: 49292
-SHA256: 0f0ca1a9764bb66aeeb03814a7ce49316fd23e744ec07bf6d473bc30148d1f8f
+Size: 49236
+SHA256: 45cfcd402ab7e039a06a72b68a8358397b6b92439256452e3ded719eeb37bc6d
 
 Package: libmesode-dev
 Architecture: i686
@@ -4119,7 +4274,7 @@ Homepage: https://www.netfilter.org/projects/libmnl/
 Depends: libmnl
 Filename: dists/dom-dev/testing/binary-i686/libmnl-dev_1.0.4_i686.deb
 Size: 2744
-SHA256: 44886cb10820f5444d063641acbf3fa43fb2443571280a30058b2b4a600ca3aa
+SHA256: da85b2acb0336e0ed97666161672913d946c11cb3c24a1674707207f009e3923
 
 Package: libmnl
 Architecture: i686
@@ -4129,8 +4284,8 @@ Version: 1.0.4
 Description: a minimalistic user-space library oriented to Netlink developers
 Homepage: https://www.netfilter.org/projects/libmnl/
 Filename: dists/dom-dev/testing/binary-i686/libmnl_1.0.4_i686.deb
-Size: 5932
-SHA256: b269265393d716fd458a24557988947b244ec3b0571f2be8ab8a48d2376f45aa
+Size: 5924
+SHA256: 68931cd94b1b1c4a8ad709e908f839acb3f5ba029796677c24964858244575ff
 
 Package: libmosquitto-dev
 Architecture: i686
@@ -4165,8 +4320,8 @@ Description: Development files for libmp3lame
 Homepage: https://lame.sourceforge.net/
 Depends: libmp3lame
 Filename: dists/dom-dev/testing/binary-i686/libmp3lame-dev_3.100_i686.deb
-Size: 11376
-SHA256: 886a09391302330d8a672fe126db78c5c792881fc60ccfa4bf7a9945a8e696df
+Size: 11380
+SHA256: 36f9824b26faa2b9f569ce82c1c77fcd687f1bc3107f5e079cbb0ec80061932c
 
 Package: libmp3lame
 Architecture: i686
@@ -4176,8 +4331,8 @@ Version: 3.100
 Description: High quality MPEG Audio Layer III (MP3) encoder
 Homepage: https://lame.sourceforge.net/
 Filename: dists/dom-dev/testing/binary-i686/libmp3lame_3.100_i686.deb
-Size: 103032
-SHA256: 015065a96b6c244fb8dbe38e6b6d461687e23b31a00603a5a7b8afceea82a44e
+Size: 103012
+SHA256: 5bf2e6c10a739d41e0b9bb7da5fe5ec637a83ea363fc08c55821f5c76f5d5155
 
 Package: libmp3splt-dev
 Architecture: i686
@@ -4236,8 +4391,8 @@ Description: Development files for libmpdclient
 Homepage: https://www.musicpd.org/libs/libmpdclient/
 Depends: libmpdclient
 Filename: dists/dom-dev/testing/binary-i686/libmpdclient-dev_2.14_i686.deb
-Size: 22884
-SHA256: 766ccd2b0fa7d61d78002b45cbd1d20790e0f58af6d075ea88231f059f85bf35
+Size: 22872
+SHA256: 8cc399f6777561a4f238f5583fa7d2eeb638aa520a158a7b022229179b1b1c4b
 
 Package: libmpdclient
 Architecture: i686
@@ -4247,8 +4402,8 @@ Version: 2.14
 Description: Asynchronous API library for interfacing MPD in the C, C++ & Objective C languages
 Homepage: https://www.musicpd.org/libs/libmpdclient/
 Filename: dists/dom-dev/testing/binary-i686/libmpdclient_2.14_i686.deb
-Size: 26264
-SHA256: 3a340ac471da85af49c5339f1399d5070efad22865b39ea0144bfa251e138d05
+Size: 26268
+SHA256: e764aebb496acf741468e44feb83eb645d5d6542f0f9575de82440336f2135b1
 
 Package: libmpfr-dev
 Architecture: i686
@@ -4259,8 +4414,8 @@ Description: Development files for libmpfr
 Homepage: http://www.mpfr.org/
 Depends: libmpfr
 Filename: dists/dom-dev/testing/binary-i686/libmpfr-dev_4.0.1_i686.deb
-Size: 12564
-SHA256: edaa4f4df33eebaa3f564052435a4acd1f4b5d6dbbab1df4c7ff4b41ff5a506c
+Size: 12560
+SHA256: 6add06a391f0c3c6fced3d004b74a8fda5317f905b30b7f247573fc388391f7f
 
 Package: libmpfr
 Architecture: i686
@@ -4271,8 +4426,8 @@ Description: C library for multiple-precision floating-point computations with c
 Homepage: http://www.mpfr.org/
 Depends: libgmp
 Filename: dists/dom-dev/testing/binary-i686/libmpfr_4.0.1_i686.deb
-Size: 1278728
-SHA256: 56c25d5e4c2f5546ea0f232fec525502fa4dbbeea0e810318b2a45ce45e6a499
+Size: 1278824
+SHA256: 74d1d8c01c9273e2eb8d9f939bcbc0ad147589d147367375a71b23fe157ac344
 
 Package: libmsgpack-dev
 Architecture: i686
@@ -4283,8 +4438,8 @@ Description: Development files for libmsgpack
 Homepage: https://github.com/msgpack/msgpack-c/
 Depends: libmsgpack
 Filename: dists/dom-dev/testing/binary-i686/libmsgpack-dev_3.0.1_i686.deb
-Size: 36276
-SHA256: 01246ea99e9d08aea53d21138fb10482915ef059510581edb6669bd10c6617ef
+Size: 36304
+SHA256: d34340231d0f4db35de323d4725d3d8819d101ce74d892c274260e4323c4c716
 
 Package: libmsgpack
 Architecture: i686
@@ -4295,7 +4450,7 @@ Description: MessagePack implementation for C and C++
 Homepage: https://github.com/msgpack/msgpack-c/
 Filename: dists/dom-dev/testing/binary-i686/libmsgpack_3.0.1_i686.deb
 Size: 8764
-SHA256: 08f2d8b72cd5d0f8740f3254447215b46b92d9810c184c8daf9ac5276f94d6af
+SHA256: 93c4db7ebc937e93b00a1afded28d586311e02e698294e7e491f1b289dcb03d4
 
 Package: libnettle-dev
 Architecture: i686
@@ -4306,8 +4461,8 @@ Description: Development files for libnettle
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Depends: libnettle
 Filename: dists/dom-dev/testing/binary-i686/libnettle-dev_3.4_i686.deb
-Size: 35048
-SHA256: 3d2b6963e6c76661b7caba3310f7c4f2318127910b410f0b8e9941aeb6a76f48
+Size: 35084
+SHA256: 1e9bb32840d97510823e579b2abbe82cd4b29bf2c014d88ad9476a90f580dd5e
 
 Package: libnettle
 Architecture: i686
@@ -4318,8 +4473,8 @@ Description: Cryptographic library that is designed to fit easily in more or les
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Depends: libgmp
 Filename: dists/dom-dev/testing/binary-i686/libnettle_3.4_i686.deb
-Size: 207944
-SHA256: 6565d831e88a2eefa6296d60aa759c7b3a292083e3e9f8a6b01219860e2831b5
+Size: 208364
+SHA256: af4e4e0bee805dd44eeabc4f918ffd5a85f47892439517b43944fea30d865a13
 
 Package: libnghttp2-dev
 Architecture: i686
@@ -4331,7 +4486,7 @@ Homepage: https://nghttp2.org/
 Depends: libnghttp2
 Filename: dists/dom-dev/testing/binary-i686/libnghttp2-dev_1.32.0_i686.deb
 Size: 31304
-SHA256: 37b9cf4811a0df16acdd3b4a5adebc7a7bea454f763809cfd71b681122a4a238
+SHA256: 08c86ea84c068391f6c47e0531206ed65826535055263bb600890f7ebab1a092
 
 Package: libnghttp2
 Architecture: i686
@@ -4341,8 +4496,8 @@ Version: 1.32.0
 Description: nghttp HTTP 2.0 library
 Homepage: https://nghttp2.org/
 Filename: dists/dom-dev/testing/binary-i686/libnghttp2_1.32.0_i686.deb
-Size: 44480
-SHA256: b2ea960cb764b54fda526bd568f0dd65effb261d7d01c1fd82b644934eb32a06
+Size: 44512
+SHA256: 0f897aa641d72dab8a099834e3f933bf5da86cb73204f50b56c65fff9b7a9035
 
 Package: libnl-dev
 Architecture: i686
@@ -4353,8 +4508,8 @@ Description: Development files for libnl
 Homepage: https://github.com/thom311/libnl
 Depends: libnl
 Filename: dists/dom-dev/testing/binary-i686/libnl-dev_3.4.0_i686.deb
-Size: 37636
-SHA256: ca5464a48b9160db935ebb8440ece18b048f8e263ab16941c219bf579b774282
+Size: 37664
+SHA256: 44e932687bf8941116bde4960e779838d07f2f0a6d625878eee7359d19606490
 
 Package: libnl
 Architecture: i686
@@ -4364,8 +4519,8 @@ Version: 3.4.0
 Description: Collection of libraries providing APIs to netlink protocol based Linux kernel interfaces
 Homepage: https://github.com/thom311/libnl
 Filename: dists/dom-dev/testing/binary-i686/libnl_3.4.0_i686.deb
-Size: 186232
-SHA256: 7c23ed28032c66cb028388a58cbb067d0760da6ce1dec76b437f3154c097548e
+Size: 186280
+SHA256: af0db4b459053c265358ea0c439ce5f1638933ef306d1b4ce57085ef8928403e
 
 Package: libnpth-dev
 Architecture: i686
@@ -4377,7 +4532,7 @@ Homepage: https://www.gnupg.org/related_software/npth/
 Depends: libnpth
 Filename: dists/dom-dev/testing/binary-i686/libnpth-dev_1.6_i686.deb
 Size: 6676
-SHA256: 6e9d9c3d0a615ffc75f77276ab5778aeca0eb49459303b2359f365a6fe1f34fa
+SHA256: efd8edcd6bb351c95a87f8260cd0a6442d149c324c05a9a8e844eb63f5dacbe0
 
 Package: libnpth
 Architecture: i686
@@ -4388,7 +4543,7 @@ Description: New GNU Portable Threads Library
 Homepage: https://www.gnupg.org/related_software/npth/
 Filename: dists/dom-dev/testing/binary-i686/libnpth_1.6_i686.deb
 Size: 5304
-SHA256: 89f2493a47335f401043ebd9acc199f95946cdbb3535867718fd8942d48d7365
+SHA256: e9cf4d1598433d26039da984550b2e877dc510a4df2719013d1bc4f95fcd20a7
 
 Package: libogg-dev
 Architecture: i686
@@ -4400,7 +4555,7 @@ Homepage: http://xiph.org/ogg/
 Depends: libogg
 Filename: dists/dom-dev/testing/binary-i686/libogg-dev_1.3.3_i686.deb
 Size: 4940
-SHA256: e61955960d9107cdc09226d6a09f3c631939bd6483cbd0bd04b8d969d358002b
+SHA256: 7f5c1aa83f3e764cfa004ad518e5119b5cbbbc37a3f8aaa221687d55cb05d13a
 
 Package: libogg
 Architecture: i686
@@ -4410,8 +4565,8 @@ Version: 1.3.3
 Description: Library for working with the Ogg multimedia container format
 Homepage: http://xiph.org/ogg/
 Filename: dists/dom-dev/testing/binary-i686/libogg_1.3.3_i686.deb
-Size: 8584
-SHA256: 6f120737bd199d1d1601d47a40d1efc28aa97fa4d4b4b42eedaaaabdfc632650
+Size: 8592
+SHA256: 118cef30f600cfc14215ac36a904a297a803960920a7c43ebb1f36e8b0f3d8d3
 
 Package: liboggz-dev
 Architecture: i686
@@ -4422,8 +4577,8 @@ Description: Development files for liboggz
 Homepage: https://www.xiph.org/oggz/
 Depends: liboggz
 Filename: dists/dom-dev/testing/binary-i686/liboggz-dev_1.1.1-3_i686.deb
-Size: 21200
-SHA256: 4ecac87ce443e487e95c2de4a2ea0b48679facb78f60731693d562529b377547
+Size: 21212
+SHA256: 96b2e909db9733c3231e221b0739a409273eab3d66896eab085af37b94c02276
 
 Package: liboggz
 Architecture: i686
@@ -4434,8 +4589,8 @@ Description: Command and library to inspect, tweak, edit and validate Ogg files
 Homepage: https://www.xiph.org/oggz/
 Depends: libogg
 Filename: dists/dom-dev/testing/binary-i686/liboggz_1.1.1-3_i686.deb
-Size: 61648
-SHA256: 66da57eebb752effb34720810096847d053ddd2d7da3275542d8961b6a8e7fea
+Size: 61668
+SHA256: cc0f6caf451423cb6356b07da14ecefc9a53c9dba3abe7b061b205bb8df09a66
 
 Package: libopus-dev
 Architecture: i686
@@ -4446,8 +4601,8 @@ Description: Development files for libopus
 Homepage: https://www.opus-codec.org/
 Depends: libopus
 Filename: dists/dom-dev/testing/binary-i686/libopus-dev_1.2.1_i686.deb
-Size: 21868
-SHA256: 5801a7218dd11ae02780078ba837709f47f41caa3fd88df57075dd137713597a
+Size: 21852
+SHA256: b980aa9abc084a7a396f6cf428f44ce0f3a296993195e31eed96e3134ce25c31
 
 Package: libopus
 Architecture: i686
@@ -4457,8 +4612,8 @@ Version: 1.2.1
 Description: Reference implementation of the Opus codec
 Homepage: https://www.opus-codec.org/
 Filename: dists/dom-dev/testing/binary-i686/libopus_1.2.1_i686.deb
-Size: 135412
-SHA256: c8e86661af779ea6f3520902d19a7eaa47ce4469b5c5a2d9bf33ec48cae8bca8
+Size: 135504
+SHA256: 6c2886e3f7b2160390d53aa0466bb795b6fe42f9be2a042de0880f58d234ba9b
 
 Package: libotr-dev
 Architecture: i686
@@ -4493,8 +4648,8 @@ Description: Development files for libpcap
 Homepage: https://www.tcpdump.org
 Depends: libpcap
 Filename: dists/dom-dev/testing/binary-i686/libpcap-dev_1.9.0_i686.deb
-Size: 55796
-SHA256: 56761a86ab1b969926769fe5292d8dbb2d84e052213bd3ed1fc7084f51565e1a
+Size: 55816
+SHA256: 9fe443bfa3e9fb0821d77146986270b2e74f86fbf530443f8a318d64ebbe699c
 
 Package: libpcap
 Architecture: i686
@@ -4504,8 +4659,8 @@ Version: 1.9.0
 Description: Library for network traffic capture
 Homepage: https://www.tcpdump.org
 Filename: dists/dom-dev/testing/binary-i686/libpcap_1.9.0_i686.deb
-Size: 94832
-SHA256: abc03c183426c9486d91001b3b7bb2749e1e922aa8977976027e6d0d085132ea
+Size: 95164
+SHA256: 2ceb12c0d5ffae0a112efa3e7c644fe2003b5f184186d11409bf8ac2323c81cf
 
 Package: libpipeline-dev
 Architecture: i686
@@ -4516,8 +4671,8 @@ Description: Development files for libpipeline
 Homepage: http://libpipeline.nongnu.org/
 Depends: libpipeline
 Filename: dists/dom-dev/testing/binary-i686/libpipeline-dev_1.5.0_i686.deb
-Size: 11420
-SHA256: cb31e58b64c5c5b248783f5b3d3a86c4ea8b0803f03e7d3d4c205b72ff9ae8b4
+Size: 11432
+SHA256: ebbe389b8021f83974fcd3cd2e9b282873e1cf1f5c74ab84e802289a86f0a192
 
 Package: libpipeline
 Architecture: i686
@@ -4528,7 +4683,7 @@ Description: C library for manipulating pipelines of subprocesses in a flexible 
 Homepage: http://libpipeline.nongnu.org/
 Filename: dists/dom-dev/testing/binary-i686/libpipeline_1.5.0_i686.deb
 Size: 18644
-SHA256: a59ea16b7ec41e2d7c76e8542faf86533b10b95b50d56bd83d6cab303d9975de
+SHA256: 91dae000c2e6612dbb744d8e63becca9b4d6142839892974f529822ee8f8e9f1
 
 Package: libpixman-dev
 Architecture: i686
@@ -4540,7 +4695,7 @@ Homepage: http://www.pixman.org/
 Depends: libpixman
 Filename: dists/dom-dev/testing/binary-i686/libpixman-dev_0.34.0_i686.deb
 Size: 9144
-SHA256: 6b8efb9af3dc274e0e2447907bdcb7a557c7589b9970efa5aaa01c95c2fd07e5
+SHA256: 7b8af1d718b5f9e799cd61b3edb6b5259272ea813e93b9ac58e5a8c646ab1994
 
 Package: libpixman
 Architecture: i686
@@ -4550,8 +4705,8 @@ Version: 0.34.0
 Description: Low-level library for pixel manipulation
 Homepage: http://www.pixman.org/
 Filename: dists/dom-dev/testing/binary-i686/libpixman_0.34.0_i686.deb
-Size: 188464
-SHA256: d062aea4108ee8173fb1c92f6a8363387bba07bca96af07ed34f74ee42d12071
+Size: 188424
+SHA256: c7fa56ef1346a6c5f0074687d30e4b5220de612253fc3cea806e79757cab39d0
 
 Package: libpng-dev
 Architecture: i686
@@ -4562,8 +4717,8 @@ Description: Development files for libpng
 Homepage: http://www.libpng.org/pub/png/libpng.html
 Depends: libpng
 Filename: dists/dom-dev/testing/binary-i686/libpng-dev_1.6.35_i686.deb
-Size: 97468
-SHA256: b8455a49f3f97ed390140f0f42859a09589375c93c422e6c0f790f2f1bdc0dba
+Size: 97480
+SHA256: 6d2b602159f32ba97b8da98bd6dc8cf7d9e7274c54e5a811e2de8aa44a324dca
 
 Package: libpng
 Architecture: i686
@@ -4573,8 +4728,8 @@ Version: 1.6.35
 Description: Official PNG reference library
 Homepage: http://www.libpng.org/pub/png/libpng.html
 Filename: dists/dom-dev/testing/binary-i686/libpng_1.6.35_i686.deb
-Size: 72508
-SHA256: 486c09547b27da7a52af5fe4102ea3dd65010634e96eda061826997b7f8acc5d
+Size: 72548
+SHA256: 7b1af9f9b722247e7dc3e7e048d44be371f57ed2f3beeebe47aa088f59c773b1
 
 Package: libpopt-dev
 Architecture: i686
@@ -4585,8 +4740,8 @@ Description: Development files for libpopt
 Homepage: http://www.linuxfromscratch.org/blfs/view/svn/general/popt.html
 Depends: libpopt
 Filename: dists/dom-dev/testing/binary-i686/libpopt-dev_1.16-2_i686.deb
-Size: 15664
-SHA256: 4f9713d2052044ce269f3d4b8f1a46bc40e14a3b9c57ed24ab2d258eafd83a4f
+Size: 15656
+SHA256: 884badc9c8cf10f20ef1ddb3b39abab3578a0f24eea09e5dd646546082ba5bb0
 
 Package: libpopt
 Architecture: i686
@@ -4597,8 +4752,8 @@ Description: Library for parsing cmdline parameters
 Homepage: http://www.linuxfromscratch.org/blfs/view/svn/general/popt.html
 Depends: libandroid-glob
 Filename: dists/dom-dev/testing/binary-i686/libpopt_1.16-2_i686.deb
-Size: 16932
-SHA256: d32a8652530fb1b23d8be86454a34c5dc7ee37a126e3c6e4b70f2f63302607ad
+Size: 16916
+SHA256: 18c1f47350468dc1d65d612c23e3dd4490eccbfd22d1a386dde11c650a229afb
 
 Package: libprotobuf-dev
 Architecture: i686
@@ -4609,8 +4764,8 @@ Description: Development files for libprotobuf
 Homepage: https://github.com/google/protobuf
 Depends: libprotobuf
 Filename: dists/dom-dev/testing/binary-i686/libprotobuf-dev_3.6.1_i686.deb
-Size: 277844
-SHA256: 8c8f0331ea30acc57f65fd66b86eda349e23dd351bff6b441aa2353311c694df
+Size: 277908
+SHA256: f0abd1de66cd60b3c23d7bba7f92a1830f232adccc426d286677353ce388a2fb
 
 Package: libprotobuf
 Architecture: i686
@@ -4621,8 +4776,8 @@ Description: Protocol buffers C++ library
 Homepage: https://github.com/google/protobuf
 Conflicts: protobuf (<= 3.0.0)
 Filename: dists/dom-dev/testing/binary-i686/libprotobuf_3.6.1_i686.deb
-Size: 586096
-SHA256: d0dba4213d063c44085a7ac51592c0bad0003c142f56deb01fcedbdef5c953b5
+Size: 585032
+SHA256: 1b9e7032235c893a217871365b50fceb1eb1368d28944d14556b5a520c244ad0
 
 Package: libpulseaudio-dev
 Architecture: i686
@@ -4658,7 +4813,7 @@ Homepage: https://fukuchi.org/works/qrencode/
 Depends: libqrencode
 Filename: dists/dom-dev/testing/binary-i686/libqrencode-dev_4.0.2_i686.deb
 Size: 5532
-SHA256: 616d05349888cd5f1ffd829212afc5435d4d747888c9733007122596fc7c7e8f
+SHA256: f481d03cb36f89d862206e87948b33c617bcd53abcee67610f5b690cf0a7087b
 
 Package: libqrencode
 Architecture: i686
@@ -4669,8 +4824,8 @@ Description: Libqrencode is a fast and compact library for encoding data in a QR
 Homepage: https://fukuchi.org/works/qrencode/
 Depends: libandroid-support, libpng
 Filename: dists/dom-dev/testing/binary-i686/libqrencode_4.0.2_i686.deb
-Size: 23400
-SHA256: 9fc530374bf37abbb17e02ff5d044989e582ee95d03713c0d2fd41c62ef443d6
+Size: 23392
+SHA256: f92a01e6e7a7facf735314dfbea11e328767fe5954d5948628eb3f40a73a6cb6
 
 Package: librsvg-dev
 Architecture: i686
@@ -4729,8 +4884,8 @@ Description: Development files for libsasl
 Homepage: https://www.cyrusimap.org/sasl/
 Depends: libsasl
 Filename: dists/dom-dev/testing/binary-i686/libsasl-dev_2.1.26-2_i686.deb
-Size: 36152
-SHA256: 9832466cd7e448d2ae38bb4a0ce4bb7d3b9c4e2893a0d3bddfdec4f9ec074485
+Size: 36160
+SHA256: 4f5a65b40d188943d8bc4cc02cf866abae0e9c6e65ece3df07f09deda7ce6b9c
 
 Package: libsasl
 Architecture: i686
@@ -4740,8 +4895,8 @@ Version: 2.1.26-2
 Description: Cyrus SASL - authentication abstraction library
 Homepage: https://www.cyrusimap.org/sasl/
 Filename: dists/dom-dev/testing/binary-i686/libsasl_2.1.26-2_i686.deb
-Size: 56508
-SHA256: a6460a2b65089b8e3d852a7f15d023ab0c090ffdf90057ef6ca712fe6ac07b41
+Size: 56512
+SHA256: 2115fef25c09070b2a04bcb989dc2ad3eef45c47d927461f8f2a9109937c3495
 
 Package: libsndfile-dev
 Architecture: i686
@@ -4776,8 +4931,8 @@ Description: Development files for libsodium
 Homepage: https://libsodium.org/
 Depends: libsodium
 Filename: dists/dom-dev/testing/binary-i686/libsodium-dev_1.0.16_i686.deb
-Size: 14656
-SHA256: d1aff7974a1e4001b9e1bdb76ad7a3b208742bc575852de74bb02dc3b7329f7e
+Size: 14652
+SHA256: 2d9e26d94af6d59563f3af69fa3397b09440acd2d2ee9f8ece2c923180c008c4
 
 Package: libsodium
 Architecture: i686
@@ -4787,8 +4942,8 @@ Version: 1.0.16
 Description: Network communication, cryptography and signaturing library
 Homepage: https://libsodium.org/
 Filename: dists/dom-dev/testing/binary-i686/libsodium_1.0.16_i686.deb
-Size: 125480
-SHA256: f20e7f1d709c7954f1867e36c727b83600b52497a0b35050a90e2c88f0d81289
+Size: 125504
+SHA256: 6ab1979e9de6f520be861d37a858c81c3a59deb8be1a14e973b79a9b665567fd
 
 Package: libsoup-dev
 Architecture: i686
@@ -4823,8 +4978,8 @@ Description: Development files for libsoxr
 Homepage: https://sourceforge.net/projects/soxr/
 Depends: libsoxr
 Filename: dists/dom-dev/testing/binary-i686/libsoxr-dev_0.1.3_i686.deb
-Size: 5928
-SHA256: cf5e6a13f0e855b665c3efe3844474a53a632e97bec6b5bf080d4dbee29842cf
+Size: 5932
+SHA256: 95dba1c7e5ece9560c3ad45c2226c0cec9e8acb4ee3dd1dd58231f2fde755fe8
 
 Package: libsoxr
 Architecture: i686
@@ -4834,8 +4989,8 @@ Version: 0.1.3
 Description: High quality, one-dimensional sample-rate conversion library
 Homepage: https://sourceforge.net/projects/soxr/
 Filename: dists/dom-dev/testing/binary-i686/libsoxr_0.1.3_i686.deb
-Size: 250116
-SHA256: 085aeb3b1fd39b6eb35c3ad01f2bf39ebf9eb9ae10db3b3303e53aca1b6881b7
+Size: 250100
+SHA256: e6579ffa623be86d51c048c09e439d944f39b6d9ab541c68866ea8755d5857d5
 
 Package: libsqlite-dev
 Architecture: i686
@@ -4893,8 +5048,8 @@ Description: Development files for libtalloc
 Homepage: https://talloc.samba.org/talloc/doc/html/index.html
 Depends: libtalloc
 Filename: dists/dom-dev/testing/binary-i686/libtalloc-dev_2.1.14_i686.deb
-Size: 17868
-SHA256: 4de8b19123f16fa5a089c1961d1e6b3656519a942c5ab2c2eb936e17efb4fee8
+Size: 17864
+SHA256: 5e329b831babd64e88cb0d0b4f069f6823ce27f90833fa8b8634b8f591ead6fc
 
 Package: libtalloc
 Architecture: i686
@@ -4904,8 +5059,8 @@ Version: 2.1.14
 Description: Hierarchical, reference counted memory pool system with destructors
 Homepage: https://talloc.samba.org/talloc/doc/html/index.html
 Filename: dists/dom-dev/testing/binary-i686/libtalloc_2.1.14_i686.deb
-Size: 10280
-SHA256: 3937e55f43c70ffb760e9b02187886fa81574358bbe0a9bb8bd6346d1785b7ea
+Size: 10288
+SHA256: 2f066b32592f56d5cd1d59e95151bf3fc4422a06ea2f6b2e9b23ee8cf781478e
 
 Package: libtermkey-dev
 Architecture: i686
@@ -4916,8 +5071,8 @@ Description: Development files for libtermkey
 Homepage: http://www.leonerd.org.uk/code/libtermkey/
 Depends: libtermkey
 Filename: dists/dom-dev/testing/binary-i686/libtermkey-dev_0.20-1_i686.deb
-Size: 3176
-SHA256: 49da60d467cefa1220cd579863be8bd3bc2321a5204189b669ca446bb6a397ca
+Size: 3180
+SHA256: 974da6187ef3ffbd60625821bfabec787e2b3b395bb1415df9e88cc555a27f0f
 
 Package: libtermkey
 Architecture: i686
@@ -4928,8 +5083,8 @@ Description: Library for processing of keyboard entry for terminal-based program
 Homepage: http://www.leonerd.org.uk/code/libtermkey/
 Depends: libunibilium
 Filename: dists/dom-dev/testing/binary-i686/libtermkey_0.20-1_i686.deb
-Size: 12344
-SHA256: b8c3084b7cddcd6360fa0adc716669702097874c16507ef0ac8bacdfebff08a2
+Size: 12348
+SHA256: ff86305c2fd207c565793cbfb96b078b154e1b043ea53430780062fb8e2b88b4
 
 Package: libtiff-dev
 Architecture: i686
@@ -4940,8 +5095,8 @@ Description: Development files for libtiff
 Homepage: http://www.simplesystems.org/libtiff/
 Depends: libtiff
 Filename: dists/dom-dev/testing/binary-i686/libtiff-dev_4.0.9-1_i686.deb
-Size: 18000
-SHA256: 477f2e69f7abadd3bd3e621f57955ac13a20548fe078758191749b7bb1299b95
+Size: 17992
+SHA256: 9def8302d953ce8c6b39bb6b0ed19cb6448f2d39601504d194bbde19f148cbc2
 
 Package: libtiff-utils
 Architecture: i686
@@ -4952,8 +5107,8 @@ Description: Tools for working with tiff files
 Homepage: http://www.simplesystems.org/libtiff/
 Depends: libtiff
 Filename: dists/dom-dev/testing/binary-i686/libtiff-utils_4.0.9-1_i686.deb
-Size: 165388
-SHA256: 8f2f6fed3ab701655fcd7474c198bff3475a10b041108314ff5240f7404c9c0d
+Size: 165356
+SHA256: 63b7913bfdb64270fb8ec553d3c1a73182d46629e9181435cc6fef76088fb933
 
 Package: libtiff
 Architecture: i686
@@ -4964,8 +5119,8 @@ Description: Support for the Tag Image File Format (TIFF) for storing image data
 Homepage: http://www.simplesystems.org/libtiff/
 Depends: libjpeg-turbo, liblzma
 Filename: dists/dom-dev/testing/binary-i686/libtiff_4.0.9-1_i686.deb
-Size: 134184
-SHA256: cf09d974c07d731940962e85c09b2760ed4a12a58d14d1d11366423c714e1de7
+Size: 134132
+SHA256: f4f486fea36bc2bdff054a752e1705daddef32b801fe980a28948bbc2e25fdc5
 
 Package: libtool
 Architecture: i686
@@ -4990,8 +5145,8 @@ Description: Development files for libunibilium
 Homepage: https://github.com/mauke/unibilium
 Depends: libunibilium
 Filename: dists/dom-dev/testing/binary-i686/libunibilium-dev_2.0.0_i686.deb
-Size: 4224
-SHA256: 1882fda0ad3bf977cef7ad417daeaed9c6837b073757d6acb8ccb75327311969
+Size: 4232
+SHA256: 581c27cbd54a807e2ca1e165b605baf0e45a2b813974c9077a0c94e0219326b5
 
 Package: libunibilium
 Architecture: i686
@@ -5001,8 +5156,8 @@ Version: 2.0.0
 Description: Terminfo parsing library
 Homepage: https://github.com/mauke/unibilium
 Filename: dists/dom-dev/testing/binary-i686/libunibilium_2.0.0_i686.deb
-Size: 15528
-SHA256: dfbe92d3595bd54b9da52f53a88546cf511b1dba30a29508b1893f928d131bf9
+Size: 15516
+SHA256: dc79108ff1f91cea5aaceacf797248a8b255395c3ac3f6155a0e488c184fdfff
 
 Package: libunistring-dev
 Architecture: i686
@@ -5013,8 +5168,8 @@ Description: Development files for libunistring
 Homepage: https://www.gnu.org/software/libunistring/
 Depends: libunistring
 Filename: dists/dom-dev/testing/binary-i686/libunistring-dev_0.9.10_i686.deb
-Size: 22292
-SHA256: 84894bb723a7ff52f6ee9292035eb0ab03a3194fda286a902fc2254686eb7f83
+Size: 22284
+SHA256: 62b4e2009f9abf5a9b8cbf363572f515a63091825e5f7f271a6e399818f050ee
 
 Package: libunistring
 Architecture: i686
@@ -5025,8 +5180,8 @@ Description: Library providing functions for manipulating Unicode strings
 Homepage: https://www.gnu.org/software/libunistring/
 Depends: libandroid-support
 Filename: dists/dom-dev/testing/binary-i686/libunistring_0.9.10_i686.deb
-Size: 368784
-SHA256: 4e9e2dfa9940b547fa5a43aeeedb6230922e77f8e7906cac3b062501d99e0954
+Size: 370120
+SHA256: 9c89a386c8b7dcbcadd904fed47f03f8ed11d914ec3870775918dcd4f677b059
 
 Package: libunwind-dev
 Architecture: i686
@@ -5038,7 +5193,7 @@ Homepage: http://www.nongnu.org/libunwind/
 Depends: libunwind
 Filename: dists/dom-dev/testing/binary-i686/libunwind-dev_1.2.20170304_i686.deb
 Size: 9676
-SHA256: e2016ce4c120e60732f125bfebf7043d0001b16a04cbd580f99f55e13efb42a2
+SHA256: 52951a1aeb33b1c0e63b92afb306971b831b1569108796d1593953e592b1cd4a
 
 Package: libunwind
 Architecture: i686
@@ -5048,8 +5203,8 @@ Version: 1.2.20170304
 Description: Library to determine the call-chain of a program
 Homepage: http://www.nongnu.org/libunwind/
 Filename: dists/dom-dev/testing/binary-i686/libunwind_1.2.20170304_i686.deb
-Size: 28420
-SHA256: f868849156208ac45352871929e881b9c33148321062af06c2351f3c3f57b4b6
+Size: 28416
+SHA256: 2fedc6fdb4f3ba05451a96fbb6035cc89fa7fe7684f12011b64fd66fcf3eaa49
 
 Package: libutil
 Architecture: i686
@@ -5060,7 +5215,7 @@ Description: Library with terminal functions
 Homepage: https://refspecs.linuxbase.org/LSB_2.1.0/LSB-generic/LSB-generic/libutil.html
 Filename: dists/dom-dev/testing/binary-i686/libutil_0.3_i686.deb
 Size: 2612
-SHA256: e008df19a2359deec134372e909324baf596bb5feb1a2ed5410c139f898891e4
+SHA256: be2e870d82ed5dca37d78f5a4e383796c8604b9fc484f04c889237de547bae7c
 
 Package: libuuid-dev
 Architecture: i686
@@ -5072,7 +5227,7 @@ Homepage: https://sourceforge.net/projects/libuuid/
 Depends: libuuid
 Filename: dists/dom-dev/testing/binary-i686/libuuid-dev_1.0.3-2_i686.deb
 Size: 2436
-SHA256: 3fb301f7fa53f1820ff0699b18a68b53062ea7d36115f8186c05673c58b69bc8
+SHA256: b0b4a06ef4af96f0e3191342be3f1b1e42c8e3dd937ab77bbd2ef17eb01b701f
 
 Package: libuuid
 Architecture: i686
@@ -5082,8 +5237,8 @@ Version: 1.0.3-2
 Description: Portable uuid C library
 Homepage: https://sourceforge.net/projects/libuuid/
 Filename: dists/dom-dev/testing/binary-i686/libuuid_1.0.3-2_i686.deb
-Size: 4900
-SHA256: 6f8f532b7c8963f65bcf7ed0851e9bacaf27685ba61e9ea883c93a3c515c93b0
+Size: 4904
+SHA256: 9740aa31f4c8134f7a4b393541cb715ecd15d77d81302df64b5b8d822d2dbe56
 
 Package: libuv-dev
 Architecture: i686
@@ -5094,8 +5249,8 @@ Description: Development files for libuv
 Homepage: https://libuv.org
 Depends: libuv
 Filename: dists/dom-dev/testing/binary-i686/libuv-dev_1.22.0_i686.deb
-Size: 17868
-SHA256: e9365e9c5646590b7975677d7656a509f4eaeb53930a228bfb8a821c15049f0e
+Size: 17840
+SHA256: 07f2946dea28adf282b6ec0f3ea56288003f8d91f2067876c2e59391e2d460b7
 
 Package: libuv
 Architecture: i686
@@ -5105,8 +5260,8 @@ Version: 1.22.0
 Description: Support library with a focus on asynchronous I/O
 Homepage: https://libuv.org
 Filename: dists/dom-dev/testing/binary-i686/libuv_1.22.0_i686.deb
-Size: 48416
-SHA256: 5cdcc08f9869bc3089f73dee3469243e489621b1449c05a1283ef7dd323f9417
+Size: 48508
+SHA256: 6b8e8201b03186539182cd85ae8ee207b2c8474b6f31edb0f468a3f16f2978be
 
 Package: libvorbis-dev
 Architecture: i686
@@ -5117,8 +5272,8 @@ Description: Development files for libvorbis
 Homepage: http://www.vorbis.com/
 Depends: libvorbis,libogg-dev
 Filename: dists/dom-dev/testing/binary-i686/libvorbis-dev_1.3.6_i686.deb
-Size: 10056
-SHA256: 0b694229a16f77312bda5d9175f27ee969ef2683fd93bec76e0aad4b62cd6aa4
+Size: 10052
+SHA256: ae9fd1a7fa5cc0670296e3fc791677a90bfb52cfe44b478931850abe736274b3
 
 Package: libvorbis
 Architecture: i686
@@ -5129,8 +5284,8 @@ Description: Library for using the Ogg Vorbis compressed audio format
 Homepage: http://www.vorbis.com/
 Depends: libogg
 Filename: dists/dom-dev/testing/binary-i686/libvorbis_1.3.6_i686.deb
-Size: 137356
-SHA256: f8cb3aa19a01f1c04e883b9e61015369a21627e481167d09660042613c566bdf
+Size: 137404
+SHA256: 0a53514f52f643c9c5d19f032d686919d6dfe373c1dd8adeeb765e891f7a4334
 
 Package: libvpx-dev
 Architecture: i686
@@ -5141,8 +5296,8 @@ Description: Development files for libvpx
 Homepage: https://www.webmproject.org
 Depends: libvpx
 Filename: dists/dom-dev/testing/binary-i686/libvpx-dev_1.7.0-1_i686.deb
-Size: 26136
-SHA256: 0c365f21f6a67c3e9c786856625afa3e04c08e49398c4e364a049948d5ae914c
+Size: 26128
+SHA256: eb9ab53078078aad040ac0fcc3de7ba6e0435b2bd3f5d6c09fe8a087de02d88a
 
 Package: libvpx
 Architecture: i686
@@ -5152,8 +5307,8 @@ Version: 1.7.0-1
 Description: VP8 & VP9 Codec SDK
 Homepage: https://www.webmproject.org
 Filename: dists/dom-dev/testing/binary-i686/libvpx_1.7.0-1_i686.deb
-Size: 570444
-SHA256: 0db7c95195781e50426b7c244af8f3dfe9ea1aeb5103654981d10f3e6b759825
+Size: 570472
+SHA256: 27b46c06bfa566a243bd8c787fde24e1176edb78e5c5de51a510e83b0c8632a0
 
 Package: libvterm-dev
 Architecture: i686
@@ -5165,7 +5320,7 @@ Homepage: http://libvterm.sourceforge.net/
 Depends: libvterm
 Filename: dists/dom-dev/testing/binary-i686/libvterm-dev_18.02.20_i686.deb
 Size: 4172
-SHA256: 9e6aa0ddcaf4bff356d1d331d9d696e33a177117dde180b100596b7cb583539c
+SHA256: 9b439604e97844eadc3a49015ad817eb0bd20b1c9d1ed160046e552b6616a570
 
 Package: libvterm
 Architecture: i686
@@ -5175,8 +5330,8 @@ Version: 18.02.20
 Description: Terminal emulator library
 Homepage: http://libvterm.sourceforge.net/
 Filename: dists/dom-dev/testing/binary-i686/libvterm_18.02.20_i686.deb
-Size: 24792
-SHA256: cc6c0dd11df749050ad9ab4e1df436017232f58c0f1c6dc8da3eed91d98d9aea
+Size: 24776
+SHA256: 8c32df0d743b91daa7ff965bef6346e80d0e994ed84dc940abcc51ba888126b9
 
 Package: libx264-dev
 Architecture: i686
@@ -5188,7 +5343,7 @@ Homepage: https://www.videolan.org/developers/x264.html
 Depends: libx264
 Filename: dists/dom-dev/testing/binary-i686/libx264-dev_20180211_i686.deb
 Size: 14804
-SHA256: e00ddd52f8a9388ae5a00dc580954988196b06c189d345993892a252249bbb64
+SHA256: 9f8e8dff560cd00bbf3998c7be2bada6af4c9b78667c22de0979733ac5a068c9
 
 Package: libx264
 Architecture: i686
@@ -5198,8 +5353,8 @@ Version: 20180211
 Description: Library for encoding video streams into the H.264/MPEG-4 AVC format
 Homepage: https://www.videolan.org/developers/x264.html
 Filename: dists/dom-dev/testing/binary-i686/libx264_20180211_i686.deb
-Size: 248168
-SHA256: 0c71a4d2efb54b77bcfa83f164a366ad37d2df28d93044812420fd7eb76e3042
+Size: 248264
+SHA256: 7b256cc2f54e809fe8859d0b6febc0a72460e7aa04665059f785238b3bc2ebb5
 
 Package: libx265-dev
 Architecture: i686
@@ -5210,8 +5365,8 @@ Description: Development files for libx265
 Homepage: http://x265.org/
 Depends: libx265
 Filename: dists/dom-dev/testing/binary-i686/libx265-dev_2.8_i686.deb
-Size: 25948
-SHA256: a317c01cb6b3baa00c9343f793712c61692aced12161d21a4e3949ab4cc997ec
+Size: 25944
+SHA256: dbd6e0667956029cbb407c05e8c627a12b1acf749430157228a82449073647a3
 
 Package: libx265
 Architecture: i686
@@ -5221,8 +5376,8 @@ Version: 2.8
 Description: H.265/HEVC video stream encoder library
 Homepage: http://x265.org/
 Filename: dists/dom-dev/testing/binary-i686/libx265_2.8_i686.deb
-Size: 312920
-SHA256: 90e1156e160a18fb41489fda48fe1891c6e5c7a9ce22199d80b0e892fdf35b51
+Size: 312888
+SHA256: 773b077141fc78dfac391c57883595f19bf790d3e048585691adee89090d2fed
 
 Package: libxapian-dev
 Architecture: i686
@@ -5233,8 +5388,8 @@ Description: Development files for libxapian
 Homepage: https://xapian.org
 Depends: libxapian
 Filename: dists/dom-dev/testing/binary-i686/libxapian-dev_1.4.7_i686.deb
-Size: 79520
-SHA256: 05cc7258ed9b808b3f16a46b3a6c4b93707327026296578338195d841f1ea8a2
+Size: 79524
+SHA256: c8e5db3cefc5bb839f703944b433ad9e477d0c8808cab7bf4c5b120a10fdd02d
 
 Package: libxapian
 Architecture: i686
@@ -5244,8 +5399,8 @@ Version: 1.4.7
 Description: Xapian search engine library
 Homepage: https://xapian.org
 Filename: dists/dom-dev/testing/binary-i686/libxapian_1.4.7_i686.deb
-Size: 492068
-SHA256: 99aaf4321a76945acc2f16245a2dc09a50eac0fb0cd0493fe2e96cacfd7be846
+Size: 492320
+SHA256: c2ec8f45e7a853973bc3d7e3b774e24a01fe490df6a05a952d4d64f216518bd7
 
 Package: libxml2-dev
 Architecture: i686
@@ -5256,8 +5411,8 @@ Description: Development files for libxml2
 Homepage: http://www.xmlsoft.org
 Depends: libxml2
 Filename: dists/dom-dev/testing/binary-i686/libxml2-dev_2.9.8_i686.deb
-Size: 72040
-SHA256: 76e4bc485ce9093e77775f057ee9a87ff6c499b33e22329739b72dbecd4c606c
+Size: 72016
+SHA256: 34293200d2353c84042ba9bcb5aa5908229be11f72401a2054226d594f91f72a
 
 Package: libxml2-utils
 Architecture: i686
@@ -5268,8 +5423,8 @@ Description: XML utilities
 Homepage: http://www.xmlsoft.org
 Depends: libxml2
 Filename: dists/dom-dev/testing/binary-i686/libxml2-utils_2.9.8_i686.deb
-Size: 26576
-SHA256: cd5f82826b10ff3c23f169e96bca67bfad3e5b4d8e924b8460e19aa405254312
+Size: 26584
+SHA256: 71fc8acca7e7a135afb30ec7f83421831cc919b3369fafbd3f0b8153819046a0
 
 Package: libxml2
 Architecture: i686
@@ -5280,8 +5435,8 @@ Description: Library for parsing XML documents
 Homepage: http://www.xmlsoft.org
 Depends: liblzma
 Filename: dists/dom-dev/testing/binary-i686/libxml2_2.9.8_i686.deb
-Size: 401300
-SHA256: 9efc680448489d1cd198a35e1a9817bc20ac6ce1711b687f312c356a0fba021d
+Size: 401376
+SHA256: b12bcbc5daa30372759120c6a31c8b73fb8902ab0a6f42338ccd4f27285bf51c
 
 Package: libxslt-dev
 Architecture: i686
@@ -5316,8 +5471,8 @@ Description: Development files for libyaml
 Homepage: https://pyyaml.org/wiki/LibYAML
 Depends: libyaml
 Filename: dists/dom-dev/testing/binary-i686/libyaml-dev_0.2.1_i686.deb
-Size: 9112
-SHA256: 049695a6a35ecd9ab39cb2f648e14259cc81e96a1ca1a03a0c90c30c1e562f85
+Size: 9116
+SHA256: 4f3aea4605176f75b5409dc24dbf25fabe042a66d0c053c7e36fd26e4c7b92df
 
 Package: libyaml
 Architecture: i686
@@ -5328,7 +5483,7 @@ Description: LibYAML is a YAML 1.1 parser and emitter written in C
 Homepage: https://pyyaml.org/wiki/LibYAML
 Filename: dists/dom-dev/testing/binary-i686/libyaml_0.2.1_i686.deb
 Size: 36720
-SHA256: 4b4655a830bfad082a319b037b99f6109b9022de6f3636f55b9bca7b46b03873
+SHA256: 0fc2c5c892e13b62b0ac5bf476d1eed91b2d78b59db08efc3ca0baa585e9aeb9
 
 Package: libzmq-dev
 Architecture: i686
@@ -5339,8 +5494,8 @@ Description: Development files for libzmq
 Homepage: http://zeromq.org/
 Depends: libzmq
 Filename: dists/dom-dev/testing/binary-i686/libzmq-dev_4.2.5-1_i686.deb
-Size: 42996
-SHA256: fdef73f3b6a0b68631669438ea8d4067c65dc1543653d5ee7f416f9b1d3e8d68
+Size: 43004
+SHA256: 20cdd4824740029d138f5a9a02b7af61e5f1cfa47d487e2e117a0520409310c6
 
 Package: libzmq
 Architecture: i686
@@ -5352,7 +5507,7 @@ Homepage: http://zeromq.org/
 Depends: libsodium
 Filename: dists/dom-dev/testing/binary-i686/libzmq_4.2.5-1_i686.deb
 Size: 160724
-SHA256: 717e57fa4d69129056410e2a2ebe07f3346fec62457499c79419c0c64c34f401
+SHA256: 1f7e040b21abadfd068ceb75bad144684eb9c8521684aef52a86ddf3579ab769
 
 Package: libzopfli-dev
 Architecture: i686
@@ -5363,8 +5518,8 @@ Description: Development files for libzopfli
 Homepage: https://github.com/google/zopfli
 Depends: libzopfli
 Filename: dists/dom-dev/testing/binary-i686/libzopfli-dev_1.0.2-1_i686.deb
-Size: 9356
-SHA256: 0841bda15a56ece938a16a48dec280c9038f8c7753b9e21002f59ebee40b7b67
+Size: 9352
+SHA256: abe5eef10b70f5fe82090bba25919e166050eea40e8f6168657c478af2329fd0
 
 Package: libzopfli
 Architecture: i686
@@ -5374,8 +5529,8 @@ Version: 1.0.2-1
 Description: New zlib compatible compressor library
 Homepage: https://github.com/google/zopfli
 Filename: dists/dom-dev/testing/binary-i686/libzopfli_1.0.2-1_i686.deb
-Size: 19588
-SHA256: 48c1d20754b51796ed8f2cae38c4342b2614bd28ab67be4529b3cd11fd95d834
+Size: 19596
+SHA256: 7cb8418b09b84871473b771f70ce795021fc53cb6ef7b5524d9c26cabf2654f5
 
 Package: lighttpd
 Architecture: i686
@@ -5460,6 +5615,18 @@ Filename: dists/dom-dev/testing/binary-i686/ltrace_0.7.3.20160411-2_i686.deb
 Size: 91660
 SHA256: 5404868dd9b39dcaf1082c48190ab2b6d913fe2674e25b10acbb5ace8782fb55
 
+Package: ltrace
+Architecture: i686
+Installed-Size: 312
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.3.20160411-3
+Description: Tracks runtime library calls in dynamically linked programs
+Homepage: http://www.ltrace.org/
+Depends: libelf
+Filename: dists/dom-dev/testing/binary-i686/ltrace_0.7.3.20160411-3_i686.deb
+Size: 85148
+SHA256: 742ac31f9e5346b2a3d628a0ee4edccfd2a84eaafe87be3074ebc4a1314debb7
+
 Package: lua
 Architecture: i686
 Installed-Size: 332
@@ -5493,8 +5660,8 @@ Description: Fast LZ compression algorithm tool
 Homepage: https://lz4.github.io/lz4/
 Depends: liblz4
 Filename: dists/dom-dev/testing/binary-i686/lz4_1.8.2_i686.deb
-Size: 60144
-SHA256: 7f7a8a8803899a273ceaf6e721762d2a2a4ed058a927d63d039ee976f0f8f1c6
+Size: 60152
+SHA256: afee2d6e89a83620fb7b480971fec4a1a417ce032d043fe56a8287c2ce82102e
 
 Package: lzip
 Architecture: i686
@@ -5504,8 +5671,8 @@ Version: 1.20-1
 Description: Lossless data compressor similar to gzip and bzip2
 Homepage: http://www.nongnu.org/lzip/
 Filename: dists/dom-dev/testing/binary-i686/lzip_1.20-1_i686.deb
-Size: 43072
-SHA256: 306427ba53b460f9da094606758d8c4c758a2473f8d19e1ad75ed3411171f633
+Size: 43088
+SHA256: 05bb232e7436c3aaf3144bf3c3d2d744a264b342d1c74c27c782990cf1d7dc5c
 
 Package: lzop
 Architecture: i686
@@ -5516,8 +5683,8 @@ Description: File compressor using lzo lib.
 Homepage: https://www.lzop.org
 Depends: liblzo
 Filename: dists/dom-dev/testing/binary-i686/lzop_1.04_i686.deb
-Size: 31080
-SHA256: 0ece1549f9a766956c973f85d3bb5cc16f805b8f9a125ec7b27d686ac5bc01ee
+Size: 31076
+SHA256: 9b55c02ce5329e15d733361dd69e943928618684fb4e94504f20b22f9f62d904
 
 Package: m4
 Architecture: i686
@@ -5528,7 +5695,7 @@ Description: Traditional Unix macro processor
 Homepage: https://www.gnu.org/software/m4/m4.html
 Filename: dists/dom-dev/testing/binary-i686/m4_1.4.18_i686.deb
 Size: 89336
-SHA256: de68fa392312fb3f5ceaa6f5997bce6058d32bfc75c70f5a77206653ab9c5c84
+SHA256: 8ea77f6b84cfa56283705a0cf0afed54ebc35d91df581d468cf5209c93936c24
 
 Package: macchanger
 Architecture: i686
@@ -5538,8 +5705,8 @@ Version: 1.7.0
 Description: Utility that makes the maniputation of MAC addresses of network interfaces easier
 Homepage: https://github.com/alobbs/macchanger
 Filename: dists/dom-dev/testing/binary-i686/macchanger_1.7.0_i686.deb
-Size: 179240
-SHA256: b38fdaff3b4441c4e40aedab0e7f3dc1db878af2131d374f94b09fb670bf3c9d
+Size: 179208
+SHA256: 557b240343d8db2324eaba80c3e850ba18cc7df3643f757031e876ca462cb0f6
 
 Package: make-dev
 Architecture: i686
@@ -5550,8 +5717,8 @@ Description: Development files for make
 Homepage: https://www.gnu.org/software/make/
 Depends: make
 Filename: dists/dom-dev/testing/binary-i686/make-dev_4.2.1_i686.deb
-Size: 2192
-SHA256: f547a11db239e1fd4d5bdeaa7f0f68273ec9cac59f079b682bbb869b5b53f48c
+Size: 2196
+SHA256: 31a81b39330f6367dcb01e93022119128827a1df0714912a78f030688b5c1781
 
 Package: make
 Architecture: i686
@@ -5561,8 +5728,8 @@ Version: 4.2.1
 Description: Tool to control the generation of non-source files from source files
 Homepage: https://www.gnu.org/software/make/
 Filename: dists/dom-dev/testing/binary-i686/make_4.2.1_i686.deb
-Size: 85076
-SHA256: edb3d06bdc999c2f0c80befb03e07ffe576b3791d0d80a6d07418aea1ec92e99
+Size: 85084
+SHA256: 5d491d14182bdb473661baae996e73d5825c1747e125e64f196a16b14abf07df
 
 Package: man
 Architecture: i686
@@ -5622,8 +5789,8 @@ Description: Development files for mbedtls
 Homepage: https://tls.mbed.org/
 Depends: mbedtls
 Filename: dists/dom-dev/testing/binary-i686/mbedtls-dev_2.12.0_i686.deb
-Size: 161156
-SHA256: e911127ce68c82f44b16554ba18b049028ab894df5832f1dacf7150bbc22fd6c
+Size: 161148
+SHA256: 64d52ff891d840b40e70b751d9534d9bc54a69fd78521f2600feb1a3c32b7f06
 
 Package: mbedtls
 Architecture: i686
@@ -5633,8 +5800,8 @@ Version: 2.12.0
 Description: Light-weight cryptographic and SSL/TLS library
 Homepage: https://tls.mbed.org/
 Filename: dists/dom-dev/testing/binary-i686/mbedtls_2.12.0_i686.deb
-Size: 202508
-SHA256: 1f33eaeb2e4017573241305c428361247f3830169b199c31e0cc81c71956eb34
+Size: 202688
+SHA256: b5f3d1d35efe4859f85499fd5169db431b4357e1650d761434b8322649f216f2
 
 Package: mc
 Architecture: i686
@@ -5681,8 +5848,8 @@ Description: Development files for memcached
 Homepage: https://memcached.org/
 Depends: memcached
 Filename: dists/dom-dev/testing/binary-i686/memcached-dev_1.5.10_i686.deb
-Size: 3596
-SHA256: 45524499afad52f00eab3c6bf74f0bc8b4de006172c0348cd18d2c5f9334373a
+Size: 3592
+SHA256: 94162a4d04652e72a8a141983bdaf18360a868ab3890e2ebb7a88a9d93b02413
 
 Package: memcached
 Architecture: i686
@@ -5693,8 +5860,8 @@ Description: Free & open source, high-performance, distributed memory object cac
 Homepage: https://memcached.org/
 Depends: libevent, libsasl
 Filename: dists/dom-dev/testing/binary-i686/memcached_1.5.10_i686.deb
-Size: 61440
-SHA256: 701983cd756bbc030110e95635f784e712e91e8bc7c628c6da03496e4da7e82a
+Size: 61460
+SHA256: 99600cca86d520fbe525169d2e314afe6ef8a2d097319d47ac1ae9e6c2bc9a2d
 
 Package: micro
 Architecture: i686
@@ -5704,8 +5871,8 @@ Version: 1.4.1
 Description: Modern and intuitive terminal-based text editor
 Homepage: https://micro-editor.github.io/
 Filename: dists/dom-dev/testing/binary-i686/micro_1.4.1_i686.deb
-Size: 3145272
-SHA256: fa527cdd3ce27a74bef7eb7adae4c520a74f798a71deec0ab6db88ba96f95d13
+Size: 3145320
+SHA256: bce3b9bfbafaa96a19114d2973969bb93fc532d0a713c89251432d486ee45547
 
 Package: minicom
 Architecture: i686
@@ -5728,8 +5895,8 @@ Description: Tool to find files anywhere in the filesystem based on their name
 Homepage: https://pagure.io/mlocate
 Depends: libandroid-support
 Filename: dists/dom-dev/testing/binary-i686/mlocate_0.26-3_i686.deb
-Size: 35048
-SHA256: baa28d5f10fd0d654c46a58af003cf938f5ed6eb24d605a52c8225f435fa59be
+Size: 35044
+SHA256: 3b760ce26fc7228e47fe406185c198ce219eaf67ccc32463744cae7e26e2b2dd
 
 Package: moon-buggy
 Architecture: i686
@@ -5800,8 +5967,8 @@ Description: Minimalist command line interface for MPD
 Homepage: https://www.musicpd.org/clients/mpc/
 Depends: libmpdclient
 Filename: dists/dom-dev/testing/binary-i686/mpc_0.30_i686.deb
-Size: 144328
-SHA256: 526a1b81d1c6ba59289258be8c995c21095ca95261b17ebaf6ee41f9ea0ca53c
+Size: 144360
+SHA256: c87fb06c92e3779fa5ae84bf18a7f80fa1a96155c26c71ad5ebab7934623de63
 
 Package: mpd
 Architecture: i686
@@ -5848,8 +6015,8 @@ Description: Tool for manipulating FAT images.
 Homepage: https://www.gnu.org/software/mtools/
 Depends: libandroid-support
 Filename: dists/dom-dev/testing/binary-i686/mtools_4.0.18_i686.deb
-Size: 88008
-SHA256: 3f38a0cd6bb035833d852863374a8a98c90864d9fc63286609e74605f892ca29
+Size: 88084
+SHA256: 123a30a17ebf61667156c1b96ad473f6908e86af34fc072d69210b1d227cae30
 
 Package: multitail
 Architecture: i686
@@ -5932,8 +6099,8 @@ Description: Development files for ncurses
 Homepage: http://invisible-island.net/ncurses/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/ncurses-dev_6.1.20180707_i686.deb
-Size: 151256
-SHA256: 6ed39ab398cfe847548e0308a708ce805f7a2846570d39c17f0464d46f86621a
+Size: 151212
+SHA256: 003aabaa69d0439e2083bfabf52879c53b632806570cc73735ec6893bd5d2f09
 
 Package: ncurses-ui-libs
 Architecture: i686
@@ -5944,8 +6111,8 @@ Description: Libraries for terminal user interfaces based on ncurses
 Homepage: http://invisible-island.net/ncurses/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/ncurses-ui-libs_6.1.20180707_i686.deb
-Size: 30568
-SHA256: 6c6efb84a6fd2599a611bdcb0c38d5d0f7fb4b6c0678e04b737bb50a2d795352
+Size: 30584
+SHA256: 0af6448821dd4685a483919cf24f05bb381296fbd0e058b02607aaaf25c3c748
 
 Package: ncurses-utils
 Architecture: i686
@@ -5956,8 +6123,8 @@ Description: Tools for working with terminals
 Homepage: http://invisible-island.net/ncurses/
 Depends: ncurses
 Filename: dists/dom-dev/testing/binary-i686/ncurses-utils_6.1.20180707_i686.deb
-Size: 49660
-SHA256: 7a6482c1c590b36daa90b5b49f1217145ef24dd1fbd8c6564142dfa28a02625a
+Size: 49732
+SHA256: 149d4bf341b7d3eb32dc12da352cccfecc16f05b451ac7e3d79dac26cfbc1f5c
 
 Package: ncurses
 Architecture: i686
@@ -5967,8 +6134,8 @@ Version: 6.1.20180707
 Description: Library for text-based user interfaces in a terminal-independent manner
 Homepage: http://invisible-island.net/ncurses/
 Filename: dists/dom-dev/testing/binary-i686/ncurses_6.1.20180707_i686.deb
-Size: 143292
-SHA256: 74523742c69e989b575d1b016e491dcafdd180699e567df649578587d3de6131
+Size: 143360
+SHA256: 9dbd4a1848c2dafb50266b506d4b756f57579db81e8a238600d17c43d5c23429
 
 Package: ndk-stl
 Architecture: i686
@@ -5978,8 +6145,8 @@ Version: 17-4
 Description: Header files from the Android NDK needed for compiling C++ programs using STL
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Filename: dists/dom-dev/testing/binary-i686/ndk-stl_17-4_i686.deb
-Size: 365760
-SHA256: 311f74c55285295322c58c7319097dacb4964c84a7a35a1ca48847762820310a
+Size: 365720
+SHA256: 24923878dea5600250335e08ccc2138fcba4800783ffcd9deaa9ce919ebd4165
 
 Package: ndk-sysroot
 Architecture: i686
@@ -5992,8 +6159,8 @@ Depends: libandroid-support-dev
 Conflicts: libutil-dev, libgcc
 Replaces: libutil-dev, libgcc
 Filename: dists/dom-dev/testing/binary-i686/ndk-sysroot_17-8_i686.deb
-Size: 2816520
-SHA256: 5b246f0b3acaa294442ebe2147baa8c3f18ff668855b02b67843ef36605170f3
+Size: 2817156
+SHA256: 6743b41717a03783386bbf97c68d79983613247c7db89fbb21db1f524d6f8ffe
 
 Package: ne
 Architecture: i686
@@ -6027,8 +6194,8 @@ Version: 1.60.2017.02.21-1
 Description: Configuration tools for Linux networking
 Homepage: http://net-tools.sourceforge.net/
 Filename: dists/dom-dev/testing/binary-i686/net-tools_1.60.2017.02.21-1_i686.deb
-Size: 97832
-SHA256: a0b4b34ba453ce5b5ecbd272faed75f30d5c201209e8da0b1f50fd3f630ecd55
+Size: 97844
+SHA256: 86c13a1184ec0743b861cc25350a9dbb5cb23ca9e947002780f93543373e7393
 
 Package: netcat
 Architecture: i686
@@ -6075,8 +6242,8 @@ Description: Low level cryptographic tools
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Depends: libnettle
 Filename: dists/dom-dev/testing/binary-i686/nettle_3.4_i686.deb
-Size: 17096
-SHA256: 1a85fda50ee895780165b2c1943c7333346bec4549dede67c6780718e4efd88a
+Size: 17100
+SHA256: b07d3a9d1900b1e186f58a648389fd9be792f829c12a4f78ce3268c32ccff7f1
 
 Package: newsboat
 Architecture: i686
@@ -6113,7 +6280,7 @@ Description: A small build system with a focus on speed
 Homepage: https://ninja-build.org
 Filename: dists/dom-dev/testing/binary-i686/ninja_1.8.2-1_i686.deb
 Size: 55064
-SHA256: d166291b50846f539be24bb184224ffc11e038d2661628fe9798810f4f236d45
+SHA256: 975811c38868264c0fc5595d0c8fea8d7f5693005b9325cd4696887d843b9e52
 
 Package: nmap
 Architecture: i686
@@ -6209,8 +6376,8 @@ Version: 1.5.1
 Description: Nyancat in your terminal, rendered through ANSI escape sequences.
 Homepage: http://nyancat.dakko.us
 Filename: dists/dom-dev/testing/binary-i686/nyancat_1.5.1_i686.deb
-Size: 8984
-SHA256: ee543b7a3919354d2edac1c82e341cf176e6d32c9bb8835bc2ee0b58c2a9a260
+Size: 8972
+SHA256: 3b9bcd7f8375d4c0e5b01074b150701087620eed40aca8a98dd2d90e494acbd6
 
 Package: nzbget
 Architecture: i686
@@ -6258,7 +6425,7 @@ Homepage: https://www.gnu.org/software/ocrad/ocrad.html
 Depends: ocrad
 Filename: dists/dom-dev/testing/binary-i686/ocrad-dev_0.26-1_i686.deb
 Size: 1984
-SHA256: b74e92520370041be72ec7324f1ad93bc225cf03e15aa3cdbd1696dc81aa045e
+SHA256: 886f244aa2ff09985e10da5fdb89a93cae7e103acf0948fb5708b317842549a0
 
 Package: ocrad
 Architecture: i686
@@ -6268,8 +6435,8 @@ Version: 0.26-1
 Description: Optical Character Recognition program based on a feature extraction method
 Homepage: https://www.gnu.org/software/ocrad/ocrad.html
 Filename: dists/dom-dev/testing/binary-i686/ocrad_0.26-1_i686.deb
-Size: 108584
-SHA256: 3bb6477d5d3c6c45b455c9a0ad7e352ffa3d5e54f98950657f172ff194ee6ce8
+Size: 108604
+SHA256: f5db41d681a48c7a928fb1dee6617949ee20cbd17be94a361df586515fec6357
 
 Package: openal-soft-dev
 Architecture: i686
@@ -6280,8 +6447,8 @@ Description: Development files for openal-soft
 Homepage: http://kcat.strangesoft.net/openal.html
 Depends: openal-soft
 Filename: dists/dom-dev/testing/binary-i686/openal-soft-dev_1.18.2_i686.deb
-Size: 18464
-SHA256: 3ea12196ba1e9945eb9c02b1ab3891700d1a4c7f57ddaa969c539be6c1c290b9
+Size: 18452
+SHA256: 7e89fe8531af4886e938feff00dabfd409fefb6574e8da18add9815ba3d1c124
 
 Package: openal-soft
 Architecture: i686
@@ -6291,8 +6458,8 @@ Version: 1.18.2
 Description: Software implementation of the OpenAL API
 Homepage: http://kcat.strangesoft.net/openal.html
 Filename: dists/dom-dev/testing/binary-i686/openal-soft_1.18.2_i686.deb
-Size: 299644
-SHA256: f8e741485261ce54c60d76f8d7b01651af1a68a3c2f7229a21520cf8e95cc15d
+Size: 298948
+SHA256: d6370cb57305a711a7f5b11ed06afa0864bf91f7d7f222d07341273925c78063
 
 Package: openjpeg-dev
 Architecture: i686
@@ -6354,6 +6521,18 @@ Filename: dists/dom-dev/testing/binary-i686/openssl-dev_1.0.2o-2_i686.deb
 Size: 218420
 SHA256: 14b5d4c7d5cb40d2f0ae4e387fbd2b83eeb498b05de67d69d19305e26c80783f
 
+Package: openssl-dev
+Architecture: i686
+Installed-Size: 1896
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.2p
+Description: Development files for openssl
+Homepage: https://www.openssl.org/
+Depends: openssl
+Filename: dists/dom-dev/testing/binary-i686/openssl-dev_1.0.2p_i686.deb
+Size: 219348
+SHA256: 0fc6d5432fd597da46284a8f98b715d2babe556785de13256dd7d2f88e3e6b7d
+
 Package: openssl-tool
 Architecture: i686
 Installed-Size: 524
@@ -6365,6 +6544,18 @@ Depends: openssl
 Filename: dists/dom-dev/testing/binary-i686/openssl-tool_1.0.2o-2_i686.deb
 Size: 164628
 SHA256: 46897b1abbbc00364f2e7c8035b3efbe7f735370e570bc974ffafb8799a1e920
+
+Package: openssl-tool
+Architecture: i686
+Installed-Size: 520
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.2p
+Description: The openssl command line cryptographic tool
+Homepage: https://www.openssl.org/
+Depends: openssl
+Filename: dists/dom-dev/testing/binary-i686/openssl-tool_1.0.2p_i686.deb
+Size: 164252
+SHA256: f2c7fe1b7e597d8f107c59d76bfa103cddb1d3abe4735d7cf0b34a4f90ff0a45
 
 Package: openssl
 Architecture: i686
@@ -6378,6 +6569,18 @@ Filename: dists/dom-dev/testing/binary-i686/openssl_1.0.2o-2_i686.deb
 Size: 606472
 SHA256: a0b610541116b6d5649ce32fa4d82de62a3bf1847ec93f45c676bd9d27bcbbe0
 
+Package: openssl
+Architecture: i686
+Installed-Size: 1784
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.2p
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+Homepage: https://www.openssl.org/
+Depends: ca-certificates
+Filename: dists/dom-dev/testing/binary-i686/openssl_1.0.2p_i686.deb
+Size: 607412
+SHA256: fae0d389e25b9f818afe9d67c5f20e454feb7f9db242f484ff16df98e254bd76
+
 Package: optipng
 Architecture: i686
 Installed-Size: 124
@@ -6387,8 +6590,8 @@ Description: PNG optimizer that recompresses image files to a smaller size, with
 Homepage: http://optipng.sourceforge.net/
 Depends: libpng
 Filename: dists/dom-dev/testing/binary-i686/optipng_0.7.7_i686.deb
-Size: 35168
-SHA256: 67fcc567b00a9adcfdf7b05d1e80201035acaf9c1374d8920ef4cf3dc92ffa79
+Size: 35184
+SHA256: 646616ae0c432585c4893e1b1b9023270f28f9861d0b335d5884025d2e7aa825
 
 Package: opus-tools
 Architecture: i686
@@ -6412,7 +6615,7 @@ Homepage: https://www.opus-codec.org/
 Depends: opusfile
 Filename: dists/dom-dev/testing/binary-i686/opusfile-dev_0.10_i686.deb
 Size: 22444
-SHA256: cf16b2ca5138b79b27b97a4819f64d626b69aadbca8f80b92b179d29c8281788
+SHA256: 97b7b859221e7a33d0ba5af46427e9545ef310188c7cd39eb134dcf7ab20999b
 
 Package: opusfile
 Architecture: i686
@@ -6423,8 +6626,8 @@ Description: A high-level API for decoding and seeking within .opus files
 Homepage: https://www.opus-codec.org/
 Depends: libopus, libogg
 Filename: dists/dom-dev/testing/binary-i686/opusfile_0.10_i686.deb
-Size: 22484
-SHA256: f65c388eb26646c01daf885c57a0c76d787b55acd4074e69038675703a479bf3
+Size: 22472
+SHA256: 532a9f4982d17348d9ee28b9bcf95d7998e3b344aa5417fac749d99707f85896
 
 Package: p7zip
 Architecture: i686
@@ -6434,8 +6637,8 @@ Version: 16.02-1
 Description: Command-line version of the 7zip compressed file archiver
 Homepage: http://p7zip.sourceforge.net/
 Filename: dists/dom-dev/testing/binary-i686/p7zip_16.02-1_i686.deb
-Size: 1120504
-SHA256: 20a29f7a3bd2492f4d23785a86e22839e0529ac9d80dd1303080cf80c1dd89e9
+Size: 1118948
+SHA256: c726aa4eaaa7ba44e0f7f55d5edf75eb072cf8e7d0b0b3add4ced0eb1d02131e
 
 Package: pango-dev
 Architecture: i686
@@ -6469,8 +6672,8 @@ Version: 0.8.0
 Description: par2cmdline is a PAR 2.0 compatible file verification and repair tool.
 Homepage: https://github.com/Parchive/par2cmdline
 Filename: dists/dom-dev/testing/binary-i686/par2_0.8.0_i686.deb
-Size: 246640
-SHA256: 45f7bacc7de74b2fce0ed08f6c5560c95c9046a0004f3d7e83403f67051b3475
+Size: 246584
+SHA256: 2df6d1356dc215d75737a420927ef7d4ef3f486f384767ce44f3ad53cb5b3ccb
 
 Package: parted-dev
 Architecture: i686
@@ -6504,8 +6707,8 @@ Version: 2.7.6-1
 Description: GNU patch which applies diff files to create patched files
 Homepage: https://savannah.gnu.org/projects/patch/
 Filename: dists/dom-dev/testing/binary-i686/patch_2.7.6-1_i686.deb
-Size: 82796
-SHA256: cbf62fd73c8275d475f45e565efd5241e54c029dba1072bdd99df4dadb4008bf
+Size: 82804
+SHA256: e449e94a97657591fed832e52d347d9b874835dfc22685b793c7db569db4141d
 
 Package: patchelf
 Architecture: i686
@@ -6515,8 +6718,8 @@ Version: 0.9.0.1-1
 Description: Utility to modify the dynamic linker and RPATH of ELF executables
 Homepage: https://nixos.org/patchelf.html
 Filename: dists/dom-dev/testing/binary-i686/patchelf_0.9.0.1-1_i686.deb
-Size: 54296
-SHA256: 89b85b2cdf09343fb1a89af5791acf6f4bd15aabf4a84379089f313d1e3482d7
+Size: 54284
+SHA256: 585a3cd204615afe425dc28490743f0be5a308dcbda31b4a2b8106288319a67c
 
 Package: pcre-dev
 Architecture: i686
@@ -6527,8 +6730,8 @@ Description: Development files for pcre
 Homepage: https://www.pcre.org
 Depends: pcre
 Filename: dists/dom-dev/testing/binary-i686/pcre-dev_8.42_i686.deb
-Size: 122984
-SHA256: 78953373f6cb04711d6ab3b3ee4d44c3af1be329f9d7f865a97aa9614e2505b2
+Size: 122948
+SHA256: 3da8ce7eaa34665d859609bc26ee8a013aca8e979a053173d65d66c7bc9c6b4f
 
 Package: pcre2-dev
 Architecture: i686
@@ -6539,8 +6742,8 @@ Description: Development files for pcre2
 Homepage: https://www.pcre.org
 Depends: pcre2
 Filename: dists/dom-dev/testing/binary-i686/pcre2-dev_10.31_i686.deb
-Size: 135564
-SHA256: e636785e9cc5999a704796de3a0e3813aea69bc8059a433777546286ff86ada5
+Size: 135592
+SHA256: 14f7f70fe7e1cb1b9d29960212faaf08aaa32705973fa555a7e417a5b09ea5d8
 
 Package: pcre2
 Architecture: i686
@@ -6550,8 +6753,8 @@ Version: 10.31
 Description: Perl 5 compatible regular expression library
 Homepage: https://www.pcre.org
 Filename: dists/dom-dev/testing/binary-i686/pcre2_10.31_i686.deb
-Size: 300532
-SHA256: 7dbdef33542ce010819d903b8eed7fa6c6f732d469f8d8db80841cfcf5e75d11
+Size: 300576
+SHA256: 620c3c3397ddae183d00dd0c75d4c01dc4a0d438ab0567b4304b2fc28ac68282
 
 Package: pcre
 Architecture: i686
@@ -6561,8 +6764,8 @@ Version: 8.42
 Description: Library implementing regular expression pattern matching using the same syntax and semantics as Perl 5
 Homepage: https://www.pcre.org
 Filename: dists/dom-dev/testing/binary-i686/pcre_8.42_i686.deb
-Size: 123136
-SHA256: a12c7a0b58570bd4d0f10dec4658e4dc8b7422b503e05a68b0ddec70a9b14e2d
+Size: 123176
+SHA256: d79c19c241047710b3e194b6cb909fa9a836937efede558eb090f882ab6897fc
 
 Package: perl
 Architecture: i686
@@ -6572,8 +6775,8 @@ Version: 5.26.2-1
 Description: Capable, feature-rich programming language
 Homepage: https://www.perl.org/
 Filename: dists/dom-dev/testing/binary-i686/perl_5.26.2-1_i686.deb
-Size: 10385832
-SHA256: 146178667dc9d8da37a0c00ff0234c6d28a59ca6bfd714c78fac01e8c095fd80
+Size: 10401888
+SHA256: 5e228ef9619b1dd375ded67b220bcff617b08262cae47eba53d55c27759cbf92
 
 Package: pforth
 Architecture: i686
@@ -6583,8 +6786,8 @@ Version: 20180513
 Description: Portable Forth in C
 Homepage: http://www.softsynth.com/pforth/
 Filename: dists/dom-dev/testing/binary-i686/pforth_20180513_i686.deb
-Size: 37268
-SHA256: 926aed0c8709238814ebe72f090e4bb9743ca18d59d8aa5a2bbf02b7644de03e
+Size: 37240
+SHA256: 88949d154d986002aff9a1a18300e369e8ab88996802f276868f687d01c1d585
 
 Package: php-apache
 Architecture: i686
@@ -6692,8 +6895,8 @@ Version: 0.5-1
 Description: Simple commandline audio player for Android
 Homepage: https://github.com/termux/play-audio
 Filename: dists/dom-dev/testing/binary-i686/play-audio_0.5-1_i686.deb
-Size: 4256
-SHA256: d81522329b578f3d5cd9a6bb2dd2156135030be66ccfbb4e38711aee65f12087
+Size: 4252
+SHA256: a651b66574836be2d0cbe098e6775752a021f1c3a5852232d5d3b307aafd321a
 
 Package: pngquant
 Architecture: i686
@@ -6765,8 +6968,8 @@ Version: 1.15
 Description: Tool for transforming a bitmap into a smooth, scalable image
 Homepage: http://potrace.sourceforge.net
 Filename: dists/dom-dev/testing/binary-i686/potrace_1.15_i686.deb
-Size: 59692
-SHA256: 9592f8cd4cea684715fd5061da27f640126f232e0250a903793daa3afe9ae2c0
+Size: 59708
+SHA256: 7745717826445ad481c32e47f2c792fca1cfe0aee9b969613023539739398d8e
 
 Package: privoxy
 Architecture: i686
@@ -6776,8 +6979,8 @@ Version: 3.0.26-1
 Description: Non-caching web proxy with advanced filtering capabilities
 Homepage: https://www.privoxy.org
 Filename: dists/dom-dev/testing/binary-i686/privoxy_3.0.26-1_i686.deb
-Size: 449920
-SHA256: b0031b4e78468f2bbb6ba53c582a45bd3c1f7b51e10d886970355ab38bf796f8
+Size: 449788
+SHA256: e3076fed0263ef3ed203c8af9b6063f00fdf4d113824522cf8cf9e887f1e8b9e
 
 Package: procps-dev
 Architecture: i686
@@ -6836,8 +7039,8 @@ Description: Emulate chroot, bind mount and binfmt_misc for non-root users
 Homepage: https://proot-me.github.io/
 Depends: libtalloc
 Filename: dists/dom-dev/testing/binary-i686/proot_5.1.107-15_i686.deb
-Size: 60316
-SHA256: 93470385685a237eed34b0840ffaea762e3c5ac704963250e8fdbbe8bcc80d90
+Size: 60320
+SHA256: 7ce0b6310d724d5ab0a39c7f98208caf47218ca285559583a318e5defb2e8f2a
 
 Package: protobuf
 Architecture: i686
@@ -6848,8 +7051,8 @@ Description: Compiler for protocol buffer definition files
 Homepage: https://github.com/google/protobuf
 Depends: libprotobuf
 Filename: dists/dom-dev/testing/binary-i686/protobuf_3.6.1_i686.deb
-Size: 556704
-SHA256: c0d16d30ec9b1bc4dd6e8cee601b549c434722e721a4613e2985904234182971
+Size: 557268
+SHA256: 1920875676130bdb2705361286604a6cac4f7bbe3260575e304b05e363207b43
 
 Package: psmisc
 Architecture: i686
@@ -6895,8 +7098,8 @@ Version: 1.6.6
 Description: Terminal-based tool for monitoring the progress of data through a pipeline
 Homepage: http://www.ivarch.com/programs/pv.shtml
 Filename: dists/dom-dev/testing/binary-i686/pv_1.6.6_i686.deb
-Size: 25344
-SHA256: e43b86cd81bdb905249090d9dae9470a078c3e07700a565f67af2cb78a5e7a25
+Size: 25336
+SHA256: 510caa5f35978d8e17a7f1566f9f62e64430f9941e999ae0de878003cb39bb23
 
 Package: pwgen
 Architecture: i686
@@ -6907,7 +7110,7 @@ Description: Password generator which by default, unless given the '-s' option, 
 Homepage: http://pwgen.sourceforge.net/
 Filename: dists/dom-dev/testing/binary-i686/pwgen_2.08_i686.deb
 Size: 10392
-SHA256: 8d2fe9f2418fad2d99a05039966c1db0300d375e2192c3e4e6e95ec1b9e75a9c
+SHA256: 26397e757e4bbd23722b46141b9c577daee7dc43095c2fa30203f64b72558b27
 
 Package: python-dev
 Architecture: i686
@@ -6992,7 +7195,7 @@ Homepage: http://qpdf.sourceforge.net
 Depends: qpdf
 Filename: dists/dom-dev/testing/binary-i686/qpdf-dev_8.1.0_i686.deb
 Size: 42452
-SHA256: b6a025fe23f2e2c163e3c9c2b7b4d7c8151c9a6a500e88497f35d30df752a02b
+SHA256: ed40f0ea091243c50648d16dac12ae784f63567290119ea2005a50871c5a64d0
 
 Package: qpdf
 Architecture: i686
@@ -7003,8 +7206,8 @@ Description: Content-Preserving PDF Transformation System
 Homepage: http://qpdf.sourceforge.net
 Depends: libjpeg-turbo
 Filename: dists/dom-dev/testing/binary-i686/qpdf_8.1.0_i686.deb
-Size: 313544
-SHA256: d50274ccfcebcfdb8404797fab6dc8d95d8a9b8e7a9245be59799b2f3de0bee2
+Size: 312964
+SHA256: 4e8a34c2b1d9b1c659f54ea093adef1c71ce8840637a95d7ed923264196d4f6f
 
 Package: radare2-dev
 Architecture: i686
@@ -7015,8 +7218,8 @@ Description: Development files for radare2
 Homepage: https://rada.re
 Depends: radare2
 Filename: dists/dom-dev/testing/binary-i686/radare2-dev_2.8.0_i686.deb
-Size: 148996
-SHA256: cabe39f559587084778e06d63e4a3cac3d88fbc5778d44c846025e17c29bbc1e
+Size: 148960
+SHA256: 8e0cc4b691f4f8167980aa9a4c75e3377fd024e146dc2c7b43876f3e17ce7cfb
 
 Package: radare2
 Architecture: i686
@@ -7026,8 +7229,8 @@ Version: 2.8.0
 Description: Advanced Hexadecimal Editor
 Homepage: https://rada.re
 Filename: dists/dom-dev/testing/binary-i686/radare2_2.8.0_i686.deb
-Size: 4065396
-SHA256: d1b3cf8453856ffc56969529b07e6cef1fc53d1a27515f9787a6c76a802227b9
+Size: 4066672
+SHA256: 01536bd4c378adb8c282d29511a9a9f9fae3a8e0f01cdacb809ed9330ccb11ce
 
 Package: ragel
 Architecture: i686
@@ -7037,8 +7240,8 @@ Version: 6.10-1
 Description: Compiles finite state machines from regular languages into executable C, C++, Objective-C, or D code
 Homepage: https://www.colm.net/open-source/ragel/
 Filename: dists/dom-dev/testing/binary-i686/ragel_6.10-1_i686.deb
-Size: 359416
-SHA256: 8b7134fbc3a2e8823daa5bd694e6710fd3f237f15edf0fc7ae37622e89adb92a
+Size: 359296
+SHA256: 26be5b0ca938183d424b42276daf2b5f820752d571557ca7ac60f7aa6d09c6ea
 
 Package: rclone
 Architecture: i686
@@ -7048,8 +7251,8 @@ Version: 1.42
 Description: rsync for cloud storage
 Homepage: https://rclone.org/
 Filename: dists/dom-dev/testing/binary-i686/rclone_1.42_i686.deb
-Size: 5315836
-SHA256: e47fb8ed3f67d3eccf4e0d8433b4f96991c2b81105d7df8719b31d533b1c5c35
+Size: 5315344
+SHA256: f22d19eba1e4dae99e7e6044e28079d3db3b703cf458244888a43925a1048079
 
 Package: rcs
 Architecture: i686
@@ -7065,8 +7268,8 @@ Description: The GNU Revision Control System
 Homepage: https://www.gnu.org/s/rcs
 Depends: diffutils
 Filename: dists/dom-dev/testing/binary-i686/rcs_5.9.4-2_i686.deb
-Size: 107296
-SHA256: 6e965a6a72f5902d35060b5618ad6e8ce03608a7517d5aff59e7f1433bed9c5f
+Size: 107372
+SHA256: 4d083f9114175992b99838d89d6ef9de7afaab8d4bf7e66dfec3f616e2d70be2
 
 Package: rdiff
 Architecture: i686
@@ -7112,8 +7315,8 @@ Version: 3.2
 Description: TCP port redirector for UNIX
 Homepage: https://github.com/troglobit/redir
 Filename: dists/dom-dev/testing/binary-i686/redir_3.2_i686.deb
-Size: 9508
-SHA256: bdf1eea8059b4a0f54ad62cca5d07c73a53e78cef63ec7154ef12f21a1741013
+Size: 9504
+SHA256: 6f610c04a70f059f3cc0ef8489f1ebe9fd4df295e56c3a1a1fa0dfa3ea811d10
 
 Package: redis
 Architecture: i686
@@ -7123,8 +7326,8 @@ Version: 4.0.11
 Description: In-memory data structure store used as a database, cache and message broker
 Homepage: https://redis.io/
 Filename: dists/dom-dev/testing/binary-i686/redis_4.0.11_i686.deb
-Size: 390080
-SHA256: 56bf96f6fbf134e156911202ba85b5cc1e3d1aba910aa8d9d2dc04bfa2cb18ec
+Size: 389972
+SHA256: 2f7f482d6a63cf80f956afa97d13d6bb0cfcdacd3d05f0e67a43ad5e2649e0e7
 
 Package: remind
 Architecture: i686
@@ -7135,8 +7338,8 @@ Description: Sophisticated calendar and alarm program
 Homepage: https://www.roaringpenguin.com/products/remind
 Depends: libandroid-glob
 Filename: dists/dom-dev/testing/binary-i686/remind_3.1.15-1_i686.deb
-Size: 114752
-SHA256: e3c80244e4a124b90392014b66e76272c7ffd3ef6e6257015a43c6b3a4f97a70
+Size: 114764
+SHA256: 9c9302c5dc3215e05325b297b8354966372baf70e25c616d964c6fe588ed8223
 
 Package: resolv-conf
 Architecture: i686
@@ -7147,7 +7350,7 @@ Description: Resolver configuration file
 Homepage: http://man7.org/linux/man-pages/man5/resolv.conf.5.html
 Filename: dists/dom-dev/testing/binary-i686/resolv-conf_1.1_i686.deb
 Size: 856
-SHA256: 45ff99b9eb58eaf0eadb3a9fdd6eda79f41df9264e8ddfaff8f73c33407b767d
+SHA256: 64adca7d464bca3c81fc335abea0532ab44dab2bcf6816ebdc143c30d1c0d6f1
 
 Package: rgbds
 Architecture: i686
@@ -7158,8 +7361,8 @@ Description: Rednex Game Boy Development System
 Homepage: https://rednex.github.io/rgbds/
 Depends: libpng
 Filename: dists/dom-dev/testing/binary-i686/rgbds_0.3.7_i686.deb
-Size: 79680
-SHA256: e2b243507456d2fdac7bc20029a3fe88049a6be9ece50431931bd634d857ffe1
+Size: 79692
+SHA256: ef6c13b74e53ed940135ce2fdf1e0343b42e9d219cce9f33252309ca941b8419
 
 Package: rhash-dev
 Architecture: i686
@@ -7291,8 +7494,8 @@ Version: 4.5
 Description: GNU stream editor for filtering/transforming text
 Homepage: https://www.gnu.org/software/sed/
 Filename: dists/dom-dev/testing/binary-i686/sed_4.5_i686.deb
-Size: 69960
-SHA256: c4ba79dbc1b18b1e23ce9a7908c479a5b05cb24119259308031050b926446cd7
+Size: 69984
+SHA256: f472e8e1b38b6320c06946fd907c75b1288e41c9d5ec0854d7fdec56dea4e950
 
 Package: sensible-utils
 Architecture: i686
@@ -7302,8 +7505,8 @@ Version: 0.0.9-1
 Description: Small utilities used by programs to sensibly select and spawn an appropriate browser, editor, or pager
 Homepage: https://packages.debian.org/sid/sensible-utils
 Filename: dists/dom-dev/testing/binary-i686/sensible-utils_0.0.9-1_i686.deb
-Size: 2932
-SHA256: 264a0ac736e477e27d1660eb6a4d2754d9dfe9b5759038585660a603f5be4e7a
+Size: 2936
+SHA256: 80f157362a01db8dcf5d39e384ad6326aaef3dfda19ea436f674de79e7f124bf
 
 Package: serf-dev
 Architecture: i686
@@ -7338,8 +7541,8 @@ Description: Utilities for packaging and unpackaging shell archives
 Homepage: https://www.gnu.org/software/sharutils/
 Depends: libandroid-support
 Filename: dists/dom-dev/testing/binary-i686/sharutils_4.15.2-1_i686.deb
-Size: 88312
-SHA256: d3c8036f24e1482fbb6c30ae300bc2645fba50ff07f080e65b43c17d7f72f366
+Size: 88200
+SHA256: 134790691a3571653314617ce46bf58ac6fca27d9b21d47d2b844d2efa5ff2f9
 
 Package: silversearcher-ag
 Architecture: i686
@@ -7433,8 +7636,8 @@ Version: 1.06
 Description: Noninteractive ssh password provider
 Homepage: http://sourceforge.net/projects/sshpass/
 Filename: dists/dom-dev/testing/binary-i686/sshpass_1.06_i686.deb
-Size: 7056
-SHA256: 3fc4ed48de2d4ece431105ea94452706b4fa0728e062887bdf2c245dfd12e28d
+Size: 7060
+SHA256: a5b8f59fd5f79f3b05686e6062c95699defbeca9f6355f58601c7c51e3ea06ea
 
 Package: sslscan
 Architecture: i686
@@ -7495,6 +7698,17 @@ Filename: dists/dom-dev/testing/binary-i686/strace_4.23_i686.deb
 Size: 198448
 SHA256: e4114e1dc2bd98671fce5f2034704a222198f0c41a2cbf6b06ebf4962c81aac7
 
+Package: strace
+Architecture: i686
+Installed-Size: 740
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.24
+Description: Debugging utility to monitor system calls and signals received
+Homepage: https://strace.io/
+Filename: dists/dom-dev/testing/binary-i686/strace_4.24_i686.deb
+Size: 200924
+SHA256: b2eded9805ab215660ba1c66fcfa6301ae195fab14b2bb6919387cca0ea8248f
+
 Package: stunnel
 Architecture: i686
 Installed-Size: 256
@@ -7539,8 +7753,8 @@ Version: 0.14.49
 Description: Decentralized file synchronization
 Homepage: https://syncthing.net/
 Filename: dists/dom-dev/testing/binary-i686/syncthing_0.14.49_i686.deb
-Size: 5437720
-SHA256: 49738964a0697138754fff4ba870cc06b3fdb7709df5831f4042d249016bd074
+Size: 5439100
+SHA256: 8a75667bf2d4c64df5c738ce4e545ce6e369314d9684c4a5a798d715071881d0
 
 Package: tar
 Architecture: i686
@@ -7551,8 +7765,8 @@ Description: GNU tar for manipulating tar archives
 Homepage: https://www.gnu.org/software/tar/
 Depends: xz-utils
 Filename: dists/dom-dev/testing/binary-i686/tar_1.30-1_i686.deb
-Size: 185612
-SHA256: 96e4513e00aa698d5a84a93d7b81ff49a33f2e1be2895bd21438557b25bd3ec9
+Size: 185656
+SHA256: 35a89ff1d4e1388899b250aca3945f91a0a9656a371549878d992b59e0439e6a
 
 Package: tasksh
 Architecture: i686
@@ -7623,8 +7837,8 @@ Description: Development files for teckit
 Homepage: http://scripts.sil.org/teckitdownloads
 Depends: teckit
 Filename: dists/dom-dev/testing/binary-i686/teckit-dev_2.5.8_i686.deb
-Size: 5208
-SHA256: e3e64428cf66315a8547f36d7ab73303360fcc6f425fcc543b447b412bf6d379
+Size: 5204
+SHA256: c17058bd027a0864a1649e9e1c93ed5054b33986b9b61ccf3ce7ef864b2ae835
 
 Package: teckit
 Architecture: i686
@@ -7634,8 +7848,8 @@ Version: 2.5.8
 Description: TECkit is a library for encoding conversion
 Homepage: http://scripts.sil.org/teckitdownloads
 Filename: dists/dom-dev/testing/binary-i686/teckit_2.5.8_i686.deb
-Size: 302560
-SHA256: 303cd0b5d69d51d31edd66e2db2615e78a8c5f5eb64bf01eb91e3380ad96f55d
+Size: 302596
+SHA256: d5ae1e8e13addfd98ad89dc10dcc1f0a515290aad5ee736a62c1b915f6f5a8cc
 
 Package: termux-api
 Architecture: i686
@@ -7645,8 +7859,8 @@ Version: 0.33
 Description: Termux API commands (install also the Termux:API app)
 Homepage: https://termux.com/add-on-api.html
 Filename: dists/dom-dev/testing/binary-i686/termux-api_0.33_i686.deb
-Size: 13144
-SHA256: 8c5686d1e0ca63b9575b0c695da05828be15e40a45fdeebe3e5909bbd7767e97
+Size: 13160
+SHA256: 74334cc3a8bedcc71d7648fa6fd6ad0f6219e342321ee2ba3a808009342c61cb
 
 Package: termux-elf-cleaner
 Architecture: i686
@@ -7657,7 +7871,7 @@ Description: Cleaner of ELF files for Android
 Homepage: https://github.com/termux/termux-elf-cleaner
 Filename: dists/dom-dev/testing/binary-i686/termux-elf-cleaner_1.2_i686.deb
 Size: 4032
-SHA256: 95df3a5530504654474dcbe0b7ec4bbe3b5bfe28680af7b7c2ef6566b1d066ff
+SHA256: c614673a1c3e10a45a8780415224ee92c9679b696ebda03b6e89a9806e621b2e
 
 Package: termux-exec
 Architecture: i686
@@ -7667,8 +7881,8 @@ Version: 0.3
 Description: An execve() wrapper to make /bin and /usr/bin shebangs work
 Homepage: https://github.com/termux/termux-exec
 Filename: dists/dom-dev/testing/binary-i686/termux-exec_0.3_i686.deb
-Size: 2720
-SHA256: 9a4fd632df27440811c756342df23f8ce6e6084d86b2788db64b7d98a2abd0a5
+Size: 2716
+SHA256: 5d0c157c7bfefa44d73a416b421b26a5df5a8cbd418de10875cfde91e996ff16
 
 Package: teseq
 Architecture: i686
@@ -7678,8 +7892,8 @@ Version: 1.1.1-1
 Description: Tool for analyzing control characters and terminal control sequences
 Homepage: https://www.gnu.org/software/teseq/
 Filename: dists/dom-dev/testing/binary-i686/teseq_1.1.1-1_i686.deb
-Size: 22308
-SHA256: d325886578c8b0a828b6be0efc46d302a566a001c1ccf5254a6a78653638c376
+Size: 22328
+SHA256: b444e174b2bff96067a985c2028f64b61a47f6948e895be756a03b392c1f4d26
 
 Package: tesseract-dev
 Architecture: i686
@@ -7767,8 +7981,8 @@ Description: Command-line time tracker
 Homepage: https://tasktools.org/projects/timewarrior.html
 Depends: libandroid-glob
 Filename: dists/dom-dev/testing/binary-i686/timewarrior_1.1.1-1_i686.deb
-Size: 213760
-SHA256: 69cfbddf8e946206df9a0b21f734833f33209421bc06d4dfc94222ad9ac4e951
+Size: 213772
+SHA256: 6968c4f5b80db953d7ef61b325bc202941db500e88b056f4b58ebca2f050ef36
 
 Package: tintin++
 Architecture: i686
@@ -7790,8 +8004,8 @@ Version: 1.41-1
 Description: Very small scheme implementation
 Homepage: http://tinyscheme.sourceforge.net/home.html
 Filename: dists/dom-dev/testing/binary-i686/tinyscheme_1.41-1_i686.deb
-Size: 33864
-SHA256: 0fc150ebcc320beaacd79c80a7082264849a1d2c57b2ba1c67d69f6c2e9e5cbd
+Size: 33868
+SHA256: 873cae359fb8318b6edd8c2329c16465db4cfaf3c9f74a25622ab76b6d525b1b
 
 Package: tmate
 Architecture: i686
@@ -7862,8 +8076,8 @@ Description: Tool to trace the network path to a remote host
 Homepage: https://github.com/iputils/iputils
 Depends: libidn
 Filename: dists/dom-dev/testing/binary-i686/tracepath_20180629_i686.deb
-Size: 7332
-SHA256: 3420b95aa33fbf01da6c3fa5e3891848e14a5aae4f28d8da58bf9944bd8206db
+Size: 7328
+SHA256: 1ea0bfac48326656274e4711f7d6b36a79799cab269a00cc334becb0277bfcec
 
 Package: transmission
 Architecture: i686
@@ -7886,8 +8100,8 @@ Description: Recursive directory lister producing a depth indented listing of fi
 Homepage: http://mama.indstate.edu/users/ice/tree/
 Depends: libandroid-support
 Filename: dists/dom-dev/testing/binary-i686/tree_1.7.0-2_i686.deb
-Size: 25852
-SHA256: eff22601e37b053583c44a68bdea168a903cce6c035d47025e3f82e2b52ca1e7
+Size: 25848
+SHA256: 85c8f7cd593bd97887526723c63b728265cbb5459dff19deaab8e1b4d43c9f94
 
 Package: tsocks
 Architecture: i686
@@ -7897,8 +8111,8 @@ Version: 1.8beta5-2
 Description: transparent network access through a SOCKS 4 or 5 proxy
 Homepage: http://tsocks.sf.net
 Filename: dists/dom-dev/testing/binary-i686/tsocks_1.8beta5-2_i686.deb
-Size: 17200
-SHA256: db06c3e2eaaa5c3868e75f45a35c0798f93ad106b0fc90939266ac5380b2f486
+Size: 17196
+SHA256: 242af38be55525343f119208d8146faba6c286821182fe4a6a08d8d48065f5ed
 
 Package: tty-clock
 Architecture: i686
@@ -7933,7 +8147,7 @@ Description: Terminal recorder and player
 Homepage: http://0xcc.net/ttyrec/
 Filename: dists/dom-dev/testing/binary-i686/ttyrec_1.0.8-3_i686.deb
 Size: 8440
-SHA256: ae6fbdb3f0ddadf235433513170e136ea191077720a961f7aaea90b9b8296a0f
+SHA256: 7fdece6a51fd2ec7654f546d922ecdb3203b87a1f0840d4dd669fd7ab3c23bcd
 
 Package: units
 Architecture: i686
@@ -7968,8 +8182,8 @@ Description: Tools for working with zip files
 Homepage: http://www.info-zip.org/
 Depends: libandroid-support, libbz2
 Filename: dists/dom-dev/testing/binary-i686/unzip_6.0-2_i686.deb
-Size: 104536
-SHA256: dd594c67fe6654c1f1f6ff1f1f2ebceb4a94355296cc88029dd345fc9dfc30ad
+Size: 104580
+SHA256: 528fec81492ce73787a84412e777645c2fbf317b6937d6abcce1b4cbdb719fbd
 
 Package: utf8cpp
 Architecture: i686
@@ -7979,8 +8193,8 @@ Version: 2.3.5
 Description: UTF8-CPP: UTF-8 with C++ in a Portable Way
 Homepage: https://github.com/nemtrif/utfcpp
 Filename: dists/dom-dev/testing/binary-i686/utf8cpp_2.3.5_i686.deb
-Size: 6048
-SHA256: aaefff9f9812a657c333b8ce39c2b5514b81f5061a9dde1a5b6c0201f60f9b18
+Size: 6052
+SHA256: 0185de64add1b879a96586e709f4c06b4b9641ed1170daa8bdb6fce8872671d6
 
 Package: utf8proc-dev
 Architecture: i686
@@ -7992,7 +8206,7 @@ Homepage: https://github.com/JuliaLang/utf8proc
 Depends: utf8proc
 Filename: dists/dom-dev/testing/binary-i686/utf8proc-dev_2.2.0_i686.deb
 Size: 8684
-SHA256: afc2bbc3de41f49bed49bc2b15c07e101ccf7db6a4a6afa20fd5d74d9ff1056b
+SHA256: ba82ef08aec36f617508fc7b2a95c276409a84371f1b12c06e1f7d1b825d433f
 
 Package: utf8proc
 Architecture: i686
@@ -8002,8 +8216,8 @@ Version: 2.2.0
 Description: Library for processing UTF-8 Unicode data
 Homepage: https://github.com/JuliaLang/utf8proc
 Filename: dists/dom-dev/testing/binary-i686/utf8proc_2.2.0_i686.deb
-Size: 43580
-SHA256: f10cc3c751c9f4540064a0bd265399ff3886aa70a8568bf082f55299ae2329c3
+Size: 44012
+SHA256: 9902f4ad0315afd201b14a7d9412d5b7a407b61dab3401360930997b213b5b16
 
 Package: utfdecode
 Architecture: i686
@@ -8013,8 +8227,8 @@ Version: 0.3.4-2
 Description: Tool for decoding, encoding and debugging unicode
 Homepage: https://github.com/fornwall/utfdecode
 Filename: dists/dom-dev/testing/binary-i686/utfdecode_0.3.4-2_i686.deb
-Size: 170556
-SHA256: 05a320276a884b03f306802b6959da4f9d117f4469b8a9938f67a2a299b7ee21
+Size: 169788
+SHA256: f32666fc91eff9d19084e6c68057d0e7c56e2655cdf890513a2847ba0c48bf5d
 
 Package: util-linux-dev
 Architecture: i686
@@ -8085,8 +8299,8 @@ Description: Development files for valgrind
 Homepage: http://valgrind.org/
 Depends: valgrind
 Filename: dists/dom-dev/testing/binary-i686/valgrind-dev_3.13.0-1_i686.deb
-Size: 260336
-SHA256: 4d3a3db85bc731056f526a59002ec1531340f591e509a29b9226f5e55519f252
+Size: 260248
+SHA256: 74b0988c71761fa3afe00043ec4ca61456d4bfb09335536c23c67ec98393a878
 
 Package: valgrind
 Architecture: i686
@@ -8096,8 +8310,8 @@ Version: 3.13.0-1
 Description: Instrumentation framework for building dynamic analysis tools
 Homepage: http://valgrind.org/
 Filename: dists/dom-dev/testing/binary-i686/valgrind_3.13.0-1_i686.deb
-Size: 2134608
-SHA256: 9442af6c6b289f5d2ff955d638c63bc3c0d84aa3d38fb681e2dabcbbf8650a29
+Size: 2135872
+SHA256: 83b1b110640e6bd8c8469644a644878c4ac1dd12203e160a962dcfaa0ac4bafe
 
 Package: vifm
 Architecture: i686
@@ -8157,8 +8371,8 @@ Version: 20180811
 Description: Program for testing the VT100 compatibility of terminal emulators
 Homepage: http://invisible-island.net/vttest/
 Filename: dists/dom-dev/testing/binary-i686/vttest_20180811_i686.deb
-Size: 69048
-SHA256: 77aae4bc46f0f43d8cbba09d44e4fd402f6c37d89db299b8703408e702cfabcc
+Size: 69020
+SHA256: 7e20a7c29b7baf5770a5c032470d4ea9ba2a388bcfeb2c3f55c4aae5b72f30d6
 
 Package: vtutils
 Architecture: i686
@@ -8169,7 +8383,7 @@ Description: Utilities for testing and working with virtual terminals
 Homepage: https://github.com/fornwall/vtutils
 Filename: dists/dom-dev/testing/binary-i686/vtutils_0.5-1_i686.deb
 Size: 9648
-SHA256: c066793815c047f23ff111abb56c08b33cffb74a8806a0833d0758225986e9a7
+SHA256: 286e488663402e0f84878be5b51395d9d6647f465e5e13d13f1dabce73f28934
 
 Package: w3m
 Architecture: i686
@@ -8299,8 +8513,8 @@ Version: 0.7.1-2
 Description: Program implementing Wake On LAN functionality
 Homepage: http://sourceforge.net/projects/wake-on-lan/
 Filename: dists/dom-dev/testing/binary-i686/wol_0.7.1-2_i686.deb
-Size: 12540
-SHA256: 685a3426ff32ec20a92a6a6a03e5bddfe09b09b1cfe3b8415cd80b4665188013
+Size: 12520
+SHA256: c8ee9d3e0ebd36b97d20b02a3b32ac79214aaeeadef0e6a555da9fdeb95d2e04
 
 Package: x264
 Architecture: i686
@@ -8310,8 +8524,8 @@ Version: 20180211
 Description: Commandline video encoder for the H.264/MPEG-4 AVC format
 Homepage: https://www.videolan.org/developers/x264.html
 Filename: dists/dom-dev/testing/binary-i686/x264_20180211_i686.deb
-Size: 276544
-SHA256: fcf54460fe5c29ca0b876d87143146634e261c4575a9b08067c1bfdcd6f1919f
+Size: 276528
+SHA256: 6d722391109be2b3aec71bb6a95ce2de800580b1204d633e6e6780cce25fa633
 
 Package: x265
 Architecture: i686
@@ -8322,8 +8536,8 @@ Description: H.265/HEVC video stream encoder tool
 Homepage: http://x265.org/
 Depends: libx265
 Filename: dists/dom-dev/testing/binary-i686/x265_2.8_i686.deb
-Size: 28908
-SHA256: 5c1dc711a933bdb4256b99782c833fdd3e2d1848ce51be90cc1ddf55f62e6a1e
+Size: 28928
+SHA256: 85d7de6aa9775b88c41e6396ca04abfbb434385c529626f286921b6c39503287
 
 Package: xapian-tools
 Architecture: i686
@@ -8334,8 +8548,8 @@ Description: Basic tools for the Xapian search engine
 Homepage: https://xapian.org
 Depends: libxapian
 Filename: dists/dom-dev/testing/binary-i686/xapian-tools_1.4.7_i686.deb
-Size: 65384
-SHA256: a654ad5655081a1d6c73b3f55b6564ce9370e4427eba0ddb8275f36e28c63fce
+Size: 65360
+SHA256: f476fef0c216828c98b11440766e3e3d281f7e79cd2a8a98ba621a95856b49fb
 
 Package: xmlsec-dev
 Architecture: i686
@@ -8407,7 +8621,7 @@ Homepage: http://www.xvid.org/
 Depends: xvidcore
 Filename: dists/dom-dev/testing/binary-i686/xvidcore-dev_1.3.5_i686.deb
 Size: 9644
-SHA256: 4e2704613c7c549962dac74dc6490888d2de309fc0636d733f1403e32e0e0879
+SHA256: 7c5d94950d5323695f61ea9adf1e098f2425d64ae14c0364709f1e6281d17fad
 
 Package: xvidcore
 Architecture: i686
@@ -8417,8 +8631,8 @@ Version: 1.3.5
 Description: High performance and high quality MPEG-4 library
 Homepage: http://www.xvid.org/
 Filename: dists/dom-dev/testing/binary-i686/xvidcore_1.3.5_i686.deb
-Size: 124712
-SHA256: dbddc178325f7857ffc6a70d25387c5f0fd96c6d0448cc7678c4aac8f2fbd355
+Size: 124716
+SHA256: a4af19fdb4b883d65a93228e0f7e317b0d07125c96943af09c24e6d0a991bd16
 
 Package: xz-utils
 Architecture: i686
@@ -8429,8 +8643,8 @@ Description: XZ-format compression tools
 Homepage: https://tukaani.org/xz/
 Depends: liblzma
 Filename: dists/dom-dev/testing/binary-i686/xz-utils_5.2.4_i686.deb
-Size: 53768
-SHA256: 1fdd45d5a7cd800692f95da99adeb83cea2ce84ea8644cdc298db359104ba81c
+Size: 53760
+SHA256: 577af6557efc637b39ca385e39f23659149c9bddfa33ac951d70a037dc556847
 
 Package: yasm-dev
 Architecture: i686
@@ -8441,8 +8655,8 @@ Description: Development files for yasm
 Homepage: https://yasm.tortall.net/
 Depends: yasm
 Filename: dists/dom-dev/testing/binary-i686/yasm-dev_1.3.0-1_i686.deb
-Size: 47056
-SHA256: e9993911c7de66e68605807f383641b1866c01402c02c7430c19f5e06c09ccb8
+Size: 47024
+SHA256: 0a277e5dc386eceb0ccc064899289ee1ca3c8d9649bdac7ddd7bb3845b98f142
 
 Package: yasm
 Architecture: i686
@@ -8452,8 +8666,8 @@ Version: 1.3.0-1
 Description: Assembler supporting the x86 and AMD64 instruction sets
 Homepage: https://yasm.tortall.net/
 Filename: dists/dom-dev/testing/binary-i686/yasm_1.3.0-1_i686.deb
-Size: 286140
-SHA256: f77eed0a99b315148e1681404e2803f42f91ea697946f0ce827b44d656deac8e
+Size: 286092
+SHA256: e837f8923f204d0c31c9f15fe5a0ab5c28272ca6fc0f78d9ab28c71cef0593b8
 
 Package: zbar-dev
 Architecture: i686
@@ -8500,8 +8714,8 @@ Description: Tools for working with zip files
 Homepage: http://www.info-zip.org/
 Depends: libandroid-support, libbz2
 Filename: dists/dom-dev/testing/binary-i686/zip_3.0-2_i686.deb
-Size: 129664
-SHA256: 00eec53c1fa06f41e1f432ff572745d1b4c6d30e60498c980e782850766712f6
+Size: 129632
+SHA256: c5a546c1eb342af96145e07c42cf4e9f3fa017841ff4b89cbcf9fc9bfb8b7254
 
 Package: zopfli
 Architecture: i686
@@ -8511,8 +8725,8 @@ Version: 1.0.2-1
 Description: New zlib compatible compressor tools
 Homepage: https://github.com/google/zopfli
 Filename: dists/dom-dev/testing/binary-i686/zopfli_1.0.2-1_i686.deb
-Size: 79588
-SHA256: 03b15c425927344b681aaee1c2e4bc88e1ff85533031cf6deaf088d839b60461
+Size: 79592
+SHA256: c76a4402a966050b3744e6f18862d39daa2b53413d33007ea1cf2ad8c70246cb
 
 Package: zsh
 Architecture: i686
@@ -8536,7 +8750,7 @@ Homepage: https://github.com/facebook/zstd
 Depends: zstd
 Filename: dists/dom-dev/testing/binary-i686/zstd-dev_1.3.5_i686.deb
 Size: 24996
-SHA256: e215b68ca72d803ca00ba078e5a6b8144ddd801fb64d2a264a26a874c7a9547a
+SHA256: ce683401776f551a80c080774b5ed6259fe3b3c4fa43bbe4519713ecb09cf1ff
 
 Package: zstd
 Architecture: i686
@@ -8547,5 +8761,5 @@ Description: Zstandard compression.
 Homepage: https://github.com/facebook/zstd
 Depends: liblzma
 Filename: dists/dom-dev/testing/binary-i686/zstd_1.3.5_i686.deb
-Size: 173192
-SHA256: ee46bc7387830567b3c059738de24724b2943e23b56f832ee643c09e5007efef
+Size: 173132
+SHA256: 4b0d670caee4444c84f63429c787ae990bc0502baa64976f207ee27bd1763f42
