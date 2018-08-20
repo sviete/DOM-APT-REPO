@@ -19,8 +19,8 @@ Description: Clean and simple terminal session manager
 Homepage: http://www.brain-dump.org/projects/abduco/
 Depends: libutil,dvtm
 Filename: dists/dom-dev/testing/binary-x86_64/abduco_0.6_x86_64.deb
-Size: 10144
-SHA256: d948a0aad7c5d49a0746125d68dc823717ef4e04d9af8e55f90162ce78848212
+Size: 10152
+SHA256: 35733774eaa86e0c8004e7997f1d46c02a9c04d67aed1a1717cf9cb742588a6b
 
 Package: abook
 Architecture: x86_64
@@ -31,8 +31,8 @@ Description: Abook is a text-based addressbook program designed to use with mutt
 Homepage: http://abook.sourceforge.net/
 Depends: libandroid-support, ncurses, readline
 Filename: dists/dom-dev/testing/binary-x86_64/abook_0.6.0pre2-1_x86_64.deb
-Size: 40688
-SHA256: dbe8d81595d643fef11917c178d432ce0369b68b4e3fc7b417204e010878822d
+Size: 40776
+SHA256: 9a618faffac2c5ea3825267c69f204aab4fa3e6202984cf9e0d18fe32077c529
 
 Package: alpine
 Architecture: x86_64
@@ -103,8 +103,8 @@ Description: Development files for apr-util
 Homepage: https://apr.apache.org/
 Depends: apr-util
 Filename: dists/dom-dev/testing/binary-x86_64/apr-util-dev_1.6.1_x86_64.deb
-Size: 55300
-SHA256: 1a2e5d63440a020b5bfe5ab751a609d3b80b150da6d7ef54ca2ead7e25458ef8
+Size: 55316
+SHA256: a6701b6cf9c02d0a6bf43e614e2ff91f72ccdb66d352fee1307cdf08173ecd59
 
 Package: apr-util
 Architecture: x86_64
@@ -115,8 +115,8 @@ Description: Apache Portable Runtime Utility Library
 Homepage: https://apr.apache.org/
 Depends: apr, libexpat
 Filename: dists/dom-dev/testing/binary-x86_64/apr-util_1.6.1_x86_64.deb
-Size: 56668
-SHA256: 7e420a367928ad3af1241143180dbe7e0228e44a45dea583de8a257910195665
+Size: 56472
+SHA256: 1398df86ea241f4255671750b727aa629fb3ac3d4ae2976a930ee8ef25ab78a3
 
 Package: apr
 Architecture: x86_64
@@ -165,8 +165,8 @@ Description: Download utility supporting HTTP/HTTPS, FTP, BitTorrent and Metalin
 Homepage: https://aria2.github.io
 Depends: c-ares, openssl, libxml2
 Filename: dists/dom-dev/testing/binary-x86_64/aria2_1.34.0-1_x86_64.deb
-Size: 695000
-SHA256: 1221021abb200cc61012d8b79b3ee28ad021f795c4e5954398f0f316cf2c08f4
+Size: 695036
+SHA256: 0b74cfedc59461b2a5e8ec80d55a0bb39c02c23167c5a234d9236cc1eb484df5
 
 Package: atomicparsley
 Architecture: x86_64
@@ -305,8 +305,8 @@ Description: Arbitrary precision numeric processing language
 Homepage: https://www.gnu.org/software/bc/
 Depends: readline,flex
 Filename: dists/dom-dev/testing/binary-x86_64/bc_1.07.1_x86_64.deb
-Size: 58428
-SHA256: e59753f7d31f2076ce1ef3e76fed18978676aa761b4ea57152c5fa2e7ff3743b
+Size: 58392
+SHA256: 89d6e07d3f83d7d9cf3308548121dfd62cd019164ad10c28c24eab132bb89732
 
 Package: binutils-dev
 Architecture: x86_64
@@ -449,8 +449,8 @@ Description: The tar(1) and cpio(1) programs from FreeBSD, using libarchive
 Homepage: https://www.libarchive.org/
 Depends: libarchive
 Filename: dists/dom-dev/testing/binary-x86_64/bsdtar_3.3.2_x86_64.deb
-Size: 44616
-SHA256: 299442f87f54c3ba1667bb14ac1e7f1de4df67cdd7524527f925edcdeeb6e698
+Size: 44824
+SHA256: a4462f4a368b1efb945dc71a7fd59462594b6c58452f1d1d6623ce01635ddffc
 
 Package: busybox
 Architecture: x86_64
@@ -558,8 +558,8 @@ Description: cadaver is a command-line WebDAV client for Unix
 Homepage: http://www.webdav.org/cadaver/
 Depends: openssl, libxml2, ncurses, readline
 Filename: dists/dom-dev/testing/binary-x86_64/cadaver_0.23.3-1_x86_64.deb
-Size: 77392
-SHA256: 34982127ae9e4d9d278d10af4a410938adc46f66d937d42dd737b488f7bf990e
+Size: 77272
+SHA256: 4f2792ec06739dabfd35a24e0f9b8878f2ea3aa0fe474b5eb041cf43e6a3fd78
 
 Package: calcurse
 Architecture: x86_64
@@ -758,8 +758,8 @@ Description: CPIO implementation from the GNU project
 Homepage: https://www.gnu.org/software/cpio/
 Depends: tar
 Filename: dists/dom-dev/testing/binary-x86_64/cpio_2.12_x86_64.deb
-Size: 59352
-SHA256: f8c1c63d8f16671b586f54972315abe4dcfad722113b710075068fa5059b5479
+Size: 59388
+SHA256: 4ded08db3f1ce3152f34beaccbdd20e5a8c528ffbc8bcdf1334737d5089f92bf
 
 Package: cppi
 Architecture: x86_64
@@ -804,8 +804,8 @@ Description: Command line tool for transferring data with URL syntax
 Homepage: https://curl.haxx.se/
 Depends: libcurl
 Filename: dists/dom-dev/testing/binary-x86_64/curl_7.61.0_x86_64.deb
-Size: 85832
-SHA256: cbf0a204cd10ce9ff429e626c36615af3908749dc2d4c1ec09f4e9c13b5a12eb
+Size: 85584
+SHA256: 5bd9f43dd366ee3e0ea214df3350ed943655aac0d71d6fe1c0973f81bc045e33
 
 Package: curseofwar
 Architecture: x86_64
@@ -977,8 +977,8 @@ Description: Development files for dnsutils
 Homepage: https://www.isc.org/downloads/bind/
 Depends: dnsutils
 Filename: dists/dom-dev/testing/binary-x86_64/dnsutils-dev_9.12.2-P1-0_x86_64.deb
-Size: 271436
-SHA256: a5e7f75e122f5018555d51f1a1bd2844dd4cf853169b0d86f1c18c3bd1279568
+Size: 271460
+SHA256: f7ebaa6d233ce793eb46829e69718fd08d47164393738f4d09b45b8a2dec06f1
 
 Package: dnsutils
 Architecture: x86_64
@@ -989,8 +989,8 @@ Description: Clients provided with BIND
 Homepage: https://www.isc.org/downloads/bind/
 Depends: openssl, readline, resolv-conf
 Filename: dists/dom-dev/testing/binary-x86_64/dnsutils_9.12.2-P1-0_x86_64.deb
-Size: 933636
-SHA256: 116ff3ee66aa56ee46955502e65e6c5596be0324a05bb3d5a0181aa556fc4657
+Size: 933092
+SHA256: d4b366c5689a6cbf36b051df7ebd58efea051ef833af19cfe1e2c10c9614826b
 
 Package: dos2unix
 Architecture: x86_64
@@ -1039,8 +1039,8 @@ Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
 Depends: libutil, readline
 Conflicts: openssh
 Filename: dists/dom-dev/testing/binary-x86_64/dropbear_2018.76-3_x86_64.deb
-Size: 126752
-SHA256: f4d014a9a672b5fb1458f7b811446339bee5144d8b8997b855904c12aa5b5d84
+Size: 127168
+SHA256: 5eb1b6ed6e5a90dad6c7e9df253dc4321d5299b5a2881556d2100a05a4441ecb
 
 Package: dvtm
 Architecture: x86_64
@@ -1122,8 +1122,8 @@ Description: General-purpose concurrent functional programming language develope
 Homepage: https://www.erlang.org/
 Depends: openssl, ncurses, libutil
 Filename: dists/dom-dev/testing/binary-x86_64/erlang_21.0.5_x86_64.deb
-Size: 33269564
-SHA256: 3c9500d233f5eb55bd2e7650ecf3317e2088af92514b57818a9c786b03644ba2
+Size: 33268952
+SHA256: 2b717b27dbd2072ffaeadd68cd3edb9cd1aa96dd8b4671498d54f529423c8f63
 
 Package: espeak-dev
 Architecture: x86_64
@@ -1348,8 +1348,8 @@ Description: Development files for fontconfig
 Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
 Depends: fontconfig,freetype-dev, libxml2-dev
 Filename: dists/dom-dev/testing/binary-x86_64/fontconfig-dev_2.13.0_x86_64.deb
-Size: 8576
-SHA256: ecd936503b89719906ac4343191ca826328e0d44f1740051d100832ebb2c816e
+Size: 8568
+SHA256: d9853a831f860dca158f1b77f7fdcfc53b08b718e55a01335d6230d02cedfe2c
 
 Package: fontconfig-utils
 Architecture: x86_64
@@ -1360,8 +1360,8 @@ Description: Fontconfig binaries
 Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
 Depends: fontconfig, libpng
 Filename: dists/dom-dev/testing/binary-x86_64/fontconfig-utils_2.13.0_x86_64.deb
-Size: 14844
-SHA256: 6caebf0600f44f412f625e34e27312014da65f0fcc947b30d13a2b753ef9f9a9
+Size: 14812
+SHA256: 4951695da409065555dc673aaffb794a61c2390a1c4600ea6eade477a1176b4e
 
 Package: fontconfig
 Architecture: x86_64
@@ -1372,8 +1372,8 @@ Description: Library for configuring and customizing font access
 Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
 Depends: freetype, libxml2, libpng, libuuid
 Filename: dists/dom-dev/testing/binary-x86_64/fontconfig_2.13.0_x86_64.deb
-Size: 106648
-SHA256: f5024de37d59b05e507eef5daa0e98c9afd49d9ef88ced6359a76cb2422fce7d
+Size: 106740
+SHA256: cf6660d165f4d72b06fe95cf72f925bbac5c5154b3fe6e01410861cc72cee8db
 
 Package: fortune
 Architecture: x86_64
@@ -1526,8 +1526,8 @@ Description: Development files for gawk
 Homepage: https://www.gnu.org/software/gawk/
 Depends: gawk
 Filename: dists/dom-dev/testing/binary-x86_64/gawk-dev_4.2.1_x86_64.deb
-Size: 18292
-SHA256: 63230704b58455f9b8ea7137f1809942914c6346c95e153b87f14128c31a1325
+Size: 18296
+SHA256: bbe8ea4abf54a9e3b7f5c382b74173de17b30513574c601f8fff704093568ef1
 
 Package: gawk
 Architecture: x86_64
@@ -1538,8 +1538,8 @@ Description: Programming language designed for text processing
 Homepage: https://www.gnu.org/software/gawk/
 Depends: libandroid-support, libmpfr, libgmp, readline
 Filename: dists/dom-dev/testing/binary-x86_64/gawk_4.2.1_x86_64.deb
-Size: 271216
-SHA256: fc53f9b2e07121720d6a68b60dbc4a07cb15a3171536cfa28b717254aac9f8cc
+Size: 271264
+SHA256: 16d1a898cc7eb97ddc58941d8821dfbd1d952fbdced132aa72f09974339973dd
 
 Package: gbt
 Architecture: x86_64
@@ -1884,8 +1884,8 @@ Description: Commandline utilities for interfacing with the gnutls library
 Homepage: https://www.gnutls.org/
 Depends: libgnutls
 Filename: dists/dom-dev/testing/binary-x86_64/gnutls_3.5.19_x86_64.deb
-Size: 242696
-SHA256: 43d8395db87c442ff45ef84cc04c39f35e3852e5a19630afdd46daa8839bbba4
+Size: 242916
+SHA256: 982a3c5d035c1f64491ab8b57f5e9b6174c30561eee91f11cd169112991a298d
 
 Package: golang-doc
 Architecture: x86_64
@@ -2335,8 +2335,8 @@ Description: ping-like program for http-requests
 Homepage: https://www.vanheusden.com/httping/
 Depends: fftw, libandroid-support, ncurses, openssl
 Filename: dists/dom-dev/testing/binary-x86_64/httping_2.5-1_x86_64.deb
-Size: 37160
-SHA256: 6f7ed6f6a598b089a5ff10d751068ba1784dd91e44177ed60554ac920bdcf263
+Size: 37172
+SHA256: b82bdf927f484b3aa1c7d334cff6e5139e7aba6d54275bf3443e3ccc66a9224b
 
 Package: hub
 Architecture: x86_64
@@ -2525,8 +2525,8 @@ Description: Development files for iperf3
 Homepage: https://github.com/esnet/iperf
 Depends: iperf3
 Filename: dists/dom-dev/testing/binary-x86_64/iperf3-dev_3.6_x86_64.deb
-Size: 6352
-SHA256: ad0ad651ffea53f980a82ae1fe2f011942ed21a48ba7cb84da9f1540fee5f016
+Size: 6356
+SHA256: b2cf13d755c14b38f4c5aade6e768a19272ca1ed5938b3b29158fbf052f34a5e
 
 Package: iperf3
 Architecture: x86_64
@@ -2537,8 +2537,8 @@ Description: TCP, UDP, and SCTP network bandwidth measurement tool
 Homepage: https://github.com/esnet/iperf
 Depends: openssl
 Filename: dists/dom-dev/testing/binary-x86_64/iperf3_3.6_x86_64.deb
-Size: 53944
-SHA256: 96988d5c31580ef8a4120c089e800b45c194f3d78e7e562d7a557b4eff62d7b2
+Size: 53872
+SHA256: 1c63d635256a8aa9595be420dca2e5ce117283e1abebeadfe5e89f783aa528e6
 
 Package: ipfs
 Architecture: x86_64
@@ -2772,8 +2772,8 @@ Description: Development files for ldns
 Homepage: https://www.nlnetlabs.nl/projects/ldns/
 Depends: ldns
 Filename: dists/dom-dev/testing/binary-x86_64/ldns-dev_1.7.0-4_x86_64.deb
-Size: 89184
-SHA256: 4d2a2b704f27424debd296d385db2699271712401e67f91a2610e9681396aa0e
+Size: 89164
+SHA256: 9e49a27d2cfabed81dc468504229e4772326db0ffe0c37f5b2fbeaadb5885a91
 
 Package: ldns
 Architecture: x86_64
@@ -2784,8 +2784,8 @@ Description: Library for simplifying DNS programming and supporting recent and e
 Homepage: https://www.nlnetlabs.nl/projects/ldns/
 Depends: openssl
 Filename: dists/dom-dev/testing/binary-x86_64/ldns_1.7.0-4_x86_64.deb
-Size: 107008
-SHA256: 6bd210c9e453facc739cf83c96e9bf9a32fced440a96c4bc8e82f479546de43e
+Size: 107604
+SHA256: 826c351965ea0d11ef5dbc1894b185baa9fb5cd13180451933a238a4c0b581f0
 
 Package: ledger-dev
 Architecture: x86_64
@@ -2820,8 +2820,8 @@ Description: Development files for leptonica
 Homepage: http://www.leptonica.com/
 Depends: leptonica
 Filename: dists/dom-dev/testing/binary-x86_64/leptonica-dev_1.76.0_x86_64.deb
-Size: 100380
-SHA256: 0351a9898308aa8bbdee64ce5b550194e0d9e0460434b4f29f33456a902eec4a
+Size: 100340
+SHA256: 45087aa45b04232d2167245fa4ae083212bad14071a780bbdc2eb42a58ff9547
 
 Package: leptonica
 Architecture: x86_64
@@ -2832,8 +2832,8 @@ Description: Library for image processing and image analysis
 Homepage: http://www.leptonica.com/
 Depends: libjpeg-turbo, libpng, libtiff
 Filename: dists/dom-dev/testing/binary-x86_64/leptonica_1.76.0_x86_64.deb
-Size: 776828
-SHA256: a90c50a55d5cb1b565fc92013eb77a818f5021889b0983cdfa8ffa2b763cce73
+Size: 776444
+SHA256: 8e591f93ff7e16e6d8a14957dbc8598aea8743ecf9f08df9ce82d1b8ba28fce1
 
 Package: less
 Architecture: x86_64
@@ -2961,8 +2961,8 @@ Description: Development files for libarchive
 Homepage: https://www.libarchive.org/
 Depends: libarchive
 Filename: dists/dom-dev/testing/binary-x86_64/libarchive-dev_3.3.2_x86_64.deb
-Size: 52796
-SHA256: 3fe45dc6423839b87438222a7fd685f116acd84b6f3c7a6e2b07a1e99a320132
+Size: 52780
+SHA256: 9f6569228799d4cbbac5177f203496193d66c38d56271e655b31f273a2191e5f
 
 Package: libarchive
 Architecture: x86_64
@@ -2973,8 +2973,8 @@ Description: Multi-format archive and compression library
 Homepage: https://www.libarchive.org/
 Depends: libbz2, liblzma, libxml2, openssl
 Filename: dists/dom-dev/testing/binary-x86_64/libarchive_3.3.2_x86_64.deb
-Size: 265500
-SHA256: 48f547aaaa886d6681302e298a8e210cd898b3d5aa12692bc3c7837be7e0a40e
+Size: 265660
+SHA256: dc7e7da7649ee259d346e2379298fd7000f2aab140d54895ddef4197117ccb46
 
 Package: libassuan-dev
 Architecture: x86_64
@@ -3223,7 +3223,7 @@ Homepage: http://michael.dipperstein.com/crypt/
 Depends: libcrypt
 Filename: dists/dom-dev/testing/binary-x86_64/libcrypt-dev_0.2_x86_64.deb
 Size: 944
-SHA256: e944dc102b1b693c7c7cef1a782d8ed7cf2bd21c2417f9706f94ac68ec41d889
+SHA256: 1f17791e85b85018c81a5509b3677410d76186b85857f570e8e0c129694d7e7e
 
 Package: libcrypt
 Architecture: x86_64
@@ -3234,8 +3234,8 @@ Description: A crypt(3) implementation
 Homepage: http://michael.dipperstein.com/crypt/
 Depends: openssl
 Filename: dists/dom-dev/testing/binary-x86_64/libcrypt_0.2_x86_64.deb
-Size: 8164
-SHA256: 497a5910e706f638c7cbb6f86e486e22401d2357d1e7d45514d2054e7d20b7d6
+Size: 8168
+SHA256: 64c756fbf78e105c74c242ebbd532f3fab4661cab0af6576b531809310af92ba
 
 Package: libcue-dev
 Architecture: x86_64
@@ -3269,8 +3269,8 @@ Description: Development files for libcurl
 Homepage: https://curl.haxx.se/
 Depends: libcurl
 Filename: dists/dom-dev/testing/binary-x86_64/libcurl-dev_7.61.0_x86_64.deb
-Size: 207324
-SHA256: 10e5422c449a3d6d43b158edefcb4b058a4abcd6956726f2718f26489159d9ed
+Size: 207404
+SHA256: 4b05103def09b0074d09941e645f65815eea628f65a385660a0a428b3d5e9a92
 
 Package: libcurl
 Architecture: x86_64
@@ -3281,8 +3281,8 @@ Description: Easy-to-use client-side URL transfer library
 Homepage: https://curl.haxx.se/
 Depends: openssl, libnghttp2
 Filename: dists/dom-dev/testing/binary-x86_64/libcurl_7.61.0_x86_64.deb
-Size: 184768
-SHA256: f2bb00d6533b6aef254057ac0e6b2a9f9163dddd2d8b15cfe454944dd64bdb83
+Size: 184568
+SHA256: 3a716d936c88e387aeaacb1d580c270172d5917859b2f1a9121beb09a0b0ccf8
 
 Package: libdb-dev
 Architecture: x86_64
@@ -3670,8 +3670,8 @@ Description: Development files for libgnutls
 Homepage: https://www.gnutls.org/
 Depends: libgnutls,libidn2-dev, libnettle-dev
 Filename: dists/dom-dev/testing/binary-x86_64/libgnutls-dev_3.5.19_x86_64.deb
-Size: 162828
-SHA256: 4c447045e83ff6495716a2b78c1c399e33717115bb19acefcbc6126cc57ff303
+Size: 162908
+SHA256: ce510dc26cc78426e4b0a462c882d575b27a63b0ad8144f6ba2905077cd7bde1
 
 Package: libgnutls
 Architecture: x86_64
@@ -3682,8 +3682,8 @@ Description: Secure communications library implementing the SSL, TLS and DTLS pr
 Homepage: https://www.gnutls.org/
 Depends: libgmp, libnettle, ca-certificates, libidn2, libunistring
 Filename: dists/dom-dev/testing/binary-x86_64/libgnutls_3.5.19_x86_64.deb
-Size: 436904
-SHA256: 6ecd6af49ada301095a5339bf28d0c710cd989a11c6d0e4dafa5af9e2268d499
+Size: 436624
+SHA256: 506c6ca24d0ec0e02196de59d4ccabea16b4d4566931328921fc2db2479e8b7f
 
 Package: libgpg-error-dev
 Architecture: x86_64
@@ -3763,8 +3763,8 @@ Description: Development files for libgrpc
 Homepage: https://grpc.io/
 Depends: libgrpc
 Filename: dists/dom-dev/testing/binary-x86_64/libgrpc-dev_1.14.1_x86_64.deb
-Size: 117264
-SHA256: 95eb4a1590400de7be5ad99e951ce6fc7f72ed89fb548b28fc93b2282ec7268c
+Size: 117292
+SHA256: deda074b308c14778db8bda8ecdc737e6324f1f74f9178355aa53165db94a9be
 
 Package: libgrpc
 Architecture: x86_64
@@ -3775,8 +3775,8 @@ Description: High performance, open source, general RPC framework that puts mobi
 Homepage: https://grpc.io/
 Depends: openssl, protobuf, c-ares
 Filename: dists/dom-dev/testing/binary-x86_64/libgrpc_1.14.1_x86_64.deb
-Size: 1216128
-SHA256: a894e2b0d5a31084692db61f030efc53c4e5998bdd30aca121cb51b26067ae9c
+Size: 1218640
+SHA256: 1d0633e6a255564ecd2182cd6565667ec74c5e498b8fe364c0114992be06849f
 
 Package: libgsasl-dev
 Architecture: x86_64
@@ -3836,7 +3836,7 @@ Homepage: http://libical.github.io/libical/
 Depends: libical
 Filename: dists/dom-dev/testing/binary-x86_64/libical-dev_3.0.3-1_x86_64.deb
 Size: 59496
-SHA256: 439052f26da90df193d1e9842e49d589d3120badd68ad0af9ab5f2e366470dcf
+SHA256: 312eaf422190fc45853f7131291aa11acd99b98cf3596c584ee42b32c50c0ae1
 
 Package: libical
 Architecture: x86_64
@@ -3847,8 +3847,8 @@ Description: Libical is an Open Source implementation of the iCalendar protocols
 Homepage: http://libical.github.io/libical/
 Depends: libxml2
 Filename: dists/dom-dev/testing/binary-x86_64/libical_3.0.3-1_x86_64.deb
-Size: 180364
-SHA256: 6e1c787f746a742c13d22fd5247eb96929f8f221fe25b06bd07f250f70cb7ec1
+Size: 180360
+SHA256: 5edd7ecfa68df3c1774f9864804d8c352b714b3583d27493ec3d10d5e950d40f
 
 Package: libicu-dev
 Architecture: x86_64
@@ -4249,8 +4249,8 @@ Description: Development files for libmesode
 Homepage: https://github.com/boothj5/libmesode
 Depends: libmesode
 Filename: dists/dom-dev/testing/binary-x86_64/libmesode-dev_0.9.1_x86_64.deb
-Size: 4416
-SHA256: 2f09a89252ae818a6911ac1ede0fb9fb307836b379ca5e76acc80ca1893afee9
+Size: 4412
+SHA256: 0494469c8f971398efc8b04f8d3d2a4b80daacc7f9422f791221b7c5d2063700
 
 Package: libmesode
 Architecture: x86_64
@@ -4261,8 +4261,8 @@ Description: libmesode is a minimal XMPP library written in C. Fork of libstroph
 Homepage: https://github.com/boothj5/libmesode
 Depends: openssl,libexpat
 Filename: dists/dom-dev/testing/binary-x86_64/libmesode_0.9.1_x86_64.deb
-Size: 35920
-SHA256: aa225433d7790f1a8778244fb3e6f2668f4c8ebbd16d6c3c670caac50e5ac489
+Size: 35888
+SHA256: 53dbd19fbdf17e9b2e110ee65a493619c3031baa0a0df42eb349bc144ebe10b2
 
 Package: libmnl-dev
 Architecture: x86_64
@@ -4296,8 +4296,8 @@ Description: Development files for libmosquitto
 Homepage: https://mosquitto.org/
 Depends: libmosquitto
 Filename: dists/dom-dev/testing/binary-x86_64/libmosquitto-dev_1.5-1_x86_64.deb
-Size: 15492
-SHA256: 5f47888c457dd0d939a74be0c39acbccab6e73ff6ae95f07c016537e8917698b
+Size: 15496
+SHA256: fb0ef681e984b3c36b6af848d40e34f49fb3a0b2751c7a13b8571458b1b76084
 
 Package: libmosquitto
 Architecture: x86_64
@@ -4308,8 +4308,8 @@ Description: MQTT library
 Homepage: https://mosquitto.org/
 Depends: c-ares, openssl
 Filename: dists/dom-dev/testing/binary-x86_64/libmosquitto_1.5-1_x86_64.deb
-Size: 31896
-SHA256: 4bb5b2cf98acd6a9385742dc037a9631a143a68baa449b3d3f88ca25cfebca1f
+Size: 31880
+SHA256: f136e5209225db8a793031e903a6cf8c8f90992cece60143b1c4d26e1932c769
 
 Package: libmp3lame-dev
 Architecture: x86_64
@@ -4367,8 +4367,8 @@ Description: Development files for libmpc
 Homepage: http://www.multiprecision.org/
 Depends: libmpc
 Filename: dists/dom-dev/testing/binary-x86_64/libmpc-dev_1.1.0_x86_64.deb
-Size: 3488
-SHA256: e9773c1c89e159336fd65cb4e668e664f4f5ba22d476910a588fe92b254347db
+Size: 3484
+SHA256: d209cf5ed4f92164d01b986fa784beb53304498acdc104258411d6ee3b9696fe
 
 Package: libmpc
 Architecture: x86_64
@@ -4379,8 +4379,8 @@ Description: Library for the arithmetic of complex numbers with arbitrarily high
 Homepage: http://www.multiprecision.org/
 Depends: libgmp, libmpfr
 Filename: dists/dom-dev/testing/binary-x86_64/libmpc_1.1.0_x86_64.deb
-Size: 34156
-SHA256: 4963812c0a6717a97bc0fc180bf7af6e3639ba1eb1dbbed0d4d527dfe0258c7b
+Size: 34160
+SHA256: 6ff6bf3458929ecedfd7f3b61c2714c818ae17f8d4a36f8784b37fa2008640ee
 
 Package: libmpdclient-dev
 Architecture: x86_64
@@ -4624,8 +4624,8 @@ Description: Development files for libotr
 Homepage: https://otr.cypherpunks.ca
 Depends: libotr
 Filename: dists/dom-dev/testing/binary-x86_64/libotr-dev_4.1.1_x86_64.deb
-Size: 17824
-SHA256: 53ddb972f2ec97f4788880d9498173899cc49ee3919a61212768ced9057357c4
+Size: 17820
+SHA256: 343d251f5b0be83ec5b9da2fa4637eb10b14274c0c21b6d16fecf90479d62c22
 
 Package: libotr
 Architecture: x86_64
@@ -4636,8 +4636,8 @@ Description: Off-the-Record (OTR) Messaging allows you to have private conversat
 Homepage: https://otr.cypherpunks.ca
 Depends: libgcrypt
 Filename: dists/dom-dev/testing/binary-x86_64/libotr_4.1.1_x86_64.deb
-Size: 58132
-SHA256: f9aeb62d6c8caf711efe4308d50e28bf44d78eef0795f0995507d569e37124d4
+Size: 58376
+SHA256: 3063a9562c745ac4790a65816dac8b8f59922d95fdf518b7d8d723e8f2261d8d
 
 Package: libpcap-dev
 Architecture: x86_64
@@ -4860,8 +4860,8 @@ Description: Development files for librsync
 Homepage: https://github.com/librsync/librsync
 Depends: librsync
 Filename: dists/dom-dev/testing/binary-x86_64/librsync-dev_2.0.2_x86_64.deb
-Size: 7724
-SHA256: 1c41dc9fc654fe6995a328dd7abf3a273a79aaf776714aa3c5c876568f55aebc
+Size: 7732
+SHA256: 3dd37a86de2723694dde440e98336d50ca235d97b94aa416078461f31cf5edff
 
 Package: librsync
 Architecture: x86_64
@@ -4872,8 +4872,8 @@ Description: Remote delta-compression library
 Homepage: https://github.com/librsync/librsync
 Depends: libbz2
 Filename: dists/dom-dev/testing/binary-x86_64/librsync_2.0.2_x86_64.deb
-Size: 18396
-SHA256: 80936a27ce18cbe6af79e22b0b4e45080ae4c3c377f5b50d52eba88bcf29bbc3
+Size: 18452
+SHA256: e20d4ddee6389e4319e7c3b2b5f4a3c55cc55645490c1609e34a11ef13550944
 
 Package: libsasl-dev
 Architecture: x86_64
@@ -4908,7 +4908,7 @@ Homepage: http://www.mega-nerd.com/libsndfile
 Depends: libsndfile
 Filename: dists/dom-dev/testing/binary-x86_64/libsndfile-dev_1.0.29~pre1-2_x86_64.deb
 Size: 11760
-SHA256: 43c7f47e09aca4b0e900e8b5c5eadb0e0a9aa9cbeeb6f7a8cb7518cb55fc3c9a
+SHA256: 7ad8ebea01fc06ddf67eabdf912a9853ff3a20daf5b6662a673e0efdd8c2d71f
 
 Package: libsndfile
 Architecture: x86_64
@@ -4919,8 +4919,8 @@ Description: Library for reading/writing audio files
 Homepage: http://www.mega-nerd.com/libsndfile
 Depends: libflac, libvorbis
 Filename: dists/dom-dev/testing/binary-x86_64/libsndfile_1.0.29~pre1-2_x86_64.deb
-Size: 147980
-SHA256: b35cf8f117bf9f371c00bb9f4d1cf7f7fda41af78789f31273f72e94c57f2a68
+Size: 147964
+SHA256: 038c542bde56b9c78edbbcfed74216b64e9b97113e56d55288a5d645959f36b4
 
 Package: libsodium-dev
 Architecture: x86_64
@@ -5027,6 +5027,18 @@ Filename: dists/dom-dev/testing/binary-x86_64/libssh-dev_0.7.5-1_x86_64.deb
 Size: 23756
 SHA256: 30305dc3717a06469372e663dddbcb4b1ec7a9555444692da944b7c49b7bb9d5
 
+Package: libssh-dev
+Architecture: x86_64
+Installed-Size: 212
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.8.1
+Description: Development files for libssh
+Homepage: https://www.libssh.org/
+Depends: libssh
+Filename: dists/dom-dev/testing/binary-x86_64/libssh-dev_0.8.1_x86_64.deb
+Size: 25880
+SHA256: d0baff48dcd0b46397765bff35ea6ec838458de1e5565d2ee087e786d25d4699
+
 Package: libssh
 Architecture: x86_64
 Installed-Size: 472
@@ -5038,6 +5050,18 @@ Depends: openssl
 Filename: dists/dom-dev/testing/binary-x86_64/libssh_0.7.5-1_x86_64.deb
 Size: 137772
 SHA256: 0543fdafb42c586443942497e00f084a9ca8ce35cef4c116cb54efbd9322925f
+
+Package: libssh
+Architecture: x86_64
+Installed-Size: 464
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.8.1
+Description: Tiny C SSH library
+Homepage: https://www.libssh.org/
+Depends: openssl
+Filename: dists/dom-dev/testing/binary-x86_64/libssh_0.8.1_x86_64.deb
+Size: 143744
+SHA256: ec466aea7890e5b4ca28add1e26f79ea91c67bfd45e47f54d5de5f46391400fd
 
 Package: libtalloc-dev
 Architecture: x86_64
@@ -5447,8 +5471,8 @@ Description: Development files for libxslt
 Homepage: http://xmlsoft.org/libxslt/
 Depends: libxslt,libxml2-dev
 Filename: dists/dom-dev/testing/binary-x86_64/libxslt-dev_1.1.32_x86_64.deb
-Size: 28636
-SHA256: 749cc505d64783ff8fd75f11d294a75af4057c814e0ea336dd065e4fe8e7332d
+Size: 28644
+SHA256: c203cf12d310202a8c05759488f9475af8de06c610a927d0dae9d7667366fd67
 
 Package: libxslt
 Architecture: x86_64
@@ -5459,8 +5483,8 @@ Description: XSLT processing library
 Homepage: http://xmlsoft.org/libxslt/
 Depends: libxml2,libgcrypt
 Filename: dists/dom-dev/testing/binary-x86_64/libxslt_1.1.32_x86_64.deb
-Size: 105808
-SHA256: 0421de20d31c63d936f63922831592c7a73f1a1221ab27741eb67f388bb49278
+Size: 105848
+SHA256: c7a4cdd938379dbe348f14050961ea3bbc48d21fd7541d111bf98dc7c20fa3aa
 
 Package: libyaml-dev
 Architecture: x86_64
@@ -5553,8 +5577,8 @@ Description: Development files for littlecms
 Homepage: http://www.littlecms.com/
 Depends: littlecms
 Filename: dists/dom-dev/testing/binary-x86_64/littlecms-dev_2.9_x86_64.deb
-Size: 23224
-SHA256: 0a9ffc4f2c0c327a7921835a9fbd3046eab19675b5cde806913841426500d750
+Size: 23228
+SHA256: 3e56cb439f2b87e57421fee209de44de8cbc49d759d7dcc64fbeaa6ad80a5f29
 
 Package: littlecms-utils
 Architecture: x86_64
@@ -5565,8 +5589,8 @@ Description: Color management utilities
 Homepage: http://www.littlecms.com/
 Depends: littlecms, libtiff
 Filename: dists/dom-dev/testing/binary-x86_64/littlecms-utils_2.9_x86_64.deb
-Size: 30872
-SHA256: cd92dcd4f0f05832c4cd5d770c246ae0b350a9bab78f732985c6245d9ffaae03
+Size: 30828
+SHA256: 489cd61ff11555b9317f09dfd990035bec4a0eee96c578a10afcbba5b450ada0
 
 Package: littlecms
 Architecture: x86_64
@@ -5576,8 +5600,8 @@ Version: 2.9
 Description: Color management library
 Homepage: http://www.littlecms.com/
 Filename: dists/dom-dev/testing/binary-x86_64/littlecms_2.9_x86_64.deb
-Size: 113492
-SHA256: da4c9207071ea93c1b7d521306eadf9b22eebf8e521098b8add76667dd7cf7a1
+Size: 113484
+SHA256: aa47723a69aeaa2a853c18dccdaf81fcc3bf958f94919e2d53a862d4f053b084
 
 Package: lld
 Architecture: x86_64
@@ -5672,8 +5696,8 @@ Description: The text web browser
 Homepage: http://lynx.browser.org/
 Depends: ncurses, openssl, libbz2, libidn
 Filename: dists/dom-dev/testing/binary-x86_64/lynx_2.8.9rel.1_x86_64.deb
-Size: 585664
-SHA256: a9ce4aa38a31fe2ac83b6adff237a9856c576e565744184f52a1b8fd614a3591
+Size: 584456
+SHA256: a368d6e08e43fa57db8fc70709828be2f6fbc4279b2a621a2b1c903119e13589
 
 Package: lz4
 Architecture: x86_64
@@ -5967,8 +5991,8 @@ Description: MQTT version 3.1/3.1.1 compatible message broker and clients
 Homepage: https://mosquitto.org/
 Depends: libmosquitto, libuuid
 Filename: dists/dom-dev/testing/binary-x86_64/mosquitto_1.5-1_x86_64.deb
-Size: 104432
-SHA256: 48498fa0b0914b15b0146cbbeb60f7dcbe478c496989592c9938d25cf39d0ca3
+Size: 104504
+SHA256: ee533ef86d10b1538c5cfcddfa3116a056cba3b6017117fcbe877073809a3fc3
 
 Package: mp3splt
 Architecture: x86_64
@@ -6063,8 +6087,8 @@ Description: Mail client with patches from neomutt
 Homepage: http://www.mutt.org/
 Depends: libandroid-support, ncurses, gdbm, openssl, libsasl, mime-support
 Filename: dists/dom-dev/testing/binary-x86_64/mutt_1.10.1-1_x86_64.deb
-Size: 416184
-SHA256: d448686578f18edc24d82c5a814b108fc6dd26c87c81c11040a650753ae19013
+Size: 416064
+SHA256: 347b94d6ff395c09d5c44d8f4ef4f14dbebc78bf8686f50a7d04eb71d51349c3
 
 Package: nano
 Architecture: x86_64
@@ -6242,8 +6266,8 @@ Description: Development files for netpbm
 Homepage: http://netpbm.sourceforge.net/
 Depends: netpbm
 Filename: dists/dom-dev/testing/binary-x86_64/netpbm-dev_3094_x86_64.deb
-Size: 27544
-SHA256: 3afd59a4b287f0816eb5bda0d34db6fd4b4ea0591b0e688781cb564739cc60ba
+Size: 27536
+SHA256: 257487dd7012f013c2e69aacd2d6799a5eac0a9b139a6899b04545e340ed44fa
 
 Package: netpbm
 Architecture: x86_64
@@ -6254,8 +6278,8 @@ Description: Toolkit for manipulation of graphic images of different formats
 Homepage: http://netpbm.sourceforge.net/
 Depends: libpng, libxml2, libjpeg-turbo, libtiff
 Filename: dists/dom-dev/testing/binary-x86_64/netpbm_3094_x86_64.deb
-Size: 1015812
-SHA256: bdcdc7a38c73772e9cef51f6efd9e0adb7f44ae4383d9ba7ba908e070579ee44
+Size: 1015748
+SHA256: 8252eb2ca71d07a53d5ad9e01a9c1fcd249696b4442ae79908623b510c7b0ee7
 
 Package: nettle
 Architecture: x86_64
@@ -6327,8 +6351,8 @@ Description: Development files for nodejs-current
 Homepage: https://nodejs.org/
 Depends: nodejs-current
 Filename: dists/dom-dev/testing/binary-x86_64/nodejs-current-dev_9.11.1_x86_64.deb
-Size: 125680
-SHA256: 58a4b900d06bbb3a2597fd5ed1a1f350dbf29200ed02bc219713a3fb6407b8c7
+Size: 125692
+SHA256: 99ba70f68c0ef3a53b3611306690ea22ebd01e87f8b75ff65047bdc63949cdf0
 
 Package: nodejs-current
 Architecture: x86_64
@@ -6340,8 +6364,8 @@ Homepage: https://nodejs.org/
 Depends: openssl, c-ares
 Conflicts: nodejs
 Filename: dists/dom-dev/testing/binary-x86_64/nodejs-current_9.11.1_x86_64.deb
-Size: 6207824
-SHA256: bd8c37bf2cddbeeb094ddd7061260c97237d859d9c90be892feac69a01637a06
+Size: 6211340
+SHA256: 910e7e52f57c0215dc227616a1e4606e119f4576f88b9a88ee9c7f65006aafe7
 
 Package: nodejs-dev
 Architecture: x86_64
@@ -6355,6 +6379,18 @@ Filename: dists/dom-dev/testing/binary-x86_64/nodejs-dev_8.11.3_x86_64.deb
 Size: 124860
 SHA256: 3d276eb6d53e5f8fd82db0c50d425047d166eddad8a29023973a5f03e55559c9
 
+Package: nodejs-dev
+Architecture: x86_64
+Installed-Size: 836
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.11.4
+Description: Development files for nodejs
+Homepage: https://nodejs.org/
+Depends: nodejs
+Filename: dists/dom-dev/testing/binary-x86_64/nodejs-dev_8.11.4_x86_64.deb
+Size: 124848
+SHA256: 41dee3e1ede63cdc36a58ed55c97e27090f673386480e44ed7d135362b018b6b
+
 Package: nodejs
 Architecture: x86_64
 Installed-Size: 47392
@@ -6367,6 +6403,19 @@ Conflicts: nodejs-current
 Filename: dists/dom-dev/testing/binary-x86_64/nodejs_8.11.3_x86_64.deb
 Size: 6181176
 SHA256: 1725c942ff588bb6c41f8be62969dc358908e8454567289c4fca1bde31d993d6
+
+Package: nodejs
+Architecture: x86_64
+Installed-Size: 47392
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.11.4
+Description: Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications
+Homepage: https://nodejs.org/
+Depends: openssl, c-ares
+Conflicts: nodejs-current
+Filename: dists/dom-dev/testing/binary-x86_64/nodejs_8.11.4_x86_64.deb
+Size: 6180792
+SHA256: e3eedd96eb08cd8526abd122f4c5ee808a181f41e7ef80b5424b089fe8a406c8
 
 Package: notmuch-dev
 Architecture: x86_64
@@ -6626,8 +6675,8 @@ Description: Utilities to encode and decode .opus files
 Homepage: https://www.opus-codec.org/
 Depends: libopus, libogg, libflac
 Filename: dists/dom-dev/testing/binary-x86_64/opus-tools_0.1.10-2_x86_64.deb
-Size: 53684
-SHA256: 65eb7275adbfccf448604cb061c10ef9bbdcfaea28b176ab8610dfb1b2057769
+Size: 53624
+SHA256: 89417f14f4b027ad7342467b8ecee661a87a512f12b0631509622436de1f6259
 
 Package: opusfile-dev
 Architecture: x86_64
@@ -6896,8 +6945,8 @@ Description: Dialog allowing secure password entry
 Homepage: https://www.gnupg.org/related_software/pinentry/index.html
 Depends: libandroid-support, libassuan, ncurses
 Filename: dists/dom-dev/testing/binary-x86_64/pinentry_1.1.0_x86_64.deb
-Size: 24284
-SHA256: dee255106cfb402ef3887a45940f965fbc71146ae747e17a4424846b13520506
+Size: 24248
+SHA256: cd668377cf7a93ec7191837128ebe43543766e868b0b36157e040c491e5954c9
 
 Package: pkg-config
 Architecture: x86_64
@@ -7304,8 +7353,8 @@ Description: Remote incremental backup
 Homepage: https://github.com/librsync/librsync
 Depends: librsync,libpopt
 Filename: dists/dom-dev/testing/binary-x86_64/rdiff_2.0.2_x86_64.deb
-Size: 5816
-SHA256: 1ac7290b6f06e089e2216738076ac7d5530d59e654773e7dbd1a5c2795a4a1b3
+Size: 5820
+SHA256: 9478df02ceecb03f7a96e372614923f2a45a1d1554524ad4e7d8257e9e3c9088
 
 Package: readline-dev
 Architecture: x86_64
@@ -7397,8 +7446,8 @@ Description: Development files for rhash
 Homepage: https://github.com/rhash/RHash
 Depends: rhash
 Filename: dists/dom-dev/testing/binary-x86_64/rhash-dev_1.3.6-3_x86_64.deb
-Size: 4488
-SHA256: 22bc9ae0bd38f730086df26b1cf937e75f2ab3033234056f5233b07e438718cc
+Size: 4484
+SHA256: 0e7898f723384d0a84260eb7fbc17bc79e05209fd3089fc649a8d28c4a141715
 
 Package: rhash
 Architecture: x86_64
@@ -7411,8 +7460,8 @@ Depends: openssl
 Conflicts: librhash
 Replaces: librhash
 Filename: dists/dom-dev/testing/binary-x86_64/rhash_1.3.6-3_x86_64.deb
-Size: 100344
-SHA256: b50e8dcfc771a8d898557ace4267284c52210591f7f7a7f2d8ae6d8388d01401
+Size: 100168
+SHA256: aeda127d78eae2490332f9f5ae14788a47669a80b4401afb313e2cb44f9d9499
 
 Package: rlwrap
 Architecture: x86_64
@@ -7447,8 +7496,8 @@ Description: Development files for rtmpdump
 Homepage: https://rtmpdump.mplayerhq.hu/
 Depends: rtmpdump
 Filename: dists/dom-dev/testing/binary-x86_64/rtmpdump-dev_2.4_x86_64.deb
-Size: 8804
-SHA256: 28a07ef44be9d62b3a85b891b19a547a4c924d090b37cfff12164f38e14787c8
+Size: 8812
+SHA256: 5b078299f99d47e432d58ec97acbdbabb85da3f3f71f73cd7d2f08af71ba34a4
 
 Package: rtmpdump
 Architecture: x86_64
@@ -7459,8 +7508,8 @@ Description: Small dumper for media content streamed over the RTMP protocol
 Homepage: https://rtmpdump.mplayerhq.hu/
 Depends: openssl
 Filename: dists/dom-dev/testing/binary-x86_64/rtmpdump_2.4_x86_64.deb
-Size: 72640
-SHA256: 1ec337a75dad67b07a7e49e872c2daca273564e4749d8ecd8ec4d7a8b30b13b3
+Size: 72612
+SHA256: 3abd69e2cc52aaf478066c3fd0ea3d28828d1be78dbfd7f8c31eb0af53b75f31
 
 Package: ruby-dev
 Architecture: x86_64
@@ -7507,8 +7556,8 @@ Description: scrypt KDF library and file encryption tool
 Homepage: https://www.tarsnap.com/scrypt.html
 Depends: openssl
 Filename: dists/dom-dev/testing/binary-x86_64/scrypt_1.2.1_x86_64.deb
-Size: 21432
-SHA256: 3a1ca99e3c2d4083802709a6b2df55fa7fe7cf626ac2bde79bb1ec05bffeee6e
+Size: 21444
+SHA256: 80782de5a662b344ad9e4f0537b1462ece1827cc24db95492fe2bef70a046d5f
 
 Package: sed
 Architecture: x86_64
@@ -7672,8 +7721,8 @@ Description: Fast SSL scanner
 Homepage: https://github.com/rbsec/sslscan
 Depends: openssl
 Filename: dists/dom-dev/testing/binary-x86_64/sslscan_1.11.11_x86_64.deb
-Size: 26460
-SHA256: d1759c72fdaba396e20cf5420d484108e71f72985b4a152bca86fe5c9cbcacb6
+Size: 26372
+SHA256: 9514dfb66553ce6677570286efe53d10695f3ce001cc7bcd500f6dd4d62e8bc4
 
 Package: stag
 Architecture: x86_64
@@ -7742,8 +7791,8 @@ Description: Socket wrapper which can provide TLS support to ordinary applicatio
 Homepage: https://www.stunnel.org/
 Depends: openssl, libutil
 Filename: dists/dom-dev/testing/binary-x86_64/stunnel_5.48_x86_64.deb
-Size: 76020
-SHA256: 08155a6797c0a01d735d3029276f52088e375daf6ff887308b0f6fbd33f327a7
+Size: 75988
+SHA256: d440fae1572eb012f72206aeb8ac0655f11609eb3ad752ce9ad6c83821aa7dc4
 
 Package: subversion-dev
 Architecture: x86_64
@@ -8064,8 +8113,8 @@ Description: FIGlet-compatible display of large colourful characters in text mod
 Homepage: http://caca.zoy.org/wiki/toilet
 Depends: libcaca
 Filename: dists/dom-dev/testing/binary-x86_64/toilet_0.3-1_x86_64.deb
-Size: 718812
-SHA256: 00e143572507d52fa8fc19cd7f4bd41e3a3b9bfcd5a5b6e249658e4c560fd1d1
+Size: 718796
+SHA256: 7bf68c6667f654de85230fe144ed5aec1be12186d6e7e87e609175c926f61691
 
 Package: tor
 Architecture: x86_64
@@ -8076,8 +8125,8 @@ Description: The Onion Router anonymizing overlay network
 Homepage: https://www.torproject.org
 Depends: libevent, openssl, liblzma
 Filename: dists/dom-dev/testing/binary-x86_64/tor_0.3.3.9_x86_64.deb
-Size: 1861588
-SHA256: 204478d3b5457dbfa3dc9fd56ff07a9f8e5d4c51d2af04b32be5f419965e98d6
+Size: 1876388
+SHA256: 48904d39c7061b5729e22b62b59bd5fd0b289af636cafe3d351af6f4a02c46d1
 
 Package: torsocks
 Architecture: x86_64
@@ -8361,8 +8410,8 @@ Description: Ogg Vorbis tools
 Homepage: http://www.vorbis.com
 Depends: libvorbis, libflac, libogg
 Filename: dists/dom-dev/testing/binary-x86_64/vorbis-tools_1.4.0-3_x86_64.deb
-Size: 58240
-SHA256: d0de84992fad40dcd13a0938859a6f554508bc880562b50edfc1e1758dc42840
+Size: 58288
+SHA256: a6894321c58bee110109fef444171a01c5b4405086b8896e1a8bc164c7267794
 
 Package: vttest
 Architecture: x86_64
@@ -8395,8 +8444,8 @@ Description: Text based Web browser and pager
 Homepage: http://w3m.sourceforge.net/
 Depends: libgc, ncurses, openssl
 Filename: dists/dom-dev/testing/binary-x86_64/w3m_0.5.3.20180125_x86_64.deb
-Size: 664708
-SHA256: b508286bfa4063cbd24a6f614d68fe561e713d379e2c19958756b9c424cd47bd
+Size: 677924
+SHA256: f15c8763a5179770771e4a3307f176cddc1e945c270a3f4a9d5a443f65836e82
 
 Package: wcalc
 Architecture: x86_64
@@ -8491,8 +8540,8 @@ Description: Commandline tool for retrieving files using HTTP, HTTPS and FTP
 Homepage: https://www.gnu.org/software/wget/
 Depends: pcre, openssl, libuuid, libandroid-support, libunistring
 Filename: dists/dom-dev/testing/binary-x86_64/wget_1.19.5_x86_64.deb
-Size: 221300
-SHA256: 59eafafff447999ded4364b0451af63f37ca5319c2d8a08bc1d0edb567f58c69
+Size: 221192
+SHA256: 1b5152ce53c560d33283fb8e1fcaaf71852e87acd3b5f8c7a12ad4646312fb22
 
 Package: wireguard-tools
 Architecture: x86_64
@@ -8609,8 +8658,8 @@ Description: XSLT command line processor
 Homepage: http://xmlsoft.org/libxslt/
 Depends: libxslt
 Filename: dists/dom-dev/testing/binary-x86_64/xsltproc_1.1.32_x86_64.deb
-Size: 11152
-SHA256: 80464ae308834dba557023c39eb4387708082155fd9daf9fa6d46a5823f228b9
+Size: 11144
+SHA256: 047898a2bf8ef0faef789aed1debc07d9b985f66e1f64931b29938222452b363
 
 Package: xvidcore-dev
 Architecture: x86_64

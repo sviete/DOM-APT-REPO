@@ -1,17 +1,17 @@
 Codename: dom-dev
 Version: 1
-Architectures: x86_64 arm aarch64 all i686
+Architectures: x86_64 arm i686 all aarch64
 Description: Dev repository
 Suite: dom-dev
-Date: Mon, 20 Aug 2018 05:08:54 UTC
+Date: Mon, 20 Aug 2018 14:00:23 UTC
 SHA256:
- 824cdd7d7441b471b406c1df9513c6df8745b2624fc5d51e5c4b7725eaaea4fe 294825 testing/binary-x86_64/Packages
- 66c9b07eecb962fe3367c4714d07c625466f974e098fc046b686e16512907693 63540 testing/binary-x86_64/Packages.xz
- 5cb0ba363a2e02ecd5928d6196e733677d416a82e82edbab84abc548fd6cb7f7 295986 testing/binary-arm/Packages
- 02be5a452a7457314a79b5d8c249c16f3d8b635153ff18e5364625670970e3c0 64472 testing/binary-arm/Packages.xz
- c61284df1715746a19f529d999267fb13ed9e5a9aa011c298c3c5e1a79b8ab7c 298169 testing/binary-aarch64/Packages
- c7b6cadd85153c07ce8b9c9ffd561f1012056fd6a69b7d60cb3e1581c4b86905 63820 testing/binary-aarch64/Packages.xz
+ c16c9f0902392886418c7267beb5c745bb3966fa51016d07a4c57b597a664a91 296378 testing/binary-x86_64/Packages
+ 3016405a3aa5d013d6fcd99da5a03821dda38bd1d564f0d1b53ce2984f2780e5 63772 testing/binary-x86_64/Packages.xz
+ a20803d3bc4117fdf74020d56f431bc2affc418c2e3c62e3bda615aa7af063a9 297503 testing/binary-arm/Packages
+ 06971e61f8b37cc574f0cc288629abad9064cf2e9334df0d537ccdbd8a377959 64696 testing/binary-arm/Packages.xz
+ f49b79445d8881caf046300ddbc34eba91bf5699d56744f1d1249e0108c5a1f6 291899 testing/binary-i686/Packages
+ 327a88b03be8d039dc53a3da96149d9f0af74b622af86d82b3b7d302527555b4 63624 testing/binary-i686/Packages.xz
  37f4282d89ee0581cb195b9cfb778efbbc4dc08e5993feb1d24fa3967255c465 17222 testing/binary-all/Packages
  e8d6e06409edc5df4e7f2899ed6461bc59fae1f10f42400746ace4a547c4c386 5088 testing/binary-all/Packages.xz
- 602f5a742ad63e89f191eb17591eb086c8c53a938734e127f550cae073983744 290370 testing/binary-i686/Packages
- 0bb89a800e7459b00a9a006a22e3266273fccc303e8256e298152b9a4e56a5e0 63424 testing/binary-i686/Packages.xz
+ c163a608ddabeca05498bece28781b106e45493235fd5b16c1d0742577718526 299734 testing/binary-aarch64/Packages
+ 9ae0b61e42a86f8b676aa35fad693e2f9904c85ef1017bab6d0804c941de6c20 63984 testing/binary-aarch64/Packages.xz
