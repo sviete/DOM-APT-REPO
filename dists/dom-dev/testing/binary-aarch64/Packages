@@ -641,8 +641,8 @@ Description: C language frontend for LLVM
 Homepage: https://clang.llvm.org/
 Depends: libllvm
 Filename: dists/dom-dev/testing/binary-aarch64/clang_6.0.1_aarch64.deb
-Size: 12692900
-SHA256: 913bbc61e58156d7d133f0b1540d81c20ac6c6bab3f3d9ee1534687e9f8cf4b2
+Size: 12703036
+SHA256: 69db4e00f9a08e7981d59e3d9fed8a50da424e225ac4e4d1d5832e3c1dcb7094
 
 Package: cmake-curses-gui
 Architecture: aarch64
@@ -1098,8 +1098,8 @@ Description: Full-Featured Text WWW Browser
 Homepage: http://elinks.or.cz
 Depends: libexpat, libidn, openssl, libbz2
 Filename: dists/dom-dev/testing/binary-aarch64/elinks_0.13.GIT-1_aarch64.deb
-Size: 341520
-SHA256: a8ed49282a2392df16dd64582fb569455ef2ce0335f4332572e997fd3f98620e
+Size: 341412
+SHA256: 354c52763e873bccad68fc0af063b99f3c3099a4b3a6eec8441097d01eb50687
 
 Package: emacs
 Architecture: aarch64
@@ -1122,8 +1122,8 @@ Description: General-purpose concurrent functional programming language develope
 Homepage: https://www.erlang.org/
 Depends: openssl, ncurses, libutil
 Filename: dists/dom-dev/testing/binary-aarch64/erlang_21.0.5_aarch64.deb
-Size: 33101372
-SHA256: 255e846359b06bf82689dc8dbe0fdf4f6a6d4b24bef40f242c78d534afd0817f
+Size: 33105456
+SHA256: 07c886f96523e97ac90f76e49c6be6a74d2a53c953aecf7b1745eb61f1b2c415
 
 Package: espeak-dev
 Architecture: aarch64
@@ -1738,8 +1738,8 @@ Description: Programs for the GLib library
 Homepage: https://developer.gnome.org/glib/
 Depends: glib
 Filename: dists/dom-dev/testing/binary-aarch64/glib-bin_2.56.1-1_aarch64.deb
-Size: 97328
-SHA256: 3ffd7909a5df0390eb6cf42849db0fcd3d17b6de7b02a84c25a899002bdde537
+Size: 97852
+SHA256: b33fdbde3e36a55b6639b84bf62cd4909b7f1f65e4308f487d3169e9d65ef02d
 
 Package: glib-dev
 Architecture: aarch64
@@ -1750,8 +1750,8 @@ Description: Development files for glib
 Homepage: https://developer.gnome.org/glib/
 Depends: glib,pcre-dev
 Filename: dists/dom-dev/testing/binary-aarch64/glib-dev_2.56.1-1_aarch64.deb
-Size: 235400
-SHA256: e957be470845f19b565db46c58cf6b1bf5535a403c7f0a35ab1a03d0f191c2b5
+Size: 235404
+SHA256: 569aca8caed38fe0448b18b0d6c1e166ad888219f5317f7553e191f3a357c19b
 
 Package: glib
 Architecture: aarch64
@@ -1762,8 +1762,8 @@ Description: Library providing core building blocks for libraries and applicatio
 Homepage: https://developer.gnome.org/glib/
 Depends: libffi, pcre, libandroid-support
 Filename: dists/dom-dev/testing/binary-aarch64/glib_2.56.1-1_aarch64.deb
-Size: 1704304
-SHA256: 33e692cd796bef40b4dc6fd7be801ffb1d8d5b2887391cc41018133e8b8f617b
+Size: 1703368
+SHA256: 08457af2842872034b7701a8683c035fc5438c090b47094eca2f5ec19abdeafc
 
 Package: global
 Architecture: aarch64
@@ -2075,8 +2075,8 @@ Description: Command which searches one or more input files for lines containing
 Homepage: https://www.gnu.org/software/grep/
 Depends: pcre
 Filename: dists/dom-dev/testing/binary-aarch64/grep_3.1_aarch64.deb
-Size: 79952
-SHA256: bbd47e64cc93abd459860bed463c8082ed5f1aab93562aaa46f2727813443f0d
+Size: 80128
+SHA256: a3575def2df17b01cebae6a1563a00fc44b5d577c85a77ad0df309e051ac6b0c
 
 Package: gsl-dev
 Architecture: aarch64
@@ -2513,8 +2513,8 @@ Description: Calculates IP broadcast, network, Cisco wildcard mask, and host ran
 Homepage: http://jodies.de/ipcalc
 Depends: perl
 Filename: dists/dom-dev/testing/binary-aarch64/ipcalc_0.41_aarch64.deb
-Size: 8744
-SHA256: ae053801b6a0a22974db65a477dce7c9773d91983c1021ec24494e8c190afe68
+Size: 8748
+SHA256: d38fdcf0c9c28fb571fb0e20773b396bf5eebce591fa5e8ece25d318db45d4bd
 
 Package: iperf3-dev
 Architecture: aarch64
@@ -2844,8 +2844,8 @@ Description: Terminal pager program used to view the contents of a text file one
 Homepage: http://www.greenwoodsoftware.com/less/
 Depends: ncurses, pcre
 Filename: dists/dom-dev/testing/binary-aarch64/less_530-1_aarch64.deb
-Size: 73944
-SHA256: 7b69890a637ed58e72ab6292b0ef06eb7efb2011b80736fe5ffa3ff1399e699c
+Size: 73920
+SHA256: 50cbe8b172a673ef76c5ac4797b37077ae426d0599573df93f12edb933cd9084
 
 Package: leveldb-dev
 Architecture: aarch64
@@ -3104,8 +3104,8 @@ Description: C language frontend library for LLVM
 Homepage: https://clang.llvm.org/
 Depends: libllvm
 Filename: dists/dom-dev/testing/binary-aarch64/libclang-dev_6.0.1_aarch64.deb
-Size: 23503488
-SHA256: a856f1dd37a352bf3a88a605201bd0a5c80e15f04e7408f6bddd206bf9e6815e
+Size: 23502572
+SHA256: 717bc006a8e6ba6ea1c6f30140edd313578a4dfeab7e5d0247f0c0fe9bcd93e9
 
 Package: libclang
 Architecture: aarch64
@@ -3116,8 +3116,8 @@ Description: C language frontend library for LLVM
 Homepage: https://clang.llvm.org/
 Depends: libllvm
 Filename: dists/dom-dev/testing/binary-aarch64/libclang_6.0.1_aarch64.deb
-Size: 2870244
-SHA256: 2d2209f22c12b0b5f2f68fae63424880a264024d16acddbd6257c69d0dc590c6
+Size: 2871080
+SHA256: 7b0706512c12c6bad0c5d435a6b3cc77e1e0da92c848f7bfb43b1ed279727f8b
 
 Package: libcln-dev
 Architecture: aarch64
@@ -4094,12 +4094,12 @@ Description: Development files for libllvm
 Homepage: https://clang.llvm.org/
 Depends: libllvm
 Filename: dists/dom-dev/testing/binary-aarch64/libllvm-dev_6.0.1_aarch64.deb
-Size: 2036100
-SHA256: b11f68eb97ad6a139465060f58f3ed4e81901b6649fbcc295f81b1a96c85d91f
+Size: 2036356
+SHA256: b04a5e491190fc352b526b1fba96eda55008b32a5c5ebf134f18af2de870fa73
 
 Package: libllvm
 Architecture: aarch64
-Installed-Size: 44804
+Installed-Size: 44808
 Maintainer: Fredrik Fornwall @fornwall
 Version: 6.0.1
 Description: Modular compiler and toolchain technologies library
@@ -4108,8 +4108,8 @@ Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libffi
 Conflicts: gcc, clang (<< 3.9.1-3)
 Replaces: gcc
 Filename: dists/dom-dev/testing/binary-aarch64/libllvm_6.0.1_aarch64.deb
-Size: 8480584
-SHA256: ea1942cc5d05414c445f339d59fc835221662d8745ffa457affe82001ec518f7
+Size: 8474320
+SHA256: 8a6dcfc3d012e40221dda532a1b4ea6cd4741f23f31042ba786c824b0e599ae9
 
 Package: libltdl
 Architecture: aarch64
@@ -5588,8 +5588,8 @@ Description: LD replace based on LLVM
 Homepage: https://clang.llvm.org/
 Depends: libllvm
 Filename: dists/dom-dev/testing/binary-aarch64/lld_6.0.1_aarch64.deb
-Size: 1026532
-SHA256: c26338c75501fa02c80bff59d64b301978039cd5eee64595eacca187cda1a0b0
+Size: 1024316
+SHA256: 977b8e7efe4b1e7902170ef712ee5cd401a792bb94b68fa0c6c7a2cdea91a3a4
 
 Package: lldb-dev
 Architecture: aarch64
@@ -5624,8 +5624,8 @@ Description: C language frontend for LLVM
 Homepage: https://clang.llvm.org/
 Depends: libllvm
 Filename: dists/dom-dev/testing/binary-aarch64/llvm_6.0.1_aarch64.deb
-Size: 1563064
-SHA256: 534d5da5bf4f4e56dacba4d64487ca0779d36d21a15e0f938b6a382575b3f1c8
+Size: 1564372
+SHA256: 590b7277a2187a3a0459769fd080b2184a3f6ed1f255bbbb75d7df2cdd0b97e8
 
 Package: ltrace
 Architecture: aarch64
@@ -7589,8 +7589,8 @@ Description: Fast grep-like program, alternative to ack-grep
 Homepage: https://geoff.greer.fm/ag/
 Depends: pcre, liblzma
 Filename: dists/dom-dev/testing/binary-aarch64/silversearcher-ag_2.2.0_aarch64.deb
-Size: 29372
-SHA256: 0eab91bce4bbb85e3beba1af7b45f8bba6179c8f6d3b5f137fc525e7e85e169f
+Size: 29468
+SHA256: e9ad1852d95a0eafebff9bae97ccf89790c82024e3e9b37354334abec73a6212
 
 Package: sl
 Architecture: aarch64
@@ -8538,8 +8538,8 @@ Description: Tools for the WireGuard secure network tunnel
 Homepage: https://www.wireguard.com
 Depends: libmnl, tsu
 Filename: dists/dom-dev/testing/binary-aarch64/wireguard-tools_0.0.20180802_aarch64.deb
-Size: 37892
-SHA256: 4ef85b98478de57fa0c083cbe5f31524b981bcff8715deba1a909a0ae30a4fda
+Size: 37900
+SHA256: 845930b6a36f1b19b8962c258aa172a91c1b2f585debeeb4d59d962e2ae951bc
 
 Package: wol
 Architecture: aarch64

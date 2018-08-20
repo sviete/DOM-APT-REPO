@@ -667,8 +667,8 @@ Description: C language frontend for LLVM
 Homepage: https://clang.llvm.org/
 Depends: libllvm
 Filename: dists/dom-dev/testing/binary-arm/clang_6.0.1_arm.deb
-Size: 10727800
-SHA256: fb423cf26943c1af897c80bd68139ff83151358e6a05ac422d69dfab39349006
+Size: 10730464
+SHA256: 213cc516ad6a82aaced6c04e90965e301cfb979479ef6f2e1f1bb2d45bad300b
 
 Package: cmake-curses-gui
 Architecture: arm
@@ -1148,8 +1148,8 @@ Description: Full-Featured Text WWW Browser
 Homepage: http://elinks.or.cz
 Depends: libexpat, libidn, openssl, libbz2
 Filename: dists/dom-dev/testing/binary-arm/elinks_0.13.GIT-1_arm.deb
-Size: 373828
-SHA256: c230e87b573fc0977a4786ffa6072aeb0e1c8a45609a2971795e0d51dcabac11
+Size: 373492
+SHA256: 56dec22285046587dce40cfccda418d2f6fc28f97f5166aa938ceeeddaf3aeb3
 
 Package: emacs
 Architecture: arm
@@ -1800,8 +1800,8 @@ Description: Programs for the GLib library
 Homepage: https://developer.gnome.org/glib/
 Depends: glib
 Filename: dists/dom-dev/testing/binary-arm/glib-bin_2.56.1-1_arm.deb
-Size: 103400
-SHA256: 066e42f4da15a621185677391cf1ba76de38ac52fd95461d1094960b070becf4
+Size: 103456
+SHA256: 1a12f31b6e8d1a7ff9b6b5c6d9cd517dd073a6cd51eefed8776a214866d8e720
 
 Package: glib-dev
 Architecture: arm
@@ -1812,8 +1812,8 @@ Description: Development files for glib
 Homepage: https://developer.gnome.org/glib/
 Depends: glib,pcre-dev
 Filename: dists/dom-dev/testing/binary-arm/glib-dev_2.56.1-1_arm.deb
-Size: 235452
-SHA256: 4176f2efa5ab31e0afdd33c0bfacaadfb6524d6d2b22a27efd3e9483035760a6
+Size: 235420
+SHA256: d856286ac51a596621a54384ad334937360beaba521906e2728ccfd993484a89
 
 Package: glib
 Architecture: arm
@@ -1824,8 +1824,8 @@ Description: Library providing core building blocks for libraries and applicatio
 Homepage: https://developer.gnome.org/glib/
 Depends: libffi, pcre, libandroid-support
 Filename: dists/dom-dev/testing/binary-arm/glib_2.56.1-1_arm.deb
-Size: 1761484
-SHA256: b1966af3aff57199a1ca13cb2bd27337661684bdc7ff6b6a13c074d917ca96b4
+Size: 1762748
+SHA256: ecafa185c8a9e95807c349c30baf774856dac5f0439694404d3cadc5751c7f7e
 
 Package: global
 Architecture: arm
@@ -2137,8 +2137,8 @@ Description: Command which searches one or more input files for lines containing
 Homepage: https://www.gnu.org/software/grep/
 Depends: pcre
 Filename: dists/dom-dev/testing/binary-arm/grep_3.1_arm.deb
-Size: 87028
-SHA256: 79504b4a0fa36604cffdcc03f39ba721d1c38fd7621e1ed74e96a213bdd62152
+Size: 86980
+SHA256: dd0f28b626b36b3ae352811b7ba1e54b5d81f8d1d20cf6ba408233f30c5beaba
 
 Package: gsl-dev
 Architecture: arm
@@ -2575,8 +2575,8 @@ Description: Calculates IP broadcast, network, Cisco wildcard mask, and host ran
 Homepage: http://jodies.de/ipcalc
 Depends: perl
 Filename: dists/dom-dev/testing/binary-arm/ipcalc_0.41_arm.deb
-Size: 8740
-SHA256: cb521ae41a038644ed9f3ec39202bc4896292b9bb34b8d46030407739a886da6
+Size: 8744
+SHA256: 9d4cb10d3ae4aac14c0c9bb475df83dc7a072dc60a03ac30c50a8a985501d2ef
 
 Package: iperf3-dev
 Architecture: arm
@@ -2942,8 +2942,8 @@ Description: Terminal pager program used to view the contents of a text file one
 Homepage: http://www.greenwoodsoftware.com/less/
 Depends: ncurses, pcre
 Filename: dists/dom-dev/testing/binary-arm/less_530-1_arm.deb
-Size: 81272
-SHA256: debbe0c7190b5a7f368d49fe94d37a27a8f66fe2bc8a4819498a0ddf82904201
+Size: 81312
+SHA256: d040736097b55e51a1eeece3846bf430870f43564710733da7735c84c6470396
 
 Package: leveldb-dev
 Architecture: arm
@@ -3202,8 +3202,8 @@ Description: C language frontend library for LLVM
 Homepage: https://clang.llvm.org/
 Depends: libllvm
 Filename: dists/dom-dev/testing/binary-arm/libclang-dev_6.0.1_arm.deb
-Size: 27920076
-SHA256: e0c4b53ce7c8011e8ded7f39e2ac9a42129de35d1cdd35151618e34c303d00cd
+Size: 27936992
+SHA256: 107133c525d6172adc33b96f54ce952e8b6d96050e50957fe4365d0f124ee385
 
 Package: libclang
 Architecture: arm
@@ -3214,8 +3214,8 @@ Description: C language frontend library for LLVM
 Homepage: https://clang.llvm.org/
 Depends: libllvm
 Filename: dists/dom-dev/testing/binary-arm/libclang_6.0.1_arm.deb
-Size: 2922440
-SHA256: b0688b68e76c4270a70e23e15193b27f5e83c08e10480afbcdabc199424876dd
+Size: 2922632
+SHA256: 25a62d2ba55228a1eadc3b4cd7d59553f6cc3266b734183f22288ad704f3b903
 
 Package: libcln-dev
 Architecture: arm
@@ -4215,8 +4215,8 @@ Description: Development files for libllvm
 Homepage: https://clang.llvm.org/
 Depends: libllvm
 Filename: dists/dom-dev/testing/binary-arm/libllvm-dev_6.0.1_arm.deb
-Size: 2036156
-SHA256: 15655df22ec7c0a06a71754872be632525bac5fd09c0fbd4dca2b90fa6766fc4
+Size: 2036000
+SHA256: 2d8e418f3c2a8305dc4a520b9aa3ad27a1be77a75b4368eba38c567c65ac7709
 
 Package: libllvm
 Architecture: arm
@@ -4229,8 +4229,8 @@ Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libffi
 Conflicts: gcc, clang (<< 3.9.1-3)
 Replaces: gcc
 Filename: dists/dom-dev/testing/binary-arm/libllvm_6.0.1_arm.deb
-Size: 8904900
-SHA256: a9e438687671e3dd76bb77981845b16b2712531b0a9b9d29b6070c5dd86b98c6
+Size: 8909496
+SHA256: 65647b5d1605ad605a70137e5cb806290dd6f80584d6601404ae46f32bb339c9
 
 Package: libltdl
 Architecture: arm
@@ -5721,8 +5721,8 @@ Description: LD replace based on LLVM
 Homepage: https://clang.llvm.org/
 Depends: libllvm
 Filename: dists/dom-dev/testing/binary-arm/lld_6.0.1_arm.deb
-Size: 1373632
-SHA256: ef9166c8f30a664f27f12f3efde6272d0f629094998e79dfcd6f4c64a37566b8
+Size: 1374016
+SHA256: b78173a0fda14327a962f9901203ff82fe922c19f35a8f0bbb122807326b894c
 
 Package: lldb-dev
 Architecture: arm
@@ -5757,8 +5757,8 @@ Description: C language frontend for LLVM
 Homepage: https://clang.llvm.org/
 Depends: libllvm
 Filename: dists/dom-dev/testing/binary-arm/llvm_6.0.1_arm.deb
-Size: 1692744
-SHA256: 052f3e284e115e3f6ec8438f27c14fd500118e7ae469f0c9a44ae9456c9ba86e
+Size: 1692976
+SHA256: ed1a0156431f16d42d97b6256ccfe5fa9b7caffb54c3a273917b076887579182
 
 Package: ltrace
 Architecture: arm
@@ -7770,8 +7770,8 @@ Description: Fast grep-like program, alternative to ack-grep
 Homepage: https://geoff.greer.fm/ag/
 Depends: pcre, liblzma
 Filename: dists/dom-dev/testing/binary-arm/silversearcher-ag_2.2.0_arm.deb
-Size: 32008
-SHA256: 43c6ee839f8f1d32047d3c8d56f43c2490837dcfed8faa31eafc10e571d10e8f
+Size: 32012
+SHA256: 0c42b57ec49ba56f9c5bb5427fa2eeb8b4a6aeaff90e6382909ec1c1a2994d9c
 
 Package: sl
 Architecture: arm
@@ -8742,8 +8742,8 @@ Description: Tools for the WireGuard secure network tunnel
 Homepage: https://www.wireguard.com
 Depends: libmnl, tsu
 Filename: dists/dom-dev/testing/binary-arm/wireguard-tools_0.0.20180802_arm.deb
-Size: 35352
-SHA256: aa21a4a903e2fc52327573ddd9d47dcde8b7df3e5113e68b77a79250bd383baf
+Size: 35324
+SHA256: c8267f88531538b95b085d70564e47a42ccd68227727ba60785e31d0192707c0
 
 Package: wol
 Architecture: arm

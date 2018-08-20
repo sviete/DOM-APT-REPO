@@ -7,8 +7,8 @@ Description: Tool like grep optimized for programmers
 Homepage: https://beyondgrep.com/
 Depends: perl, coreutils
 Filename: dists/dom-dev/testing/binary-all/ack-grep_2.24_all.deb
-Size: 36896
-SHA256: 0803b5594763c82b1d77ddac57bcbc0d7a7c00892c7481160f6c56be9bc81478
+Size: 36884
+SHA256: 16185c6b0646947ce4b030c4b92bc649e9109f639ae97014ee14ef8a050c0c56
 
 Package: apksigner
 Architecture: all
@@ -54,8 +54,8 @@ Description: Creator of shell scripts to configure source code packages
 Homepage: https://www.gnu.org/software/autoconf/autoconf.html
 Depends: m4, make, perl
 Filename: dists/dom-dev/testing/binary-all/autoconf_2.69_all.deb
-Size: 271072
-SHA256: 5f4fe1ebe624a358dc35e78c4acc37f2c11a0ccf279695f701bbd7656f418151
+Size: 271060
+SHA256: 937124bf7802c758720352a7ba63d05f0e5512b323b22a528179b177c130f62c
 
 Package: automake
 Architecture: all
@@ -136,8 +136,8 @@ Description: Tool to colorize 'diff' output
 Homepage: http://www.colordiff.org
 Depends: perl
 Filename: dists/dom-dev/testing/binary-all/colordiff_1.0.18_all.deb
-Size: 8836
-SHA256: ae90cb854d271323fb4e91e2d4cd0c4ada8961a532e33a6914a75376549c3943
+Size: 8832
+SHA256: 2b117cee9aa8d3c9ce54fefb909eff672166a98844a60dd6c3ebcbfbe8e21840
 
 Package: cowsay
 Architecture: all
@@ -148,8 +148,8 @@ Description: Program which generates ASCII pictures of a cow with a message
 Homepage: https://en.wikipedia.org/wiki/Cowsay
 Depends: perl
 Filename: dists/dom-dev/testing/binary-all/cowsay_3.03_all.deb
-Size: 10256
-SHA256: 50476751a1075035f2ee5a2bfce3885374d0941bfef2f4e4613604a1941e4bbc
+Size: 10252
+SHA256: b7159487069c48040cf96a6db0d30b6628d9fd686457f93b525fd3da84e6a028
 
 Package: debootstrap
 Architecture: all
@@ -298,8 +298,8 @@ Description: GNU Parallel is a shell tool for executing jobs in parallel using o
 Homepage: https://www.gnu.org/software/parallel/
 Depends: perl
 Filename: dists/dom-dev/testing/binary-all/parallel_20180222-1_all.deb
-Size: 198552
-SHA256: c36fc11cdc4db036ce373569cb3f0558b0ef2c9ec78750fdc6523b6588d74d4e
+Size: 198512
+SHA256: 3f57c698f179fee9fa34a7afa4978009e2fa74d078e8eace1266dc454276fa2b
 
 Package: pass-otp
 Architecture: all
@@ -397,8 +397,8 @@ Description: Tool for managing the installation of multiple software packages in
 Homepage: https://www.gnu.org/software/stow/
 Depends: perl
 Filename: dists/dom-dev/testing/binary-all/stow_2.2.2_all.deb
-Size: 24748
-SHA256: 50b0b82a96caf848d5313c309febe30bc1336491ef65d95aa79eb54eac4abe79
+Size: 24752
+SHA256: cb5fecc79165c60460a1349397dde0ee119cb675c1a16170df96e79785cf8eae
 
 Package: termux-am
 Architecture: all
@@ -446,8 +446,8 @@ Homepage: https://termux.com/
 Depends: termux-am
 Essential: yes
 Filename: dists/dom-dev/testing/binary-all/termux-tools_0.56_all.deb
-Size: 4280
-SHA256: de473eb3debb1bd479242b4d178d581ce26ef91a5739d9fa9e6cce7cd54232ea
+Size: 4284
+SHA256: 1e7de17d0af9b1848121669c4fb981b5b8c24323a4c7ffa6d57792f6f2337495
 
 Package: texlive-tlmgr
 Architecture: all

@@ -641,8 +641,8 @@ Description: C language frontend for LLVM
 Homepage: https://clang.llvm.org/
 Depends: libllvm
 Filename: dists/dom-dev/testing/binary-i686/clang_6.0.1_i686.deb
-Size: 15124624
-SHA256: b410328ef2d4fa286596bc7e8365b4570da0899ab19d1080888ba1263fcee5d9
+Size: 15128012
+SHA256: 2db0681d6ce9c20ee620f4cd4d6510d525ff011b781c8c849dbfc7243cd2ee65
 
 Package: cmake-curses-gui
 Architecture: i686
@@ -1098,8 +1098,8 @@ Description: Full-Featured Text WWW Browser
 Homepage: http://elinks.or.cz
 Depends: libexpat, libidn, openssl, libbz2
 Filename: dists/dom-dev/testing/binary-i686/elinks_0.13.GIT-1_i686.deb
-Size: 350492
-SHA256: d82aad0abc991117f0003fcede5de3266dd9174b40ad3711b57d88786193d8e7
+Size: 350304
+SHA256: f8e24d9b667e266ff12f7816484d5b16e6f7747ad74fb80a645ede121b14a274
 
 Package: emacs
 Architecture: i686
@@ -1738,8 +1738,8 @@ Description: Programs for the GLib library
 Homepage: https://developer.gnome.org/glib/
 Depends: glib
 Filename: dists/dom-dev/testing/binary-i686/glib-bin_2.56.1-1_i686.deb
-Size: 100432
-SHA256: 4ba35c9db83a55e9c241587bbc91441109cbe30a97915f96b252478c8a161668
+Size: 100484
+SHA256: 6c5979394e4935505a24dcf0a2b67ea0004b1e593fff751c481ce53c0cb8addf
 
 Package: glib-dev
 Architecture: i686
@@ -1750,8 +1750,8 @@ Description: Development files for glib
 Homepage: https://developer.gnome.org/glib/
 Depends: glib,pcre-dev
 Filename: dists/dom-dev/testing/binary-i686/glib-dev_2.56.1-1_i686.deb
-Size: 235512
-SHA256: 086144bb574c905edb00d7e767abc7afc7daa6553b151d4b2b018b6f0d03c3f4
+Size: 235440
+SHA256: bb4cf726317c327addb977f31f840cf074e7b3f2bf1c8568d874d2bc290d552e
 
 Package: glib
 Architecture: i686
@@ -1762,8 +1762,8 @@ Description: Library providing core building blocks for libraries and applicatio
 Homepage: https://developer.gnome.org/glib/
 Depends: libffi, pcre, libandroid-support
 Filename: dists/dom-dev/testing/binary-i686/glib_2.56.1-1_i686.deb
-Size: 1766876
-SHA256: c9d34959c6698f9fe69d2b382bbb6256de902eff67193b9389fd958b5cf11a36
+Size: 1768372
+SHA256: 3da3cb6e6bf3988d63646475917dc5950adebc8abfd4d85549956283c6a01621
 
 Package: global
 Architecture: i686
@@ -2075,8 +2075,8 @@ Description: Command which searches one or more input files for lines containing
 Homepage: https://www.gnu.org/software/grep/
 Depends: pcre
 Filename: dists/dom-dev/testing/binary-i686/grep_3.1_i686.deb
-Size: 89640
-SHA256: a14aca8abff2969653f6bec7703a302dce3701509aebcd88d915c46c21c3c785
+Size: 89620
+SHA256: a2649382958d5741112e034dae0332a1d6b04a0eb75912fa02ed68623cb574bb
 
 Package: gsl-dev
 Architecture: i686
@@ -2513,8 +2513,8 @@ Description: Calculates IP broadcast, network, Cisco wildcard mask, and host ran
 Homepage: http://jodies.de/ipcalc
 Depends: perl
 Filename: dists/dom-dev/testing/binary-i686/ipcalc_0.41_i686.deb
-Size: 8744
-SHA256: 5e7edc980768a6c8f56154f81fe9425eea007b3456717cdba85f210c8ff08bef
+Size: 8736
+SHA256: 1234a1d40199d9abffdead8511e8c390df6b88466b9a5851c84f3d3c230d2aa2
 
 Package: iperf3-dev
 Architecture: i686
@@ -2844,8 +2844,8 @@ Description: Terminal pager program used to view the contents of a text file one
 Homepage: http://www.greenwoodsoftware.com/less/
 Depends: ncurses, pcre
 Filename: dists/dom-dev/testing/binary-i686/less_530-1_i686.deb
-Size: 74476
-SHA256: 4a20f4cfce7311b7fddbdd2814aff527aee89f23065d5f7a04e3e9624e0bc55e
+Size: 74464
+SHA256: ef990fe83da0c04cbfc3c5c8cd28a9f5c02b3a7f7ab47d5ea24ee42e1c55e7c1
 
 Package: leveldb-dev
 Architecture: i686
@@ -3104,8 +3104,8 @@ Description: C language frontend library for LLVM
 Homepage: https://clang.llvm.org/
 Depends: libllvm
 Filename: dists/dom-dev/testing/binary-i686/libclang-dev_6.0.1_i686.deb
-Size: 24484424
-SHA256: 4c6582f3cd1acd5d4b8fa84185f1cc0a08a4e6fb86d655387f921f3025cf94ec
+Size: 24476364
+SHA256: 2a58852c796478b3b215c15ed09c20274684318595e7f38562de7f62787b3c18
 
 Package: libclang
 Architecture: i686
@@ -3116,8 +3116,8 @@ Description: C language frontend library for LLVM
 Homepage: https://clang.llvm.org/
 Depends: libllvm
 Filename: dists/dom-dev/testing/binary-i686/libclang_6.0.1_i686.deb
-Size: 3475852
-SHA256: f3d2b45cbb7b850bf695503ca506fc373aa26f0f43d39d868dcd06a5d86cfd35
+Size: 3476560
+SHA256: 1a3a53eda9611c8ae4dec1ca9d5692afe1265c9db7eed05afd502d35d054e3c5
 
 Package: libcln-dev
 Architecture: i686
@@ -4094,8 +4094,8 @@ Description: Development files for libllvm
 Homepage: https://clang.llvm.org/
 Depends: libllvm
 Filename: dists/dom-dev/testing/binary-i686/libllvm-dev_6.0.1_i686.deb
-Size: 2035920
-SHA256: 80994fc03debc4cab5d5d126116ca053b6e8351f0c5d526b864f4ea68edcfad3
+Size: 2036352
+SHA256: d965df513ac543cfcb4d5c5c7aaa27ad961d856a035cd896f682480a33fe9841
 
 Package: libllvm
 Architecture: i686
@@ -4108,8 +4108,8 @@ Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libffi
 Conflicts: gcc, clang (<< 3.9.1-3)
 Replaces: gcc
 Filename: dists/dom-dev/testing/binary-i686/libllvm_6.0.1_i686.deb
-Size: 9968016
-SHA256: dca8d31f9292049b48a7184d58ba11236c4cf077d07fc7b6061f11bf0ebd6e37
+Size: 9971328
+SHA256: 498f3cb61aa15ecddde42d1b4a9171fdd5501732ea1126ffaecf3867ce5fe521
 
 Package: libltdl
 Architecture: i686
@@ -5588,8 +5588,8 @@ Description: LD replace based on LLVM
 Homepage: https://clang.llvm.org/
 Depends: libllvm
 Filename: dists/dom-dev/testing/binary-i686/lld_6.0.1_i686.deb
-Size: 1052300
-SHA256: 5d5f2db64e785bcb8d4e7ff5175eb7077660d83b71b5f96f01249fe6af4b44ff
+Size: 1052352
+SHA256: 030452fc1aeb10a691d56a51b013706996dab71aa908842c792a840d3a0c9cb6
 
 Package: llvm
 Architecture: i686
@@ -5600,8 +5600,8 @@ Description: C language frontend for LLVM
 Homepage: https://clang.llvm.org/
 Depends: libllvm
 Filename: dists/dom-dev/testing/binary-i686/llvm_6.0.1_i686.deb
-Size: 1780824
-SHA256: ec8abd0f1f724271a1de8eda5d4482b72003ad5395e031e726875162314c8ac8
+Size: 1780692
+SHA256: 32c2e66b69459dbfffa0684f3f791e19610f5138e9ab7be1c362dbab76e8e301
 
 Package: ltrace
 Architecture: i686
@@ -7553,8 +7553,8 @@ Description: Fast grep-like program, alternative to ack-grep
 Homepage: https://geoff.greer.fm/ag/
 Depends: pcre, liblzma
 Filename: dists/dom-dev/testing/binary-i686/silversearcher-ag_2.2.0_i686.deb
-Size: 28972
-SHA256: e831122a7aea65372b99ba63a8a267212f7de121ae68655812bb71480bfdd68a
+Size: 28976
+SHA256: cd8f686d002233315161b194e51bc775914273fc2bcddbdbbac2ea99b8cfa966
 
 Package: sl
 Architecture: i686
@@ -8502,8 +8502,8 @@ Description: Tools for the WireGuard secure network tunnel
 Homepage: https://www.wireguard.com
 Depends: libmnl, tsu
 Filename: dists/dom-dev/testing/binary-i686/wireguard-tools_0.0.20180802_i686.deb
-Size: 33284
-SHA256: 7966f0636a5e9a8048ad36ef956a41c344e067b0d9aaf726b1b0088efcff1ba3
+Size: 33288
+SHA256: 6a8371e0a2ead575b4e9ca687bba270fa835eaf3b92e7c58146e212a5897ac6a
 
 Package: wol
 Architecture: i686
