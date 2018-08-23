@@ -7,8 +7,8 @@ Description: Tool like grep optimized for programmers
 Homepage: https://beyondgrep.com/
 Depends: perl, coreutils
 Filename: dists/dom-dev/testing/binary-all/ack-grep_2.24_all.deb
-Size: 36884
-SHA256: 16185c6b0646947ce4b030c4b92bc649e9109f639ae97014ee14ef8a050c0c56
+Size: 36888
+SHA256: 1839a6f708b598a1393ef1193647deb0b13a1d340add0bb05856bca67f07c4b1
 
 Package: apksigner
 Architecture: all
@@ -18,8 +18,8 @@ Version: 0.7-1
 Description: APK signing tool
 Homepage: https://github.com/fornwall/apksigner
 Filename: dists/dom-dev/testing/binary-all/apksigner_0.7-1_all.deb
-Size: 1464084
-SHA256: d6c43d0447bc334477680c531614a8698f573e1fd89e717764fc00bfce503228
+Size: 1464088
+SHA256: 76542a3a477b03181aed9fe5ca6792a4872552063f7c10a2d736ec1dfcfab9fb
 
 Package: apt-transport-tor
 Architecture: all
@@ -30,8 +30,8 @@ Description: APT transport for anonymous package downloads via Tor
 Homepage: https://packages.debian.org/apt
 Depends: apt, tor
 Filename: dists/dom-dev/testing/binary-all/apt-transport-tor_1.4.8-6_all.deb
-Size: 892
-SHA256: 7afc995cf1f235572689ca9e277b853359828eda3e32817c51496d972d4f440d
+Size: 888
+SHA256: 39a4b813a9ca6ed91f74e91b0e881f2515cfd5bb4eb4b49ec382c1f0304d5539
 
 Package: asciinema
 Architecture: all
@@ -42,8 +42,8 @@ Description: Record and share your terminal sessions, the right way
 Homepage: https://asciinema.org/
 Depends: python, ncurses-utils
 Filename: dists/dom-dev/testing/binary-all/asciinema_2.0.1_all.deb
-Size: 45120
-SHA256: 55adb875118ab86d19c6a0ec37d8e5f7cbe79b2a005769badabe550e6ce4de8b
+Size: 45072
+SHA256: 9e6fffbe564815f7c6f729b0d5968057af700a5df8d1d54ea9bf57c78e24c453
 
 Package: autoconf
 Architecture: all
@@ -54,8 +54,8 @@ Description: Creator of shell scripts to configure source code packages
 Homepage: https://www.gnu.org/software/autoconf/autoconf.html
 Depends: m4, make, perl
 Filename: dists/dom-dev/testing/binary-all/autoconf_2.69_all.deb
-Size: 271060
-SHA256: 937124bf7802c758720352a7ba63d05f0e5512b323b22a528179b177c130f62c
+Size: 272268
+SHA256: 0e053a9af7d096bb8683e2db6ad5cfd2381ef56d941d5f1dafb9d0963073b1ef
 
 Package: automake
 Architecture: all
@@ -66,8 +66,8 @@ Description: Tool for automatically generating Makefile.in files
 Homepage: https://www.gnu.org/software/automake/
 Depends: autoconf
 Filename: dists/dom-dev/testing/binary-all/automake_1.16.1_all.deb
-Size: 317964
-SHA256: fdfce2d5450c3afd466a766958b435fcdba4a4e7314cf6a93abbda0d2f05ff6d
+Size: 317520
+SHA256: 557f784a5634a15385980f95def70be3cb9a17cf5b0928c7f8502638d710d071
 
 Package: bash-completion
 Architecture: all
@@ -78,20 +78,8 @@ Description: Programmable completion for the bash shell
 Homepage: https://github.com/scop/bash-completion
 Depends: bash
 Filename: dists/dom-dev/testing/binary-all/bash-completion_2.8_all.deb
-Size: 145960
-SHA256: 6be17fb15833d891b3f295a1a2c297dcc2182b41bb1a464b4700c43b121b0749
-
-Package: byobu
-Architecture: all
-Installed-Size: 848
-Maintainer: Fredrik Fornwall @fornwall
-Version: 5.125
-Description: Byobu is a GPLv3 open source text-based window manager and terminal multiplexer
-Homepage: http://byobu.co/
-Depends: gawk, tmux
-Filename: dists/dom-dev/testing/binary-all/byobu_5.125_all.deb
-Size: 72276
-SHA256: 3972f4ca1c474ccfb9bf20c257ffb6dc164a93932a494102869c6166ff04e0be
+Size: 146696
+SHA256: 742a5d22253e49257470e8df5f28fff8229a157bfafd2fd2705eaefc6d39724e
 
 Package: byobu
 Architecture: all
@@ -102,8 +90,8 @@ Description: Byobu is a GPLv3 open source text-based window manager and terminal
 Homepage: http://byobu.co/
 Depends: gawk, tmux
 Filename: dists/dom-dev/testing/binary-all/byobu_5.127_all.deb
-Size: 66776
-SHA256: 15a502d3d6bdcf444866c85430e5e32c90cdc8716fe68b63269bff8df4a867c5
+Size: 66864
+SHA256: a9cf209b0d1342c8631fa9d022ea91604c5f6e8f9b4b8d3a70acde48562031bf
 
 Package: ca-certificates-java
 Architecture: all
@@ -113,8 +101,8 @@ Version: 20180620
 Description: Common CA certificates (java keystore format)
 Homepage: https://curl.haxx.se/docs/caextract.html
 Filename: dists/dom-dev/testing/binary-all/ca-certificates-java_20180620_all.deb
-Size: 105656
-SHA256: 32076e96bf8151aad2d5d098ce7a7906b3d5d43fb99c659a408b3f88d351fef2
+Size: 105592
+SHA256: 240a4ea383f23cc65adbcc4072422045117b8cd27175a78144ed0eb217117b1d
 
 Package: ca-certificates
 Architecture: all
@@ -124,8 +112,8 @@ Version: 20180620
 Description: Common CA certificates
 Homepage: https://curl.haxx.se/docs/caextract.html
 Filename: dists/dom-dev/testing/binary-all/ca-certificates_20180620_all.deb
-Size: 116572
-SHA256: 600c23a63332149509bd417b86b63dbc5e9c048082ff27c03eb06cd0cfb1b9cd
+Size: 116564
+SHA256: 4286b8e19506eace29bb35af029056c7d3c632e30e3e5e5e1659dd385ae58f10
 
 Package: colordiff
 Architecture: all
@@ -137,7 +125,7 @@ Homepage: http://www.colordiff.org
 Depends: perl
 Filename: dists/dom-dev/testing/binary-all/colordiff_1.0.18_all.deb
 Size: 8832
-SHA256: 2b117cee9aa8d3c9ce54fefb909eff672166a98844a60dd6c3ebcbfbe8e21840
+SHA256: 17c2f31d217b662befab57fec7e084a108329fe4761ec24390728fed615afcc4
 
 Package: cowsay
 Architecture: all
@@ -148,8 +136,8 @@ Description: Program which generates ASCII pictures of a cow with a message
 Homepage: https://en.wikipedia.org/wiki/Cowsay
 Depends: perl
 Filename: dists/dom-dev/testing/binary-all/cowsay_3.03_all.deb
-Size: 10252
-SHA256: b7159487069c48040cf96a6db0d30b6628d9fd686457f93b525fd3da84e6a028
+Size: 10256
+SHA256: 2ac76b0a44e235488dc914261bda952df6fda26b1100e7f752bae41ec652956b
 
 Package: debootstrap
 Architecture: all
@@ -160,19 +148,8 @@ Description: Bootstrap a basic Debian system
 Homepage: https://wiki.debian.org/Debootstrap
 Depends: wget, proot, perl
 Filename: dists/dom-dev/testing/binary-all/debootstrap_1.0.106_all.deb
-Size: 28168
-SHA256: 9676d910cf3f9eec915a8bf98557c1d7c32b5f711256eb2b3d62bc51863880db
-
-Package: dx
-Architecture: all
-Installed-Size: 364
-Maintainer: Fredrik Fornwall @fornwall
-Version: 28.0.1
-Description: Command which takes in class files and reformulates them for usage on Android
-Homepage: http://developer.android.com/tools/help/index.html
-Filename: dists/dom-dev/testing/binary-all/dx_28.0.1_all.deb
-Size: 327816
-SHA256: 035e0a77f82133de0e556e0098f73ad157bc66e453b2804818107c3694eb79ad
+Size: 28116
+SHA256: 2e3ab2dfa02d9a9f2b8992eb62c02985c2022bbff4754a2cffc845c0451d88cc
 
 Package: dx
 Architecture: all
@@ -182,8 +159,20 @@ Version: 28.0.2
 Description: Command which takes in class files and reformulates them for usage on Android
 Homepage: http://developer.android.com/tools/help/index.html
 Filename: dists/dom-dev/testing/binary-all/dx_28.0.2_all.deb
-Size: 325860
-SHA256: 3cf0307d2acca893582d5d5f08b12f93ce05508dd2fb8054bfa6b88a145fc565
+Size: 325864
+SHA256: 9b891548a43f753de8ec035cec19052041bf5ec6e38ab1dcd3c5598c8eda84c6
+
+Package: ecj
+Architecture: all
+Installed-Size: 7656
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.7.2-1
+Description: Eclipse Compiler for Java
+Homepage: http://www.eclipse.org/jdt/core/
+Conflicts: ecj4.6
+Filename: dists/dom-dev/testing/binary-all/ecj_4.7.2-1_all.deb
+Size: 6386772
+SHA256: 3008632f547655c22843516926cca131b280516a9cdb6ebc25ea59d4afca485f
 
 Package: ecj
 Architecture: all
@@ -193,8 +182,8 @@ Version: 4.7.2
 Description: Eclipse Compiler for Java
 Homepage: http://www.eclipse.org/jdt/core/
 Filename: dists/dom-dev/testing/binary-all/ecj_4.7.2_all.deb
-Size: 6385416
-SHA256: 7d46327fe29455b37b460cc075ea23a24a5f85e84ed2b72504859b865d9b46a2
+Size: 6389420
+SHA256: b9f98f773194e01a0fc6c79472829f2420dadb62e2351764b073c63d960866bd
 
 Package: getmail
 Architecture: all
@@ -205,8 +194,8 @@ Description: fetchmail replacement relatively easy to configure
 Homepage: http://pyropus.ca/software/getmail/
 Depends: python2
 Filename: dists/dom-dev/testing/binary-all/getmail_5.6_all.deb
-Size: 51532
-SHA256: 24af71597509f326fd41a81d46bcd3708c9ee7a5438de76ca9a77b5e6188a658
+Size: 51556
+SHA256: 3084ed2cf34043ba93b1327178e51fc9f35ed6bccddd2143cd33eb5461a5c866
 
 Package: hunspell-en-us
 Architecture: all
@@ -216,8 +205,8 @@ Version: 2017.10.27
 Description: American english dictionary for hunspell
 Homepage: https://hunspell.github.io
 Filename: dists/dom-dev/testing/binary-all/hunspell-en-us_2017.10.27_all.deb
-Size: 160468
-SHA256: 7eae62771f6232d0baf1730290fc997251804e209b0b47542c9606df395c9c63
+Size: 160408
+SHA256: 9af8e2977cdaf2f20a34822831766ab47de1798b83aa06a9c02f753b1fe0c603
 
 Package: hunspell-ru
 Architecture: all
@@ -227,8 +216,8 @@ Version: 2017.03.03
 Description: Russian dictionary for hunspell
 Homepage: https://hunspell.github.io
 Filename: dists/dom-dev/testing/binary-all/hunspell-ru_2017.03.03_all.deb
-Size: 421584
-SHA256: d9bb235b1e204c515ab1e11985a7df764ee519526f35e700b2283def4e944f74
+Size: 421252
+SHA256: b81d1b39b3b289ed793cdc4c873d9d9095edd5a013cf95aa048ee1f9b9a05ddb
 
 Package: linux-man-pages
 Architecture: all
@@ -239,8 +228,8 @@ Description: Man pages for linux kernel and C library interfaces
 Homepage: https://www.kernel.org/doc/man-pages/
 Depends: man
 Filename: dists/dom-dev/testing/binary-all/linux-man-pages_4.16_all.deb
-Size: 2249188
-SHA256: b4add07373dfe468e1d4b2738141e8642b68acbef12da99799467c119222424e
+Size: 2236176
+SHA256: 9cfe67b0d8c3bd863c301593d968bf2d06db2bd2bbcce86da9d4994eccdd11b4
 
 Package: luarocks
 Architecture: all
@@ -251,8 +240,8 @@ Description: Deployment and management system for Lua modules
 Homepage: https://luarocks.org/
 Depends: curl, lua
 Filename: dists/dom-dev/testing/binary-all/luarocks_2.4.4-1_all.deb
-Size: 91052
-SHA256: 146eeded95a4571dd893fa18013431d6fe9a7c793abb0818d04c6afa4b8ed0b6
+Size: 90952
+SHA256: 17f614ff81a3aea3c1bd586b5281c620f7d60955472577ae886ad778a181814d
 
 Package: mime-support
 Architecture: all
@@ -264,7 +253,7 @@ Homepage: https://packages.debian.org/en/stretch/mime-support
 Conflicts: mutt (<< 1.8.3-1)
 Filename: dists/dom-dev/testing/binary-all/mime-support_3.61_all.deb
 Size: 7504
-SHA256: 9c9f05b3bc2fe9d0f6d736d59eab20d7e8004cda0e5c178a7dd6cdcec5986514
+SHA256: 585ef7d1ca774943827f75f234d9d19eb28fd3ecfec8197e3910d8db09def6e4
 
 Package: ndk-multilib
 Architecture: all
@@ -274,8 +263,8 @@ Version: 17-3
 Description: Multilib binaries for cross-compilation
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Filename: dists/dom-dev/testing/binary-all/ndk-multilib_17-3_all.deb
-Size: 3287408
-SHA256: 3c900593c4dd1ab532014879279db63d120811ad806b4a5a6697e819dd862c44
+Size: 4358304
+SHA256: d558cc3cbc142b663c5191be9c4deacd6ce591994a8fdb4e1ffb8d8883e3e2e1
 
 Package: neofetch
 Architecture: all
@@ -286,8 +275,8 @@ Description: Simple system information script
 Homepage: https://github.com/dylanaraps/neofetch
 Depends: bash
 Filename: dists/dom-dev/testing/binary-all/neofetch_5.0.0_all.deb
-Size: 63252
-SHA256: 2903e86f41bc3c12c81a75809ac83d90cddf4257464b13c0a3d6c0655057a7bc
+Size: 63232
+SHA256: 047c42f550abee238430adc6ec9dfd32f8c91a159c8039f7cf6a6af2632edd64
 
 Package: parallel
 Architecture: all
@@ -298,8 +287,8 @@ Description: GNU Parallel is a shell tool for executing jobs in parallel using o
 Homepage: https://www.gnu.org/software/parallel/
 Depends: perl
 Filename: dists/dom-dev/testing/binary-all/parallel_20180222-1_all.deb
-Size: 198512
-SHA256: 3f57c698f179fee9fa34a7afa4978009e2fa74d078e8eace1266dc454276fa2b
+Size: 198352
+SHA256: a5b76fb37f34482fe5c7e21b0fac6bb1f8e1fa17af94abc73cd4566852fc2227
 
 Package: pass-otp
 Architecture: all
@@ -311,8 +300,8 @@ Homepage: htts://github.com/tadfisher/pass-otp
 Depends: pass, oathtool
 Suggests: libqrencode
 Filename: dists/dom-dev/testing/binary-all/pass-otp_1.1.1_all.deb
-Size: 5612
-SHA256: 130a09eea6fb55f67089c651fd9368e22174a53ac1158be0339ccf66d8cdc5cc
+Size: 5628
+SHA256: 096d1687164e2c27f55660e9d3cb36af4c841524f22cd866996cfedff25ca0c3
 
 Package: pass
 Architecture: all
@@ -325,8 +314,8 @@ Depends: bash, gnupg (>= 2.2.9-1), tree, coreutils
 Recommends: git
 Suggests: pass-otp
 Filename: dists/dom-dev/testing/binary-all/pass_1.7.3_all.deb
-Size: 15924
-SHA256: d4416081e5f8e903f49726a84128e5257f93ac6016d246a82f89b475fc92c6ff
+Size: 15932
+SHA256: 95f898f405a3c8087fb2b2f23a6d41fafd106f2d698b2323d8001445d41559f5
 
 Package: pastebinit
 Architecture: all
@@ -337,8 +326,8 @@ Description: Command-line pastebin client
 Homepage: https://launchpad.net/pastebinit
 Depends: python
 Filename: dists/dom-dev/testing/binary-all/pastebinit_1.5_all.deb
-Size: 7604
-SHA256: 662cb4a7c9f0a982a6c4ec2285720fad0145a09470dc9d776ffb4dbe425e3825
+Size: 7608
+SHA256: 29332dfa30b27355ccfa5fb8a8e16d2292b760ac61f6d03856f452b23ff85af8
 
 Package: pathpicker
 Architecture: all
@@ -349,8 +338,8 @@ Description: Facebook PathPicker - a terminal-based file picker
 Homepage: https://facebook.github.io/PathPicker/
 Depends: bash,python
 Filename: dists/dom-dev/testing/binary-all/pathpicker_0.7.2_all.deb
-Size: 37488
-SHA256: 76749f730cb849a66e5cf008f36c64d912e8b6e44fa1689b66ad7acb206a0dfd
+Size: 37448
+SHA256: 0ec0d643a6483b9d66b67f58ed63ba533e233ee3941d309087eaefe5fc5778fd
 
 Package: ranger
 Architecture: all
@@ -361,8 +350,8 @@ Description: File manager with VI key bindings
 Homepage: https://ranger.github.io/
 Depends: python, file
 Filename: dists/dom-dev/testing/binary-all/ranger_1.9.1_all.deb
-Size: 133008
-SHA256: 6acb38c62ee1860dab90d05e8c4f24fe120251463df52b944b4df8e25aa66d17
+Size: 132892
+SHA256: 0ad77cc39bf4749991bc5577d2f4215a65d7a0d408902221edb83a4631b98540
 
 Package: ruby-ri
 Architecture: all
@@ -373,8 +362,8 @@ Description: Ruby documentation index
 Homepage: https://www.ruby-lang.org/
 Depends: ruby
 Filename: dists/dom-dev/testing/binary-all/ruby-ri_2.5.1-1_all.deb
-Size: 1545520
-SHA256: 903e881b0def7238fe05904dbc82969b9f2c6bca6a32d98b3d1d494ecd5a5152
+Size: 1531448
+SHA256: f421e84de4800da11d19fedb75061e1adf8b61b6cd018dee812c207396032e51
 
 Package: screenfetch
 Architecture: all
@@ -385,8 +374,8 @@ Description: Bash Screenshot Information Tool
 Homepage: https://github.com/KittyKatt/screenFetch
 Depends: bash
 Filename: dists/dom-dev/testing/binary-all/screenfetch_3.8.0_all.deb
-Size: 43920
-SHA256: 02c123020059fa5877d2efcaab989f5755abb537ea315fd5b0c1f9d9a1006048
+Size: 43968
+SHA256: dd55f49ce5ad04bcb22253d99b6a63a6c03ce78d2191ed53ac7f86d5e001b473
 
 Package: stow
 Architecture: all
@@ -397,8 +386,8 @@ Description: Tool for managing the installation of multiple software packages in
 Homepage: https://www.gnu.org/software/stow/
 Depends: perl
 Filename: dists/dom-dev/testing/binary-all/stow_2.2.2_all.deb
-Size: 24752
-SHA256: cb5fecc79165c60460a1349397dde0ee119cb675c1a16170df96e79785cf8eae
+Size: 24728
+SHA256: 8631a7a4af6599b7b14e1a8f51b42b1f85cd130cd80d07bb86354bbfd67cba17
 
 Package: termux-am
 Architecture: all
@@ -409,8 +398,8 @@ Description: Android Oreo-compatible am command reimplementation
 Homepage: https://github.com/michalbednarski/TermuxAm
 Conflicts: termux-tools (<< 0.51)
 Filename: dists/dom-dev/testing/binary-all/termux-am_0.3_all.deb
-Size: 17020
-SHA256: 7adb8f06e45b81db8a674ae83665314387b62b5a2b400fa09e393f6c622cd132
+Size: 17012
+SHA256: c1e2d8deb8e80b068155d344a283796bbd9539ec023089d1e85d84300222b7b1
 
 Package: termux-apt-repo
 Architecture: all
@@ -422,7 +411,7 @@ Homepage: https://github.com/termux/termux-apt-repo
 Depends: binutils, python, tar
 Filename: dists/dom-dev/testing/binary-all/termux-apt-repo_0.2_all.deb
 Size: 2756
-SHA256: dfad574dbfdfa5e31a7169619802ee6779b300e15ab0296759f97b362c737477
+SHA256: eaa4886c5d0906d3e57e9a8a8dcf8de6f197c3c27a28ca130a8bcc0645defc5e
 
 Package: termux-create-package
 Architecture: all
@@ -433,8 +422,8 @@ Description: Utility to create Termux packages
 Homepage: https://github.com/termux/termux-create-package
 Depends: python
 Filename: dists/dom-dev/testing/binary-all/termux-create-package_0.4_all.deb
-Size: 2728
-SHA256: 9924fbfebd7ae0a842f4a0a55567e0d06066ec83801ee5dc5b3e2d99000513af
+Size: 2720
+SHA256: 930d64a4d7a7e32fd30b4b8f9a647b7e51d261678e25614e20f15db93771874d
 
 Package: termux-tools
 Architecture: all
@@ -446,8 +435,8 @@ Homepage: https://termux.com/
 Depends: termux-am
 Essential: yes
 Filename: dists/dom-dev/testing/binary-all/termux-tools_0.56_all.deb
-Size: 4284
-SHA256: 1e7de17d0af9b1848121669c4fb981b5b8c24323a4c7ffa6d57792f6f2337495
+Size: 4272
+SHA256: 024d7c943e02003f67d122043caedfade66d08f48efcf3ffca105ef55960ac5f
 
 Package: texlive-tlmgr
 Architecture: all
@@ -459,8 +448,8 @@ Homepage: https://www.tug.org/texlive/tlmgr.html
 Depends: perl, wget, gnupg (>= 2.2.9-1), xz-utils, texlive
 Conflicts: texlive (<< 20180414-1)
 Filename: dists/dom-dev/testing/binary-all/texlive-tlmgr_20180414-2_all.deb
-Size: 367396
-SHA256: 493642254a4e45ba046c6eeaed074ca5cb8ed40486a72cc52831612eb5383c6f
+Size: 367552
+SHA256: 7b6dff74a3a91003f6c9a737977ae221fc6324e51686233c07d21f01cea0f3fe
 
 Package: texlive
 Architecture: all
@@ -473,8 +462,8 @@ Depends: perl, texlive-bin (>= 20180414)
 Conflicts: texlive (<< 20170524-5), texlive-bin (<< 20180414)
 Recommends: texlive-tlmgr
 Filename: dists/dom-dev/testing/binary-all/texlive_20180414-1_all.deb
-Size: 6472988
-SHA256: 16c4a5d1dab2c37694aee1c3b2d4774eca47024b7b15da9aba330ab67cbe39e2
+Size: 6484520
+SHA256: 64ff4c16791c23041ff89376f189c9b34c113997503722c4c43407609543a3bb
 
 Package: tsu
 Architecture: all
@@ -484,8 +473,8 @@ Version: 2.0
 Description: A su wrapper for Termux
 Homepage: https://github.com/cswl/tsu
 Filename: dists/dom-dev/testing/binary-all/tsu_2.0_all.deb
-Size: 2320
-SHA256: b674afb9480192ec0fcc89ddf9e90000bfa74591f4127bc7eca22007bfd58f25
+Size: 2312
+SHA256: 82ddd2133529e865151b50daaa84091e22bdaa0f444e626d517821b4e5017b21
 
 Package: vcsh
 Architecture: all
@@ -496,19 +485,30 @@ Description: Config manager based on Git
 Homepage: https://github.com/RichiH/vcsh
 Depends: git
 Filename: dists/dom-dev/testing/binary-all/vcsh_1.20151229_all.deb
-Size: 11224
-SHA256: f7f9c4a553e9b859af8fe577272744322f4dcd4285d9627b0ae0227ea6b027fa
+Size: 11220
+SHA256: c6e4bbc2322e7e7cda279339effacde8e930d7c349e30536a26937450a241d40
 
 Package: vim-runtime
 Architecture: all
-Installed-Size: 21288
+Installed-Size: 21296
 Maintainer: Fredrik Fornwall @fornwall
 Version: 8.1.0250
 Description: Vi IMproved - Runtime files
 Homepage: http://www.vim.org/
 Filename: dists/dom-dev/testing/binary-all/vim-runtime_8.1.0250_all.deb
-Size: 3895564
-SHA256: 9d2f28323b09d622c4dfcee44c2d274354f49d8b01ed31318a5162fb33454243
+Size: 3901116
+SHA256: 1242e4ad5d24e5824cb49683a4a88c5a00cd28b610b15109268d333fd4ee1fc1
+
+Package: vim-runtime
+Architecture: all
+Installed-Size: 21300
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.1.0300
+Description: Vi IMproved - Runtime files
+Homepage: http://www.vim.org/
+Filename: dists/dom-dev/testing/binary-all/vim-runtime_8.1.0300_all.deb
+Size: 3902000
+SHA256: 2a053898fd07cc8e01fb500713b373d3d8f0a75216607865ef963a31a82548a4
 
 Package: yarn
 Architecture: all
@@ -519,5 +519,5 @@ Description: Fast, reliable, and secure dependency management
 Homepage: https://yarnpkg.com/
 Depends: nodejs | nodejs-current
 Filename: dists/dom-dev/testing/binary-all/yarn_1.9.4_all.deb
-Size: 683196
-SHA256: bc2570d17ec5ec201ffa2f4a502ce4606cc9b4050ab6c936618284d4e0dffd3d
+Size: 683220
+SHA256: df76f5d022473d0b23bca289a4b22aa6c4ae66eae99b0cc3ec191fdf8a51bc63
