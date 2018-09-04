@@ -142,8 +142,8 @@ Essential: yes
 Conflicts: apt-transport-https
 Replaces: apt-transport-https
 Filename: dists/dom/stable/binary-arm/apt_1.4.8-6_arm.deb
-Size: 686260
-SHA256: 08f1eef9ae41d0aa8c1f67cc760c7efea30e104cd69bb5dd49f32a215af098d0
+Size: 685820
+SHA256: 4902cfdce8e9f11de881a7bea4ab09582ba64d8eb5aa084259c84d693828d2ec
 
 Package: argp
 Architecture: arm

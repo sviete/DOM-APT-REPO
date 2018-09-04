@@ -142,8 +142,8 @@ Essential: yes
 Conflicts: apt-transport-https
 Replaces: apt-transport-https
 Filename: dists/dom/stable/binary-x86_64/apt_1.4.8-6_x86_64.deb
-Size: 767508
-SHA256: 9e653077a4917f259ac555b671cb53e808881f5ace7c8e7e1e7492c0aa82ad38
+Size: 768020
+SHA256: 7a42033871813c1971e211e78ae21bfeb79e3c513a6abe0df03e4c32b524ae9e
 
 Package: argp
 Architecture: x86_64
@@ -441,6 +441,19 @@ Conflicts: coreutils (<< 8.25-4)
 Filename: dists/dom/stable/binary-x86_64/busybox_1.29.2-1_x86_64.deb
 Size: 286700
 SHA256: 9dd2e2ba233cc0da2ce4551d27f057b257e7f159e46a03ee4b066012ea6df4c6
+
+Package: busybox
+Architecture: x86_64
+Installed-Size: 644
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.29.2-2
+Description: Tiny versions of many common UNIX utilities into a single small executable
+Homepage: https://busybox.net/
+Essential: yes
+Conflicts: coreutils (<< 8.25-4)
+Filename: dists/dom/stable/binary-x86_64/busybox_1.29.2-2_x86_64.deb
+Size: 287096
+SHA256: e6c7a99ea2c329b216b8753dcfb4f1da2057d668358d2262e292835e19d3541b
 
 Package: bvi
 Architecture: x86_64
@@ -954,6 +967,18 @@ Depends: libandroid-glob
 Filename: dists/dom/stable/binary-x86_64/direvent_5.1_x86_64.deb
 Size: 64376
 SHA256: b771502090c32210fef0f704bb596f909804437bf202461850987b5ea02820d1
+
+Package: dirmngr
+Architecture: x86_64
+Installed-Size: 584
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.10
+Description: Server for managing certificate revocation lists
+Homepage: https://www.gnupg.org/
+Depends: gnupg (>= 2.2.9-1), libgnutls, resolv-conf
+Filename: dists/dom/stable/binary-x86_64/dirmngr_2.2.10_x86_64.deb
+Size: 192820
+SHA256: 20dd69ddd6f68e950f13a69564366139379013980c9d997697a37b6971d8b7e8
 
 Package: dirmngr
 Architecture: x86_64
@@ -1852,6 +1877,20 @@ Package: gnupg
 Architecture: x86_64
 Installed-Size: 3544
 Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.10
+Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
+Homepage: https://www.gnupg.org/
+Depends: libassuan,libbz2,libgcrypt,libksba,libsqlite,libnpth,readline,pinentry,libgpg-error
+Conflicts: gnupg2 (<< 2.2.9-1)
+Replaces: gnupg2 (<< 2.2.9-1)
+Filename: dists/dom/stable/binary-x86_64/gnupg_2.2.10_x86_64.deb
+Size: 926852
+SHA256: 52dd9bfc5948007a730082317d85111499a1a8e89b61bfcab18e0fef622ebd6d
+
+Package: gnupg
+Architecture: x86_64
+Installed-Size: 3544
+Maintainer: Fredrik Fornwall @fornwall
 Version: 2.2.9-2
 Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
 Homepage: https://www.gnupg.org/
@@ -1967,6 +2006,19 @@ Depends: gnupg (>= 2.2.9-1), libassuan, libgpg-error
 Filename: dists/dom/stable/binary-x86_64/gpgme_1.11.1-1_x86_64.deb
 Size: 126856
 SHA256: 330b74cbc0df0397619ef91aa1ae31b2c8e0e580f4d7b84d66dcae9e0c39c8e9
+
+Package: gpgv
+Architecture: x86_64
+Installed-Size: 408
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.10
+Description: GNU privacy guard - signature verification tool
+Homepage: https://www.gnupg.org/
+Depends: libbz2, libgcrypt, libgpg-error
+Conflicts: gnupg (<= 1.4.21)
+Filename: dists/dom/stable/binary-x86_64/gpgv_2.2.10_x86_64.deb
+Size: 162060
+SHA256: 780fec1b507505737a009237925f59873b15d33b2bc6f06a875bf6e238aab617
 
 Package: gpgv
 Architecture: x86_64
@@ -4512,6 +4564,18 @@ Filename: dists/dom/stable/binary-x86_64/libnghttp2-dev_1.32.0_x86_64.deb
 Size: 31308
 SHA256: 03c9050908a2f0f807916943b282e968038b8a77df8976d1762f5b70c34f9a1e
 
+Package: libnghttp2-dev
+Architecture: x86_64
+Installed-Size: 232
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.32.1
+Description: Development files for libnghttp2
+Homepage: https://nghttp2.org/
+Depends: libnghttp2
+Filename: dists/dom/stable/binary-x86_64/libnghttp2-dev_1.32.1_x86_64.deb
+Size: 31368
+SHA256: f7bd8fb90c8fe88e7a2861d0d07b9ba2872e7aa5c0e7fcb187fbf229ab43e1b2
+
 Package: libnghttp2
 Architecture: x86_64
 Installed-Size: 164
@@ -4522,6 +4586,17 @@ Homepage: https://nghttp2.org/
 Filename: dists/dom/stable/binary-x86_64/libnghttp2_1.32.0_x86_64.deb
 Size: 48184
 SHA256: 863b98622621eea07d7d0ce45106f01339d1825ecd47b3ae3d0bbf241ce449ad
+
+Package: libnghttp2
+Architecture: x86_64
+Installed-Size: 164
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.32.1
+Description: nghttp HTTP 2.0 library
+Homepage: https://nghttp2.org/
+Filename: dists/dom/stable/binary-x86_64/libnghttp2_1.32.1_x86_64.deb
+Size: 48304
+SHA256: 69a811ad886856da112285d5e2006ccbc57ea3d3545ab5841c7fb10935ee7a7a
 
 Package: libnl-dev
 Architecture: x86_64

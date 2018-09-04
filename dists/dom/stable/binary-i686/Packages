@@ -142,8 +142,8 @@ Essential: yes
 Conflicts: apt-transport-https
 Replaces: apt-transport-https
 Filename: dists/dom/stable/binary-i686/apt_1.4.8-6_i686.deb
-Size: 785344
-SHA256: 74662229fb6aed76f498d6f064f0d1e65b503629a594637543e00a86a5e33205
+Size: 784948
+SHA256: 508a3bde3130fcd6ca355d9a94db33a80522a09d891be17d176ac825994acaa4
 
 Package: argp
 Architecture: i686
@@ -441,6 +441,19 @@ Conflicts: coreutils (<< 8.25-4)
 Filename: dists/dom/stable/binary-i686/busybox_1.29.2-1_i686.deb
 Size: 290312
 SHA256: 910627685417c599509f03be9e6e5694e5934d39f3fe36402f443a8749c983ce
+
+Package: busybox
+Architecture: i686
+Installed-Size: 660
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.29.2-2
+Description: Tiny versions of many common UNIX utilities into a single small executable
+Homepage: https://busybox.net/
+Essential: yes
+Conflicts: coreutils (<< 8.25-4)
+Filename: dists/dom/stable/binary-i686/busybox_1.29.2-2_i686.deb
+Size: 290400
+SHA256: 196929176c2749b17682af12cdb9bb3f4116ed4b7c0c136a7753959a19b60ff5
 
 Package: bvi
 Architecture: i686
@@ -954,6 +967,18 @@ Depends: libandroid-glob
 Filename: dists/dom/stable/binary-i686/direvent_5.1_i686.deb
 Size: 56480
 SHA256: 4497d7a6317880037c6547016ccec8bee7bec97addf9b037d65e6e6956a4906f
+
+Package: dirmngr
+Architecture: i686
+Installed-Size: 520
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.10
+Description: Server for managing certificate revocation lists
+Homepage: https://www.gnupg.org/
+Depends: gnupg (>= 2.2.9-1), libgnutls, resolv-conf
+Filename: dists/dom/stable/binary-i686/dirmngr_2.2.10_i686.deb
+Size: 176000
+SHA256: 9fad370ad614a24656b9753facfda840d13eed97c4f3919b31d54bc6fd5dbfe2
 
 Package: dirmngr
 Architecture: i686
@@ -1852,6 +1877,20 @@ Package: gnupg
 Architecture: i686
 Installed-Size: 3168
 Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.10
+Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
+Homepage: https://www.gnupg.org/
+Depends: libassuan,libbz2,libgcrypt,libksba,libsqlite,libnpth,readline,pinentry,libgpg-error
+Conflicts: gnupg2 (<< 2.2.9-1)
+Replaces: gnupg2 (<< 2.2.9-1)
+Filename: dists/dom/stable/binary-i686/gnupg_2.2.10_i686.deb
+Size: 832824
+SHA256: 30c04a3f6eedf52beb7915cf26484c4f41b82c9bc085a9d42b3eb05191254e40
+
+Package: gnupg
+Architecture: i686
+Installed-Size: 3168
+Maintainer: Fredrik Fornwall @fornwall
 Version: 2.2.9-2
 Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
 Homepage: https://www.gnupg.org/
@@ -1967,6 +2006,19 @@ Depends: gnupg (>= 2.2.9-1), libassuan, libgpg-error
 Filename: dists/dom/stable/binary-i686/gpgme_1.11.1-1_i686.deb
 Size: 109940
 SHA256: 7dfc43dfeddd01c4f52cd79894f8ccf2dbee6bb79fd2a9b15af47863b6092491
+
+Package: gpgv
+Architecture: i686
+Installed-Size: 376
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.10
+Description: GNU privacy guard - signature verification tool
+Homepage: https://www.gnupg.org/
+Depends: libbz2, libgcrypt, libgpg-error
+Conflicts: gnupg (<= 1.4.21)
+Filename: dists/dom/stable/binary-i686/gpgv_2.2.10_i686.deb
+Size: 148716
+SHA256: 134955027d0c0e514537382a3aac2852837a66976aa1909388c3527341a59a5f
 
 Package: gpgv
 Architecture: i686
@@ -4512,6 +4564,18 @@ Filename: dists/dom/stable/binary-i686/libnghttp2-dev_1.32.0_i686.deb
 Size: 31296
 SHA256: b78f2b387d3d90f81ca040a758b7aa23da215bb247629b0dfcbe522337230c55
 
+Package: libnghttp2-dev
+Architecture: i686
+Installed-Size: 232
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.32.1
+Description: Development files for libnghttp2
+Homepage: https://nghttp2.org/
+Depends: libnghttp2
+Filename: dists/dom/stable/binary-i686/libnghttp2-dev_1.32.1_i686.deb
+Size: 31372
+SHA256: 0a79dec340e9a5f9dfb94b53a9b93205a9849e4f36cd8352e6a0b4cc67c143cf
+
 Package: libnghttp2
 Architecture: i686
 Installed-Size: 144
@@ -4522,6 +4586,17 @@ Homepage: https://nghttp2.org/
 Filename: dists/dom/stable/binary-i686/libnghttp2_1.32.0_i686.deb
 Size: 44568
 SHA256: 0edfc53666db75725210cbbdbd717381b92d91fd9f5cfe57558a9b0d2e10ae65
+
+Package: libnghttp2
+Architecture: i686
+Installed-Size: 144
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.32.1
+Description: nghttp HTTP 2.0 library
+Homepage: https://nghttp2.org/
+Filename: dists/dom/stable/binary-i686/libnghttp2_1.32.1_i686.deb
+Size: 44588
+SHA256: c3c6defbc9366f239cdb52073220b3b27f524d520a69a22bd96ca3936f394615
 
 Package: libnl-dev
 Architecture: i686

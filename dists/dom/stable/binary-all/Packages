@@ -30,8 +30,8 @@ Description: APT transport for anonymous package downloads via Tor
 Homepage: https://packages.debian.org/apt
 Depends: apt, tor
 Filename: dists/dom/stable/binary-all/apt-transport-tor_1.4.8-6_all.deb
-Size: 888
-SHA256: 39a4b813a9ca6ed91f74e91b0e881f2515cfd5bb4eb4b49ec382c1f0304d5539
+Size: 892
+SHA256: 49f68650e0140860449527c648b302efaeb298e528fbfc6f9de648e8ee6c2e2b
 
 Package: asciinema
 Architecture: all
@@ -183,8 +183,8 @@ Description: Eclipse Compiler for Java, for android 5 and 6
 Homepage: http://www.eclipse.org/jdt/core/
 Conflicts: ecj
 Filename: dists/dom/stable/binary-all/ecj4.6_4.6.2_all.deb
-Size: 6285564
-SHA256: 23958baf051ac78f7ae28b3b739a7dd1614e0693a78299da0eea872aff48569f
+Size: 6285576
+SHA256: 44968872708b41506315bae264f1b93205e5377c176848fa946f496e7006207e
 
 Package: ecj
 Architecture: all
