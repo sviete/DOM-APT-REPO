@@ -442,6 +442,19 @@ Filename: dists/dom-dev/testing/binary-aarch64/busybox_1.29.2-1_aarch64.deb
 Size: 266136
 SHA256: 3a142cb389d7c3c409afb2634e0c64e54b82452b7a541afc2b63b89b8cb36928
 
+Package: busybox
+Architecture: aarch64
+Installed-Size: 652
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.29.2-2
+Description: Tiny versions of many common UNIX utilities into a single small executable
+Homepage: https://busybox.net/
+Essential: yes
+Conflicts: coreutils (<< 8.25-4)
+Filename: dists/dom-dev/testing/binary-aarch64/busybox_1.29.2-2_aarch64.deb
+Size: 266068
+SHA256: 829620a8b146b549b8d4c5aa90ee385cc3c493852f1a2fbc9987968488b02e30
+
 Package: bvi
 Architecture: aarch64
 Installed-Size: 164
@@ -646,6 +659,18 @@ SHA256: 69843f45405d81540340869b551faa4ce1414ac362e0d0481ad26bdd56f7249a
 
 Package: cmark-dev
 Architecture: aarch64
+Installed-Size: 160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.28.3.gfm.15
+Description: Development files for cmark
+Homepage: https://github.com/github/cmark
+Depends: cmark
+Filename: dists/dom-dev/testing/binary-aarch64/cmark-dev_0.28.3.gfm.15_aarch64.deb
+Size: 15940
+SHA256: 6fa647af30bca37941b4bc8581a9b3f6fd632855796b1d2f16b8fa7a84b4812c
+
+Package: cmark-dev
+Architecture: aarch64
 Installed-Size: 112
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.28.3
@@ -666,6 +691,17 @@ Homepage: https://github.com/github/cmark
 Filename: dists/dom-dev/testing/binary-aarch64/cmark_0.28.3.gfm.14_aarch64.deb
 Size: 75196
 SHA256: 56267edb86c929a6f20cc8e743534183d19b9ffb756e609a4c72461f23772a98
+
+Package: cmark
+Architecture: aarch64
+Installed-Size: 368
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.28.3.gfm.15
+Description: CommonMark parsing and rendering program
+Homepage: https://github.com/github/cmark
+Filename: dists/dom-dev/testing/binary-aarch64/cmark_0.28.3.gfm.15_aarch64.deb
+Size: 75188
+SHA256: 30c962cdbde024a9a3bea02fee9293ba074bb5fe7b70f8259ae00248a51abb9a
 
 Package: cmark
 Architecture: aarch64

@@ -151,6 +151,18 @@ Filename: dists/dom-dev/testing/binary-all/debootstrap_1.0.106_all.deb
 Size: 28116
 SHA256: 2e3ab2dfa02d9a9f2b8992eb62c02985c2022bbff4754a2cffc845c0451d88cc
 
+Package: debootstrap
+Architecture: all
+Installed-Size: 276
+Maintainer: Pierre Rudloff @Rudloff
+Version: 1.0.108
+Description: Bootstrap a basic Debian system
+Homepage: https://wiki.debian.org/Debootstrap
+Depends: wget, proot, perl
+Filename: dists/dom-dev/testing/binary-all/debootstrap_1.0.108_all.deb
+Size: 28800
+SHA256: e36627b3efc5472c111b2445d8ee6ef61054d4b7bf9f5100f71242044b910845
+
 Package: dx
 Architecture: all
 Installed-Size: 360
@@ -161,6 +173,18 @@ Homepage: http://developer.android.com/tools/help/index.html
 Filename: dists/dom-dev/testing/binary-all/dx_28.0.2_all.deb
 Size: 325864
 SHA256: 9b891548a43f753de8ec035cec19052041bf5ec6e38ab1dcd3c5598c8eda84c6
+
+Package: ecj4.6
+Architecture: all
+Installed-Size: 7556
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.6.2
+Description: Eclipse Compiler for Java, for android 5 and 6
+Homepage: http://www.eclipse.org/jdt/core/
+Conflicts: ecj
+Filename: dists/dom-dev/testing/binary-all/ecj4.6_4.6.2_all.deb
+Size: 6285564
+SHA256: 23958baf051ac78f7ae28b3b739a7dd1614e0693a78299da0eea872aff48569f
 
 Package: ecj
 Architecture: all

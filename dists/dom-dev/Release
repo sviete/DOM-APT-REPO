@@ -1,17 +1,17 @@
 Codename: dom-dev
 Version: 1
-Architectures: all aarch64 arm x86_64 i686
+Architectures: i686 x86_64 all aarch64 arm
 Description: Dev repository
 Suite: dom-dev
-Date: Thu, 23 Aug 2018 06:12:31 UTC
+Date: Tue, 04 Sep 2018 11:20:37 UTC
 SHA256:
- 7d098457921676e84a64f2270950757a572eb85c998737ed1477d3cba1c47e9b 17129 testing/binary-all/Packages
- 2ad7550772bce24d123939e4a07e3ac69f192e805061b17dc73b95da9667d0ba 5092 testing/binary-all/Packages.xz
- ef77399f359ba5f78cdb589bcc000bb2080043fc74217c264fd3951fda97baae 301499 testing/binary-aarch64/Packages
- 0f2608843d1d578b48fdd54ed839765980e3274aee5fdaa88bd88938a39e2b08 64172 testing/binary-aarch64/Packages.xz
- a30a77541ca20719a787df5a13c241e590e5bab087fe34e6feae8fbae594c804 293201 testing/binary-arm/Packages
- 023d586231589519df5f25a13ff5aeb42bf385c15fa41da207f2835e1c1b9055 64040 testing/binary-arm/Packages.xz
- ed255e91b005059f2bac272b3202996e0125de9c167d14ba099587775400c161 297742 testing/binary-x86_64/Packages
- 526d39a2fe3ebde9bc4855b87c00a5afa2e22ec7bb7c1e0f374e2c80e8ad5844 63896 testing/binary-x86_64/Packages.xz
  64360e9a55cede56e700213d2f7e163776145003596baa3db8599a60e88dbbf9 293993 testing/binary-i686/Packages
  8826b63c445885f4d1da9cacf6dcc2eb5b26691cdef19774214f3089434e5a37 63824 testing/binary-i686/Packages.xz
+ ed255e91b005059f2bac272b3202996e0125de9c167d14ba099587775400c161 297742 testing/binary-x86_64/Packages
+ 526d39a2fe3ebde9bc4855b87c00a5afa2e22ec7bb7c1e0f374e2c80e8ad5844 63896 testing/binary-x86_64/Packages.xz
+ 263fb5a1368c230f2aed082b03bee211227198afd0301c982187c28332d403b9 17895 testing/binary-all/Packages
+ b10a1e1737f97370eb1029be1e4f873aeed28e4f1179aa005dec374ed8a0bd9d 5220 testing/binary-all/Packages.xz
+ 545306cd6cb4e931aea6cfef2a967658594a63de41144b22a4c6d7d32f91d8ca 302715 testing/binary-aarch64/Packages
+ d9b7b610f77a3b58801a510d0b612465044b4d4d963186e04f8c9f1dbd0b3d84 64328 testing/binary-aarch64/Packages.xz
+ e08a1d33f37e10f855328079cf478dbd51878826c8178957e8bb0c02881b89ef 313123 testing/binary-arm/Packages
+ 0a80f4770c8987ec0c417d50afccba7fd020e539de8d0aee39802c1fdebf1871 66672 testing/binary-arm/Packages.xz
