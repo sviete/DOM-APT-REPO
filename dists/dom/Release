@@ -1,17 +1,17 @@
 Codename: dom
 Version: 1
-Architectures: i686 arm all aarch64 x86_64
+Architectures: i686 aarch64 all arm x86_64
 Description: Stable repository
 Suite: dom
-Date: Tue, 04 Sep 2018 14:57:37 UTC
+Date: Tue, 04 Sep 2018 15:47:43 UTC
 SHA256:
- 6214b83169f76be0ea33fb4156bdb5748978bbe39dcae34ce69ce3fe862291d6 290243 stable/binary-i686/Packages
- 2007054192ed90465999c2e5c9a967f2fb5672125f01ef40c35a8aca06fafad5 63768 stable/binary-i686/Packages.xz
- 3a5069e88ff14cebe0476e125ec1fe6d0381bc096bfccf3c7ef00fdd3380f42f 309453 stable/binary-arm/Packages
- ed7e03989cd81db51dd5eb30a01d5778dbf6c68a4234ccb19c8c75efe29eb759 66648 stable/binary-arm/Packages.xz
+ 0729c8f215b9b4a4a11a1cb74a2685a8f4ee0904498bab2307c31bfb37321b44 290568 stable/binary-i686/Packages
+ 24d3ad064a375ec01f8fc85b120a9f72da855ca7b3c6ca31145cdaeb9ce1a74a 63800 stable/binary-i686/Packages.xz
+ 224682da2d0b63fc22fd848dc0a6fcb2c51c2f86cd21c50249adcdd8ce961725 299274 stable/binary-aarch64/Packages
+ e710b1eaf48c1ac4bb3de2fd8cc7f487ca12bed9032cd8bcd67ff5c235ffa298 64312 stable/binary-aarch64/Packages.xz
  c18d8e3c8d3a1eb91841e608ce17383837f4aeedeffc093da9b7c688239d4926 17665 stable/binary-all/Packages
  2c835f0c41f3141323975927548781acfd1dea283a7a1d73ea9a29abb79690a1 5216 stable/binary-all/Packages.xz
- b2f8b11d73b770a2ab64959db13f53255016da67bb73b0e983225636d88d6739 298940 stable/binary-aarch64/Packages
- bdb51c1f05f842f8b03a49f86f236533ac05eb8774cdeb320c2150fa290ba318 64260 stable/binary-aarch64/Packages.xz
- f15007fccadfa500467c53f84c3e96787380969d17815993e08b4837aa799247 294002 stable/binary-x86_64/Packages
- 8186b360ef126638cbb2bfbfeafce36f9690b275ed03eef437db20a621164a7d 63832 stable/binary-x86_64/Packages.xz
+ 6f972a50034a255106aede8f09abd4484c9c08c0e3c79f5ad6f4ac057c8e027b 309453 stable/binary-arm/Packages
+ 66893fe12fcd19bed27d3a48bd3c4ebbec2367bb91377440e762f6f447006512 66656 stable/binary-arm/Packages.xz
+ 8d1f512a8944797a47e2eeccb599bab4e2eac5b3cbab11b333b495bf05f3b656 294333 stable/binary-x86_64/Packages
+ cf74f69a03a1de3734a9c90e456584e3046d666af19c44c3729456de44846d94 63884 stable/binary-x86_64/Packages.xz
