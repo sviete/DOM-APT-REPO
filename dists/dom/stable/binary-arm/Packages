@@ -1062,6 +1062,17 @@ Filename: dists/dom/stable/binary-arm/dirmngr_2.2.9-2_arm.deb
 Size: 173668
 SHA256: 78e1af4d15d4dbd39bcb39207f395e078bd618f60a2626dae8bba41972aa6f83
 
+Package: dnsmasq
+Architecture: arm
+Installed-Size: 360
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.80
+Description: Dnsmasq provides network infrastructure for small networks
+Homepage: http://www.thekelleys.org.uk/dnsmasq/doc.html
+Filename: dists/dom/stable/binary-arm/dnsmasq_2.80_arm.deb
+Size: 149384
+SHA256: 92308421a3f8adbdefb70b9dbb187a4796ff454444959dff166a30eec086084b
+
 Package: dnsutils-dev
 Architecture: arm
 Installed-Size: 2160
@@ -7909,6 +7920,17 @@ Homepage: https://rclone.org/
 Filename: dists/dom/stable/binary-arm/rclone_1.43_arm.deb
 Size: 5585852
 SHA256: c037369c94147b7db17cf5e0d35a1eb0eac57b0d3a7f5dc7f8c69698e690a5ea
+
+Package: rclone
+Architecture: arm
+Installed-Size: 27056
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.46-1
+Description: rsync for cloud storage
+Homepage: https://rclone.org/
+Filename: dists/dom/stable/binary-arm/rclone_1.46-1_arm.deb
+Size: 6060432
+SHA256: b448dd21c767e267c8778125010e3604a1785bfd85340b98bb33e15cc22a3047
 
 Package: rcs
 Architecture: arm

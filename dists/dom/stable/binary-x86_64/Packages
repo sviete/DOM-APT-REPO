@@ -7435,6 +7435,17 @@ Filename: dists/dom/stable/binary-x86_64/rclone_1.43_x86_64.deb
 Size: 6463024
 SHA256: eb47aab149d4b1b8f26a73d3745af31eb48dc6713d3c45753086ee5cafdb34eb
 
+Package: rclone
+Architecture: x86_64
+Installed-Size: 35336
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.46-1
+Description: rsync for cloud storage
+Homepage: https://rclone.org/
+Filename: dists/dom/stable/binary-x86_64/rclone_1.46-1_x86_64.deb
+Size: 7063460
+SHA256: 78481396085ec5d9b06d0e325d2ff492afb35d4f5eb00a9d58ad8725692bd446
+
 Package: rcs
 Architecture: x86_64
 Installed-Size: 628

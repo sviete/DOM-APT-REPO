@@ -7706,6 +7706,17 @@ Filename: dists/dom/stable/binary-aarch64/rclone_1.43_aarch64.deb
 Size: 5789876
 SHA256: 9ef03e80c5144bca927a0e7e8172f4f436e21dfbe513bf00a3ad49e8764539a6
 
+Package: rclone
+Architecture: aarch64
+Installed-Size: 33432
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.46-1
+Description: rsync for cloud storage
+Homepage: https://rclone.org/
+Filename: dists/dom/stable/binary-aarch64/rclone_1.46-1_aarch64.deb
+Size: 6272064
+SHA256: 78aa1e48fb3881461f1c8638532f1d63b5769dbb5a76afbd9b50a398da46d68f
+
 Package: rcs
 Architecture: aarch64
 Installed-Size: 584

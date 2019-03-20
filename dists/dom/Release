@@ -1,17 +1,17 @@
 Codename: dom
 Version: 1
-Architectures: x86_64 all arm aarch64 i686
+Architectures: aarch64 i686 arm x86_64 all
 Description: Stable repository
 Suite: dom
-Date: Tue, 04 Sep 2018 17:17:41 UTC
+Date: Wed, 20 Mar 2019 10:37:11 UTC
 SHA256:
- ecd2b2542cac82b685b77e44100a3273cce1a06ed5dc780a60994614aab74c81 296880 stable/binary-x86_64/Packages
- 60352d5d04e9aded3f676369c725cbb971541ae0548408c4d821024c2aeafd82 64160 stable/binary-x86_64/Packages.xz
+ a58d08429e91583592bbbb1bdc070eb5e8c961f569699b584f32c34a64bedac1 311174 stable/binary-aarch64/Packages
+ e2268bde9fcb8b165932d4579531535cb543d25bc7f07631b563aa06403847f9 65908 stable/binary-aarch64/Packages.xz
+ 83167a211a5e383580a9723ff66131ecbb63970bd2b6fce24676563f3140c7c2 293408 stable/binary-i686/Packages
+ a628fd0b0ad3caf73d15d29bb9de775f328146f75dd0da7697cf579bdcaa5cc8 64184 stable/binary-i686/Packages.xz
+ b425226e5d2d6469e14f0732cb2eae8dcca2781f18863d86238beb188cb3d7b3 310161 stable/binary-arm/Packages
+ c6adc49e8bb3040a90d2b844768230f8cbc9db4bad968b4f87abf93c6df244ac 66804 stable/binary-arm/Packages.xz
+ 28215decec027e08545274ccdaf3111848750c2784e95478a4870d04f6529d98 297215 stable/binary-x86_64/Packages
+ 101a7de51520e5f6c875e9f4f2f6671e05e89cd37914c51df6bd231ea5138c99 64208 stable/binary-x86_64/Packages.xz
  c50321f8e57777c05c93e0653373325784d41be4b7542cb66aa5dd4e0e72b562 17665 stable/binary-all/Packages
  42b0a0057277e450e3be29c92d96bb1b5496cdc4c7274b357ea7c2e51f966e0c 5220 stable/binary-all/Packages.xz
- 663ca550e495621198022a8bdef8c287d7f5a77fc93f0cf156ee4167b81c67b4 309453 stable/binary-arm/Packages
- 002214897bb59c451c87562dbfb1304e7fe4890b55aeb2cda9816e2443bb38b7 66652 stable/binary-arm/Packages.xz
- d2530c3d74ae8277025b07624691576bd4a8010e05efbdda7dc7a87ce9a51a80 310836 stable/binary-aarch64/Packages
- c80ff6f429e75d10d4aaf0b3ea3d0203a795e2e6bde398c5d751ccb51033a8a5 65848 stable/binary-aarch64/Packages.xz
- 8935a913f1d4ad5bb6d270f20c8ec4ffcca8eb6f579a7d5c36aa9833b18ba190 293079 stable/binary-i686/Packages
- 7a3a6efcf0d57cce3fc7a1c2320f84b1a12ab09432ec8bb3774f0b64b05df278 64120 stable/binary-i686/Packages.xz
